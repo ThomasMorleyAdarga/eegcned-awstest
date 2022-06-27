@@ -1,0 +1,144 @@
+2022-06-27 15:36:24,926 - statisticNew - INFO - 
+Args: 
+2022-06-27 15:36:24,926 - statisticNew - INFO - train: True
+2022-06-27 15:36:24,927 - statisticNew - INFO - tag_schema: iob
+2022-06-27 15:36:24,927 - statisticNew - INFO - batch_size: 30
+2022-06-27 15:36:24,927 - statisticNew - INFO - lr: 0.1
+2022-06-27 15:36:24,927 - statisticNew - INFO - lr_sharp_decay: 0
+2022-06-27 15:36:24,927 - statisticNew - INFO - lr_min: 1e-05
+2022-06-27 15:36:24,927 - statisticNew - INFO - label_weights: 5
+2022-06-27 15:36:24,927 - statisticNew - INFO - optimizer: SGD
+2022-06-27 15:36:24,927 - statisticNew - INFO - weight_decay: 1e-05
+2022-06-27 15:36:24,927 - statisticNew - INFO - epoch: 100
+2022-06-27 15:36:24,927 - statisticNew - INFO - cuda: 0
+2022-06-27 15:36:24,927 - statisticNew - INFO - num_steps: 50
+2022-06-27 15:36:24,927 - statisticNew - INFO - word_embed_dim: 100
+2022-06-27 15:36:24,927 - statisticNew - INFO - bio_embed_dim: 25
+2022-06-27 15:36:24,927 - statisticNew - INFO - pos_embed_dim: 0
+2022-06-27 15:36:24,928 - statisticNew - INFO - position_embed_dim: 0
+2022-06-27 15:36:24,928 - statisticNew - INFO - dep_embed_dim: 50
+2022-06-27 15:36:24,928 - statisticNew - INFO - rnn_hidden: 100
+2022-06-27 15:36:24,928 - statisticNew - INFO - rnn_layers: 1
+2022-06-27 15:36:24,928 - statisticNew - INFO - rnn_dropout: 0.6
+2022-06-27 15:36:24,938 - statisticNew - INFO - pooling: avg
+2022-06-27 15:36:24,938 - statisticNew - INFO - gcn_dim: 150
+2022-06-27 15:36:24,938 - statisticNew - INFO - num_layers: 2
+2022-06-27 15:36:24,938 - statisticNew - INFO - gcn_dropout: 0.6
+2022-06-27 15:36:24,938 - statisticNew - INFO - map_file: maps.pkl
+2022-06-27 15:36:24,939 - statisticNew - INFO - result_path: result
+2022-06-27 15:36:24,939 - statisticNew - INFO - emb_file: 100.utf8
+2022-06-27 15:36:24,939 - statisticNew - INFO - train_file: data_doc/train
+2022-06-27 15:36:24,939 - statisticNew - INFO - dev_file: data_doc/dev
+2022-06-27 15:36:24,939 - statisticNew - INFO - test_file: data_doc/test
+2022-06-27 15:36:24,939 - statisticNew - INFO - log_name: test
+2022-06-27 15:36:24,939 - statisticNew - INFO - seed: 1023
+2022-06-27 15:36:24,939 - statisticNew - INFO - 
+
+2022-06-27 15:37:17,399 - statisticNew - INFO - 
+Args: 
+2022-06-27 15:37:17,399 - statisticNew - INFO - train: True
+2022-06-27 15:37:17,399 - statisticNew - INFO - tag_schema: iob
+2022-06-27 15:37:17,399 - statisticNew - INFO - batch_size: 30
+2022-06-27 15:37:17,399 - statisticNew - INFO - lr: 0.1
+2022-06-27 15:37:17,399 - statisticNew - INFO - lr_sharp_decay: 0
+2022-06-27 15:37:17,399 - statisticNew - INFO - lr_min: 1e-05
+2022-06-27 15:37:17,400 - statisticNew - INFO - label_weights: 5
+2022-06-27 15:37:17,400 - statisticNew - INFO - optimizer: SGD
+2022-06-27 15:37:17,400 - statisticNew - INFO - weight_decay: 1e-05
+2022-06-27 15:37:17,400 - statisticNew - INFO - epoch: 100
+2022-06-27 15:37:17,400 - statisticNew - INFO - cuda: 0
+2022-06-27 15:37:17,400 - statisticNew - INFO - num_steps: 50
+2022-06-27 15:37:17,400 - statisticNew - INFO - word_embed_dim: 100
+2022-06-27 15:37:17,400 - statisticNew - INFO - bio_embed_dim: 25
+2022-06-27 15:37:17,400 - statisticNew - INFO - pos_embed_dim: 0
+2022-06-27 15:37:17,400 - statisticNew - INFO - position_embed_dim: 0
+2022-06-27 15:37:17,400 - statisticNew - INFO - dep_embed_dim: 50
+2022-06-27 15:37:17,400 - statisticNew - INFO - rnn_hidden: 100
+2022-06-27 15:37:17,400 - statisticNew - INFO - rnn_layers: 1
+2022-06-27 15:37:17,400 - statisticNew - INFO - rnn_dropout: 0.6
+2022-06-27 15:37:17,410 - statisticNew - INFO - pooling: avg
+2022-06-27 15:37:17,411 - statisticNew - INFO - gcn_dim: 150
+2022-06-27 15:37:17,411 - statisticNew - INFO - num_layers: 2
+2022-06-27 15:37:17,411 - statisticNew - INFO - gcn_dropout: 0.6
+2022-06-27 15:37:17,411 - statisticNew - INFO - map_file: maps.pkl
+2022-06-27 15:37:17,411 - statisticNew - INFO - result_path: result
+2022-06-27 15:37:17,411 - statisticNew - INFO - emb_file: 100.utf8
+2022-06-27 15:37:17,411 - statisticNew - INFO - train_file: data_doc/train
+2022-06-27 15:37:17,411 - statisticNew - INFO - dev_file: data_doc/dev
+2022-06-27 15:37:17,411 - statisticNew - INFO - test_file: data_doc/test
+2022-06-27 15:37:17,411 - statisticNew - INFO - log_name: test
+2022-06-27 15:37:17,412 - statisticNew - INFO - seed: 1023
+2022-06-27 15:37:17,412 - statisticNew - INFO - 
+
+2022-06-27 15:37:43,965 - statisticNew - INFO - 
+Args: 
+2022-06-27 15:37:43,966 - statisticNew - INFO - train: True
+2022-06-27 15:37:43,966 - statisticNew - INFO - tag_schema: iob
+2022-06-27 15:37:43,966 - statisticNew - INFO - batch_size: 30
+2022-06-27 15:37:43,966 - statisticNew - INFO - lr: 0.1
+2022-06-27 15:37:43,966 - statisticNew - INFO - lr_sharp_decay: 0
+2022-06-27 15:37:43,966 - statisticNew - INFO - lr_min: 1e-05
+2022-06-27 15:37:43,966 - statisticNew - INFO - label_weights: 5
+2022-06-27 15:37:43,966 - statisticNew - INFO - optimizer: SGD
+2022-06-27 15:37:43,966 - statisticNew - INFO - weight_decay: 1e-05
+2022-06-27 15:37:43,966 - statisticNew - INFO - epoch: 100
+2022-06-27 15:37:43,966 - statisticNew - INFO - cuda: 0
+2022-06-27 15:37:43,966 - statisticNew - INFO - num_steps: 50
+2022-06-27 15:37:43,966 - statisticNew - INFO - word_embed_dim: 100
+2022-06-27 15:37:43,966 - statisticNew - INFO - bio_embed_dim: 25
+2022-06-27 15:37:43,967 - statisticNew - INFO - pos_embed_dim: 0
+2022-06-27 15:37:43,967 - statisticNew - INFO - position_embed_dim: 0
+2022-06-27 15:37:43,967 - statisticNew - INFO - dep_embed_dim: 50
+2022-06-27 15:37:43,967 - statisticNew - INFO - rnn_hidden: 100
+2022-06-27 15:37:43,967 - statisticNew - INFO - rnn_layers: 1
+2022-06-27 15:37:43,967 - statisticNew - INFO - rnn_dropout: 0.6
+2022-06-27 15:37:43,970 - statisticNew - INFO - pooling: avg
+2022-06-27 15:37:43,971 - statisticNew - INFO - gcn_dim: 150
+2022-06-27 15:37:43,971 - statisticNew - INFO - num_layers: 2
+2022-06-27 15:37:43,971 - statisticNew - INFO - gcn_dropout: 0.6
+2022-06-27 15:37:43,971 - statisticNew - INFO - map_file: maps.pkl
+2022-06-27 15:37:43,971 - statisticNew - INFO - result_path: result
+2022-06-27 15:37:43,971 - statisticNew - INFO - emb_file: 100.utf8
+2022-06-27 15:37:43,971 - statisticNew - INFO - train_file: data_doc/train
+2022-06-27 15:37:43,971 - statisticNew - INFO - dev_file: data_doc/dev
+2022-06-27 15:37:43,971 - statisticNew - INFO - test_file: data_doc/test
+2022-06-27 15:37:43,971 - statisticNew - INFO - log_name: test
+2022-06-27 15:37:43,971 - statisticNew - INFO - seed: 1023
+2022-06-27 15:37:43,971 - statisticNew - INFO - 
+
+2022-06-27 15:38:01,722 - statisticNew - INFO - 
+Args: 
+2022-06-27 15:38:01,722 - statisticNew - INFO - train: True
+2022-06-27 15:38:01,722 - statisticNew - INFO - tag_schema: iob
+2022-06-27 15:38:01,722 - statisticNew - INFO - batch_size: 30
+2022-06-27 15:38:01,723 - statisticNew - INFO - lr: 0.1
+2022-06-27 15:38:01,723 - statisticNew - INFO - lr_sharp_decay: 0
+2022-06-27 15:38:01,723 - statisticNew - INFO - lr_min: 1e-05
+2022-06-27 15:38:01,723 - statisticNew - INFO - label_weights: 5
+2022-06-27 15:38:01,723 - statisticNew - INFO - optimizer: SGD
+2022-06-27 15:38:01,723 - statisticNew - INFO - weight_decay: 1e-05
+2022-06-27 15:38:01,723 - statisticNew - INFO - epoch: 100
+2022-06-27 15:38:01,723 - statisticNew - INFO - cuda: 0
+2022-06-27 15:38:01,723 - statisticNew - INFO - num_steps: 50
+2022-06-27 15:38:01,723 - statisticNew - INFO - word_embed_dim: 100
+2022-06-27 15:38:01,723 - statisticNew - INFO - bio_embed_dim: 25
+2022-06-27 15:38:01,723 - statisticNew - INFO - pos_embed_dim: 0
+2022-06-27 15:38:01,723 - statisticNew - INFO - position_embed_dim: 0
+2022-06-27 15:38:01,723 - statisticNew - INFO - dep_embed_dim: 50
+2022-06-27 15:38:01,724 - statisticNew - INFO - rnn_hidden: 100
+2022-06-27 15:38:01,724 - statisticNew - INFO - rnn_layers: 1
+2022-06-27 15:38:01,724 - statisticNew - INFO - rnn_dropout: 0.6
+2022-06-27 15:38:01,734 - statisticNew - INFO - pooling: avg
+2022-06-27 15:38:01,734 - statisticNew - INFO - gcn_dim: 150
+2022-06-27 15:38:01,734 - statisticNew - INFO - num_layers: 2
+2022-06-27 15:38:01,734 - statisticNew - INFO - gcn_dropout: 0.6
+2022-06-27 15:38:01,734 - statisticNew - INFO - map_file: maps.pkl
+2022-06-27 15:38:01,734 - statisticNew - INFO - result_path: result
+2022-06-27 15:38:01,734 - statisticNew - INFO - emb_file: 100.utf8
+2022-06-27 15:38:01,735 - statisticNew - INFO - train_file: data_doc/train
+2022-06-27 15:38:01,735 - statisticNew - INFO - dev_file: data_doc/dev
+2022-06-27 15:38:01,735 - statisticNew - INFO - test_file: data_doc/test
+2022-06-27 15:38:01,735 - statisticNew - INFO - log_name: test
+2022-06-27 15:38:01,735 - statisticNew - INFO - seed: 1023
+2022-06-27 15:38:01,735 - statisticNew - INFO - 
+
