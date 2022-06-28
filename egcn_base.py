@@ -96,7 +96,7 @@ class EEGCN(nn.Module):
         # seq_lens = list(masks.data.eq(constant.PAD_ID).long().sum(1).squeeze())
         h0, c0 = rnn_zero_state(batch_size, self.rnn_hidden, self.rnn_layers)
         h0, c0 = h0.to(self.device), c0.to(self.device)
-        rnn_inputs = nn.utils.rnn.pack_padded_sequence(rnn_inputs, seq_lens, batch_first=True)
+        rnn_inputs = nn.utils.rnn.pack_padded_sequence(rnn_inputs, seq_lens.to('cpu'), batch_first=True)
         rnn_outputs, (ht, ct) = self.rnn(rnn_inputs, (h0, c0))
         rnn_outputs, _ = nn.utils.rnn.pad_packed_sequence(rnn_outputs, batch_first=True)
         return rnn_outputs
