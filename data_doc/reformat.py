@@ -58,12 +58,7 @@ def main(input, output):
 
             for entity in sample['golden-entity-mentions']:
 
-                wordIndex = 0
-                for i, char in enumerate(sample['sentence']):
-                    if char == ' ' or char == "'":
-                        wordIndex += 1
-                    if i >= entity['start']:
-                        break
+                wordIndex = entity['start']
 
                 entity_type = ''
                 entity_sub_type = ''
@@ -90,12 +85,7 @@ def main(input, output):
                 #Add event type for all words
 
                 for event in sample['golden-event-mentions']:
-                    wordIndex = 0
-                    for i, char in enumerate(sample['sentence']):
-                        if char == ' ' or char == "'":
-                            wordIndex += 1
-                        if i >= event['trigger']['start']:
-                            break
+                    wordIndex = event['trigger']['start']
 
                     event_type = ''
 
