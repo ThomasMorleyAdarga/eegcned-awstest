@@ -107,13 +107,13 @@ def main(input, output):
                 for i, string_attribute in enumerate(current_word):
                     if i == 6:
                         if string_attribute == 'O':
-                            g.write('cc')
+                            g.write('-1')
                         else:
                             g.write(string_attribute)
 
                     else:
                         if string_attribute == 'O' and i == 5:
-                            g.write('-1' + " ")
+                            g.write('cc' + " ")
                         else:
                             g.write(string_attribute+" ")
                 g.write("\n")
