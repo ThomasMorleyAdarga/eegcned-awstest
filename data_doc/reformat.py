@@ -19,7 +19,7 @@ def main(input, output):
             for i, word in enumerate(entire_block):
 
                 #Add token to the output matrix
-                if sample['words'][i] == ' ':
+                if sample['words'][i] == ' ' or sample['words'][i].startswith("\\"):
                     word[0] = 'q'
                 else:
                     word[0] = sample['words'][i]
