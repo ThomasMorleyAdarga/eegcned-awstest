@@ -87,16 +87,18 @@ def main(input, output):
                 for event in sample['golden-event-mentions']:
                     wordIndex = event['trigger']['start']
 
-                    event_type = ''
+                    if entire_block[wordIndex][2] == 'O' and entire_block[wordIndex] == '0':
 
-                    for i, char in enumerate(event['event_type']):
-                        event_type = ((event_type + "_") if char == ':' or char == '-' else (event_type + str(char)))
+                        event_type = ''
 
-                    for i, B_I_O in enumerate(event['trigger']['text'].split()):
-                        if i == 0:
-                            entire_block[wordIndex][4] = "B-" + event_type
-                        else:
-                            entire_block[wordIndex + i][4] = "I-" + event_type
+                        for i, char in enumerate(event['event_type']):
+                            event_type = ((event_type + "_") if char == ':' or char == '-' else (event_type + str(char)))
+
+                        for i, B_I_O in enumerate(event['trigger']['text'].split()):
+                            if i == 0:
+                                entire_block[wordIndex][4] = "B-" + event_type
+                            else:
+                                entire_block[wordIndex + i][4] = "I-" + event_type
 
 
             #write data to output file

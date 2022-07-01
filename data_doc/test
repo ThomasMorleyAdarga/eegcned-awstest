@@ -27,7 +27,7 @@ Gordon ace I-1_PER I-2_Individual O compound 6
 Brown ace I-1_PER I-2_Individual O nmod:on 9
 on ace O O O case 6
 Tuesday ace B-1_TIM B-2_time O dep 6
-named ace O O B-Personnel_Nominate ROOT -1
+named ace O O O ROOT -1
 the ace B-1_PER B-2_Individual O det 12
 current ace B-1_TIM B-2_time O amod 12
 head ace I-1_PER I-2_Individual O dobj 9
@@ -53,12 +53,12 @@ FSA ace O O O appos 29
 ) ace O O O punct 31
 . ace O O O punct 9
 
-Former ace B-1_TIM B-2_time B-Personnel_End_Position amod 4
+Former ace B-1_TIM B-2_time O amod 4
 senior ace I-1_PER I-2_Individual O amod 4
 banker ace I-1_PER I-2_Individual O compound 4
 Callum ace I-1_PER I-2_Individual O compound 4
 McCarthy ace I-1_PER I-2_Individual O nsubj 5
-begins ace O O B-Personnel_Start_Position ROOT -1
+begins ace O O O ROOT -1
 what ace O O O nsubj 8
 is ace O O O cop 8
 one ace B-1_Job_Title B-2_ O det:qmod 13
@@ -79,15 +79,15 @@ when ace O O O advmod 26
 incumbent ace B-1_PER B-2_Individual O amod 25
 Howard ace I-1_PER I-2_Individual O compound 25
 Davies ace I-1_PER I-2_Individual O nsubj 26
-steps ace O O B-Personnel_End_Position acl:relcl 13
-down ace O O I-Personnel_End_Position compound:prt 26
+steps ace O O O acl:relcl 13
+down ace O O O compound:prt 26
 . ace O O O punct 5
 
 Davies ace B-1_PER B-2_Individual O nsubj:xsubj 4
 is ace O O O aux 2
-leaving ace O O B-Personnel_End_Position ROOT -1
+leaving ace O O O ROOT -1
 to ace O O O mark 4
-become ace O O B-Personnel_Start_Position xcomp 2
+become ace O O O xcomp 2
 chairman ace B-1_Job_Title B-2_ O xcomp 4
 of ace I-1_Job_Title I-2_ O case 9
 the ace I-1_Job_Title I-2_ O det 9
@@ -176,7 +176,7 @@ industry ace O O O dobj 15
 As ace O O O advmod 1
 well ace O O O advmod 22
 as ace O O O mark 4
-previously ace O O B-Personnel_End_Position advmod 4
+previously ace O O O advmod 4
 holding ace O O O ccomp 1
 senior ace O O O amod 6
 positions ace O O O dobj 4
@@ -191,7 +191,7 @@ Benson ace I-1_ORG I-2_Commercial O nmod:at 4
 , ace O O O punct 22
 McCarthy ace B-1_PER B-2_Individual O nsubj 22
 was ace O O O cop 22
-formerly ace O O B-Personnel_End_Position advmod 22
+formerly ace O O O advmod 22
 a ace B-1_PER B-2_Individual O det 22
 top ace I-1_PER I-2_Individual O amod 22
 civil ace I-1_PER I-2_Individual O amod 22
@@ -266,7 +266,7 @@ President ace I-1_PER I-2_Individual O compound 3
 Vladimir ace I-1_PER I-2_Individual O compound 3
 Putin ace I-1_PER I-2_Individual O nmod:poss 5
 's ace O O O case 3
-summit ace O O B-Contact_Meet nsubj 17
+summit ace O O O nsubj 17
 with ace O O O case 8
 the ace B-1_PER B-2_Group O det 8
 leaders ace I-1_PER I-2_Group O nmod:with 5
@@ -297,7 +297,7 @@ following ace O O O nmod:following 29
 the ace O O O case 34
 end ace O O O nmod:of 32
 of ace O O O case 36
-war ace O O B-Conflict_Attack nmod:in 34
+war ace O O O nmod:in 34
 in ace O O O punct 41
 Iraq ace B-1_GPE B-2_Nation O compound 39
 , ace O O O nsubjpass 41
@@ -425,7 +425,7 @@ nuanced ace O O O amod 7
 position ace O O O nsubj 14
 over ace O O O case 10
 the ace O O O det 10
-war ace O O B-Conflict_Attack nmod:over 7
+war ace O O O nmod:over 7
 in ace O O O case 12
 Iraq ace B-1_GPE B-2_Nation O nmod:in 10
 was ace O O O aux 14
@@ -490,7 +490,7 @@ European ace B-1_GPE B-2_Continent O amod 22
 , ace O O O nmod:than 10
 anti ace O O O acl 22
 - ace O O O case 25
-war ace O O B-Conflict_Attack nmod:in 23
+war ace O O O nmod:in 23
 camps ace O O O case 29
 embedded ace O O O det 29
 in ace O O O amod 29
@@ -575,11 +575,11 @@ Russia ace B-1_GPE B-2_Nation O conj:and 20
 France ace B-1_GPE B-2_Nation O conj:and 20
 and ace O O O dobj 18
 Germany ace B-1_GPE B-2_Nation O case 29
-pay ace O O B-Transaction_Transfer_Money det 29
+pay ace O O O det 29
 for ace O O O amod 29
 the ace O O O nmod:for 25
 Iraqi ace B-1_GPE B-2_Nation O punct 3
-war ace O O B-Conflict_Attack punct 3
+war ace O O O punct 3
 . ace O O O O O
 " ace O O O O O
 
@@ -707,7 +707,7 @@ in ace O O O case 35
 a ace O O O det 35
 post ace O O O amod 35
 - ace O O O nmod:in 23
-war ace O O B-Conflict_Attack case 37
+war ace O O O case 37
 revival ace O O O nmod:of 35
 of ace O O O punct 1
 Iraq ace B-1_GPE B-2_Nation O O O
@@ -729,7 +729,7 @@ the ace O O O det 14
 US ace B-1_GPE B-2_Nation O amod 14
 - ace O O O nmod:before 6
 British ace B-1_GPE B-2_Nation O case 16
-invasion ace O O B-Conflict_Attack nmod:of 14
+invasion ace O O O nmod:of 14
 of ace O O O ref 5
 Iraq ace B-1_GPE B-2_Nation O compound 19
 that ace O O O nsubj 21
@@ -752,7 +752,7 @@ But ace O O O cc 5
 the ace O O O det 4
 Saint ace B-1_GPE B-2_Population_Center O compound 4
 Petersburg ace I-1_GPE I-2_Population_Center O compound 4
-summit ace O O B-Contact_Meet nsubj 5
+summit ace O O O nsubj 5
 ended ace O O O ROOT -1
 without ace O O O case 9
 any ace O O O det 9
@@ -809,14 +809,14 @@ staunchest ace I-1_PER I-2_Individual O amod 14
 backer ace I-1_PER I-2_Individual O appos 9
 in ace I-1_PER I-2_Individual O case 17
 the ace I-1_PER I-2_Individual O det 17
-war ace I-1_PER I-2_Individual B-Conflict_Attack nmod:in 14
+war ace I-1_PER I-2_Individual O nmod:in 14
 on ace I-1_PER I-2_Individual O case 19
 Iraq ace B-1_GPE B-2_Nation O nmod:on 17
 , ace O O O punct 9
 to ace O O O mark 22
-attend ace O O B-Movement_Transport xcomp 4
+attend ace O O O xcomp 4
 the ace O O O det 24
-pow ace O O B-Contact_Meet dobj 22
+pow ace O O O dobj 22
 - ace O O O case 31
 wow ace O O O compound 27
 in ace O O O nmod:poss 31
@@ -862,7 +862,7 @@ hostility ace O O O nmod:of 16
 to ace O O O case 26
 the ace O O O det 26
 US ace B-1_GPE B-2_Nation O compound 26
-war ace O O B-Conflict_Attack compound 26
+war ace O O O compound 26
 stance ace O O O nmod:to 16
 . ace O O O punct 1
 
@@ -1045,7 +1045,7 @@ resignation ace O O O dobj 1
 during ace O O O case 7
 a ace O O O det 7
 10-minute ace B-1_TIM B-2_time O amod 7
-meeting ace O O B-Contact_Meet nmod:during 1
+meeting ace O O O nmod:during 1
 with ace O O O case 10
 the ace B-1_PER B-2_Individual O det 10
 head ace I-1_PER I-2_Individual O nmod:with 7
@@ -1125,7 +1125,7 @@ The ace B-1_ORG B-2_Government O det 2
 current ace B-1_TIM B-2_time O amod 2
 government ace I-1_ORG I-2_Government O nsubjpass 4
 was ace O O O auxpass 4
-formed ace O O B-Business_Start_Org ROOT -1
+formed ace O O O ROOT -1
 in ace O O O case 6
 October ace B-1_TIM B-2_time O nmod:in 4
 2000 ace I-1_TIM I-2_time O nummod 6
@@ -1146,7 +1146,7 @@ Lebanon ace B-1_GPE B-2_Nation O amod 13
 's ace O O O amod 13
 15-year ace B-1_TIM B-2_time O nmod:of 7
 civil ace O O O case 15
-war ace O O B-Conflict_Attack nmod:in 13
+war ace O O O nmod:in 13
 in ace O O O punct 23
 1990 ace B-1_TIM B-2_time O det 20
 , ace O O O amod 20
@@ -1170,7 +1170,7 @@ Maronite ace I-1_PER I-2_Individual O punct 4
 Christian ace I-1_PER I-2_Individual O O O
 . ace O O O O O
 
-Married ace O O B-Life_Marry ccomp 7
+Married ace O O O ccomp 7
 for ace O O O case 4
 the ace O O O det 4
 second ace O O O amod 4
@@ -1255,9 +1255,9 @@ state ace I-1_PER I-2_Group O nmod:in 6
 of ace I-1_PER I-2_Group O case 12
 Tripura ace I-1_PER I-2_Group O nmod:of 10
 were ace O O O auxpass 14
-hacked ace O O B-Conflict_Attack ccomp 27
+hacked ace O O O ccomp 27
 to ace O O O case 16
-death ace O O B-Life_Die nmod:to 14
+death ace O O O nmod:to 14
 by ace O O O case 20
 a ace B-1_PER B-2_Group O det 20
 tribal ace I-1_PER I-2_Group O amod 20
@@ -1284,7 +1284,7 @@ to ace I-1_PER I-2_Group O dep 8
 armed ace I-1_PER I-2_Group O amod 10
 men ace I-1_PER I-2_Group O nmod:of 4
 Wednesday ace B-1_TIM B-2_time O nmod:tmod 10
-attacked ace O O B-Conflict_Attack ccomp 2
+attacked ace O O O ccomp 2
 a ace B-1_FAC B-2_Building_Grounds O det 14
 house ace I-1_FAC I-2_Building_Grounds O dobj 12
 belonging ace I-1_FAC I-2_Building_Grounds O xcomp 12
@@ -1322,7 +1322,7 @@ a ace B-1_PER B-2_Group O det 9
 family ace I-1_PER I-2_Group O nmod:of 6
 and ace O O O cc 9
 ( ace O O O punct 12
-killed ace O O B-Conflict_Attack conj:and 9
+killed ace O O O conj:and 9
 ) ace O O O punct 12
 them ace B-1_PER B-2_Group O nmod 12
 with ace O O O case 16
@@ -1330,7 +1330,7 @@ machetes ace B-1_WEA B-2_Sharp O nmod:with 14
 and ace O O O cc 16
 spears ace B-1_WEA B-2_Sharp O conj:and 16
 before ace O O O mark 20
-fleeing ace O O B-Movement_Transport advcl:before 3
+fleeing ace O O O advcl:before 3
 the ace B-1_LOC B-2_Region_General O det 22
 area ace I-1_LOC I-2_Region_General O dobj 20
 , ace O O O punct 27
@@ -1339,7 +1339,7 @@ the ace B-1_PER B-2_Individual O det 26
 spokesman ace I-1_PER I-2_Individual O nsubj 27
 said ace O O O ROOT -1
 by ace O O O case 29
-telephone ace O O B-Contact_Phone_Write nmod:by 27
+telephone ace O O O nmod:by 27
 from ace O O O case 31
 Agartala ace B-1_GPE B-2_Population_Center O nmod:from 27
 . ace O O O punct 27
@@ -1403,7 +1403,7 @@ within ace I-1_PER I-2_Group O case 27
 the ace B-1_GPE B-2_Population_Center O det 27
 village ace I-1_GPE I-2_Population_Center O nmod:within 22
 to ace O O O mark 29
-eliminate ace O O B-Life_Die acl:to 27
+eliminate ace O O O acl:to 27
 them ace B-1_PER B-2_Group O dobj 29
 , ace O O O punct 35
 " ace O O O punct 35
@@ -1414,14 +1414,14 @@ said ace O O O ROOT -1
 
 Police ace B-1_PER B-2_Group O nsubj 2
 have ace O O O aux 2
-arrested ace O O B-Justice_Arrest_Jail ROOT -1
+arrested ace O O O ROOT -1
 four ace B-1_PER B-2_Group O nummod 4
 people ace I-1_PER I-2_Group O dobj 2
 in ace O O O case 6
 connection ace O O O nmod:in 4
 with ace O O O case 9
 the ace O O O det 9
-killings ace O O B-Life_Die nmod:with 2
+killings ace O O O nmod:with 2
 . ace O O O punct 2
 
 Superstitious ace O O O amod 1
@@ -1528,7 +1528,7 @@ swift ace O O O amod 36
 US ace B-1_GPE B-2_Nation O amod 36
 - ace O O O xcomp 29
 led ace O O O case 38
-campaign ace O O B-Conflict_Attack nmod:in 36
+campaign ace O O O nmod:in 36
 in ace O O O punct 2
 Iraq ace B-1_GPE B-2_Nation O O O
 . ace O O O O O
@@ -1542,7 +1542,7 @@ a ace O O O det 7
 Kremlin ace B-1_GPE B-2_Nation O amod 7
 - ace O O O dobj 27
 run ace O O O ref 7
-forum ace O O B-Contact_Meet nsubj 27
+forum ace O O O nsubj 27
 that ace O O O case 11
 countries ace B-1_GPE B-2_Nation O nmod:like 9
 like ace I-1_GPE I-2_Nation O cc 11
@@ -1554,7 +1554,7 @@ said ace O O O case 19
 little ace O O O det 19
 about ace O O O nmod:about 15
 the ace O O O case 24
-conflict ace O O B-Conflict_Attack nmod:poss 24
+conflict ace O O O nmod:poss 24
 before ace O O O compound 24
 its ace O O O nummod 24
 March ace B-1_TIM B-2_time O nmod:before 15
@@ -1632,7 +1632,7 @@ it ace I-1_GPE I-2_Nation O nsubj:xsubj 23
 to ace I-1_GPE I-2_Nation O mark 23
 prevent ace I-1_GPE I-2_Nation O xcomp 20
 the ace I-1_GPE I-2_Nation O det 25
-war ace I-1_GPE I-2_Nation B-Conflict_Attack dobj 23
+war ace I-1_GPE I-2_Nation O dobj 23
 -- ace O O O punct 10
 recently ace B-1_TIM B-2_time O advmod 28
 won ace O O O ccomp 2
@@ -1708,7 +1708,7 @@ Strategic ace I-1_ORG I-2_Government O compound 39
 Studies ace O O O nmod:of 36
 . ace O O O punct 30
 
-Negotiations ace O O B-Contact_Meet nsubj:xsubj 29
+Negotiations ace O O O nsubj:xsubj 29
 between ace O O O case 2
 Washington ace B-1_GPE B-2_Nation O nmod:between 0
 and ace O O O cc 2
@@ -1746,7 +1746,7 @@ by ace O O O mark 35
 organizing ace O O O advcl:by 29
 such ace O O O det:predet 38
 a ace O O O det 38
-meeting ace O O B-Contact_Meet dobj 35
+meeting ace O O O dobj 35
 . ace O O O punct 11
 
 Meanwhile ace O O O advmod 8
@@ -1786,7 +1786,7 @@ by ace O O O mark 16
 placing ace O O O advcl:by 13
 a ace O O O det 19
 telephone ace O O O compound 19
-call ace O O B-Contact_Phone_Write dobj 16
+call ace O O O dobj 16
 Tuesday ace B-1_TIM B-2_time O nmod:tmod 16
 to ace O O O case 22
 Bush ace B-1_PER B-2_Individual O nmod:to 16
@@ -1810,7 +1810,7 @@ the ace I-1_TIM I-2_time O det 15
 start ace I-1_TIM I-2_time O nmod:before 7
 of ace I-1_TIM I-2_time O case 18
 the ace I-1_TIM I-2_time O det 18
-war ace I-1_TIM I-2_time B-Conflict_Attack nmod:of 15
+war ace I-1_TIM I-2_time O nmod:of 15
 . ace O O O punct 7
 
 But ace O O O cc 4
@@ -1863,7 +1863,7 @@ often ace O O O advmod 10
 reverts ace O O O ccomp 17
 to ace O O O case 14
 Cold ace O O O compound 14
-War ace O O B-Conflict_Attack compound 14
+War ace O O O compound 14
 stereotypes ace O O O nmod:to 10
 , ace O O O punct 17
 " ace O O O punct 17
@@ -1884,7 +1884,7 @@ proud ace O O O ROOT -1
 of ace O O O mark 6
 forming ace O O O advcl:of 4
 an ace O O O det 9
-antiwar ace O O B-Conflict_Attack amod 9
+antiwar ace O O O amod 9
 bloc ace O O O dobj 6
 with ace O O O case 11
 France ace B-1_GPE B-2_Nation O nmod:with 6
@@ -1918,7 +1918,7 @@ impossible ace O O O ccomp 34
 to ace O O O mark 40
 avert ace O O O xcomp 38
 this ace O O O det 42
-war ace O O B-Conflict_Attack dobj 40
+war ace O O O dobj 40
 . ace O O O punct 4
 " ace O O O punct 4
 
@@ -1968,7 +1968,7 @@ European ace B-1_GPE B-2_Continent O amod 13
 resistance ace O O O nmod:with 10
 to ace O O O case 16
 the ace O O O det 16
-campaign ace O O B-Conflict_Attack nmod:to 13
+campaign ace O O O nmod:to 13
 was ace O O O auxpass 18
 focused ace O O O acl:relcl 6
 more ace O O O advmod 18
@@ -2010,7 +2010,7 @@ They ace B-1_PER B-2_Group O nsubj:xsubj 4
 are ace O O O auxpass 2
 scheduled ace O O O ROOT -1
 to ace O O O mark 4
-meet ace O O B-Contact_Meet xcomp 2
+meet ace O O O xcomp 2
 next ace O O O advmod 4
 in ace O O O case 12
 the ace B-1_GPE B-2_Population_Center O det 9
@@ -2034,11 +2034,11 @@ and ace O O O cc 2
 won ace O O O ccomp 15
 nothing ace O O O dobj 5
 -- ace O O O punct 2
-this ace O O B-Conflict_Attack nsubj 12
+this ace O O O nsubj 12
 was ace O O O cop 12
 not ace O O O neg 12
 our ace B-1_GPE B-2_Nation O nmod:poss 12
-war ace O O B-Conflict_Attack parataxis 2
+war ace O O O parataxis 2
 , ace O O O punct 15
 " ace O O O punct 15
 said ace O O O ROOT -1
@@ -2119,7 +2119,7 @@ Russia ace B-1_GPE B-2_Nation O nmod:poss 5
 opposition ace O O O dobj 2
 to ace O O O case 8
 a ace O O O det 8
-war ace O O B-Conflict_Attack nmod:to 2
+war ace O O O nmod:to 2
 in ace O O O case 10
 Iraq ace B-1_GPE B-2_Nation O nmod:in 8
 to ace O O O case 12
@@ -2206,7 +2206,7 @@ failures ace O O O nmod:agent 16
 Putin ace B-1_PER B-2_Individual O nsubj 2
 will ace O O O aux 2
 face ace O O O ROOT -1
-re ace O O B-Personnel_Elect dobj 2
+re ace O O O dobj 2
 - ace O O O case 5
 election ace O O O nmod:in 2
 in ace O O O nummod 5
@@ -2217,7 +2217,7 @@ analysts ace B-1_PER B-2_Group O mark 22
 noted ace O O O det 12
 that ace O O O nsubjpass 22
 the ace O O O punct 18
-war ace O O B-Conflict_Attack case 18
+war ace O O O case 18
 -- ace O O O amod 18
 while ace O O O case 17
 opposed ace O O O advcl:by 15
@@ -2249,7 +2249,7 @@ this ace O O O nsubj 8
 will ace O O O aux 8
 affect ace O O O ccomp 4
 the ace O O O det 10
-elections ace O O B-Personnel_Elect dobj 8
+elections ace O O O dobj 8
 unless ace O O O mark 18
 Russia ace B-1_GPE B-2_Nation O nmod:poss 14
 's ace O O O case 12
@@ -2279,7 +2279,7 @@ of ace I-1_PER I-2_Individual O case 39
 a ace B-1_ORG B-2_Non_Governmental O det 39
 research ace I-1_ORG I-2_Non_Governmental O compound 39
 center ace I-1_ORG I-2_Non_Governmental O nmod:of 35
-funded ace I-1_ORG I-2_Non_Governmental B-Transaction_Transfer_Money acl 39
+funded ace I-1_ORG I-2_Non_Governmental O acl 39
 by ace I-1_ORG I-2_Non_Governmental O case 44
 former ace B-1_TIM B-2_time O amod 44
 Soviet ace B-1_GPE B-2_Nation O amod 44
@@ -2323,13 +2323,13 @@ refused ace O O O ROOT -1
 to ace O O O mark 7
 overturn ace O O O xcomp 5
 the ace O O O det 9
-conviction ace O O B-Justice_Convict dobj 7
+conviction ace O O O dobj 7
 and ace O O O cc 9
 nine ace B-1_Sentence B-2_ O amod 13
 - ace I-1_Sentence I-2_ O compound 13
 year ace O O O conj:and 9
 jail ace B-1_FAC B-2_Building_Grounds O acl 9
-sentence ace O O B-Justice_Sentence case 20
+sentence ace O O O case 20
 imposed ace O O O amod 20
 on ace O O O amod 20
 ex ace B-1_PER B-2_Individual O compound 20
@@ -2358,14 +2358,14 @@ prison ace B-1_FAC B-2_Building_Grounds O nmod:in 7
 on ace I-1_PER I-2_Individual O case 15
 a ace I-1_PER I-2_Individual O det 15
 corruption ace B-1_Crime B-2_ O compound 15
-charge ace O O B-Justice_Charge_Indict nmod:on 7
+charge ace O O O nmod:on 7
 , ace O O O punct 0
 now ace B-1_TIM B-2_time O advmod 18
 faces ace O O O ROOT -1
 an ace O O O det 23
 earliest ace O O O amod 23
 possible ace O O O amod 23
-release ace O O B-Justice_Release_Parole compound 23
+release ace O O O compound 23
 date ace O O O dobj 18
 of ace O O O case 25
 April ace B-1_TIM B-2_time O nmod:of 23
@@ -2381,7 +2381,7 @@ third ace O O O amod 35
 remission ace O O O dobj 32
 of ace O O O case 38
 his ace B-1_PER B-2_Individual O nmod:poss 38
-sentence ace O O B-Justice_Sentence nmod:of 35
+sentence ace O O O nmod:of 35
 for ace O O O case 41
 good ace O O O amod 41
 behaviour ace O O O nmod:for 32
@@ -2411,7 +2411,7 @@ told ace O O O mark 24
 reporters ace B-1_PER B-2_Group O nmod:poss 22
 after ace O O O nsubjpass 24
 his ace B-1_PER B-2_Individual O auxpass 24
-appeal ace O O B-Justice_Appeal advcl:after 18
+appeal ace O O O advcl:after 18
 was ace O O O punct 18
 rejected ace O O O punct 18
 : ace O O O nsubj 29
@@ -2431,7 +2431,7 @@ of ace O O O nmod:of 38
 the ace B-1_ORG B-2_Government O punct 18
 court ace I-1_ORG I-2_Government O cc 18
 of ace I-1_ORG I-2_Government O nsubj 45
-appeal ace I-1_ORG I-2_Government B-Justice_Appeal advmod 45
+appeal ace I-1_ORG I-2_Government O advmod 45
 , ace O O O conj:and 18
 and ace O O O punct 18
 its ace O O O O O
@@ -2449,7 +2449,7 @@ expect ace O O O ROOT -1
 
 Mahathir ace B-1_PER B-2_Individual O nsubj 2
 's ace O O O case 0
-sacking ace O O B-Personnel_End_Position ROOT -1
+sacking ace O O O ROOT -1
 of ace O O O case 5
 the ace B-1_PER B-2_Individual O det 5
 charismatic ace I-1_PER I-2_Individual O nmod:of 2
@@ -2472,7 +2472,7 @@ to ace O O O case 23
 the ace B-1_FAC B-2_Path O det 23
 streets ace I-1_FAC I-2_Path O nmod:to 20
 to ace O O O mark 25
-demonstrate ace O O B-Conflict_Demonstrate xcomp 20
+demonstrate ace O O O xcomp 20
 their ace B-1_PER B-2_Group O nmod:poss 27
 support ace O O O dobj 25
 for ace O O O case 29
@@ -2483,9 +2483,9 @@ Within ace O O O case 1
 weeks ace B-1_TIM B-2_time O nmod:within 4
 he ace B-1_PER B-2_Individual O nsubjpass 6
 was ace O O O auxpass 4
-arrested ace O O B-Justice_Arrest_Jail ROOT -1
+arrested ace O O O ROOT -1
 and ace O O O cc 4
-charged ace O O B-Justice_Charge_Indict conj:and 4
+charged ace O O O conj:and 4
 with ace O O O mark 8
 sodomising ace B-1_Crime B-2_ O dep 4
 an ace I-1_Crime I-2_ O det 11
@@ -2510,7 +2510,7 @@ The ace O O O det 1
 conduct ace O O O nsubjpass 7
 of ace O O O case 4
 the ace O O O det 4
-trials ace O O B-Justice_Trial_Hearing nmod:of 1
+trials ace O O O nmod:of 1
 was ace O O O auxpass 7
 widely ace O O O advmod 7
 criticised ace O O O ROOT -1
@@ -2549,7 +2549,7 @@ six ace B-1_Sentence B-2_ O nmod:of 12
 - ace I-1_Sentence I-2_ O case 20
 year ace I-1_Sentence I-2_ O amod 20
 corruption ace B-1_Crime B-2_ O nmod:for 17
-sentence ace O O B-Justice_Sentence punct 8
+sentence ace O O O punct 8
 for ace O O O cc 8
 good ace O O O advmod 24
 behaviour ace O O O conj:and 8
@@ -2563,7 +2563,7 @@ the ace B-1_Sentence B-2_ O nmod:for 29
 nine ace B-1_Sentence B-2_ O punct 2
 - ace I-1_Sentence I-2_ O O O
 year ace O O O O O
-sentence ace O O B-Justice_Sentence O O
+sentence ace O O O O O
 for ace O O O O O
 sodomy ace B-1_Crime B-2_ O O O
 . ace O O O O O
@@ -2608,7 +2608,7 @@ Crichton ace O O O ccomp 29
 has ace O O O mark 13
 agreed ace O O O xcomp 11
 to ace O O O nmod:poss 16
-pay ace O O B-Transaction_Transfer_Money amod 16
+pay ace O O O amod 16
 his ace B-1_PER B-2_Individual O dep 13
 fourth ace I-1_PER I-2_Individual O compound 18
 wife ace I-1_PER I-2_Individual O nummod 19
@@ -2619,7 +2619,7 @@ as ace O O O case 25
 part ace O O O nmod:poss 25
 of ace O O O compound 25
 their ace B-1_PER B-2_Group O nmod:of 21
-divorce ace O O B-Life_Divorce punct 29
+divorce ace O O O punct 29
 settlement ace O O O compound 28
 , ace O O O nsubj 29
 court ace B-1_ORG B-2_Government O ROOT -1
@@ -2782,7 +2782,7 @@ Taylor ace B-1_PER B-2_Individual O O O
 
 Before ace O O O case 2
 the ace O O O det 2
-divorce ace O O B-Life_Divorce nmod:before 8
+divorce ace O O O nmod:before 8
 , ace O O O punct 8
 Crichton ace B-1_PER B-2_Individual O nmod:poss 6
 's ace O O O case 4
@@ -2870,15 +2870,15 @@ Collins ace I-1_ORG I-2_Commercial O O O
 Anne ace B-1_PER B-2_Individual O nsubj 1
 - ace O O O ROOT -1
 Marie ace O O O dobj 1
-sued ace O O B-Justice_Sue case 4
+sued ace O O O case 4
 Crichton ace B-1_PER B-2_Individual O nmod:for 2
 for ace O O O case 6
-divorce ace O O B-Life_Divorce nmod:in 1
+divorce ace O O O nmod:in 1
 in ace O O O mark 10
 September ace B-1_TIM B-2_time O nmod:poss 9
 after ace O O O nsubj 10
 their ace B-1_PER B-2_Group O advcl:after 1
-marriage ace O O B-Life_Marry compound:prt 10
+marriage ace O O O compound:prt 10
 broke ace O O O punct 1
 down ace O O O O O
 . ace O O O O O
@@ -3101,9 +3101,9 @@ and ace O O O cc 9
 hinted ace O O O conj:and 9
 it ace B-1_GPE B-2_Nation O nsubj 40
 may ace O O O aux 38
-sell ace O O B-Transaction_Transfer_Ownership ccomp 35
+sell ace O O O ccomp 35
 or ace O O O cc 38
-use ace O O B-Conflict_Attack conj:or 38
+use ace O O O conj:or 38
 them ace B-1_WEA B-2_Nuclear O dobj 38
 , ace O O O punct 9
 depending ace O O O case 46
@@ -3451,14 +3451,14 @@ and ace I-1_PER I-2_Individual O cc 8
 Pacific ace B-1_LOC B-2_Region_International O compound 11
 Affairs ace I-1_PER I-2_Individual O conj:and 8
 , ace O O O punct 0
-arrived ace O O B-Movement_Transport ROOT -1
+arrived ace O O O ROOT -1
 in ace O O O case 15
 Seoul ace B-1_GPE B-2_Population_Center O nmod:in 13
 from ace O O O case 18
 Beijing ace B-1_GPE B-2_Population_Center O compound 18
 Friday ace B-1_TIM B-2_time O nmod:from 13
 to ace O O O mark 20
-brief ace O O B-Contact_Meet xcomp 13
+brief ace O O O xcomp 13
 Yoon ace B-1_PER B-2_Individual O dobj 20
 , ace O O O punct 21
 the ace B-1_PER B-2_Individual O det 25
@@ -3512,7 +3512,7 @@ to ace O O O case 7
 reporters ace B-1_PER B-2_Group O nmod:to 3
 here ace I-1_PER I-2_Group O advmod 3
 , ace O O O punct 0
-travels ace O O B-Movement_Transport ROOT -1
+travels ace O O O ROOT -1
 to ace O O O case 13
 Tokyo ace B-1_GPE B-2_Population_Center O compound 13
 Sunday ace B-1_TIM B-2_time O nmod:to 10
@@ -3773,7 +3773,7 @@ central ace B-1_LOC B-2_Region_General O amod 6
 Punjab ace I-1_LOC I-2_Region_General O compound 6
 province ace I-1_LOC I-2_Region_General O nmod:in 2
 has ace O O O aux 8
-sentenced ace O O B-Justice_Sentence ccomp 21
+sentenced ace O O O ccomp 21
 a ace B-1_PER B-2_Individual O det 11
 Christian ace I-1_PER I-2_Individual O amod 11
 man ace I-1_PER I-2_Individual O dobj 8
@@ -3783,7 +3783,7 @@ imprisonment ace I-1_Sentence I-2_ O nmod:to 8
 for ace O O O case 18
 a ace O O O det 18
 blasphemy ace B-1_Crime B-2_ O amod 18
-conviction ace O O B-Justice_Convict nmod:for 14
+conviction ace O O O nmod:for 14
 , ace O O O punct 21
 police ace B-1_PER B-2_Group O nsubj 21
 said ace O O O ROOT -1
@@ -3808,7 +3808,7 @@ Faisalabad ace B-1_GPE B-2_Population_Center O nmod:of 11
 found ace O O O ROOT -1
 Ranjha ace B-1_PER B-2_Individual O compound 17
 Masih ace I-1_PER I-2_Individual O nsubj 18
-guilty ace O O B-Justice_Convict xcomp 15
+guilty ace O O O xcomp 15
 of ace O O O mark 20
 defiling ace B-1_Crime B-2_ O advcl:of 18
 Koranic ace I-1_Crime I-2_ O amod 22
@@ -3816,7 +3816,7 @@ verses ace I-1_Crime I-2_ O dobj 20
 during ace I-1_Crime I-2_ O case 26
 a ace I-1_Crime I-2_ O det 26
 protest ace I-1_Crime I-2_ O compound 26
-rally ace I-1_Crime I-2_ B-Conflict_Demonstrate nmod:during 20
+rally ace I-1_Crime I-2_ O nmod:during 20
 by ace I-1_Crime I-2_ O case 31
 the ace I-1_Crime I-2_ O det 31
 minority ace I-1_Crime I-2_ O compound 31
@@ -3842,7 +3842,7 @@ Ranjha ace B-1_PER B-2_Individual O nsubj:xsubj 14
 to ace O O O mark 14
 pay ace O O O xcomp 11
 a ace O O O det 16
-fine ace O O B-Justice_Fine dobj 14
+fine ace O O O dobj 14
 of ace O O O case 19
 50,000 ace B-1_Numeric B-2_Money O nummod 19
 rupees ace I-1_Numeric I-2_Money O nmod:of 16
@@ -3859,7 +3859,7 @@ said ace O O O ROOT -1
 
 Ranjha ace B-1_PER B-2_Individual O nsubjpass 2
 was ace O O O auxpass 2
-accused ace O O B-Justice_Charge_Indict ROOT -1
+accused ace O O O ROOT -1
 of ace O O O mark 4
 tearing ace B-1_Crime B-2_ O advcl:of 2
 down ace I-1_Crime I-2_ O compound:prt 4
@@ -3875,14 +3875,14 @@ Faisalabad ace I-1_Crime I-2_ O nmod:in 8
 during ace I-1_Crime I-2_ O case 18
 a ace I-1_Crime I-2_ O det 18
 Christian ace I-1_Crime I-2_ O amod 18
-demonstration ace I-1_Crime I-2_ B-Conflict_Demonstrate nmod:during 8
+demonstration ace I-1_Crime I-2_ O nmod:during 8
 after ace I-1_Crime I-2_ O case 23
 the ace I-1_Crime I-2_ O det 21
 city ace I-1_Crime I-2_ O nmod:poss 23
 's ace I-1_Crime I-2_ O case 21
 bishop ace I-1_Crime I-2_ O nmod:after 4
 committed ace I-1_Crime I-2_ O acl 23
-suicide ace I-1_Crime I-2_ B-Life_Die dobj 24
+suicide ace I-1_Crime I-2_ O dobj 24
 over ace I-1_Crime I-2_ O case 30
 the ace I-1_Crime I-2_ O det 30
 1985 ace B-1_TIM B-2_time O nummod 30
@@ -3905,7 +3905,7 @@ against ace I-1_PER I-2_Individual O case 13
 the ace O O O det 13
 law ace O O O nmod:against 10
 , ace O O O punct 5
-shot ace O O B-Life_Die ROOT -1
+shot ace O O O ROOT -1
 himself ace B-1_PER B-2_Individual O dobj 15
 in ace O O O case 19
 the ace O O O det 19
@@ -3919,7 +3919,7 @@ district ace I-1_GPE I-2_County_or_District O nmod:in 22
 when ace O O O advmod 29
 the ace B-1_PER B-2_Individual O det 28
 judge ace I-1_PER I-2_Individual O nsubj 29
-convicted ace O O B-Justice_Convict advcl 15
+convicted ace O O O advcl 15
 Christian ace B-1_PER B-2_Individual O compound 32
 Ayub ace I-1_PER I-2_Individual O compound 32
 Masih ace I-1_PER I-2_Individual O dobj 29
@@ -3933,7 +3933,7 @@ in ace O O O case 37
 Ayub ace B-1_PER B-2_Individual O compound 1
 Masih ace I-1_PER I-2_Individual O nsubjpass 3
 was ace O O O auxpass 3
-charged ace O O B-Justice_Charge_Indict ROOT -1
+charged ace O O O ROOT -1
 in ace O O O case 5
 1996 ace B-1_TIM B-2_time O nmod:in 3
 with ace O O O case 7
@@ -3972,7 +3972,7 @@ supreme ace I-1_ORG I-2_Government O amod 3
 court ace I-1_ORG I-2_Government O nsubj 6
 last ace B-1_TIM B-2_time O amod 5
 year ace I-1_TIM I-2_time O nmod:tmod 6
-aquitted ace O O B-Justice_Acquit ROOT -1
+aquitted ace O O O ROOT -1
 Ayub ace B-1_PER B-2_Individual O compound 8
 Masih ace I-1_PER I-2_Individual O nsubj 12
 , ace I-1_PER I-2_Individual O punct 8
@@ -3992,9 +3992,9 @@ Mohammad ace I-1_PER I-2_Individual O appos 20
 
 Blasphemy ace B-1_Crime B-2_ O nsubj 2
 is ace O O O cop 2
-punishable ace O O B-Justice_Sentence ROOT -1
+punishable ace O O O ROOT -1
 by ace O O O case 4
-death ace B-1_Sentence B-2_ B-Justice_Execute nmod:by 2
+death ace B-1_Sentence B-2_ O nmod:by 2
 under ace O O O case 9
 the ace O O O det 9
 Pakistan ace B-1_GPE B-2_Nation O compound 9
@@ -4010,7 +4010,7 @@ convict ace I-1_PER I-2_Individual O dep 3
 has ace O O O aux 8
 ever ace O O O advmod 8
 been ace O O O auxpass 8
-executed ace O O B-Justice_Execute ROOT -1
+executed ace O O O ROOT -1
 in ace O O O case 11
 the ace B-1_GPE B-2_Nation O det 11
 country ace I-1_GPE I-2_Nation O nmod:in 8
@@ -4132,7 +4132,7 @@ during ace O O O case 12
 three ace O O O amod 12
 - ace O O O nmod:during 9
 way ace O O O case 14
-talks ace O O B-Contact_Meet nmod:between 12
+talks ace O O O nmod:between 12
 between ace O O O punct 14
 US ace B-1_PER B-2_Group O amod 20
 , ace I-1_PER I-2_Group O amod 20
@@ -4150,7 +4150,7 @@ Beijing ace B-1_GPE B-2_Population_Center O O O
 At ace O O O case 3
 the ace O O O det 3
 same ace O O O amod 3
-meeting ace O O B-Contact_Meet nmod:at 5
+meeting ace O O O nmod:at 5
 Pyongyang ace B-1_GPE B-2_Nation O nsubj 5
 confirmed ace O O O ROOT -1
 it ace B-1_GPE B-2_Nation O nsubj:xsubj 14
@@ -4268,7 +4268,7 @@ said ace O O O ROOT -1
 , ace O O O punct 19
 adding ace O O O xcomp 19
 that ace O O O mark 26
-talks ace O O B-Contact_Meet nsubj 26
+talks ace O O O nsubj 26
 were ace O O O cop 26
 now ace B-1_TIM B-2_time O advmod 26
 underway ace O O O ccomp 21
@@ -4320,7 +4320,7 @@ April ace B-1_TIM B-2_time O nmod:to 24
 23 ace I-1_TIM I-2_time O nummod 27
 to ace O O O case 31
 25 ace B-1_TIM B-2_time O nummod 31
-discussions ace O O B-Contact_Meet nmod:to 24
+discussions ace O O O nmod:to 24
 in ace O O O case 33
 Beijing ace B-1_GPE B-2_Population_Center O nmod:in 31
 . ace O O O punct 22
@@ -4855,7 +4855,7 @@ equal ace O O O amod 9
 " ace O O O punct 5
 footing ace O O O nmod:for 1
 in ace O O O case 11
-talks ace O O B-Contact_Meet nmod:in 9
+talks ace O O O nmod:in 9
 with ace O O O case 15
 the ace B-1_GPE B-2_Nation O det 15
 United ace I-1_GPE I-2_Nation O compound 15
@@ -4948,7 +4948,7 @@ internal ace O O O amod 10
 reformist ace O O O compound 10
 call ace O O O dobj 6
 for ace O O O mark 12
-dissolving ace O O B-Business_End_Org advcl:for 6
+dissolving ace O O O advcl:for 6
 itself ace B-1_ORG B-2_Non_Governmental O nsubj:xsubj 15
 to ace O O O mark 15
 create ace O O O xcomp 12
@@ -4963,7 +4963,7 @@ at ace O O O case 27
 last ace B-1_TIM B-2_time O amod 25
 week ace I-1_TIM I-2_time O nmod:poss 27
 's ace O O O case 25
-by ace O O B-Personnel_Elect nmod:at 22
+by ace O O O nmod:at 22
 - ace O O O punct 31
 elections ace O O O compound 30
 , ace O O O nsubj 31
@@ -4982,7 +4982,7 @@ Party ace I-1_ORG I-2_Non_Governmental O dep 1
 MDP ace B-1_ORG B-2_Non_Governmental O appos 4
 ) ace O O O punct 6
 , ace O O O punct 1
-founded ace O O B-Business_Start_Org acl 1
+founded ace O O O acl 1
 by ace O O O case 14
 former ace B-1_TIM B-2_time O amod 14
 president ace I-1_PER I-2_Individual O compound 14
@@ -5001,8 +5001,8 @@ Roh ace I-1_PER I-2_Individual O advcl:since 18
 Moo ace I-1_PER I-2_Individual O dobj 24
 - ace O O O case 27
 Hyun ace O O O nmod:in 24
-took ace O O B-Personnel_Start_Position punct 17
-office ace O O I-Personnel_Start_Position O O
+took ace O O O punct 17
+office ace O O O O O
 in ace O O O O O
 February ace B-1_TIM B-2_time O O O
 . ace O O O O O
@@ -5029,10 +5029,10 @@ party ace I-1_ORG I-2_Non_Governmental O nsubjpass 22
 be ace O O O auxpass 22
 " ace O O O punct 22
 constructively ace O O O advmod 22
-dissolved ace O O B-Business_End_Org ccomp 13
+dissolved ace O O O ccomp 13
 " ace O O O punct 22
 to ace O O O case 25
-create ace O O B-Business_Start_Org advcl:to 22
+create ace O O O advcl:to 22
 a ace B-1_ORG B-2_Non_Governmental O det 28
 new ace I-1_ORG I-2_Non_Governmental O amod 28
 grouping ace I-1_ORG I-2_Non_Governmental O dobj 25
@@ -5082,7 +5082,7 @@ in ace O O O case 23
 the ace O O O det 23
 process ace O O O nmod:in 16
 of ace O O O mark 25
-forging ace O O B-Business_Start_Org acl:of 23
+forging ace O O O acl:of 23
 a ace B-1_ORG B-2_Non_Governmental O det 28
 new ace I-1_ORG I-2_Non_Governmental O amod 28
 party ace I-1_ORG I-2_Non_Governmental O dobj 25
@@ -5102,7 +5102,7 @@ seats ace O O O dobj 7
 in ace O O O case 14
 Thursday ace B-1_TIM B-2_time O nmod:poss 14
 's ace O O O case 12
-by ace O O B-Personnel_Elect nmod:in 7
+by ace O O O nmod:in 7
 - ace O O O punct 3
 elections ace O O O O O
 . ace O O O O O
@@ -5158,7 +5158,7 @@ MDP ace I-1_ORG I-2_Non_Governmental O nmod:for 7
 . ace O O O punct 7
 
 General ace O O O compound 1
-elections ace O O B-Personnel_Elect nsubj 3
+elections ace O O O nsubj 3
 are ace O O O cop 3
 due ace O O O ROOT -1
 in ace O O O case 5
@@ -5210,9 +5210,9 @@ up ace O O O compound:prt 21
 its ace B-1_ORG B-2_Commercial O nmod:poss 25
 May ace B-1_TIM B-2_time O compound 25
 Day ace I-1_TIM I-2_time O nmod:tmod 21
-launching ace O O B-Business_Start_Org xcomp 21
+launching ace O O O xcomp 21
 by ace O O O mark 28
-opening ace O O B-Business_Start_Org advcl:by 26
+opening ace O O O advcl:by 26
 a ace B-1_ORG B-2_Commercial O det 32
 " ace I-1_ORG I-2_Commercial O punct 32
 sex ace I-1_ORG I-2_Commercial O compound 32
@@ -5242,7 +5242,7 @@ to ace O O O mark 10
 abandon ace O O O xcomp 8
 plans ace O O O nsubj:xsubj 25
 to ace O O O mark 13
-acquire ace O O B-Transaction_Transfer_Ownership xcomp 10
+acquire ace O O O xcomp 10
 a ace B-1_FAC B-2_Building_Grounds O det 15
 hotel ace I-1_FAC I-2_Building_Grounds O iobj 13
 in ace I-1_FAC I-2_Building_Grounds O case 20
@@ -5254,7 +5254,7 @@ red ace I-1_LOC I-2_Region_General O amod 23
 light ace I-1_LOC I-2_Region_General O compound 23
 district ace O O O dobj 13
 and ace O O O cc 13
-acquire ace O O B-Transaction_Transfer_Ownership conj:and 13
+acquire ace O O O conj:and 13
 another ace B-1_FAC B-2_Building_Grounds O det 27
 property ace I-1_FAC I-2_Building_Grounds O dobj 25
 three ace I-1_FAC I-2_Building_Grounds O nummod 29
@@ -5291,7 +5291,7 @@ the ace B-1_PER B-2_Group O det 23
 new ace I-1_PER I-2_Group O amod 23
 600 ace I-1_PER I-2_Group O nummod 23
 shareholders ace I-1_PER I-2_Group O nmod 3
-acquiring ace O O B-Transaction_Transfer_Money xcomp 3
+acquiring ace O O O xcomp 3
 1.0 ace B-1_Numeric B-2_Money O compound 26
 million ace I-1_Numeric I-2_Money O nummod 28
 dollars ace I-1_Numeric I-2_Money O compound 28
@@ -5307,7 +5307,7 @@ Heidi ace I-1_PER I-2_Individual O compound 4
 Fleiss ace I-1_PER I-2_Individual O nsubjpass 27
 has ace O O O aux 7
 been ace O O O auxpass 7
-flown ace O O B-Movement_Transport ROOT -1
+flown ace O O O ROOT -1
 to ace O O O case 9
 Melbourne ace B-1_GPE B-2_Population_Center O nmod:to 7
 as ace O O O case 11
@@ -5511,7 +5511,7 @@ we ace B-1_ORG B-2_Commercial O nsubj:xsubj 12
 are ace O O O aux 10
 going ace O O O ccomp 18
 to ace O O O mark 12
-build ace O O B-Business_Start_Org xcomp 10
+build ace O O O xcomp 10
 a ace B-1_ORG B-2_Commercial O det 14
 monster ace I-1_ORG I-2_Commercial O dobj 12
 , ace O O O punct 18
@@ -5556,7 +5556,7 @@ much ace I-1_FAC I-2_Building_Grounds O nmod:in 27
 better ace I-1_FAC I-2_Building_Grounds O mark 34
 location ace I-1_FAC I-2_Building_Grounds O advcl:to 24
 to ace O O O det 37
-create ace O O B-Business_Start_Org compound 37
+create ace O O O compound 37
 a ace B-1_ORG B-2_Commercial O dobj 34
 sex ace I-1_ORG I-2_Commercial O punct 2
 Disneyland ace I-1_ORG I-2_Commercial O punct 2
@@ -5693,7 +5693,7 @@ in ace O O O case 9
 advanced ace O O O amod 9
 negotiations ace O O O acl:relcl 2
 to ace O O O mark 11
-sell ace O O B-Transaction_Transfer_Ownership xcomp 9
+sell ace O O O xcomp 9
 its ace B-1_ORG B-2_Commercial O nmod:poss 15
 theme ace I-1_ORG I-2_Commercial O compound 15
 park ace I-1_ORG I-2_Commercial O compound 15
@@ -5728,7 +5728,7 @@ it ace B-1_ORG B-2_Commercial O nsubj:xsubj 12
 was ace O O O aux 10
 planning ace O O O ccomp 7
 to ace O O O mark 12
-sell ace O O B-Transaction_Transfer_Ownership xcomp 10
+sell ace O O O xcomp 10
 off ace O O O compound:prt 12
 its ace B-1_ORG B-2_Commercial O nmod:poss 19
 US ace I-1_ORG I-2_Commercial O compound 19
@@ -5762,7 +5762,7 @@ Universal ace I-1_ORG I-2_Commercial O nsubj:xsubj 8
 was ace O O O aux 6
 negotiating ace O O O ccomp 2
 to ace O O O mark 8
-sell ace O O B-Transaction_Transfer_Ownership xcomp 6
+sell ace O O O xcomp 6
 its ace B-1_FAC B-2_Building_Grounds O nmod:poss 12
 flagship ace I-1_FAC I-2_Building_Grounds O compound 12
 theme ace I-1_FAC I-2_Building_Grounds O compound 12
@@ -5780,7 +5780,7 @@ the ace O O O det 24
 first ace O O O amod 24
 step ace O O O nmod:as 19
 toward ace O O O mark 26
-dismantling ace O O B-Business_End_Org advcl:toward 8
+dismantling ace O O O advcl:toward 8
 its ace B-1_ORG B-2_Entertainment O nmod:poss 29
 entertainment ace I-1_ORG I-2_Entertainment O compound 29
 empire ace I-1_ORG I-2_Entertainment O dobj 26
@@ -5811,7 +5811,7 @@ plans ace O O O nmod:under 42
 Blackstone ace B-1_ORG B-2_Commercial O compound 6
 Group ace I-1_ORG I-2_Commercial O nsubj 8
 would ace O O O aux 8
-buy ace O O B-Transaction_Transfer_Ownership parataxis 42
+buy ace O O O parataxis 42
 Vivendi ace B-1_ORG B-2_Commercial O nmod:poss 13
 's ace I-1_ORG I-2_Commercial O case 9
 theme ace I-1_ORG I-2_Commercial O compound 13
@@ -5881,7 +5881,7 @@ that ace O O O mark 11
 it ace B-1_ORG B-2_Commercial O nsubj:xsubj 13
 planned ace O O O ccomp 4
 to ace O O O mark 13
-shed ace O O B-Transaction_Transfer_Ownership xcomp 11
+shed ace O O O xcomp 11
 its ace B-1_ORG B-2_Commercial O nmod:poss 16
 entertainment ace O O O compound 16
 assets ace O O O dobj 13
@@ -5917,11 +5917,11 @@ group ace I-1_PER I-2_Group O amod 12
 's ace I-1_PER I-2_Group O amod 12
 annual ace B-1_TIM B-2_time O nmod:at 4
 general ace I-1_PER I-2_Group O nmod:tmod 4
-meeting ace I-1_PER I-2_Group B-Contact_Meet mark 24
+meeting ace I-1_PER I-2_Group O mark 24
 Tuesday ace B-1_TIM B-2_time O det 16
 that ace O O O nsubj 24
 the ace O O O case 20
-sale ace O O B-Transaction_Transfer_Ownership compound 20
+sale ace O O O compound 20
 of ace O O O compound 20
 Vivendi ace B-1_ORG B-2_Commercial O nmod:of 16
 Universal ace I-1_ORG I-2_Commercial O cop 24
@@ -6074,11 +6074,11 @@ Tehran ace I-1_PER I-2_Individual O ccomp 34
 's ace I-1_PER I-2_Individual O advmod 17
 municipality ace O O O case 21
 has ace O O O det 21
-stepped ace O O B-Personnel_End_Position advcl:as 17
-down ace O O I-Personnel_End_Position case 24
+stepped ace O O O advcl:as 17
+down ace O O O case 24
 following ace O O O det 24
 the ace O O O nmod:of 21
-appointment ace O O B-Personnel_Start_Position case 21
+appointment ace O O O case 21
 of ace O O O det 27
 a ace B-1_PER B-2_Individual O nmod:poss 30
 conservative ace I-1_PER I-2_Individual O case 27
@@ -6109,7 +6109,7 @@ Citizen ace I-1_ORG I-2_Media O appos 6
 since ace O O O mark 14
 it ace B-1_ORG B-2_Media O nsubjpass 14
 was ace O O O auxpass 14
-founded ace O O B-Business_Start_Org advcl:since 5
+founded ace O O O advcl:since 5
 a ace B-1_TIM B-2_time O det 16
 decade ace I-1_TIM I-2_time O nmod:npmod 17
 ago ace I-1_TIM I-2_time O advmod 14
@@ -6163,7 +6163,7 @@ conservative ace I-1_PER I-2_Group O amod 13
 city ace B-1_GPE B-2_Population_Center O compound 13
 council ace I-1_PER I-2_Group O nsubjpass 15
 was ace O O O auxpass 15
-elected ace O O B-Personnel_Elect conj:but 3
+elected ace O O O conj:but 3
 in ace O O O case 18
 the ace O O O det 18
 February ace B-1_TIM B-2_time O nmod:in 15
@@ -6201,7 +6201,7 @@ among ace O O O punct 1
 conservatives ace B-1_PER B-2_Group O auxpass 12
 , ace O O O ROOT -1
 was ace O O O dobj 12
-appointed ace O O B-Personnel_Start_Position case 15
+appointed ace O O O case 15
 mayor ace B-1_PER B-2_Individual O nmod:on 12
 on ace O O O cc 12
 Saturday ace B-1_TIM B-2_time O det 18
@@ -6226,11 +6226,11 @@ considered ace O O O case 38
 inevitable ace O O O det 38
 given ace O O O compound 38
 the ace O O O nmod:given 12
-election ace O O B-Personnel_Elect punct 12
+election ace O O O punct 12
 result ace O O O O O
 . ace O O O O O
 
-Founded ace O O B-Business_Start_Org advcl 9
+Founded ace O O O advcl 9
 by ace O O O case 5
 former ace B-1_TIM B-2_time O amod 5
 mayor ace I-1_PER I-2_Individual O compound 5
@@ -6299,7 +6299,7 @@ it ace B-1_ORG B-2_Commercial O nsubj:xsubj 10
 had ace O O O aux 8
 agreed ace O O O ccomp 3
 to ace O O O mark 10
-buy ace O O B-Transaction_Transfer_Ownership xcomp 8
+buy ace O O O xcomp 8
 Spanish ace B-1_ORG B-2_Commercial O amod 14
 rival ace I-1_ORG I-2_Commercial O amod 14
 Banco ace I-1_ORG I-2_Commercial O compound 14
@@ -6319,7 +6319,7 @@ cash ace O O O nmod:in 10
 
 " ace O O O punct 40
 The ace O O O det 2
-combination ace O O B-Transaction_Transfer_Ownership nsubj 13
+combination ace O O O nsubj 13
 of ace O O O case 6
 the ace O O O det 6
 banking ace O O O compound 6
@@ -6365,7 +6365,7 @@ statement ace O O O nmod:in 40
 
 " ace O O O punct 25
 The ace O O O det 2
-acquisition ace O O B-Transaction_Transfer_Ownership nsubj 6
+acquisition ace O O O nsubj 6
 of ace O O O case 5
 Banco ace B-1_ORG B-2_Commercial O compound 5
 Zaragozano ace I-1_ORG I-2_Commercial O nmod:of 2
@@ -6374,7 +6374,7 @@ on ace O O O case 10
 our ace B-1_ORG B-2_Commercial O nmod:poss 10
 existing ace O O O amod 10
 business ace O O O nmod:on 6
-creating ace O O B-Business_Start_Org acl 10
+creating ace O O O acl 10
 the ace B-1_ORG B-2_Commercial O det 18
 sixth ace I-1_ORG I-2_Commercial O amod 18
 largest ace I-1_ORG I-2_Commercial O dep 15
@@ -6447,7 +6447,7 @@ in ace O O O case 10
 favour ace O O O nmod:in 8
 of ace O O O case 13
 the ace O O O det 13
-transaction ace O O B-Transaction_Transfer_Ownership nmod:of 10
+transaction ace O O O nmod:of 10
 and ace O O O cc 8
 have ace O O O aux 16
 committed ace O O O conj:and 8
@@ -6486,7 +6486,7 @@ offer ace O O O dobj 21
 . ace O O O punct 17
 
 The ace O O O det 1
-takeover ace O O B-Transaction_Transfer_Ownership nsubjpass:xsubj 19
+takeover ace O O O nsubjpass:xsubj 19
 , ace O O O punct 1
 which ace O O O ref 1
 is ace O O O cop 5
@@ -6546,13 +6546,13 @@ attend ace O O O xcomp 7
 his ace B-1_PER B-2_Individual O nmod:poss 15
 daughter ace I-1_PER I-2_Individual O nmod:poss 18
 's ace O O O case 15
-wedding ace O O B-Life_Marry compound 18
+wedding ace O O O compound 18
 ceremony ace O O O dobj 13
 Friday ace B-1_TIM B-2_time O nmod:tmod 13
 after ace O O O case 23
 his ace B-1_PER B-2_Individual O nmod:poss 23
 bail ace O O O compound 23
-hearing ace O O B-Justice_Trial_Hearing nmod:after 13
+hearing ace O O O nmod:after 13
 , ace O O O punct 27
 his ace B-1_PER B-2_Individual O nmod:poss 26
 lawyer ace I-1_PER I-2_Individual O nsubj 27
@@ -6566,7 +6566,7 @@ be ace O O O auxpass 3
 taken ace O O O ccomp 32
 to ace O O O case 7
 the ace B-1_ORG B-2_Government O det 7
-appeal ace I-1_ORG I-2_Government B-Justice_Appeal compound 7
+appeal ace I-1_ORG I-2_Government O compound 7
 court ace I-1_ORG I-2_Government O nmod:to 3
 early ace B-1_TIM B-2_time O amod 9
 Friday ace I-1_TIM I-2_time O nmod:tmod 3
@@ -6576,7 +6576,7 @@ bail ace O O O compound 13
 application ace O O O nmod:for 3
 pending ace O O O case 16
 his ace B-1_PER B-2_Individual O nmod:poss 16
-appeal ace O O B-Justice_Appeal nmod:pending 13
+appeal ace O O O nmod:pending 13
 to ace O O O case 19
 the ace B-1_GPE B-2_Nation O det 19
 country ace I-1_GPE I-2_Nation O nmod:'s 16
@@ -6587,7 +6587,7 @@ Court ace O O O nsubj 24
 againt ace O O O acl:relcl 19
 his ace B-1_PER B-2_Individual O nmod:poss 27
 sodomy ace B-1_Crime B-2_ O compound 27
-conviction ace O O B-Justice_Convict dobj 24
+conviction ace O O O dobj 24
 , ace O O O punct 32
 counsel ace B-1_PER B-2_Individual O compound 31
 Sankara ace I-1_PER I-2_Individual O compound 31
@@ -6605,14 +6605,14 @@ for ace O O O case 7
 Anwar ace B-1_PER B-2_Individual O nmod:for 3
 to ace O O O mark 10
 be ace O O O auxpass 10
-taken ace O O B-Movement_Transport advcl:to 3
+taken ace O O O advcl:to 3
 home ace B-1_FAC B-2_Building_Grounds O dobj 10
 later ace B-1_TIM B-2_time O advmod 10
 in ace I-1_TIM I-2_time O case 15
 the ace I-1_TIM I-2_time O det 15
 afternoon ace I-1_TIM I-2_time O nmod:in 10
 to ace O O O mark 17
-marry ace O O B-Life_Marry acl:to 15
+marry ace O O O acl:to 15
 his ace B-1_PER B-2_Individual O nmod:poss 20
 eldest ace I-1_PER I-2_Individual O amod 20
 daughter ace I-1_PER I-2_Individual O nsubj:xsubj 26
@@ -6637,7 +6637,7 @@ said ace O O O ROOT -1
 . ace O O O punct 38
 
 But ace O O O cc 4
-this ace O O B-Movement_Transport nsubj 4
+this ace O O O nsubj 4
 is ace O O O cop 4
 also ace O O O advmod 4
 conditional ace O O O ROOT -1
@@ -6694,7 +6694,7 @@ former ace B-1_TIM B-2_time O amod 3
 deputy ace I-1_PER I-2_Individual O compound 3
 premier ace I-1_PER I-2_Individual O nsubjpass 15
 , ace I-1_PER I-2_Individual O punct 3
-sacked ace I-1_PER I-2_Individual B-Personnel_End_Position acl 3
+sacked ace I-1_PER I-2_Individual O acl 3
 by ace I-1_PER I-2_Individual O case 10
 Prime ace I-1_PER I-2_Individual O compound 10
 Minister ace I-1_PER I-2_Individual O compound 10
@@ -6704,7 +6704,7 @@ in ace I-1_PER I-2_Individual O case 12
 1998 ace B-1_TIM B-2_time O nmod:in 10
 , ace O O O punct 3
 was ace O O O auxpass 15
-sentenced ace O O B-Justice_Sentence ROOT -1
+sentenced ace O O O ROOT -1
 to ace O O O case 20
 a ace B-1_Sentence B-2_ O det 20
 total ace I-1_Sentence I-2_ O amod 20
@@ -6714,7 +6714,7 @@ in ace I-1_Sentence I-2_ O case 22
 jail ace I-1_Sentence I-2_ O nmod:in 20
 after ace O O O mark 25
 being ace O O O auxpass 25
-convicted ace O O B-Justice_Convict advcl:after 15
+convicted ace O O O advcl:after 15
 of ace O O O case 27
 corruption ace B-1_Crime B-2_ O nmod:of 25
 and ace O O O cc 27
@@ -6730,7 +6730,7 @@ prison ace O O O nmod:in 3
 on ace O O O case 9
 a ace O O O det 9
 corruption ace B-1_Crime B-2_ O compound 9
-charge ace O O B-Justice_Sentence nmod:on 1
+charge ace O O O nmod:on 1
 last ace B-1_TIM B-2_time O amod 11
 month ace I-1_TIM I-2_time O nmod:tmod 1
 and ace O O O cc 1
@@ -6742,25 +6742,25 @@ nine ace B-1_TIM B-2_time O amod 19
 - ace I-1_Sentence I-2_ O compound 19
 year ace I-1_Sentence I-2_ O dobj 15
 sodomy ace B-1_Crime B-2_ O punct 1
-sentence ace O O B-Justice_Sentence O O
+sentence ace O O O O O
 . ace O O O O O
 
 He ace B-1_PER B-2_Individual O nsubj 1
 lost ace O O O ROOT -1
 an ace O O O det 4
-appeal ace O O B-Justice_Appeal compound 4
+appeal ace O O O compound 4
 case ace O O O dobj 1
 on ace O O O case 8
 his ace B-1_PER B-2_Individual O nmod:poss 8
 sodomy ace B-1_Crime B-2_ O amod 8
-sentence ace O O B-Justice_Sentence nmod:on 1
+sentence ace O O O nmod:on 1
 on ace O O O case 10
 April ace B-1_TIM B-2_time O nmod:on 1
 18 ace I-1_TIM I-2_time O nummod 10
 . ace O O O punct 1
 
 Another ace O O O det 1
-appeal ace O O B-Justice_Appeal nsubj 4
+appeal ace O O O nsubj 4
 is ace O O O aux 4
 now ace B-1_TIM B-2_time O advmod 4
 pending ace O O O ROOT -1
@@ -6823,7 +6823,7 @@ British ace B-1_GPE B-2_Nation O compound 5
 budget ace I-1_ORG I-2_Commercial O nsubj 14
 cinema ace B-1_FAC B-2_Building_Grounds O acl 5
 chain ace I-1_ORG I-2_Commercial O case 9
-launched ace I-1_ORG I-2_Commercial B-Business_Start_Org det 9
+launched ace I-1_ORG I-2_Commercial O det 9
 by ace I-1_ORG I-2_Commercial O nmod:by 6
 the ace B-1_PER B-2_Individual O case 13
 founder ace I-1_PER I-2_Individual O amod 13
@@ -6948,8 +6948,8 @@ Haji ace I-1_PER I-2_Individual O nsubj:xsubj 25
 Ioannou ace I-1_PER I-2_Individual O ref 3
 , ace I-1_PER I-2_Individual O acl:relcl 3
 who ace B-1_PER B-2_Individual O compound:prt 6
-set ace I-1_PER I-2_Individual B-Business_Start_Org dobj 6
-up ace I-1_PER I-2_Individual I-Business_Start_Org case 10
+set ace I-1_PER I-2_Individual O dobj 6
+up ace I-1_PER I-2_Individual O case 10
 easyJet ace B-1_ORG B-2_Commercial O nmod:in 8
 in ace I-1_PER I-2_Individual O cc 6
 1995 ace B-1_TIM B-2_time O conj:and 6
@@ -6969,7 +6969,7 @@ vowed ace O O O xcomp 23
 to ace O O O amod 27
 take ace O O O dobj 25
 legal ace O O O case 31
-action ace O O B-Justice_Sue det 31
+action ace O O O det 31
 against ace O O O compound 31
 the ace B-1_ORG B-2_Commercial O nmod:against 25
 distribution ace I-1_ORG I-2_Commercial O mark 34
@@ -6999,7 +6999,7 @@ de ace O O O xcomp 12
 - ace O O O det 16
 rail ace O O O dobj 14
 the ace O O O case 21
-debut ace O O B-Business_Start_Org nmod:poss 21
+debut ace O O O nmod:poss 21
 of ace O O O case 18
 easyCinema ace B-1_ORG B-2_Entertainment O amod 21
 's ace I-1_ORG I-2_Entertainment O nmod:of 16
@@ -7018,7 +7018,7 @@ which ace B-1_ORG B-2_Entertainment O acl:relcl 29
 is ace I-1_ORG I-2_Entertainment O mark 35
 due ace I-1_ORG I-2_Entertainment O xcomp 33
 to ace I-1_ORG I-2_Entertainment O nmod:poss 37
-open ace I-1_ORG I-2_Entertainment B-Business_Start_Org dobj 35
+open ace I-1_ORG I-2_Entertainment O dobj 35
 its ace B-1_ORG B-2_Entertainment O case 39
 doors ace I-1_ORG I-2_Entertainment O nmod:on 35
 on ace O O O nummod 39
@@ -7263,7 +7263,7 @@ East ace I-1_GPE I-2_GPE_Cluster O amod 16
 peace ace O O O compound 16
 process ace O O O nmod:in 7
 during ace O O O case 18
-talks ace O O B-Contact_Meet nmod:during 7
+talks ace O O O nmod:during 7
 with ace O O O case 29
 his ace B-1_PER B-2_Individual O nmod:poss 29
 Qatari ace I-1_PER I-2_Individual O compound 29
@@ -7298,7 +7298,7 @@ relationship ace O O O nsubj 28
 with ace O O O case 20
 the ace B-1_PER B-2_Individual O det 20
 recently ace B-1_TIM B-2_time O advmod 17
-appointed ace I-1_PER I-2_Individual B-Personnel_Start_Position amod 20
+appointed ace I-1_PER I-2_Individual O amod 20
 Palestinian ace B-1_Job_Title B-2_ O amod 20
 prime ace I-1_Job_Title I-2_ O amod 20
 minister ace I-1_Job_Title I-2_ O nmod:with 13
@@ -7316,7 +7316,7 @@ peace ace O O O nmod:for 28
 
 " ace O O O punct 2
 We ace B-1_PER B-2_Group O nsubj 2
-discussed ace O O B-Contact_Meet ROOT -1
+discussed ace O O O ROOT -1
 the ace O O O det 7
 Middle ace B-1_GPE B-2_GPE_Cluster O amod 5
 East ace I-1_GPE I-2_GPE_Cluster O amod 7
@@ -7328,7 +7328,7 @@ Over ace B-1_TIM B-2_time O case 2
 an ace I-1_TIM I-2_time O det 2
 hour ace I-1_TIM I-2_time O nmod:over 7
 of ace O O O case 4
-talks ace O O B-Contact_Meet nmod:of 2
+talks ace O O O nmod:of 2
 , ace O O O punct 7
 we ace B-1_PER B-2_Group O nsubj 7
 asserted ace O O O ccomp 32
@@ -7398,7 +7398,7 @@ name ace O O O dobj 19
 . ace O O O punct 17
 
 The ace O O O det 1
-meeting ace O O B-Contact_Meet nsubj 6
+meeting ace O O O nsubj 6
 was ace O O O cop 6
 Shalom ace B-1_PER B-2_Individual O nmod:poss 6
 's ace O O O case 3
@@ -7410,8 +7410,8 @@ Arab ace I-1_PER I-2_Individual O compound 10
 counterpart ace I-1_PER I-2_Individual O nmod:with 6
 since ace O O O mark 13
 he ace B-1_PER B-2_Individual O nsubj 13
-took ace O O B-Personnel_Start_Position advcl:since 6
-office ace O O I-Personnel_Start_Position dobj 13
+took ace O O O advcl:since 6
+office ace O O O dobj 13
 as ace O O O case 19
 Israel ace B-1_Job_Title B-2_ O nmod:poss 19
 's ace I-1_Job_Title I-2_ O case 16
@@ -7448,12 +7448,12 @@ Afterwards ace O O O advmod 2
 Shalom ace B-1_PER B-2_Individual O nsubj:xsubj 4
 was ace O O O ROOT -1
 to ace O O O mark 4
-fly ace O O B-Movement_Transport xcomp 2
+fly ace O O O xcomp 2
 on ace O O O case 7
 to ace O O O case 7
 London ace B-1_GPE B-2_Population_Center O nmod:to 4
 for ace O O O case 9
-talks ace O O B-Contact_Meet nmod:for 7
+talks ace O O O nmod:for 7
 with ace O O O case 15
 British ace B-1_GPE B-2_Nation O amod 15
 Prime ace I-1_PER I-2_Individual O compound 15
@@ -7556,7 +7556,7 @@ to ace O O O mark 25
 pay ace O O O xcomp 23
 the ace O O O det 28
 largest ace O O O dep 28
-fine ace O O B-Justice_Fine dobj 25
+fine ace O O O dobj 25
 imposed ace O O O acl 28
 so ace O O O advmod 31
 far ace O O O advmod 29
@@ -7595,7 +7595,7 @@ the ace O O O det 6
 amount ace O O O dobj 4
 of ace O O O case 9
 the ace O O O det 9
-fine ace O O B-Justice_Fine nmod:of 6
+fine ace O O O nmod:of 6
 , ace O O O punct 4
 but ace O O O cc 4
 said ace O O O dep 27
@@ -7613,7 +7613,7 @@ historic ace O O O amod 25
 million ace I-1_Numeric I-2_Money O nummod 25
 dollars ace I-1_Numeric I-2_Money O nmod:than 18
 Xerox ace B-1_ORG B-2_Commercial O nsubj 27
-paid ace O O B-Transaction_Transfer_Money ROOT -1
+paid ace O O O ROOT -1
 the ace B-1_ORG B-2_Government O det 29
 SEC ace I-1_ORG I-2_Government O dobj 27
 last ace B-1_TIM B-2_time O amod 31
@@ -7626,7 +7626,7 @@ month ace I-1_TIM I-2_time O nmod:tmod 5
 the ace B-1_ORG B-2_Government O det 4
 SEC ace I-1_ORG I-2_Government O nsubj 5
 slapped ace O O O ROOT -1
-fines ace O O B-Justice_Fine dobj 5
+fines ace O O O dobj 5
 totaling ace O O O acl 6
 1.4 ace B-1_Numeric B-2_Money O compound 9
 billion ace I-1_Numeric I-2_Money O nummod 10
@@ -7638,7 +7638,7 @@ Street ace I-1_LOC I-2_Region_General O compound 15
 brokerages ace I-1_ORG I-2_Commercial O nmod:on 10
 to ace O O O mark 17
 settle ace O O O advcl:to 7
-charges ace O O B-Justice_Charge_Indict dobj 17
+charges ace O O O dobj 17
 of ace O O O case 20
 conflicts ace B-1_Crime B-2_ O nmod:of 18
 of ace I-1_Crime I-2_ O case 22
@@ -7757,7 +7757,7 @@ a ace O O O det 27
 400-million ace B-1_Numeric B-2_Money O amod 27
 - ace O O O nmod:on 15
 dollar ace O O O case 29
-loan ace O O B-Transaction_Transfer_Money nmod:from 12
+loan ace O O O nmod:from 12
 from ace O O O punct 7
 MCI ace B-1_ORG B-2_Commercial O det 32
 , ace O O O nsubj 33
@@ -7789,14 +7789,14 @@ Ebbers ace B-1_PER B-2_Individual O nmod:by 12
 to ace O O O mark 17
 secure ace O O O xcomp 12
 the ace O O O det 19
-loan ace O O B-Transaction_Transfer_Money dobj 17
+loan ace O O O dobj 17
 . ace O O O punct 9
 
 The ace B-1_ORG B-2_Commercial O det 1
 company ace I-1_ORG I-2_Commercial O nsubj 17
 has ace O O O aux 4
 already ace O O O advmod 4
-sold ace O O B-Transaction_Transfer_Ownership ccomp 39
+sold ace O O O ccomp 39
 his ace B-1_ORG B-2_Commercial O nmod:poss 9
 Georgia ace B-1_GPE B-2_State_or_Province O amod 9
 - ace I-1_ORG I-2_Commercial O compound 9
@@ -7813,7 +7813,7 @@ and ace O O O ccomp 39
 is ace O O O mark 19
 close ace O O O advcl:to 17
 to ace O O O nmod:poss 21
-selling ace O O B-Transaction_Transfer_Ownership dobj 19
+selling ace O O O dobj 19
 his ace B-1_FAC B-2_Building_Grounds O case 24
 ranch ace I-1_FAC I-2_Building_Grounds O amod 24
 in ace I-1_FAC I-2_Building_Grounds O nsubj:xsubj 30
@@ -7943,7 +7943,7 @@ Iraq ace B-1_GPE B-2_Nation O nmod:poss 4
 majority ace I-1_PER I-2_Group O nsubj:xsubj 15
 Shiite ace B-1_PER B-2_Group O compound 6
 Muslims ace O O O nsubj:xsubj 15
-marched ace O O B-Conflict_Demonstrate ROOT -1
+marched ace O O O ROOT -1
 to ace O O O case 11
 their ace B-1_FAC B-2_Building_Grounds O nmod:poss 11
 main ace I-1_FAC I-2_Building_Grounds O amod 11
@@ -7997,7 +7997,7 @@ regime ace O O O O O
 
 The ace B-1_PER B-2_Group O det 1
 crowd ace I-1_PER I-2_Group O nsubj 16
-filled ace O O B-Conflict_Demonstrate ROOT -1
+filled ace O O O ROOT -1
 the ace B-1_FAC B-2_Path O det 4
 street ace I-1_FAC I-2_Path O dobj 2
 leading ace I-1_FAC I-2_Path O amod 4
@@ -8111,7 +8111,7 @@ Islam ace I-1_GPE I-2_Nation O punct 25
 " ace O O O O O
 
 The ace O O O det 1
-demonstration ace O O B-Conflict_Demonstrate nsubj 2
+demonstration ace O O O nsubj 2
 came ace O O O ROOT -1
 as ace O O O mark 11
 Iraq ace B-1_PER B-2_Individual O nmod:poss 10
@@ -8155,7 +8155,7 @@ law ace O O O nsubj 19
 and ace O O O cc 15
 order ace O O O nsubj 19
 that ace O O O ref 15
-crumbled ace O O B-Business_End_Org acl:relcl 15
+crumbled ace O O O acl:relcl 15
 along ace O O O advmod 19
 with ace O O O case 25
 Saddam ace B-1_PER B-2_Individual O compound 23
@@ -8187,7 +8187,7 @@ rampant ace O O O amod 16
 crime ace O O O dobj 13
 and ace O O O cc 16
 street ace B-1_FAC B-2_Path O compound 19
-violence ace O O B-Conflict_Attack conj:and 16
+violence ace O O O conj:and 16
 plaguing ace O O O acl 16
 the ace B-1_GPE B-2_Nation O det 22
 country ace I-1_GPE I-2_Nation O dobj 20
@@ -8219,7 +8219,7 @@ the ace O O O det 23
 end ace O O O nmod:since 17
 of ace O O O case 26
 the ace O O O det 26
-war ace O O B-Conflict_Attack nmod:of 23
+war ace O O O nmod:of 23
 , ace O O O punct 31
 ordinary ace B-1_PER B-2_Group O amod 29
 Iraqis ace I-1_PER I-2_Group O nsubj 31
@@ -8480,7 +8480,7 @@ is ace I-1_ORG I-2_Non_Governmental O aux 41
 administering ace O O O acl:relcl 34
 post ace O O O amod 43
 - ace O O O dobj 41
-war ace O O B-Conflict_Attack punct 24
+war ace O O O punct 24
 Iraq ace B-1_GPE B-2_Nation O O O
 . ace O O O O O
 
@@ -8489,7 +8489,7 @@ from ace I-1_PER I-2_Group O case 3
 Iraqi ace B-1_ORG B-2_Non_Governmental O amod 3
 groups ace I-1_ORG I-2_Non_Governmental O nsubj 5
 that ace I-1_ORG I-2_Non_Governmental O ref 3
-met ace I-1_ORG I-2_Non_Governmental B-Contact_Meet acl:relcl 3
+met ace I-1_ORG I-2_Non_Governmental O acl:relcl 3
 with ace I-1_ORG I-2_Non_Governmental O case 7
 Bremer ace I-1_ORG I-2_Non_Governmental O nmod:with 5
 last ace B-1_TIM B-2_time O amod 9
@@ -8550,7 +8550,7 @@ wo ace O O O aux 24
 n't ace O O O neg 24
 be ace O O O auxpass 24
 directly ace O O O advmod 24
-elected ace O O B-Personnel_Elect xcomp 15
+elected ace O O O xcomp 15
 , ace O O O punct 24
 you ace B-1_PER B-2_Group O nsubj 29
 wo ace O O O aux 29
@@ -8586,7 +8586,7 @@ you ace B-1_PER B-2_Group O nsubjpass 18
 are ace O O O auxpass 18
 not ace O O O neg 18
 directly ace O O O advmod 18
-elected ace O O B-Personnel_Elect advcl:since 6
+elected ace O O O advcl:since 6
 , ace O O O punct 6
 it ace O O O nsubj 24
 would ace O O O aux 24
@@ -8648,7 +8648,7 @@ for ace O O O case 14
 internationally ace O O O amod 14
 - ace O O O nmod:for 11
 supervised ace O O O case 16
-elections ace O O B-Personnel_Elect nmod:in 14
+elections ace O O O nmod:in 14
 in ace O O O punct 2
 Iraq ace B-1_GPE B-2_Nation O O O
 . ace O O O O O
@@ -8661,7 +8661,7 @@ onetime ace I-1_PER I-2_Individual O amod 6
 foreign ace I-1_PER I-2_Individual O amod 6
 minister ace I-1_PER I-2_Individual O nsubj 8
 who ace B-1_PER B-2_Individual O ref 6
-returned ace I-1_PER I-2_Individual B-Movement_Transport acl:relcl 6
+returned ace I-1_PER I-2_Individual O acl:relcl 6
 to ace I-1_PER I-2_Individual O case 10
 Iraq ace I-1_PER I-2_Individual O nmod:to 8
 on ace B-1_TIM B-2_time O case 12
@@ -8681,7 +8681,7 @@ Az ace I-1_ORG I-2_Media O dobj 20
 Zaman ace O O O mark 29
 daily ace O O O nsubjpass 29
 that ace O O O aux 29
-elections ace O O B-Personnel_Elect auxpass 29
+elections ace O O O auxpass 29
 should ace O O O ccomp 20
 be ace O O O case 32
 held ace O O O amod 32
@@ -8706,7 +8706,7 @@ the ace O O O det 13
 way ace O O O dobj 11
 for ace O O O case 16
 direct ace O O O amod 16
-elections ace O O B-Personnel_Elect nmod:for 13
+elections ace O O O nmod:for 13
 to ace O O O case 20
 a ace B-1_ORG B-2_Government O det 20
 constituent ace I-1_ORG I-2_Government O compound 20
@@ -8731,7 +8731,7 @@ constitution ace O O O nmod:on 1
 would ace O O O aux 6
 lead ace O O O ccomp 17
 to ace O O O case 8
-elections ace O O B-Personnel_Elect nmod:to 6
+elections ace O O O nmod:to 6
 for ace O O O case 12
 a ace B-1_GPE B-2_Nation O det 12
 new ace I-1_GPE I-2_Nation O amod 12
@@ -8990,11 +8990,11 @@ first ace O O O amod 19
 foreign ace O O O amod 19
 destination ace O O O xcomp 14
 since ace O O O mark 21
-becoming ace O O B-Personnel_Start_Position acl:since 19
+becoming ace O O O acl:since 19
 leader ace B-1_PER B-2_Individual O xcomp 21
 in ace O O O case 25
 a ace O O O det 25
-visit ace O O B-Movement_Transport nsubj 28
+visit ace O O O nsubj 28
 that ace O O O ref 25
 could ace O O O aux 28
 seal ace O O O acl:relcl 25
@@ -9017,7 +9017,7 @@ in ace I-1_PER I-2_Individual O case 10
 March ace B-1_TIM B-2_time O nmod:in 8
 , ace O O O punct 0
 will ace O O O aux 13
-meet ace O O B-Contact_Meet ROOT -1
+meet ace O O O ROOT -1
 his ace B-1_PER B-2_Individual O nmod:poss 18
 Russian ace I-1_PER I-2_Individual O amod 18
 counterpart ace I-1_PER I-2_Individual O compound 18
@@ -9045,9 +9045,9 @@ on ace O O O case 8
 for ace O O O case 8
 a ace O O O det 8
 regional ace O O O amod 8
-summit ace O O B-Contact_Meet nmod:for 3
+summit ace O O O nmod:for 3
 before ace O O O mark 10
-heading ace O O B-Movement_Transport advcl:before 3
+heading ace O O O advcl:before 3
 to ace O O O case 13
 Saint ace B-1_GPE B-2_Population_Center O compound 13
 Petersburg ace I-1_GPE I-2_Population_Center O nmod:to 10
@@ -9067,7 +9067,7 @@ founding ace O O O nmod:of 19
 " ace O O O punct 10
 This ace O O O det 3
 upcoming ace O O O amod 3
-visit ace O O B-Movement_Transport nsubj 10
+visit ace O O O nsubj 10
 to ace O O O case 5
 Russia ace B-1_GPE B-2_Nation O nmod:to 3
 will ace O O O aux 10
@@ -9078,7 +9078,7 @@ trip ace O O O ROOT -1
 aboard ace O O O advmod 10
 since ace O O O mark 14
 I ace B-1_PER B-2_Individual O nsubj 14
-became ace O O B-Personnel_Start_Position advcl:since 10
+became ace O O O advcl:since 10
 president ace B-1_Job_Title B-2_ O xcomp 14
 of ace I-1_PER I-2_Individual O case 17
 China ace I-1_PER I-2_Individual O nmod:of 15
@@ -9120,7 +9120,7 @@ agency ace O O O nmod:with 22
 
 " ace O O O punct 26
 Our ace B-1_PER B-2_Group O nmod:poss 2
-discussions ace O O B-Contact_Meet nsubj 4
+discussions ace O O O nsubj 4
 should ace O O O aux 4
 strengthen ace O O O ccomp 26
 political ace O O O amod 6
@@ -9157,7 +9157,7 @@ a ace O O O det 6
 warm ace O O O amod 6
 relationship ace O O O dobj 3
 with ace O O O case 12
-former ace B-1_TIM B-2_time B-Personnel_End_Position amod 12
+former ace B-1_TIM B-2_time O amod 12
 Chinese ace I-1_PER I-2_Individual O amod 12
 president ace I-1_PER I-2_Individual O compound 12
 Jiang ace I-1_PER I-2_Individual O compound 12
@@ -9178,7 +9178,7 @@ first ace I-1_PER I-2_Individual O amod 27
 world ace I-1_PER I-2_Individual O compound 27
 leader ace I-1_PER I-2_Individual O conj:and 15
 to ace I-1_PER I-2_Individual O mark 29
-go ace I-1_PER I-2_Individual B-Movement_Transport advcl:to 27
+go ace I-1_PER I-2_Individual O advcl:to 27
 to ace I-1_PER I-2_Individual O case 31
 Beijing ace I-1_PER I-2_Individual O nmod:to 29
 to ace I-1_PER I-2_Individual O mark 33
@@ -9260,7 +9260,7 @@ US ace B-1_GPE B-2_Nation O amod 20
 led ace O O O mark 22
 campaign ace O O O advcl:to 2
 to ace O O O compound 24
-topple ace O O B-Conflict_Attack dobj 22
+topple ace O O O dobj 22
 Saddam ace B-1_PER B-2_Individual O case 26
 Hussein ace I-1_PER I-2_Individual O nmod:in 24
 in ace O O O punct 2
@@ -9297,7 +9297,7 @@ Bush ace I-1_PER I-2_Individual O nmod:apart_from 28
 to ace O O O mark 28
 hold ace O O O advcl:to 19
 a ace O O O det 30
-summit ace O O B-Contact_Meet dobj 28
+summit ace O O O dobj 28
 with ace O O O case 32
 Putin ace B-1_PER B-2_Individual O nmod:with 30
 in ace O O O mark 36
@@ -9655,7 +9655,7 @@ both ace B-1_GPE B-2_Nation O det 22
 sides ace I-1_GPE I-2_Nation O nsubj 23
 opposed ace O O O ccomp 19
 the ace O O O det 25
-war ace O O B-Conflict_Attack dobj 23
+war ace O O O dobj 23
 in ace O O O case 27
 Iraq ace B-1_GPE B-2_Nation O nmod:in 23
 . ace O O O punct 2
@@ -9762,7 +9762,7 @@ President ace I-1_PER I-2_Individual O compound 4
 George ace I-1_PER I-2_Individual O compound 4
 W. ace I-1_PER I-2_Individual O compound 4
 Bush ace I-1_PER I-2_Individual O nsubj 5
-told ace O O B-Contact_Phone_Write ccomp 35
+told ace O O O ccomp 35
 Canadian ace B-1_PER B-2_Individual O amod 10
 Prime ace I-1_PER I-2_Individual O compound 10
 Minister ace I-1_PER I-2_Individual O compound 10
@@ -9781,7 +9781,7 @@ him ace B-1_PER B-2_Individual O dobj 19
 at ace O O O case 24
 the ace O O O det 24
 upcoming ace O O O amod 24
-summit ace O O B-Contact_Meet nmod:at 19
+summit ace O O O nmod:at 19
 of ace O O O case 28
 major ace B-1_GPE B-2_GPE_Cluster O amod 28
 industrialized ace I-1_GPE I-2_GPE_Cluster O amod 28
@@ -9800,11 +9800,11 @@ Tuesday ace B-1_TIM B-2_time O nmod:tmod 35
 The ace B-1_PER B-2_Group O det 3
 two ace I-1_PER I-2_Group O nummod 3
 leaders ace I-1_PER I-2_Group O nsubj 4
-discussed ace O O B-Contact_Phone_Write ccomp 26
+discussed ace O O O ccomp 26
 the ace O O O det 8
 upcoming ace O O O amod 8
 G-8 ace B-1_GPE B-2_GPE_Cluster O compound 8
-meeting ace O O B-Contact_Meet dobj 4
+meeting ace O O O dobj 4
 , ace O O O punct 8
 US ace B-1_GPE B-2_Nation O amod 12
 - ace O O O punct 12
@@ -9832,7 +9832,7 @@ June ace I-1_TIM I-2_time O nmod:before 26
 1 ace I-1_TIM I-2_time O punct 26
 - ace I-1_TIM I-2_time O mark 36
 3 ace O O O auxpass 36
-summit ace O O B-Contact_Meet advcl:to 26
+summit ace O O O advcl:to 26
 , ace O O O case 38
 to ace O O O nmod:in 36
 be ace O O O punct 26
@@ -9887,7 +9887,7 @@ in ace O O O case 4
 relations ace O O O nmod:in 2
 over ace O O O case 7
 the ace O O O det 7
-war ace O O B-Conflict_Attack nmod:over 4
+war ace O O O nmod:over 4
 in ace O O O case 9
 Iraq ace B-1_GPE B-2_Nation O nmod:in 7
 , ace O O O punct 2
@@ -9899,7 +9899,7 @@ Bush ace B-1_PER B-2_Individual O nsubj 17
 indefinitely ace O O O advmod 17
 postponed ace O O O ROOT -1
 a ace O O O det 19
-visit ace O O B-Movement_Transport dobj 17
+visit ace O O O dobj 17
 to ace O O O case 21
 Canada ace B-1_GPE B-2_Nation O nmod:to 17
 , ace O O O punct 17
@@ -9939,7 +9939,7 @@ since ace O O O case 17
 late ace B-1_TIM B-2_time O amod 17
 February ace I-1_TIM I-2_time O nmod:since 14
 , ace O O O punct 7
-discussed ace O O B-Contact_Phone_Write ccomp 4
+discussed ace O O O ccomp 4
 a ace O O O det 22
 wide ace O O O amod 22
 range ace O O O dobj 19
@@ -9951,7 +9951,7 @@ Iraq ace B-1_GPE B-2_Nation O nmod:including 19
 , ace O O O punct 27
 the ace O O O det 31
 upcoming ace O O O amod 31
-summit ace O O B-Contact_Meet appos 27
+summit ace O O O appos 27
 of ace O O O case 34
 the ace B-1_GPE B-2_GPE_Cluster O det 34
 Group ace I-1_GPE I-2_GPE_Cluster O nmod:of 31
@@ -10006,7 +10006,7 @@ May ace B-1_TIM B-2_time O ROOT -1
 AFP ace B-1_ORG B-2_Media O appos 3
 ) ace O O O punct 6
 
-Bankrupt ace B-1_ORG B-2_Commercial B-Business_Declare_Bankruptcy amod 4
+Bankrupt ace B-1_ORG B-2_Commercial O amod 4
 energy ace I-1_ORG I-2_Commercial O compound 4
 giant ace I-1_ORG I-2_Commercial O compound 4
 Enron ace I-1_ORG I-2_Commercial O compound 4
@@ -10015,7 +10015,7 @@ is ace O O O aux 6
 considering ace O O O ccomp 30
 bringing ace O O O advcl 6
 legal ace O O O amod 9
-action ace O O B-Justice_Sue dobj 7
+action ace O O O dobj 7
 against ace O O O case 13
 its ace B-1_ORG B-2_Commercial O nmod:poss 13
 own ace I-1_ORG I-2_Commercial O amod 13
@@ -10067,7 +10067,7 @@ of ace O O O mwe 21
 motions ace O O O dobj 20
 in ace O O O case 28
 federal ace B-1_FAC B-2_Building_Grounds O amod 28
-bankruptcy ace I-1_FAC I-2_Building_Grounds B-Business_Declare_Bankruptcy compound 28
+bankruptcy ace I-1_FAC I-2_Building_Grounds O compound 28
 court ace I-1_FAC I-2_Building_Grounds O nmod:in 24
 in ace I-1_FAC I-2_Building_Grounds O case 30
 Manhattan ace B-1_GPE B-2_County_or_District O nmod:in 28
@@ -10139,7 +10139,7 @@ advisers ace I-1_ORG I-2_Commercial O nmod:with 13
 have ace O O O aux 23
 already ace O O O advmod 23
 been ace O O O auxpass 23
-sued ace O O B-Justice_Sue ROOT -1
+sued ace O O O ROOT -1
 by ace O O O case 28
 the ace B-1_PER B-2_Group O det 26
 company ace I-1_PER I-2_Group O nmod:poss 28
@@ -10395,7 +10395,7 @@ December ace B-1_TIM B-2_time O nmod:in 36
 
 The ace B-1_PER B-2_Group O det 1
 pair ace I-1_PER I-2_Group O nsubj 2
-flew ace O O B-Movement_Transport ROOT -1
+flew ace O O O ROOT -1
 to ace O O O case 4
 Singapore ace B-1_GPE B-2_Nation O nmod:to 2
 last ace B-1_TIM B-2_time O amod 6
@@ -10454,7 +10454,7 @@ both ace I-1_PER I-2_Group O conj:or 21
 of ace I-1_PER I-2_Group O case 25
 them ace B-1_PER B-2_Group O nmod:of 21
 could ace O O O aux 27
-die ace O O B-Life_Die ROOT -1
+die ace O O O ROOT -1
 . ace O O O punct 27
 
 Bush ace B-1_PER B-2_Individual O nsubj 12
@@ -10529,7 +10529,7 @@ dispute ace O O O nmod:npmod 30
 over ace O O O case 36
 the ace O O O det 36
 Iraq ace B-1_GPE B-2_Nation O compound 36
-war ace O O B-Conflict_Attack nmod:over 29
+war ace O O O nmod:over 29
 , ace O O O punct 29
 but ace O O O cc 29
 barely ace O O O advmod 40
@@ -10545,7 +10545,7 @@ program ace O O O nmod:over 43
 . ace O O O punct 3
 
 After ace O O O case 1
-talks ace O O B-Contact_Meet nmod:after 12
+talks ace O O O nmod:after 12
 in ace O O O case 8
 Saint ace B-1_GPE B-2_Population_Center O compound 4
 Petersburg ace I-1_GPE I-2_Population_Center O nmod:poss 8
@@ -10596,7 +10596,7 @@ joint ace O O O amod 10
 press ace O O O compound 10
 appearance ace O O O nmod:at 0
 after ace O O O case 12
-talks ace O O B-Contact_Meet nmod:after 0
+talks ace O O O nmod:after 0
 linked ace O O O acl 12
 to ace O O O case 20
 Saint ace B-1_GPE B-2_Population_Center O compound 16
@@ -10719,7 +10719,7 @@ US ace B-1_GPE B-2_Nation O compound 9
 concerns ace O O O nmod:over 3
 about ace O O O case 12
 Russian ace B-1_GPE B-2_Nation O amod 12
-aid ace O O B-Transaction_Transfer_Money nmod:about 3
+aid ace O O O nmod:about 3
 to ace O O O case 16
 the ace O O O det 16
 nuclear ace O O O amod 16
@@ -10837,7 +10837,7 @@ after ace O O O case 37
 the ace O O O det 37
 informal ace O O O amod 37
 summit ace O O O compound 37
-talks ace O O B-Contact_Meet nmod:after 32
+talks ace O O O nmod:after 32
 . ace O O O punct 32
 
 " ace O O O punct 3
@@ -11058,11 +11058,11 @@ the ace O O O det 18
 US ace B-1_GPE B-2_Nation O amod 18
 - ace O O O dobj 15
 led ace O O O case 20
-war ace O O B-Conflict_Attack nmod:in 15
+war ace O O O nmod:in 15
 in ace O O O punct 1
 Iraq ace B-1_GPE B-2_Nation O xcomp 1
 , ace O O O nmod:poss 28
-inviting ace O O B-Contact_Meet punct 28
+inviting ace O O O punct 28
 his ace B-1_PER B-2_Individual O amod 28
 " ace I-1_PER I-2_Individual O compound 28
 good ace I-1_PER I-2_Individual O punct 28
@@ -11084,7 +11084,7 @@ September ace B-1_TIM B-2_time O O O
 
 Putin ace B-1_PER B-2_Individual O nsubj 2
 last ace O O O amod 0
-visited ace O O B-Contact_Meet ROOT -1
+visited ace O O O ROOT -1
 Bush ace B-1_PER B-2_Individual O dobj 2
 at ace O O O case 7
 his ace B-1_FAC B-2_Building_Grounds O nmod:poss 7
@@ -11225,7 +11225,7 @@ United ace I-1_PER I-2_Individual O compound 46
 States ace I-1_PER I-2_Individual O nmod:at 39
 after ace I-1_PER I-2_Individual O case 49
 the ace I-1_PER I-2_Individual O det 49
-summit ace O O B-Contact_Meet nmod:after 39
+summit ace O O O nmod:after 39
 . ace O O O punct 33
 
 Bush ace B-1_PER B-2_Individual O nsubj 4
@@ -11267,7 +11267,7 @@ year ace I-1_TIM I-2_time O nmod:by 7
 . ace O O O punct 4
 
 Bush ace B-1_PER B-2_Individual O nsubj 1
-arrived ace O O B-Movement_Transport ROOT -1
+arrived ace O O O ROOT -1
 in ace O O O case 4
 Saint ace B-1_GPE B-2_Population_Center O compound 4
 Petersburg ace I-1_GPE I-2_Population_Center O nmod:in 1
@@ -11278,7 +11278,7 @@ when ace O O O advmod 12
 he ace B-1_PER B-2_Individual O nsubj 12
 also ace O O O advmod 12
 briefly ace O O O advmod 12
-met ace O O B-Contact_Meet advcl 1
+met ace O O O advcl 1
 German ace B-1_PER B-2_Individual O amod 16
 Chancellor ace I-1_PER I-2_Individual O compound 16
 Gerhard ace I-1_PER I-2_Individual O compound 16
@@ -11289,7 +11289,7 @@ opposition ace I-1_PER I-2_Individual O nsubj 25
 to ace I-1_PER I-2_Individual O case 23
 the ace I-1_PER I-2_Individual O det 23
 Iraq ace I-1_PER I-2_Individual O compound 23
-war ace I-1_PER I-2_Individual B-Conflict_Attack nmod:to 19
+war ace I-1_PER I-2_Individual O nmod:to 19
 had ace I-1_PER I-2_Individual O aux 25
 soured ace I-1_PER I-2_Individual O acl:relcl 16
 his ace B-1_PER B-2_Individual O nmod:poss 27
@@ -11311,17 +11311,17 @@ Putin ace B-1_PER B-2_Individual O nsubj:xsubj 6
 were ace O O O auxpass 4
 scheduled ace O O O ROOT -1
 to ace O O O mark 6
-leave ace O O B-Movement_Transport xcomp 4
+leave ace O O O xcomp 4
 straight ace O O O advmod 10
 after ace O O O case 10
 their ace B-1_PER B-2_Group O nmod:poss 10
-talks ace O O B-Contact_Meet nmod:after 6
+talks ace O O O nmod:after 6
 for ace O O O case 13
 the ace O O O det 13
 Group ace B-1_GPE B-2_Nation O nmod:for 10
 of ace I-1_GPE I-2_Nation O case 16
 Eight ace I-1_GPE I-2_Nation O nummod 16
-summit ace O O B-Contact_Meet nmod:of 13
+summit ace O O O nmod:of 13
 of ace O O O case 21
 the ace B-1_GPE B-2_Nation O det 21
 largest ace I-1_GPE I-2_Nation O amod 21
@@ -11556,7 +11556,7 @@ mid ace B-1_TIM B-2_time O nmod:since 7
 May ace O O O aux 12
 which ace O O O acl:relcl 7
 has ace O O O nummod 14
-killed ace O O B-Life_Die dobj 12
+killed ace O O O dobj 12
 1,403 ace B-1_PER B-2_Group O punct 4
 people ace I-1_PER I-2_Group O O O
 . ace O O O O O
@@ -11623,7 +11623,7 @@ a ace B-1_PER B-2_Individual O det 17
 old ace I-1_FAC I-2_Building_Grounds O case 17
 woman ace I-1_FAC I-2_Building_Grounds O amod 20
 's ace I-1_FAC I-2_Building_Grounds O nsubjpass 22
-dead ace I-1_FAC I-2_Building_Grounds B-Life_Die auxpass 22
+dead ace I-1_FAC I-2_Building_Grounds O auxpass 22
 infant ace I-1_FAC I-2_Building_Grounds O acl:relcl 13
 was ace I-1_FAC I-2_Building_Grounds O case 27
 discovered ace I-1_FAC I-2_Building_Grounds O det 27
@@ -11650,7 +11650,7 @@ told ace O O O ROOT -1
 police ace B-1_PER B-2_Group O dobj 6
 she ace B-1_PER B-2_Individual O nsubj 9
 gave ace O O O acl:relcl 7
-birth ace O O B-Life_Be_Born dobj 9
+birth ace O O O dobj 9
 secretly ace O O O advmod 9
 to ace O O O case 14
 both ace B-1_PER B-2_Group O det 14
@@ -11687,7 +11687,7 @@ January ace B-1_TIM B-2_time O nmod:tmod 9
 . ace O O O punct 6
 
 Police ace B-1_PER B-2_Group O nsubj 1
-arrested ace O O B-Justice_Arrest_Jail ROOT -1
+arrested ace O O O ROOT -1
 her ace B-1_PER B-2_Individual O dobj 1
 in ace O O O case 6
 Abilene ace B-1_GPE B-2_Population_Center O compound 6
@@ -11698,7 +11698,7 @@ Saturday ace B-1_TIM B-2_time O nmod:tmod 1
 where ace B-1_GPE B-2_Population_Center O advmod 12
 she ace B-1_PER B-2_Individual O nsubj 12
 had ace O O O aux 12
-moved ace O O B-Movement_Transport advcl 1
+moved ace O O O advcl 1
 with ace O O O case 15
 a ace B-1_PER B-2_Individual O det 15
 friend ace I-1_PER I-2_Individual O nmod:with 12
@@ -11709,31 +11709,31 @@ June ace B-1_TIM B-2_time O nmod:tmod 12
 She ace B-1_PER B-2_Individual O nsubjpass 16
 is ace O O O aux 3
 being ace O O O auxpass 3
-held ace O O B-Justice_Arrest_Jail ROOT -1
+held ace O O O ROOT -1
 on ace O O O case 6
 50,000 ace B-1_Numeric B-2_Money O nummod 6
 dollars ace I-1_Numeric I-2_Money O nmod:on 3
 bail ace O O O acl:relcl 6
 on ace O O O case 10
 a ace O O O det 10
-charge ace O O B-Justice_Charge_Indict nmod:on 7
+charge ace O O O nmod:on 7
 of ace O O O case 14
 first ace B-1_Crime B-2_ O amod 14
 - ace I-1_Crime I-2_ O amod 14
 degree ace I-1_Crime I-2_ O nmod:of 10
 reckless ace O O O cc 3
-homicide ace O O B-Life_Die conj:and 3
+homicide ace O O O conj:and 3
 and ace O O O det 18
 hiding ace B-1_Crime B-2_ O dobj 16
 a ace I-1_Crime I-2_ O case 21
 corpse ace I-1_Crime I-2_ O det 21
 in ace O O O nmod:in 16
 the ace O O O case 24
-death ace O O B-Life_Die det 24
+death ace O O O det 24
 of ace O O O nmod:of 21
 the ace B-1_PER B-2_Individual O acl 24
 infant ace I-1_PER I-2_Individual O case 27
-born ace I-1_PER I-2_Individual B-Life_Be_Born nmod:in 25
+born ace I-1_PER I-2_Individual O nmod:in 25
 in ace I-1_PER I-2_Individual O punct 3
 January ace B-1_TIM B-2_time O O O
 . ace O O O O O
@@ -11751,7 +11751,7 @@ baby ace I-1_PER I-2_Individual O nmod:to 6
 , ace O O O punct 1
 and ace O O O cc 1
 it ace B-1_PER B-2_Individual O nsubj 13
-died ace O O B-Life_Die conj:and 1
+died ace O O O conj:and 1
 after ace O O O case 16
 30 ace B-1_TIM B-2_time O nummod 16
 minutes ace I-1_TIM I-2_time O nmod:after 13
@@ -11763,7 +11763,7 @@ the ace B-1_PER B-2_Individual O det 3
 baby ace I-1_PER I-2_Individual O nsubj:xsubj 6
 had ace O O O ccomp 1
 to ace O O O mark 6
-die ace O O B-Life_Die xcomp 4
+die ace O O O xcomp 4
 , ace O O O punct 6
 according ace O O O case 12
 to ace O O O mwe 8
@@ -11814,13 +11814,13 @@ told ace O O O ROOT -1
 investigators ace B-1_PER B-2_Group O mark 44
 she ace B-1_PER B-2_Individual O nsubj 5
 had ace O O O aux 5
-moved ace O O B-Movement_Transport acl:relcl 2
+moved ace O O O acl:relcl 2
 that ace B-1_PER B-2_Individual O ref 2
 body ace I-1_PER I-2_Individual O nsubj 44
 around ace O O O mark 11
 before ace O O O mark 11
 she ace B-1_PER B-2_Individual O nsubj 11
-moved ace O O B-Movement_Transport conj:and 11
+moved ace O O O conj:and 11
 to ace O O O case 13
 Texas ace B-1_GPE B-2_State_or_Province O nmod:to 11
 , ace O O O punct 13
@@ -11896,7 +11896,7 @@ on ace O O O case 4
 Tuesday ace B-1_TIM B-2_time O nmod:on 2
 filed ace O O O ccomp 25
 for ace O O O case 7
-divorce ace O O B-Life_Divorce nmod:for 5
+divorce ace O O O nmod:for 5
 from ace O O O case 12
 her ace B-1_PER B-2_Individual O nmod:poss 12
 estranged ace I-1_PER I-2_Individual O amod 12
@@ -11923,7 +11923,7 @@ Hunter ace B-1_PER B-2_Individual O nsubj 4
 , ace O O O punct 0
 filed ace O O O ROOT -1
 for ace O O O case 6
-divorce ace O O B-Life_Divorce nmod:for 4
+divorce ace O O O nmod:for 4
 in ace O O O case 11
 Los ace B-1_ORG B-2_Government O compound 11
 Angeles ace I-1_ORG I-2_Government O compound 11
@@ -11945,7 +11945,7 @@ whom ace B-1_PER B-2_Individual O aux 26
 she ace B-1_PER B-2_Individual O auxpass 26
 has ace I-1_PER I-2_Individual O acl:relcl 20
 been ace I-1_PER I-2_Individual O case 30
-married ace I-1_PER I-2_Individual B-Life_Marry advmod 29
+married ace I-1_PER I-2_Individual O advmod 29
 for ace I-1_PER I-2_Individual O nummod 30
 nearly ace B-1_TIM B-2_time O nmod:for 26
 13 ace I-1_TIM I-2_time O punct 4
@@ -12015,7 +12015,7 @@ others ace B-1_PER B-2_Group O O O
 New ace B-1_PER B-2_Individual O compound 2
 Zealand ace I-1_PER I-2_Individual O compound 2
 - ace I-1_PER I-2_Individual O nsubj 4
-born ace O O B-Life_Be_Born advmod 4
+born ace O O O advmod 4
 Hunter ace O O O ROOT -1
 reportedly ace O O O det 6
 had ace O O O dobj 4
@@ -12054,7 +12054,7 @@ that ace O O O mark 10
 after ace O O O mark 6
 two ace O O O nsubj 6
 failed ace O O O advcl:after 10
-marriages ace O O B-Life_Marry dobj 6
+marriages ace O O O dobj 6
 , ace O O O punct 10
 he ace B-1_PER B-2_Individual O nsubj 24
 felt ace O O O ccomp 2
@@ -12087,14 +12087,14 @@ be ace O O O auxpass 37
 removed ace O O O ccomp 24
 from ace O O O case 41
 the ace O O O det 41
-wedding ace O O B-Life_Marry compound 41
+wedding ace O O O compound 41
 ceremony ace O O O nmod:from 37
 . ace O O O punct 2
 
 Stewart ace B-1_PER B-2_Individual O nmod:poss 3
 's ace O O O case 0
 1979 ace B-1_TIM B-2_time O nummod 3
-marriage ace O O B-Life_Marry nsubj 11
+marriage ace O O O nsubj 11
 to ace O O O case 6
 Alana ace B-1_PER B-2_Individual O compound 6
 Hamilton ace I-1_PER I-2_Individual O nmod:to 3
@@ -12185,8 +12185,8 @@ stage ace O O O acl:relcl 4
 of ace O O O case 11
 talks ace O O O nmod:of 9
 to ace O O O mark 13
-take ace O O B-Transaction_Transfer_Ownership xcomp 9
-over ace O O I-Transaction_Transfer_Ownership compound:prt 13
+take ace O O O xcomp 9
+over ace O O O compound:prt 13
 General ace B-1_ORG B-2_Commercial O compound 16
 Electric ace I-1_ORG I-2_Commercial O nmod:poss 21
 's ace I-1_ORG I-2_Commercial O case 16
@@ -12198,7 +12198,7 @@ in ace O O O case 24
 a ace O O O det 24
 deal ace O O O nmod:in 21
 to ace O O O mark 26
-create ace O O B-Business_Start_Org advcl:to 13
+create ace O O O advcl:to 13
 Japan ace B-1_ORG B-2_Commercial O nmod:poss 32
 's ace I-1_ORG I-2_Commercial O case 27
 sixth ace I-1_ORG I-2_Commercial O amod 32
@@ -12233,8 +12233,8 @@ of ace I-1_TIM I-2_time O case 19
 September ace I-1_TIM I-2_time O nmod:of 17
 and ace O O O cc 5
 also ace O O O advmod 22
-take ace O O B-Transaction_Transfer_Ownership ccomp 35
-over ace O O I-Transaction_Transfer_Ownership compound:prt 22
+take ace O O O ccomp 35
+over ace O O O compound:prt 22
 GE ace B-1_ORG B-2_Commercial O nmod:poss 27
 's ace O O O case 24
 US ace B-1_GPE B-2_Nation O compound 27
@@ -12251,7 +12251,7 @@ said ace O O O ROOT -1
 
 The ace O O O det 3
 total ace O O O amod 3
-purchase ace O O B-Transaction_Transfer_Ownership compound 3
+purchase ace O O O compound 3
 cost ace O O O nsubjpass 5
 is ace O O O auxpass 5
 estimated ace O O O ccomp 26
@@ -12341,7 +12341,7 @@ Insurance ace I-1_ORG I-2_Commercial O compound 20
 Co. ace I-1_ORG I-2_Commercial O conj:and 14
 
 The ace O O O det 1
-acquisition ace O O B-Transaction_Transfer_Ownership nsubj:xsubj 8
+acquisition ace O O O nsubj:xsubj 8
 of ace O O O case 4
 GE ace B-1_ORG B-2_Commercial O compound 4
 Edison ace I-1_ORG I-2_Commercial O nmod:of 1
@@ -12428,7 +12428,7 @@ of ace O O O case 21
 the ace O O O det 21
 33-month ace B-1_TIM B-2_time O amod 21
 Palestinian ace B-1_GPE B-2_Special O amod 21
-uprising ace O O B-Conflict_Attack nmod:of 16
+uprising ace O O O nmod:of 16
 as ace O O O mark 24
 Israel ace B-1_GPE B-2_Nation O nsubj 24
 removed ace O O O advcl:as 9
@@ -12469,7 +12469,7 @@ not ace O O O neg 19
 known ace O O O acl:relcl 13
 since ace O O O mark 23
 the ace O O O det 22
-intifada ace O O B-Conflict_Attack nsubj 23
+intifada ace O O O nsubj 23
 exploded ace O O O advcl:since 19
 in ace O O O case 25
 September ace B-1_TIM B-2_time O nmod:in 23
@@ -12520,7 +12520,7 @@ the ace O O O det 17
 start ace O O O nmod:since 7
 of ace O O O case 20
 the ace O O O det 20
-intifada ace O O B-Conflict_Attack nmod:of 17
+intifada ace O O O nmod:of 17
 , ace O O O punct 25
 " ace O O O punct 25
 the ace B-1_PER B-2_Individual O det 24
@@ -12555,7 +12555,7 @@ end ace O O O dobj 21
 the ace B-1_TIM B-2_time O case 25
 months ace I-1_TIM I-2_time O nmod:of 23
 of ace O O O cc 21
-bloodshed ace O O B-Conflict_Attack conj:and 21
+bloodshed ace O O O conj:and 21
 and ace O O O det 30
 create ace O O O amod 30
 a ace O O O dobj 27
@@ -12570,7 +12570,7 @@ Palestinians ace I-1_GPE I-2_Special O O O
 
 Following ace O O O case 2
 the ace O O O det 2
-withdrawal ace O O B-Movement_Transport nmod:following 17
+withdrawal ace O O O nmod:following 17
 of ace O O O case 5
 Israeli ace B-1_GPE B-2_Nation O amod 5
 troops ace I-1_PER I-2_Group O nmod:of 2
@@ -12604,7 +12604,7 @@ said ace O O O conj:and 17
 
 They ace B-1_PER B-2_Group O nsubj 2
 also ace O O O advmod 2
-deployed ace O O B-Movement_Transport ROOT -1
+deployed ace O O O ROOT -1
 along ace O O O case 5
 the ace B-1_LOC B-2_Boundary O det 5
 border ace I-1_LOC I-2_Boundary O nmod:along 2
@@ -12638,7 +12638,7 @@ in ace I-1_GPE I-2_Special O case 24
 hardline ace B-1_ORG B-2_Non_Governmental O compound 24
 groups ace I-1_ORG I-2_Non_Governmental O nmod:in 21
 plotting ace I-1_ORG I-2_Non_Governmental O acl 24
-attacks ace I-1_ORG I-2_Non_Governmental B-Conflict_Attack dobj 25
+attacks ace I-1_ORG I-2_Non_Governmental O dobj 25
 on ace I-1_ORG I-2_Non_Governmental O case 30
 the ace I-1_ORG I-2_Non_Governmental O det 30
 Jewish ace B-1_PER B-2_Group O amod 30
@@ -12654,7 +12654,7 @@ almost ace B-1_TIM B-2_time O advmod 7
 three ace I-1_TIM I-2_time O amod 7
 - ace O O O nmod:in 2
 year ace O O O punct 12
-intifada ace O O B-Conflict_Attack det 11
+intifada ace O O O det 11
 , ace O O O amod 11
 the ace B-1_ORG B-2_Government O nsubj 12
 Israeli ace I-1_ORG I-2_Government O ROOT -1
@@ -12671,7 +12671,7 @@ Gaza ace B-1_LOC B-2_Region_General O advcl:as 12
 highway ace O O O nummod 25
 as ace O O O amod 25
 troops ace B-1_PER B-2_Group O dobj 22
-abandoned ace O O B-Movement_Transport case 29
+abandoned ace O O O case 29
 three ace B-1_FAC B-2_Building_Grounds O det 29
 major ace I-1_FAC I-2_Building_Grounds O amod 29
 checkpoints ace I-1_FAC I-2_Building_Grounds O nmod:across 22
@@ -13037,7 +13037,7 @@ officers ace I-1_PER I-2_Group O dep 2
 were ace O O O auxpass 5
 allowed ace O O O ROOT -1
 to ace O O O mark 7
-return ace O O B-Movement_Transport xcomp 5
+return ace O O O xcomp 5
 to ace O O O case 11
 the ace B-1_FAC B-2_Path O det 11
 Palestinian ace I-1_FAC I-2_Path O amod 11
@@ -13061,7 +13061,7 @@ the ace I-1_FAC I-2_Path O det 28
 start ace I-1_FAC I-2_Path O nmod:after 20
 of ace I-1_FAC I-2_Path O case 31
 the ace I-1_FAC I-2_Path O det 31
-uprising ace O O B-Conflict_Attack nmod:of 28
+uprising ace O O O nmod:of 28
 . ace O O O punct 5
 
 Under ace O O O case 4
@@ -13119,7 +13119,7 @@ principle ace O O O nmod:in 9
 been ace O O O cop 9
 open ace O O O advcl:although 33
 for ace O O O case 11
-movement ace O O B-Movement_Transport nmod:for 9
+movement ace O O O nmod:for 9
 between ace O O O case 15
 the ace B-1_GPE B-2_Nation O det 15
 two ace I-1_GPE I-2_Nation O nummod 15
@@ -13208,7 +13208,7 @@ Nations ace I-1_ORG I-2_Non_Governmental O nsubj 20
 vote ace O O O ccomp 16
 on ace O O O case 24
 its ace B-1_GPE B-2_Nation O nmod:poss 24
-war ace O O B-Conflict_Attack compound 24
+war ace O O O compound 24
 - ace O O O nmod:on 20
 making ace O O O mark 29
 resolution ace O O O det 27
@@ -13269,7 +13269,7 @@ relations ace O O O compound 23
 buildup ace O O O nmod:for 18
 to ace O O O case 26
 potential ace O O O amod 26
-war ace O O B-Conflict_Attack nmod:to 17
+war ace O O O nmod:to 17
 . ace O O O punct 2
 
 One ace O O O nummod 1
@@ -13347,7 +13347,7 @@ debate ace O O O nmod:of 26
 on ace O O O case 37
 the ace O O O det 37
 U.S.-backed ace B-1_GPE B-2_Nation O amod 37
-war ace O O B-Contact_Meet compound 37
+war ace O O O compound 37
 resolution ace O O O nmod:on 32
 . ace O O O punct 10
 
@@ -13434,7 +13434,7 @@ intensify ace O O O ccomp 19
 his ace B-1_PER B-2_Individual O nmod:poss 14
 case ace O O O dobj 12
 for ace O O O case 16
-war ace O O B-Conflict_Attack nmod:for 12
+war ace O O O nmod:for 12
 , ace O O O punct 19
 officials ace B-1_PER B-2_Group O nsubj 19
 said ace O O O ROOT -1
@@ -13470,7 +13470,7 @@ conference ace O O O dobj 9
 and ace O O O cc 13
 a ace O O O det 17
 Cabinet ace O O O compound 17
-meeting ace O O B-Contact_Meet conj:and 13
+meeting ace O O O conj:and 13
 as ace O O O case 19
 ways ace O O O nmod:as 9
 for ace O O O case 21
@@ -13508,11 +13508,11 @@ proposed ace O O O amod 23
 $ ace B-1_Numeric B-2_Money O amod 23
 15 ace I-1_Numeric I-2_Money O compound 21
 billion ace O O O nummod 19
-aid ace O O B-Transaction_Transfer_Money compound 23
-package ace O O I-Transaction_Transfer_Money dobj 16
+aid ace O O O compound 23
+package ace O O O dobj 16
 unless ace O O O mark 26
 it ace B-1_GPE B-2_Nation O nsubj 26
-admits ace O O B-Movement_Transport dep 23
+admits ace O O O dep 23
 troops ace B-1_PER B-2_Group O dobj 26
 into ace O O O case 30
 the ace B-1_GPE B-2_Nation O det 30
@@ -13549,7 +13549,7 @@ for ace O O O det 23
 the ace O O O nmod:for 20
 use ace O O O case 25
 of ace O O O nmod:of 23
-force ace O O B-Conflict_Attack case 27
+force ace O O O case 27
 against ace O O O nmod:against 25
 Iraq ace B-1_GPE B-2_Nation O punct 31
 , ace O O O punct 31
@@ -13955,18 +13955,18 @@ wife ace O O O nsubj 5
 will ace O O O aux 5
 go ace O O O ccomp 25
 on ace O O O case 7
-trial ace O O B-Justice_Trial_Hearing nmod:on 5
+trial ace O O O nmod:on 5
 next ace B-1_TIM B-2_time O amod 9
 week ace I-1_TIM I-2_time O nmod:tmod 5
 on ace O O O case 11
-charges ace O O B-Justice_Charge_Indict nmod:on 5
+charges ace O O O nmod:on 5
 of ace O O O mark 13
 mismanaging ace B-1_Crime B-2_ O acl:of 11
 state ace I-1_Crime I-2_ O compound 15
 property ace I-1_Crime I-2_ O dobj 13
 during ace O O O case 21
 the ace B-1_PER B-2_Individual O det 19
-former ace B-1_TIM B-2_time B-Personnel_End_Position amod 19
+former ace B-1_TIM B-2_time O amod 19
 president ace I-1_PER I-2_Individual O nmod:poss 21
 's ace O O O case 19
 rule ace O O O nmod:during 13
@@ -13995,7 +13995,7 @@ is ace O O O auxpass 15
 accused ace O O O ROOT -1
 of ace O O O mark 18
 illegally ace O O O advmod 18
-providing ace O O B-Transaction_Transfer_Ownership advcl:of 15
+providing ace O O O advcl:of 15
 their ace B-1_PER B-2_Group O nmod:poss 20
 grandson ace I-1_PER I-2_Individual O nmod:poss 22
 's ace I-1_PER I-2_Individual O case 20
@@ -14022,7 +14022,7 @@ that ace O O O mark 9
 Markovic ace B-1_PER B-2_Individual O nsubjpass 9
 will ace O O O aux 9
 be ace O O O auxpass 9
-tried ace O O B-Justice_Trial_Hearing ccomp 4
+tried ace O O O ccomp 4
 along ace O O O case 15
 with ace O O O mwe 10
 10 ace B-1_PER B-2_Group O nummod 15
@@ -14034,7 +14034,7 @@ officials ace I-1_PER I-2_Group O acl:relcl 15
 who ace B-1_PER B-2_Group O amod 19
 face ace I-1_PER I-2_Group O dobj 17
 similar ace I-1_PER I-2_Group O case 23
-charges ace I-1_PER I-2_Group B-Justice_Charge_Indict punct 23
+charges ace I-1_PER I-2_Group O punct 23
 of ace I-1_PER I-2_Group O amod 23
 ` ace I-1_PER I-2_Group O nsubj 29
 ` ace I-1_PER I-2_Group O case 26
@@ -14048,7 +14048,7 @@ property ace I-1_Crime I-2_ O acl:relcl 23
 that ace I-1_PER I-2_Group O case 36
 carry ace I-1_PER I-2_Group O advmod 35
 a ace I-1_PER I-2_Group O dep 35
-sentence ace I-1_PER I-2_Group B-Justice_Sentence nummod 36
+sentence ace I-1_PER I-2_Group O nummod 36
 of ace I-1_PER I-2_Group O nmod:of 31
 up ace B-1_Sentence B-2_ O case 38
 to ace I-1_Sentence I-2_ O nmod:in 36
@@ -14059,7 +14059,7 @@ jail ace I-1_Sentence I-2_ O O O
 . ace O O O O O
 
 The ace O O O det 1
-trial ace O O B-Justice_Trial_Hearing nsubj 3
+trial ace O O O nsubj 3
 will ace O O O aux 3
 start ace O O O ccomp 10
 on ace O O O case 5
@@ -14088,10 +14088,10 @@ decade ace I-1_TIM I-2_time O nmod:for 8
 before ace O O O mark 17
 he ace B-1_PER B-2_Individual O nsubjpass 17
 was ace O O O auxpass 17
-swept ace O O B-Personnel_End_Position advcl:before 4
-out ace O O I-Personnel_End_Position case 20
-of ace O O I-Personnel_End_Position mwe 18
-power ace O O I-Personnel_End_Position nmod:out_of 17
+swept ace O O O advcl:before 4
+out ace O O O case 20
+of ace O O O mwe 18
+power ace O O O nmod:out_of 17
 after ace O O O case 24
 a ace O O O det 24
 popular ace O O O amod 24
@@ -14107,12 +14107,12 @@ post ace I-1_ORG I-2_Government O amod 2
 Milosevic ace B-1_PER B-2_Individual O advmod 4
 government ace O O O ROOT -1
 later ace B-1_TIM B-2_time O dobj 4
-extradited ace O O B-Justice_Extradite case 11
+extradited ace O O O case 11
 him ace B-1_PER B-2_Individual O det 11
 to ace O O O compound 11
 the ace B-1_ORG B-2_Non_Governmental O compound 11
 U.N. ace B-1_ORG B-2_Non_Governmental O compound 11
-war ace I-1_ORG I-2_Non_Governmental B-Conflict_Attack nmod:to 4
+war ace I-1_ORG I-2_Non_Governmental O nmod:to 4
 crimes ace I-1_ORG I-2_Non_Governmental O case 14
 tribunal ace I-1_ORG I-2_Non_Governmental O det 14
 in ace I-1_ORG I-2_Non_Governmental O nmod:in 4
@@ -14170,7 +14170,7 @@ after ace O O O advcl:after 11
 she ace B-1_PER B-2_Individual O mark 21
 failed ace O O O xcomp 19
 to ace O O O det 23
-become ace O O B-Personnel_Start_Position xcomp 21
+become ace O O O xcomp 21
 a ace B-1_PER B-2_Individual O case 26
 deputy ace I-1_PER I-2_Individual O det 26
 in ace I-1_PER I-2_Individual O nmod:in 21
@@ -14390,7 +14390,7 @@ when ace O O O advmod 24
 the ace O O O det 21
 threat ace O O O nsubj 24
 of ace O O O case 23
-war ace O O B-Conflict_Attack nmod:of 21
+war ace O O O nmod:of 21
 became ace O O O advcl 17
 immediate ace O O O xcomp 24
 . ace O O O punct 3
@@ -14407,7 +14407,7 @@ indicated ace O O O ccomp 5
 that ace O O O mark 14
 only ace O O O advmod 12
 a ace O O O det 12
-war ace O O B-Conflict_Attack nsubj 14
+war ace O O O nsubj 14
 will ace O O O aux 14
 make ace O O O ccomp 8
 Iraq ace B-1_GPE B-2_Nation O nsubj 16
@@ -14468,7 +14468,7 @@ argued ace O O O conj:and 4
 not ace O O O neg 14
 only ace O O O dep 14
 that ace O O O mark 22
-war ace O O B-Conflict_Attack compound 19
+war ace O O O compound 19
 plans ace O O O nsubjpass 22
 should ace O O O aux 22
 be ace O O O auxpass 22
@@ -14487,7 +14487,7 @@ Council ace I-1_ORG I-2_Non_Governmental O nmod:by 27
 for ace O O O case 37
 its ace B-1_GPE B-2_Nation O nmod:poss 37
 1990 ace B-1_TIM B-2_time O nummod 37
-invasion ace O O B-Conflict_Attack nmod:for 33
+invasion ace O O O nmod:for 33
 of ace O O O case 39
 Kuwait ace B-1_GPE B-2_Nation O nmod:of 37
 should ace O O O aux 42
@@ -14529,7 +14529,7 @@ a ace B-1_PER B-2_Individual O case 32
 spokesman ace I-1_PER I-2_Individual O det 32
 for ace I-1_PER I-2_Individual O nmod:for 27
 a ace I-1_PER I-2_Individual O nsubj 27
-meeting ace I-1_PER I-2_Individual B-Contact_Meet case 35
+meeting ace I-1_PER I-2_Individual O case 35
 Saturday ace B-1_TIM B-2_time O nmod:of 33
 of ace I-1_PER I-2_Individual O cc 35
 Saddam ace I-1_PER I-2_Individual O amod 38
@@ -14610,7 +14610,7 @@ spokesman ace I-1_PER I-2_Individual O nsubj 8
 reporting ace O O O advcl 8
 on ace O O O case 6
 the ace O O O det 6
-meeting ace O O B-Contact_Meet nmod:on 3
+meeting ace O O O nmod:on 3
 , ace O O O punct 8
 said ace O O O ROOT -1
 Iraq ace B-1_GPE B-2_Nation O dobj 8
@@ -14832,7 +14832,7 @@ Iraq ace B-1_GPE B-2_Nation O det 21
 for ace O O O amod 21
 a ace O O O nmod:for 12
 possible ace O O O punct 5
-invasion ace O O B-Conflict_Attack O O
+invasion ace O O O O O
 . ace O O O O O
 
 Despite ace O O O case 3
@@ -14859,7 +14859,7 @@ plan ace O O O dep 16
 for ace O O O case 22
 disarmament ace O O O nmod:for 20
 or ace O O O cc 22
-war ace O O B-Conflict_Attack conj:or 22
+war ace O O O conj:or 22
 by ace O O O case 26
 March ace B-1_TIM B-2_time O nmod:by 11
 17 ace I-1_TIM I-2_time O nummod 26
@@ -15181,7 +15181,7 @@ teams ace I-1_PER I-2_Group O conj:and 21
 
 Inspectors ace B-1_PER B-2_Group O nsubj 2
 also ace O O O advmod 2
-returned ace O O B-Movement_Transport ROOT -1
+returned ace O O O ROOT -1
 to ace O O O case 7
 a ace B-1_FAC B-2_Airport O det 7
 former ace B-1_TIM B-2_time O amod 7
@@ -15254,8 +15254,8 @@ is ace O O O cop 7
 in ace O O O case 7
 talks ace O O O ccomp 21
 about ace O O O mark 9
-buying ace O O B-Transaction_Transfer_Ownership acl:about 7
-out ace O O I-Transaction_Transfer_Ownership compound:prt 9
+buying ace O O O acl:about 7
+out ace O O O compound:prt 9
 the ace B-1_ORG B-2_Sports O det 14
 horse ace I-1_ORG I-2_Sports O compound 14
 racing ace I-1_ORG I-2_Sports O compound 14
@@ -15430,7 +15430,7 @@ to ace O O O mark 11
 inquire ace O O O advcl:to 3
 about ace O O O case 15
 the ace O O O det 15
-buyout ace O O B-Transaction_Transfer_Ownership compound 15
+buyout ace O O O compound 15
 talks ace O O O nmod:about 11
 . ace O O O punct 3
 
@@ -15520,7 +15520,7 @@ Turkey ace B-1_ORG B-2_Non_Governmental O nmod:poss 7
 governing ace I-1_ORG I-2_Non_Governmental O amod 7
 party ace O O O nmod:of 2
 was ace O O O aux 9
-named ace O O B-Personnel_Elect ROOT -1
+named ace O O O ROOT -1
 prime ace B-1_Job_Title B-2_ O amod 11
 minister ace I-1_Job_Title I-2_ O dobj 9
 Tuesday ace B-1_TIM B-2_time O nmod:tmod 9
@@ -15539,7 +15539,7 @@ will ace O O O aux 25
 get ace O O O ccomp 18
 permission ace O O O dobj 25
 to ace O O O mark 28
-deploy ace O O B-Movement_Transport advcl:to 25
+deploy ace O O O advcl:to 25
 troops ace B-1_PER B-2_Group O dobj 28
 in ace O O O case 32
 the ace B-1_GPE B-2_Nation O det 32
@@ -15558,7 +15558,7 @@ Erdogan ace I-1_PER I-2_Individual O nsubj 18
 who ace B-1_PER B-2_Individual O ref 2
 favors ace I-1_PER I-2_Individual O acl:relcl 2
 the ace I-1_PER I-2_Individual O det 7
-deployment ace O O B-Movement_Transport dobj 5
+deployment ace O O O dobj 5
 , ace O O O punct 2
 hinted ace O O O ROOT -1
 that ace O O O mark 13
@@ -15575,7 +15575,7 @@ indication ace O O O dobj 18
 if ace O O O mark 24
 he ace B-1_PER B-2_Individual O nsubj 24
 would ace O O O aux 24
-purge ace O O B-Personnel_End_Position advcl:if 18
+purge ace O O O advcl:if 18
 officials ace B-1_PER B-2_Group O nsubj 27
 who ace B-1_PER B-2_Group O ref 25
 opposed ace I-1_PER I-2_Group O acl:relcl 25
@@ -15630,7 +15630,7 @@ Turks ace B-1_GPE B-2_Nation O nsubj 2
 overwhelmingly ace O O O advmod 2
 oppose ace O O O ROOT -1
 a ace O O O det 5
-war ace O O B-Conflict_Attack compound 5
+war ace O O O compound 5
   ace O O O dobj 2
 _ ace O O O case 8
   ace O O O nummod 8
@@ -15658,7 +15658,7 @@ States ace I-1_GPE I-2_Nation O dobj 7
 by ace O O O mark 12
 rejecting ace O O O advcl:by 7
 the ace O O O det 14
-deployment ace O O B-Movement_Transport dobj 12
+deployment ace O O O dobj 12
 by ace O O O case 18
 just ace O O O advmod 18
 four ace O O O nummod 18
@@ -15802,7 +15802,7 @@ militaries ace I-1_ORG I-2_Government O nsubj 19
 were ace O O O aux 19
 holding ace O O O ccomp 8
 informal ace O O O amod 21
-discussions ace O O B-Contact_Phone_Write dobj 19
+discussions ace O O O dobj 19
 on ace O O O case 24
 the ace O O O det 24
 use ace O O O nmod:on 19
@@ -15843,12 +15843,12 @@ use ace O O O xcomp 10
 the ace B-1_LOC B-2_Celestial O det 14
 airspace ace I-1_LOC I-2_Celestial O dobj 12
 for ace O O O case 16
-strikes ace O O B-Conflict_Attack nmod:for 12
+strikes ace O O O nmod:for 12
 against ace O O O case 18
 Iraq ace B-1_GPE B-2_Nation O nmod:against 16
 and ace O O O cc 16
 for ace O O O mark 21
-airlifting ace O O B-Movement_Transport conj:and 16
+airlifting ace O O O conj:and 16
 troops ace B-1_PER B-2_Group O dobj 21
 to ace O O O case 25
 northern ace B-1_LOC B-2_Region_General O amod 25
@@ -15860,7 +15860,7 @@ access ace O O O nsubj 7
 to ace O O O case 5
 the ace O O O det 5
 troop ace B-1_PER B-2_Group O compound 5
-deployment ace O O B-Movement_Transport nmod:to 1
+deployment ace O O O nmod:to 1
 would ace O O O aux 7
 mean ace O O O ROOT -1
 Turkey ace B-1_GPE B-2_Nation O nsubj 10
@@ -15871,7 +15871,7 @@ US$ ace B-1_Numeric B-2_Money O amod 17
 15 ace I-1_Numeric I-2_Money O compound 14
 billion ace O O O nummod 12
 U.S. ace B-1_GPE B-2_Nation O compound 17
-aid ace O O B-Transaction_Transfer_Money compound 17
+aid ace O O O compound 17
 package ace O O O dobj 10
 that ace O O O dobj 23
 Washington ace B-1_GPE B-2_Nation O nsubj:xsubj 23
@@ -15887,7 +15887,7 @@ economy ace O O O dobj 24
 if ace O O O mark 31
 there ace O O O expl 31
 is ace O O O advcl:if 24
-war ace O O B-Conflict_Attack nsubj 31
+war ace O O O nsubj 31
 . ace O O O punct 7
 
 It ace O O O nsubj 3
@@ -15952,7 +15952,7 @@ for ace I-1_PER I-2_Group O case 14
 years ace I-1_TIM I-2_time O nmod:for 17
 have ace I-1_PER I-2_Group O aux 17
 been ace I-1_PER I-2_Group O aux 17
-fighting ace I-1_PER I-2_Group B-Conflict_Demonstrate acl:relcl 8
+fighting ace I-1_PER I-2_Group O acl:relcl 8
 for ace O O O case 19
 autonomy ace O O O nmod:for 17
 . ace O O O punct 5
@@ -15960,7 +15960,7 @@ autonomy ace O O O nmod:for 17
 After ace O O O mark 3
 he ace B-1_PER B-2_Individual O nsubjpass 3
 was ace O O O auxpass 3
-elected ace O O B-Personnel_Elect advcl:after 6
+elected ace O O O advcl:after 6
 , ace O O O punct 6
 Erdogan ace B-1_PER B-2_Individual O nsubj 6
 said ace O O O ROOT -1
@@ -15994,7 +15994,7 @@ Turkish ace B-1_PER B-2_Group O amod 13
 troops ace I-1_PER I-2_Group O nsubjpass 16
 could ace O O O aux 16
 be ace O O O auxpass 16
-deployed ace O O B-Movement_Transport acl:relcl 10
+deployed ace O O O acl:relcl 10
 ` ace O O O punct 16
 ` ace O O O det 20
 a ace O O O amod 20
@@ -16020,7 +16020,7 @@ that ace O O O mark 7
 Turkish ace B-1_PER B-2_Group O amod 5
 troops ace I-1_PER I-2_Group O nsubj 7
 could ace O O O aux 7
-move ace O O B-Movement_Transport ccomp 2
+move ace O O O ccomp 2
 deep ace O O O advmod 7
 into ace O O O case 12
 the ace B-1_GPE B-2_Special O det 12
@@ -16032,7 +16032,7 @@ Iraq ace I-1_GPE I-2_Special O nmod:in 12
 and ace O O O cc 2
 have ace O O O aux 18
 threatened ace O O O conj:and 2
-clashes ace O O B-Conflict_Attack dobj 18
+clashes ace O O O dobj 18
 . ace O O O punct 2
 
 Rumsfeld ace B-1_PER B-2_Individual O nsubj 2
@@ -16088,7 +16088,7 @@ Prime ace B-1_PER B-2_Individual O compound 3
 Minister ace I-1_PER I-2_Individual O compound 3
 Abdullah ace I-1_PER I-2_Individual O compound 3
 Gul ace I-1_PER I-2_Individual O nsubj:xsubj 8
-resigned ace O O B-Personnel_End_Position ROOT -1
+resigned ace O O O ROOT -1
 earlier ace O O O advmod 4
 Tuesday ace B-1_TIM B-2_time O nmod:tmod 4
 to ace O O O mark 8
@@ -16098,7 +16098,7 @@ for ace O O O case 11
 Erdogan ace B-1_PER B-2_Individual O nsubj 14
 , ace I-1_PER I-2_Individual O punct 11
 who ace I-1_PER I-2_Individual O ref 11
-won ace I-1_PER I-2_Individual B-Personnel_Elect acl:relcl 11
+won ace I-1_PER I-2_Individual O acl:relcl 11
 a ace B-1_Job_Title B-2_ O det 17
 parliamentary ace I-1_Job_Title I-2_ O amod 17
 seat ace I-1_Job_Title I-2_ O dobj 14
@@ -16167,7 +16167,7 @@ Justice ace I-1_ORG I-2_Non_Governmental O compound 26
 and ace I-1_ORG I-2_Non_Governmental O conj:and 23
 Development ace I-1_ORG I-2_Non_Governmental O conj:and 1
 Party ace O O O nmod:tmod 27
-met ace O O B-Contact_Meet nmod:tmod 27
+met ace O O O nmod:tmod 27
 Tuesday ace B-1_TIM B-2_time O punct 1
 evening ace I-1_TIM I-2_time O O O
 . ace O O O O O
@@ -16207,7 +16207,7 @@ revisions ace O O O punct 10
 
 Gul ace B-1_PER B-2_Individual O nmod:poss 2
 's ace O O O case 0
-resignation ace O O B-Personnel_End_Position nsubjpass 6
+resignation ace O O O nsubjpass 6
 had ace O O O aux 6
 been ace O O O auxpass 6
 long ace O O O advmod 6
@@ -16230,7 +16230,7 @@ elections ace O O O nmod:in 9
 because ace O O O mark 16
 he ace B-1_PER B-2_Individual O nsubjpass 16
 was ace O O O auxpass 16
-jailed ace O O B-Justice_Arrest_Jail advcl:because 9
+jailed ace O O O advcl:because 9
 in ace O O O case 18
 1999 ace B-1_TIM B-2_time O nmod:in 16
 for ace O O O case 21
@@ -16268,7 +16268,7 @@ movement ace I-1_PER I-2_Individual O nsubjpass 12
 when ace I-1_PER I-2_Individual O auxpass 12
 he ace B-1_PER B-2_Individual O acl:relcl 3
 was ace O O O punct 0
-jailed ace O O B-Justice_Arrest_Jail ROOT -1
+jailed ace O O O ROOT -1
 , ace O O O nsubj 16
 said ace O O O ccomp 14
 he ace B-1_PER B-2_Individual O nmod:poss 18
@@ -16308,7 +16308,7 @@ U.S. ace B-1_PER B-2_Group O compound 7
 troops ace I-1_PER I-2_Group O nmod:in 4
 for ace O O O case 10
 a ace O O O det 10
-war ace O O B-Conflict_Attack nmod:for 4
+war ace O O O nmod:for 4
 against ace O O O case 12
 Iraq ace B-1_GPE B-2_Nation O nmod:against 10
 even ace O O O advmod 20
@@ -16486,7 +16486,7 @@ to ace O O O mark 6
 head ace O O O xcomp 2
 off ace O O O compound:prt 6
 a ace O O O det 9
-brawl ace O O B-Conflict_Attack dobj 6
+brawl ace O O O dobj 6
 . ace O O O punct 2
 
 EU ace O O O compound 1
@@ -16529,7 +16529,7 @@ the ace O O O det 16
 U.S. ace B-1_GPE B-2_Nation O compound 16
 move ace O O O dobj 13
 toward ace O O O case 18
-war ace O O B-Conflict_Attack nmod:toward 13
+war ace O O O nmod:toward 13
 while ace O O O mark 25
 British ace B-1_PER B-2_Individual O amod 24
 Prime ace I-1_PER I-2_Individual O compound 24
@@ -16537,7 +16537,7 @@ Minister ace I-1_PER I-2_Individual O compound 24
 Tony ace I-1_PER I-2_Individual O compound 24
 Blair ace I-1_PER I-2_Individual O nsubj 25
 said ace O O O advcl:while 13
-ousting ace O O B-Personnel_End_Position xcomp 25
+ousting ace O O O xcomp 25
 Saddam ace B-1_PER B-2_Individual O compound 28
 Hussein ace I-1_PER I-2_Individual O nsubj 31
 now ace B-1_TIM B-2_time O advmod 31
@@ -16570,7 +16570,7 @@ debated ace O O O ROOT -1
 the ace O O O det 18
 impending ace O O O amod 18
 U.S.-led ace B-1_GPE B-2_Nation O amod 18
-war ace O O B-Conflict_Attack dobj 14
+war ace O O O dobj 14
 against ace O O O case 20
 Iraq ace B-1_GPE B-2_Nation O nmod:against 14
 with ace O O O case 24
@@ -16591,7 +16591,7 @@ ditch ace O O O compound 36
 effort ace O O O dobj 32
 to ace O O O mark 38
 avoid ace O O O advcl:to 32
-war ace O O B-Conflict_Attack dobj 38
+war ace O O O dobj 38
 . ace O O O punct 14
 
 Joschka ace B-1_PER B-2_Individual O compound 1
@@ -16617,7 +16617,7 @@ United ace B-1_ORG B-2_Non_Governmental O compound 23
 Nations ace I-1_ORG I-2_Non_Governmental O compound 23
 Security ace I-1_ORG I-2_Non_Governmental O compound 23
 Council ace I-1_ORG I-2_Non_Governmental O compound 23
-meeting ace O O B-Contact_Meet dobj 16
+meeting ace O O O dobj 16
 in ace O O O case 27
 New ace B-1_GPE B-2_Population_Center O compound 27
 York ace I-1_GPE I-2_Population_Center O compound 27
@@ -16668,12 +16668,12 @@ arrival ace O O O det 25
 at ace O O O compound 25
 the ace O O O nmod:at 21
 EU ace B-1_GPE B-2_GPE_Cluster O punct 18
-meeting ace O O B-Contact_Meet O O
+meeting ace O O O O O
 . ace O O O O O
 
 ' ace O O O punct 8
 ' ace O O O nsubj 4
-War ace O O B-Conflict_Attack cop 4
+War ace O O O cop 4
 is ace O O O neg 4
 not ace O O O ccomp 8
 justified ace O O O punct 8
@@ -16722,7 +16722,7 @@ Ahead ace O O O nsubj:xsubj 17
 of ace O O O case 4
 the ace O O O det 4
 EU ace B-1_GPE B-2_GPE_Cluster O compound 4
-meeting ace O O B-Contact_Meet nmod:of 0
+meeting ace O O O nmod:of 0
 , ace O O O punct 11
 Greek ace B-1_PER B-2_Individual O amod 10
 Foreign ace I-1_PER I-2_Individual O compound 10
@@ -16758,7 +16758,7 @@ crisis ace O O O punct 16
 
 The ace O O O det 2
 EU ace B-1_GPE B-2_GPE_Cluster O compound 2
-meeting ace O O B-Contact_Meet nsubj 5
+meeting ace O O O nsubj 5
 could ace O O O aux 5
 not ace O O O neg 5
 hide ace O O O ROOT -1
@@ -16809,7 +16809,7 @@ of ace I-1_GPE I-2_Nation O case 24
 nations ace B-1_GPE B-2_Nation O nmod:of 22
 opposing ace I-1_GPE I-2_Nation O acl 24
 military ace I-1_GPE I-2_Nation O amod 27
-action ace I-1_GPE I-2_Nation B-Conflict_Attack dobj 25
+action ace I-1_GPE I-2_Nation O dobj 25
 . ace O O O punct 6
 
 ` ace O O O punct 37
@@ -17021,7 +17021,7 @@ The ace B-1_PER B-2_Group O det 3
 EU ace I-1_PER I-2_Group O compound 3
 foreign ace I-1_PER I-2_Group O amod 3
 ministers ace I-1_PER I-2_Group O nsubj 4
-met ace O O B-Contact_Meet ROOT -1
+met ace O O O ROOT -1
 hours ace B-1_TIM B-2_time O dobj 4
 after ace O O O mark 12
 U.S. ace B-1_PER B-2_Individual O compound 11
@@ -17034,11 +17034,11 @@ Saddam ace B-1_PER B-2_Individual O iobj 12
 48 ace B-1_TIM B-2_time O nummod 15
 hours ace I-1_TIM I-2_time O dobj 12
 to ace O O O mark 17
-leave ace O O B-Movement_Transport advcl:to 12
+leave ace O O O advcl:to 12
 Iraq ace B-1_GPE B-2_Nation O dobj 17
 or ace O O O cc 18
 face ace O O O compound 21
-invasion ace O O B-Conflict_Attack conj:or 18
+invasion ace O O O conj:or 18
 . ace O O O punct 4
 
 French ace B-1_PER B-2_Individual O compound 3
@@ -17046,7 +17046,7 @@ President ace I-1_PER I-2_Individual O compound 3
 Jacques ace I-1_PER I-2_Individual O compound 3
 Chirac ace I-1_PER I-2_Individual O nsubj 4
 said ace O O O ROOT -1
-war ace O O B-Conflict_Attack nsubj 10
+war ace O O O nsubj 10
 without ace O O O case 8
 U.N ace B-1_ORG B-2_Non_Governmental O compound 8
 blessing ace O O O nmod:without 5
@@ -17095,7 +17095,7 @@ favor ace O O O det 14
 the ace O O O dobj 12
 use ace O O O case 16
 of ace O O O nmod:of 14
-force ace O O B-Conflict_Attack case 18
+force ace O O O case 18
 over ace O O O nmod:over 12
 law ace O O O punct 21
 , ace O O O aux 21
@@ -17121,7 +17121,7 @@ was ace O O O ccomp 7
 no ace O O O neg 11
 justification ace O O O nsubj 9
 for ace O O O case 13
-war ace O O B-Conflict_Attack nmod:for 11
+war ace O O O nmod:for 11
 . ace O O O punct 7
 
 ` ace O O O punct 1
@@ -17136,13 +17136,13 @@ Iraqi ace I-1_PER I-2_Individual O nmod:by 4
 dictator ace I-1_PER I-2_Individual O ccomp 1
 justify ace O O O det 11
 a ace O O O nsubj:xsubj 17
-war ace O O B-Conflict_Attack punct 11
+war ace O O O punct 11
 , ace O O O ref 11
 which ace O O O cop 15
 is ace O O O acl:relcl 11
 sure ace O O O mark 17
 to ace O O O xcomp 15
-kill ace O O B-Life_Die det:qmod 21
+kill ace O O O det:qmod 21
 thousands ace B-1_PER B-2_Group O mwe 18
 of ace I-1_PER I-2_Group O amod 21
 innocent ace I-1_PER I-2_Group O dobj 17
@@ -17185,7 +17185,7 @@ expected ace O O O acl 9
 to ace O O O mark 12
 follow ace O O O xcomp 10
 an ace O O O det 14
-attack ace O O B-Conflict_Attack dobj 12
+attack ace O O O dobj 12
 on ace O O O case 16
 Iraq ace B-1_GPE B-2_Nation O nmod:on 12
 . ace O O O punct 1
@@ -17195,7 +17195,7 @@ EU ace I-1_GPE I-2_GPE_Cluster O nsubj 26
 is ace O O O auxpass 3
 set ace O O O ROOT -1
 to ace O O O mark 5
-release ace O O B-Transaction_Transfer_Money xcomp 3
+release ace O O O xcomp 3
 20 ace B-1_Numeric B-2_Money O compound 7
 million ace I-1_Numeric I-2_Money O nummod 8
 euros ace I-1_Numeric I-2_Money O dobj 5
@@ -17211,13 +17211,13 @@ aid ace O O O nmod:in 5
 for ace O O O case 19
 Iraq ace B-1_GPE B-2_Nation O nmod:for 17
 if ace O O O mark 23
-war ace O O B-Conflict_Attack compound 22
+war ace O O O compound 22
 breaks ace O O O dep 23
 out ace O O O dep 17
 and ace O O O cc 3
 may ace O O O aux 26
-dip ace O O B-Transaction_Transfer_Money conj:and 3
-into ace O O I-Transaction_Transfer_Money case 31
+dip ace O O O conj:and 3
+into ace O O O case 31
 an ace O O O det 31
 ` ace O O O punct 31
 ` ace O O O compound 31
@@ -17283,7 +17283,7 @@ U.S. ace I-1_ORG I-2_Government O compound 6
 military ace I-1_ORG I-2_Government O nsubj 9
 has ace O O O aux 9
 been ace O O O aux 9
-transporting ace O O B-Movement_Transport ROOT -1
+transporting ace O O O ROOT -1
 military ace B-1_ORG B-2_Government O amod 11
 equipment ace O O O dobj 9
 from ace O O O case 13
@@ -17314,7 +17314,7 @@ no ace O O O neg 11
 longer ace O O O advmod 12
 allow ace O O O acl:relcl 7
 such ace O O O amod 14
-transits ace O O B-Movement_Transport nsubj 17
+transits ace O O O nsubj 17
   ace O O O ccomp 12
 _ ace O O O cc 15
   ace O O O conj:or 15
@@ -17329,7 +17329,7 @@ _ ace O O O dep 2
   ace O O O nsubj 2
 Greece ace B-1_GPE B-2_Nation O dep 17
 began ace O O O xcomp 2
-evacuating ace O O B-Movement_Transport nmod:poss 5
+evacuating ace O O O nmod:poss 5
 its ace B-1_FAC B-2_Building_Grounds O dobj 3
 embassy ace I-1_FAC I-2_Building_Grounds O case 7
 in ace I-1_FAC I-2_Building_Grounds O nmod:in 3
@@ -17340,8 +17340,8 @@ all ace O O O nmod:poss 12
 its ace B-1_PER B-2_Group O dobj 9
 personnel ace I-1_PER I-2_Group O aux 17
 would ace O O O cop 17
-be ace O O B-Movement_Transport case 17
-out ace O O I-Movement_Transport mwe 15
+be ace O O O case 17
+out ace O O O mwe 15
 of ace O O O ROOT -1
 Iraq ace B-1_GPE B-2_Nation O case 20
 within ace O O O det:qmod 22
@@ -17362,7 +17362,7 @@ strong ace O O O amod 9
 public ace O O O amod 9
 anti ace O O O dobj 5
 - ace O O O punct 3
-war ace O O B-Conflict_Attack advcl 26
+war ace O O O advcl 26
 pressure ace O O O nsubj 24
 , ace O O O aux 15
 said ace O O O neg 15
@@ -17370,11 +17370,11 @@ it ace B-1_GPE B-2_Nation O ccomp 11
 would ace O O O xcomp 15
 not ace O O O dobj 16
 commit ace O O O case 20
-fighting ace B-1_ORG B-2_Government B-Conflict_Attack det 20
+fighting ace B-1_ORG B-2_Government O det 20
 forces ace I-1_ORG I-2_Government O nmod:to 16
 to ace O O O case 22
 the ace O O O nmod:against 20
-war ace O O B-Conflict_Attack cc 15
+war ace O O O cc 15
 against ace O O O conj:but 15
 Iraq ace B-1_GPE B-2_Nation O nsubj 26
 but ace O O O ROOT -1
@@ -17383,7 +17383,7 @@ it ace B-1_GPE B-2_Nation O amod 29
 supported ace O O O dobj 26
 the ace O O O mark 31
 military ace B-1_ORG B-2_Government O advcl:to 26
-campaign ace O O B-Conflict_Attack dobj 31
+campaign ace O O O dobj 31
 to ace O O O punct 26
 disarm ace O O O O O
 Saddam ace B-1_PER B-2_Individual O O O
@@ -17411,7 +17411,7 @@ to ace O O O amod 19
 proceed ace O O O nmod:with 16
 with ace O O O ROOT -1
 military ace B-1_ORG B-2_Government O det 23
-action ace O O B-Conflict_Attack compound 23
+action ace O O O compound 23
 weakened ace O O O dobj 20
 the ace B-1_ORG B-2_Non_Governmental O punct 20
 United ace I-1_ORG I-2_Non_Governmental O O O
@@ -17464,7 +17464,7 @@ AP ace B-1_ORG B-2_Media O appos 1
 
 Barry ace B-1_PER B-2_Individual O compound 1
 Diller ace I-1_PER I-2_Individual O nsubj 2
-resigned ace O O B-Personnel_End_Position ROOT -1
+resigned ace O O O ROOT -1
 as ace O O O case 5
 co ace B-1_Job_Title B-2_ O amod 5
 - ace I-1_Job_Title I-2_ O nmod:as 2
@@ -17482,8 +17482,8 @@ appropriate ace O O O nmod:for 14
 for ace O O O mark 18
 him ace B-1_PER B-2_Individual O xcomp 14
 to ace O O O compound:prt 18
-step ace O O B-Personnel_End_Position mark 24
-down ace O O I-Personnel_End_Position amod 23
+step ace O O O mark 24
+down ace O O O amod 23
 while ace O O O compound 23
 Paris ace B-1_GPE B-2_Population_Center O nsubj 24
 - ace I-1_ORG I-2_Commercial O advcl:while 18
@@ -17491,7 +17491,7 @@ based ace I-1_ORG I-2_Commercial O dobj 24
 Vivendi ace O O O case 28
 Universal ace O O O compound 28
 entertains ace O O O nmod:for 25
-bids ace O O B-Transaction_Transfer_Ownership punct 28
+bids ace O O O punct 28
 for ace O O O nmod:poss 33
 Universal ace B-1_ORG B-2_Entertainment O case 30
 Studios ace I-1_ORG I-2_Entertainment O compound 33
@@ -17508,7 +17508,7 @@ assets ace I-1_ORG I-2_Commercial O O O
 
 Diller ace B-1_PER B-2_Individual O nsubjpass 2
 was ace O O O auxpass 2
-appointed ace O O B-Personnel_Start_Position ROOT -1
+appointed ace O O O ROOT -1
 interim ace B-1_Job_Title B-2_ O amod 4
 CEO ace I-1_Job_Title I-2_ O dobj 2
 of ace I-1_Job_Title I-2_ O case 11
@@ -17525,7 +17525,7 @@ Vivendi ace B-1_ORG B-2_Commercial O compound 16
 Universal ace I-1_ORG I-2_Commercial O nsubj 17
 concentrated ace O O O advcl:while 2
 on ace O O O mark 19
-repaying ace O O B-Transaction_Transfer_Money advcl:on 17
+repaying ace O O O advcl:on 17
 a ace O O O det 22
 massive ace O O O amod 22
 debt ace O O O dobj 19
@@ -17537,7 +17537,7 @@ strapped ace O O O ROOT -1
 Vivendi ace O O O mark 4
 wants ace O O O xcomp 2
 to ace O O O compound 6
-sell ace O O B-Transaction_Transfer_Ownership dobj 4
+sell ace O O O dobj 4
 Universal ace B-1_ORG B-2_Entertainment O punct 6
 Studios ace I-1_ORG I-2_Entertainment O nmod:poss 11
 , ace O O O amod 11
@@ -17573,7 +17573,7 @@ Vivendi ace B-1_ORG B-2_Commercial O nsubj 4
 also ace O O O advmod 4
 is ace O O O cop 4
 holding ace O O O amod 4
-talks ace O O B-Contact_Meet ROOT -1
+talks ace O O O ROOT -1
 with ace O O O case 6
 Viacom ace B-1_ORG B-2_Commercial O nmod:with 4
 , ace O O O punct 4
@@ -17583,7 +17583,7 @@ other ace B-1_ORG B-2_Commercial O amod 11
 buyers ace I-1_ORG I-2_Commercial O conj:and 4
 interested ace I-1_ORG I-2_Commercial O amod 11
 in ace I-1_ORG I-2_Commercial O mark 14
-acquiring ace I-1_ORG I-2_Commercial B-Transaction_Transfer_Ownership advcl:in 12
+acquiring ace I-1_ORG I-2_Commercial O advcl:in 12
 all ace B-1_ORG B-2_Commercial O dobj 14
 or ace I-1_ORG I-2_Commercial O cc 15
 parts ace B-1_ORG B-2_Entertainment O conj:or 15
@@ -17654,8 +17654,8 @@ it ace O O O cop 20
 is ace O O O ROOT -1
 appropriate ace O O O mark 22
 to ace O O O xcomp 20
-step ace O O B-Personnel_End_Position advmod 22
-aside ace O O I-Personnel_End_Position case 28
+step ace O O O advmod 22
+aside ace O O O case 28
 from ace O O O det 28
 any ace O O O amod 28
 direct ace O O O compound 28
@@ -17754,7 +17754,7 @@ interested ace O O O xcomp 3
 in ace O O O case 10
 his ace B-1_PER B-2_Individual O nmod:poss 10
 own ace B-1_PER B-2_Individual O amod 10
-bid ace O O B-Transaction_Transfer_Ownership nmod:in 6
+bid ace O O O nmod:in 6
 for ace O O O case 12
 one ace B-1_ORG B-2_Entertainment O nmod:for 6
 or ace I-1_ORG I-2_Entertainment O cc 12
@@ -17791,7 +17791,7 @@ in ace O O O case 16
 an ace O O O det 16
 opportunity ace O O O nmod:in 13
 to ace O O O mark 18
-bid ace O O B-Transaction_Transfer_Ownership acl:to 16
+bid ace O O O acl:to 16
 as ace O O O advmod 20
 long ace O O O advmod 18
 as ace O O O mark 25
@@ -17837,7 +17837,7 @@ Fox ace I-1_PER I-2_Individual O conj:and 4
 where ace I-1_PER I-2_Individual O advmod 14
 he ace B-1_PER B-2_Individual O nsubj 14
 helped ace I-1_PER I-2_Individual O acl:relcl 10
-launch ace I-1_PER I-2_Individual B-Business_Start_Org xcomp 14
+launch ace I-1_PER I-2_Individual O xcomp 14
 the ace B-1_ORG B-2_Media O det 19
 Fox ace I-1_ORG I-2_Media O compound 19
 Television ace I-1_ORG I-2_Media O compound 19
@@ -17873,7 +17873,7 @@ Simpsons ace O O O O O
 ' ace O O O O O
 
 He ace B-1_PER B-2_Individual O nsubj 1
-started ace O O B-Personnel_Start_Position ROOT -1
+started ace O O O ROOT -1
 his ace B-1_PER B-2_Individual O nmod:poss 4
 entertainment ace O O O compound 4
 career ace O O O dobj 1
@@ -17960,7 +17960,7 @@ and ace I-1_PER I-2_Group O cc 0
 British ace I-1_PER I-2_Group O compound 3
 troops ace I-1_PER I-2_Group O nsubj 5
 were ace O O O aux 5
-moving ace O O B-Movement_Transport ROOT -1
+moving ace O O O ROOT -1
 on ace O O O case 11
 the ace B-1_GPE B-2_Population_Center O det 11
 strategic ace I-1_GPE I-2_Population_Center O amod 11
@@ -17975,7 +17975,7 @@ a ace O O O det 19
 massive ace O O O amod 19
 aerial ace O O O amod 19
 assault ace O O O nsubj 20
-pounded ace O O B-Conflict_Attack advcl:after 5
+pounded ace O O O advcl:after 5
 Baghdad ace B-1_GPE B-2_Population_Center O dobj 20
 at ace O O O case 23
 dawn ace B-1_TIM B-2_time O nmod:at 20
@@ -18000,7 +18000,7 @@ push ace O O O nmod:of 11
 . ace O O O punct 8
 
 The ace O O O det 1
-battle ace O O B-Conflict_Attack nsubj 15
+battle ace O O O nsubj 15
 for ace O O O case 3
 Basra ace B-1_GPE B-2_Population_Center O nmod:for 1
 , ace O O O punct 1
@@ -18034,7 +18034,7 @@ surrender ace O O O dobj 28
 
 U.S. ace B-1_VEH B-2_Air O compound 1
 aircraft ace I-1_VEH I-2_Air O nsubj 2
-bombed ace O O B-Conflict_Attack ROOT -1
+bombed ace O O O ROOT -1
 Iraqi ace B-1_VEH B-2_Land O amod 4
 tanks ace I-1_VEH I-2_Land O dobj 2
 holding ace O O O xcomp 2
@@ -18050,7 +18050,7 @@ forces ace I-1_ORG I-2_Government O nsubj 2
 responded ace O O O ROOT -1
 with ace O O O case 5
 artillery ace B-1_WEA B-2_Shooting O compound 5
-fire ace O O B-Conflict_Attack nmod:with 2
+fire ace O O O nmod:with 2
 . ace O O O punct 2
 
 Earlier ace B-1_TIM B-2_time O ccomp 6
@@ -18059,7 +18059,7 @@ Saturday ace I-1_TIM I-2_time O nmod:tmod 0
 Baghdad ace B-1_GPE B-2_Population_Center O nsubjpass 6
 was ace O O O auxpass 6
 again ace O O O advmod 6
-targeted ace O O B-Conflict_Attack ROOT -1
+targeted ace O O O ROOT -1
 , ace O O O punct 6
 one ace B-1_TIM B-2_time O nummod 9
 day ace I-1_TIM I-2_time O nmod:after 6
@@ -18068,7 +18068,7 @@ a ace O O O det 15
 massive ace O O O amod 15
 U.S. ace B-1_GPE B-2_Nation O compound 15
 aerial ace O O O amod 15
-bombardment ace O O B-Conflict_Attack nmod:in 24
+bombardment ace O O O nmod:in 24
 in ace O O O case 17
 which ace O O O ref 15
 more ace B-1_WEA B-2_Projectile O advmod 20
@@ -18097,7 +18097,7 @@ capital ace I-1_GPE I-2_Population_Center O det 11
 took ace O O O amod 11
 a ace O O O dobj 8
 direct ace O O O punct 8
-hit ace O O B-Conflict_Attack advcl 8
+hit ace O O O advcl 8
 , ace O O O dobj 13
 strewing ace O O O punct 14
 bricks ace O O O conj:and 14
@@ -18217,7 +18217,7 @@ and ace O O O cc 22
 one ace B-1_PER B-2_Individual O nsubjpass 27
 American ace I-1_PER I-2_Individual O amod 24
 were ace O O O auxpass 27
-killed ace O O B-Life_Die acl:relcl 6
+killed ace O O O acl:relcl 6
 . ace O O O punct 3
 
 Saturday ace B-1_TIM B-2_time O compound 1
@@ -18228,7 +18228,7 @@ Marines ace I-1_PER I-2_Group O nsubj 8
 and ace O O O cc 4
 British ace B-1_PER B-2_Group O compound 7
 troops ace I-1_PER I-2_Group O nsubj 8
-rumbled ace O O B-Movement_Transport ROOT -1
+rumbled ace O O O ROOT -1
 along ace O O O case 12
 the ace B-1_FAC B-2_Path O det 12
 main ace I-1_FAC I-2_Path O amod 12
@@ -18261,8 +18261,8 @@ War ace O O O advmod 39
 when ace O O O nsubj 39
 U.S. ace B-1_GPE B-2_Nation O acl:relcl 34
 airstrikes ace O O O compound:prt 39
-wiped ace O O B-Conflict_Attack det 44
-out ace O O I-Conflict_Attack amod 44
+wiped ace O O O det 44
+out ace O O O amod 44
 an ace B-1_VEH B-2_Land O amod 44
 Iraqi ace B-1_ORG B-2_Government O dobj 39
 military ace I-1_ORG I-2_Government O case 46
@@ -18279,7 +18279,7 @@ of ace I-1_ORG I-2_Government O case 5
 Basra ace B-1_GPE B-2_Population_Center O nmod:of 3
 have ace O O O aux 8
 already ace O O O advmod 8
-secured ace O O B-Transaction_Transfer_Ownership ROOT -1
+secured ace O O O ROOT -1
 the ace B-1_FAC B-2_Building_Grounds O det 12
 Rumeila ace I-1_FAC I-2_Building_Grounds O compound 12
 oil ace I-1_FAC I-2_Building_Grounds O compound 12
@@ -18315,7 +18315,7 @@ resistance ace O O O dobj 8
 even ace O O O advmod 15
 when ace O O O advmod 15
 they ace B-1_PER B-2_Group O nsubj:xsubj 23
-seized ace O O B-Conflict_Attack advcl 8
+seized ace O O O advcl 8
 nearby ace B-1_GPE B-2_Population_Center O amod 18
 Umm ace I-1_GPE I-2_Population_Center O compound 18
 Qasr ace I-1_GPE I-2_Population_Center O dobj 15
@@ -18323,7 +18323,7 @@ Qasr ace I-1_GPE I-2_Population_Center O dobj 15
 and ace O O O cc 15
 moved ace O O O conj:and 15
 to ace O O O mark 23
-secure ace O O B-Transaction_Transfer_Ownership xcomp 21
+secure ace O O O xcomp 21
 key ace B-1_FAC B-2_Building_Grounds O amod 26
 oil ace I-1_FAC I-2_Building_Grounds O compound 26
 fields ace I-1_FAC I-2_Building_Grounds O dobj 23
@@ -18331,7 +18331,7 @@ fields ace I-1_FAC I-2_Building_Grounds O dobj 23
 
 Iraqis ace B-1_PER B-2_Group O nsubj 2
 mostly ace O O O advmod 2
-fought ace O O B-Conflict_Attack ROOT -1
+fought ace O O O ROOT -1
 back ace O O O compound:prt 2
 with ace O O O case 6
 small ace B-1_WEA B-2_Projectile O amod 6
@@ -18392,7 +18392,7 @@ Scud ace I-1_FAC I-2_Airport O xcomp 9
 missiles ace I-1_FAC I-2_Airport O nsubj 14
 capable ace I-1_FAC I-2_Airport O xcomp 12
 of ace I-1_FAC I-2_Airport O mark 16
-reaching ace I-1_FAC I-2_Airport B-Conflict_Attack advcl:of 14
+reaching ace I-1_FAC I-2_Airport O advcl:of 14
 Israel ace B-1_GPE B-2_Nation O dobj 16
 , ace I-1_FAC I-2_Airport O punct 17
 and ace I-1_FAC I-2_Airport O cc 17
@@ -18413,8 +18413,8 @@ waiting ace O O O ROOT -1
 in ace O O O case 8
 Kuwait ace B-1_GPE B-2_Nation O nmod:in 6
 to ace O O O mark 10
-smash ace O O B-Conflict_Attack xcomp 6
-through ace O O I-Conflict_Attack case 14
+smash ace O O O xcomp 6
+through ace O O O case 14
 any ace O O O det 14
 Iraqi ace B-1_GPE B-2_Nation O amod 14
 resistance ace O O O nmod:through 10
@@ -18443,7 +18443,7 @@ single ace O O O advcl:in 17
 - ace O O O mark 21
 file ace O O O xcomp 17
 to ace O O O det 24
-cross ace O O B-Movement_Transport amod 24
+cross ace O O O amod 24
 the ace B-1_LOC B-2_Boundary O dobj 21
 Iraqi ace I-1_LOC I-2_Boundary O punct 12
 - ace I-1_LOC I-2_Boundary O O O
@@ -18520,7 +18520,7 @@ time ace I-1_TIM I-2_time O nmod:at 8
 however ace O O O advmod 8
 , ace O O O punct 8
 Turkey ace B-1_GPE B-2_Nation O nsubj 8
-sent ace O O B-Movement_Transport ROOT -1
+sent ace O O O ROOT -1
 1,000 ace B-1_PER B-2_Group O nummod 10
 troops ace I-1_PER I-2_Group O dobj 8
 into ace O O O case 13
@@ -18533,14 +18533,14 @@ government ace I-1_GPE I-2_Nation O nsubj 18
 said ace O O O conj:and 8
 it ace B-1_GPE B-2_Nation O nsubj 21
 would ace O O O aux 21
-send ace O O B-Movement_Transport ccomp 18
+send ace O O O ccomp 18
 more ace B-1_PER B-2_Group O dobj 21
 to ace O O O mark 24
 prevent ace O O O advcl:to 21
 Iraqi ace B-1_PER B-2_Group O amod 26
 Kurds ace I-1_PER I-2_Group O dobj 24
 from ace O O O mark 28
-creating ace O O B-Business_Start_Org advcl:from 24
+creating ace O O O advcl:from 24
 an ace B-1_GPE B-2_Nation O det 31
 independent ace I-1_GPE I-2_Nation O amod 31
 state ace I-1_GPE I-2_Nation O dobj 28
@@ -18553,7 +18553,7 @@ strongly ace O O O advmod 4
 opposes ace O O O ROOT -1
 any ace O O O det 7
 unilateral ace O O O amod 7
-move ace O O B-Movement_Transport dobj 4
+move ace O O O dobj 4
 by ace O O O case 9
 Turkey ace B-1_GPE B-2_Nation O nmod:by 4
 into ace O O O case 12
@@ -18571,7 +18571,7 @@ denied ace O O O ROOT -1
 Turkish ace B-1_GPE B-2_Nation O amod 8
 troops ace I-1_PER I-2_Group O nsubj 10
 had ace O O O aux 10
-crossed ace O O B-Movement_Transport ccomp 6
+crossed ace O O O ccomp 6
 into ace O O O case 12
 Iraq ace B-1_GPE B-2_Nation O nmod:into 10
 . ace O O O punct 6
@@ -18598,7 +18598,7 @@ with ace O O O mark 22
 two ace B-1_PER B-2_Group O nummod 21
 U.S. ace I-1_PER I-2_Group O compound 21
 Marines ace I-1_PER I-2_Group O nsubj 22
-killed ace I-1_PER I-2_Group B-Life_Die advcl:with 14
+killed ace I-1_PER I-2_Group O advcl:with 14
 in ace I-1_PER I-2_Group O case 24
 combat ace I-1_PER I-2_Group O nmod:in 22
 and ace O O O cc 24
@@ -18609,7 +18609,7 @@ and ace I-1_PER I-2_Group O cc 28
 four ace I-1_PER I-2_Group O nummod 32
 American ace I-1_PER I-2_Group O amod 32
 Marines ace I-1_PER I-2_Group O conj:and 28
-dying ace I-1_PER I-2_Group B-Life_Die acl 32
+dying ace I-1_PER I-2_Group O acl 32
 in ace I-1_PER I-2_Group O case 37
 a ace I-1_PER I-2_Group O det 37
 helicopter ace B-1_VEH B-2_Air O compound 37
@@ -18642,14 +18642,14 @@ deep ace O O O advmod 6
 in ace O O O case 9
 Iraq ace B-1_GPE B-2_Nation O nmod:in 6
 , ace O O O punct 1
-destroyed ace O O B-Conflict_Attack ROOT -1
+destroyed ace O O O ROOT -1
 a ace B-1_FAC B-2_Building_Grounds O det 16
 command ace I-1_FAC I-2_Building_Grounds O compound 16
 and ace I-1_FAC I-2_Building_Grounds O cc 13
 control ace I-1_FAC I-2_Building_Grounds O compound 16
 post ace I-1_FAC I-2_Building_Grounds O dobj 11
 and ace O O O cc 11
-killed ace O O B-Life_Die conj:and 11
+killed ace O O O conj:and 11
 a ace B-1_PER B-2_Group O det:qmod 22
 number ace I-1_PER I-2_Group O mwe 19
 of ace I-1_PER I-2_Group O mwe 19
@@ -18683,7 +18683,7 @@ Sahhaf ace O O O dobj 17
 told ace O O O ref 11
 Iraqis ace B-1_GPE B-2_Nation O nsubj 17
 that ace O O O aux 17
-fighting ace O O B-Conflict_Attack cop 17
+fighting ace O O O cop 17
 had ace O O O punct 17
 been ace O O O acl:relcl 11
 ` ace O O O punct 10
@@ -18714,7 +18714,7 @@ claimed ace O O O ROOT -1
 Iraqi ace B-1_PER B-2_Group O amod 3
 troops ace I-1_PER I-2_Group O nsubj 5
 had ace O O O aux 5
-destroyed ace O O B-Conflict_Attack ccomp 1
+destroyed ace O O O ccomp 1
 five ace B-1_VEH B-2_Land O nummod 7
 tanks ace I-1_VEH I-2_Land O dobj 5
 . ace O O O punct 1
@@ -18727,7 +18727,7 @@ than ace I-1_PER I-2_Group O mwe 2
 Iraqis ace I-1_PER I-2_Group O nsubjpass 8
 had ace O O O aux 8
 been ace O O O auxpass 8
-injured ace O O B-Life_Injure ccomp 1
+injured ace O O O ccomp 1
 , ace O O O punct 8
 including ace O O O case 11
 women ace B-1_PER B-2_Group O nmod:including 8
@@ -18753,7 +18753,7 @@ Saddam ace B-1_ORG B-2_Government O nmod:poss 4
 's ace I-1_ORG I-2_Government O case 2
 regime ace O O O nsubj 6
 was ace O O O aux 6
-crumbling ace O O B-Business_End_Org ccomp 1
+crumbling ace O O O ccomp 1
 under ace O O O case 9
 the ace O O O det 9
 pressure ace O O O nmod:under 6
@@ -18761,7 +18761,7 @@ of ace O O O case 14
 a ace O O O det 14
 huge ace O O O amod 14
 air ace O O O compound 14
-assault ace O O B-Conflict_Attack nmod:of 9
+assault ace O O O nmod:of 9
 . ace O O O punct 1
 
 ` ace O O O punct 27
@@ -18841,7 +18841,7 @@ Iraq ace B-1_GPE B-2_Nation O O O
 
 In ace O O O case 2
 a ace O O O det 2
-letter ace O O B-Contact_Phone_Write nmod:in 16
+letter ace O O O nmod:in 16
 to ace O O O case 7
 U.N. ace B-1_PER B-2_Individual O compound 7
 Secretary ace I-1_PER I-2_Individual O compound 7
@@ -18888,7 +18888,7 @@ aggression ace O O O O O
 Despite ace O O O case 3
 the ace O O O det 3
 heavy ace O O O amod 3
-bombing ace O O B-Conflict_Attack nmod:despite 21
+bombing ace O O O nmod:despite 21
 , ace O O O punct 3
 which ace O O O ref 3
 the ace B-1_ORG B-2_Government O det 9
@@ -18916,7 +18916,7 @@ quitting ace O O O nmod:of 23
 Bombers ace B-1_VEH B-2_Air O nsubj 3
 have ace O O O aux 3
 also ace O O O advmod 3
-hit ace O O B-Conflict_Attack ROOT -1
+hit ace O O O ROOT -1
 targets ace O O O dobj 3
 in ace O O O case 8
 the ace B-1_GPE B-2_Population_Center O det 8
@@ -18946,7 +18946,7 @@ Saddam ace B-1_PER B-2_Individual O nmod:of 5
 in ace O O O case 10
 uniform ace O O O nmod:in 3
 , ace O O O punct 10
-meeting ace O O B-Contact_Meet conj:and 10
+meeting ace O O O conj:and 10
 with ace O O O case 16
 his ace B-1_PER B-2_Individual O nmod:poss 16
 son ace I-1_PER I-2_Individual O compound 16
@@ -19054,7 +19054,7 @@ drunk ace O O O xcomp 14
 during ace O O O case 19
 a ace O O O det 19
 Hawaiian ace B-1_GPE B-2_State_or_Province O amod 19
-vacation ace O O B-Movement_Transport nmod:during 14
+vacation ace O O O nmod:during 14
 in ace O O O case 21
 January ace B-1_TIM B-2_time O nmod:in 19
 . ace O O O punct 10
@@ -19065,7 +19065,7 @@ was ace O O O auxpass 3
 ordered ace O O O ROOT -1
 to ace O O O mark 5
 pay ace B-1_Sentence B-2_ O xcomp 3
-fines ace I-1_Sentence I-2_ B-Justice_Fine dobj 5
+fines ace I-1_Sentence I-2_ O dobj 5
 and ace I-1_Sentence I-2_ O cc 6
 fees ace I-1_Sentence I-2_ O conj:and 6
 totaling ace I-1_Sentence I-2_ O xcomp 5
@@ -19172,7 +19172,7 @@ Campbell ace B-1_PER B-2_Individual O nmod:from 2
 to ace O O O mark 8
 pay ace O O O advcl:to 2
 the ace O O O det 10
-fines ace O O B-Justice_Fine dobj 8
+fines ace O O O dobj 8
 and ace O O O cc 10
 fees ace O O O conj:and 10
 . ace O O O punct 2
@@ -19251,7 +19251,7 @@ tearful ace O O O amod 4
 news ace O O O compound 4
 conference ace O O O nmod:in 14
 after ace O O O mark 6
-returning ace O O B-Movement_Transport acl:after 4
+returning ace O O O acl:after 4
 to ace O O O case 8
 Vancouver ace B-1_GPE B-2_Population_Center O nmod:to 6
 two ace B-1_TIM B-2_time O nummod 10
@@ -19267,7 +19267,7 @@ Columbians ace I-1_GPE I-2_State_or_Province O nmod:to 14
 but ace O O O cc 14
 refused ace O O O conj:but 14
 to ace O O O mark 22
-resign ace O O B-Personnel_End_Position xcomp 20
+resign ace O O O xcomp 20
 as ace O O O case 24
 premier ace B-1_Job_Title B-2_ O nmod:as 22
 . ace O O O punct 14
@@ -19314,7 +19314,7 @@ disclosed ace O O O ROOT -1
 their ace B-1_PER B-2_Group O nmod:poss 4
 plans ace O O O dobj 2
 to ace O O O case 6
-divorce ace O O B-Life_Divorce nmod:to 9
+divorce ace O O O nmod:to 9
 a ace B-1_TIM B-2_time O det 8
 year ace I-1_TIM I-2_time O nmod:npmod 9
 ago ace I-1_TIM I-2_time O advcl 2
@@ -19422,7 +19422,7 @@ she ace B-1_PER B-2_Individual O nsubj 27
 worked ace I-1_ORG I-2_Commercial O acl:relcl 24
 before ace I-1_ORG I-2_Commercial O mark 30
 she ace B-1_PER B-2_Individual O nsubj 30
-married ace I-1_ORG I-2_Commercial B-Life_Marry advcl:before 27
+married ace I-1_ORG I-2_Commercial O advcl:before 27
 Welch ace I-1_ORG I-2_Commercial O dobj 30
 . ace O O O punct 2
 
@@ -19433,7 +19433,7 @@ seeking ace O O O ROOT -1
 performance ace O O O compound 5
 evaluations ace O O O dobj 3
 , ace O O O punct 5
-correspondence ace O O B-Contact_Phone_Write appos 5
+correspondence ace O O O appos 5
 between ace O O O case 11
 his ace B-1_PER B-2_Individual O nmod:poss 11
 estranged ace I-1_PER I-2_Individual O amod 11
@@ -19459,7 +19459,7 @@ to ace O O O case 31
 her ace B-1_PER B-2_Individual O nmod:poss 31
 prospects ace O O O nmod:to 28
 of ace O O O mark 33
-becoming ace O O B-Personnel_Start_Position acl:of 31
+becoming ace O O O acl:of 31
 a ace B-1_Job_Title B-2_ O det 35
 partner ace I-1_Job_Title I-2_ O xcomp 33
 . ace O O O punct 3
@@ -19477,12 +19477,12 @@ salary ace O O O nmod:on 2
 , ace O O O punct 9
 benefits ace O O O appos 9
 , ace O O O punct 11
-retirement ace O O B-Personnel_End_Position compound 14
+retirement ace O O O compound 14
 plan ace O O O conj:and 11
 and ace O O O cc 11
 other ace O O O amod 17
 compensation ace O O O conj:and 11
-paid ace O O B-Transaction_Transfer_Money acl 17
+paid ace O O O acl 17
 to ace O O O case 20
 her ace B-1_PER B-2_Individual O nmod:to 18
 . ace O O O punct 2
@@ -19512,7 +19512,7 @@ that ace O O O dobj 13
 depositions ace O O O nsubj 12
 in ace O O O case 10
 the ace O O O det 10
-divorce ace O O B-Life_Divorce compound 10
+divorce ace O O O compound 10
 case ace O O O nmod:in 6
 will ace O O O aux 12
 remain ace O O O ccomp 2
@@ -19536,7 +19536,7 @@ as ace O O O case 14
 part ace O O O nmod:as 12
 of ace O O O case 18
 his ace B-1_PER B-2_Individual O nmod:poss 18
-retirement ace O O B-Personnel_End_Position compound 18
+retirement ace O O O compound 18
 package ace O O O nmod:of 14
 from ace O O O case 20
 GE ace B-1_ORG B-2_Commercial O nmod:from 12
@@ -19594,13 +19594,13 @@ said ace O O O ROOT -1
 details ace O O O nsubj 20
 of ace O O O case 6
 the ace O O O det 6
-breakdowns ace O O B-Life_Divorce nmod:of 3
+breakdowns ace O O O nmod:of 3
 of ace O O O case 12
 the ace B-1_PER B-2_Group O det 9
 Welches ace I-1_PER I-2_Group O nmod:poss 12
 ' ace O O O case 9
 previous ace O O O amod 12
-marriages ace O O B-Life_Marry nmod:of 6
+marriages ace O O O nmod:of 6
 were ace O O O cop 14
 likely ace O O O ccomp 2
 to ace O O O mark 16
