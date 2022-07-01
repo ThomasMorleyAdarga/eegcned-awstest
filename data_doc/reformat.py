@@ -25,13 +25,13 @@ def main(input, output):
                 word[1] = 'ace'
 
                 #Set default values for entity and event types
-                word[2] = "0"
-                word[3] = "0"
-                word[4] = "0"
+                word[2] = "O"
+                word[3] = "O"
+                word[4] = "O"
 
                 #Set default syntactic labels because some data is a bit skew whiff
-                word[5] = "0"
-                word[6] = "0"
+                word[5] = "O"
+                word[6] = "O"
 
             # Set syntactic label
             for syntactic_label in sample['stanford-colcc']:

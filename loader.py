@@ -29,7 +29,9 @@ def load_sentences(path):
 def update_tag_scheme(sentences, tag_scheme):
     for i,s in enumerate(sentences):
         # tags = [w[-1] for w in s]
+        print(s)
         tags = [w[4] for w in s]
+        print(tags)
         if not iob2(tags):
             s_str = '\n'.join(' '.join(w) for w in s)
             raise Exception('Sentences should be given in IOB format!'
