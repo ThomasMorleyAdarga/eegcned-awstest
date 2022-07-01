@@ -19,7 +19,10 @@ def main(input, output):
             for i, word in enumerate(entire_block):
 
                 #Add token to the output matrix
-                word[0] = sample['words'][i]
+                if sample['words'][i] == ' ':
+                    word[0] = 'q'
+                else:
+                    word[0] = sample['words'][i]
 
                 #Add 'ace' for doc_id
                 word[1] = 'ace'
