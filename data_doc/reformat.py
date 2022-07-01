@@ -106,9 +106,16 @@ def main(input, output):
             for current_word in entire_block:
                 for i, string_attribute in enumerate(current_word):
                     if i == 6:
-                        g.write(string_attribute)
+                        if string_attribute == 'O':
+                            g.write('cc')
+                        else:
+                            g.write(string_attribute)
+
                     else:
-                        g.write(string_attribute+" ")
+                        if string_attribute == 'O' and i == 5:
+                            g.write('-1' + " ")
+                        else:
+                            g.write(string_attribute+" ")
                 g.write("\n")
             g.write("\n")
 
