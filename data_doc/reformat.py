@@ -90,7 +90,7 @@ def main(input, output):
                     event_type = ''
 
                     for i, char in enumerate(event['event_type']):
-                        event_type = ((event_type + "_") if char == ':' else (event_type + str(char)))
+                        event_type = ((event_type + "_") if char == ':' or char == '-' else (event_type + str(char)))
 
                     for i, B_I_O in enumerate(event['trigger']['text'].split()):
                         if i == 0:

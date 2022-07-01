@@ -68,7 +68,7 @@ full ace O O O amod 8
 scale ace O O O compound 8
 war ace O O B-Conflict_Attack nmod:of 4
 with ace O O O case 13
-former ace B-1_TIM B-2_time B-Personnel_End-Position amod 13
+former ace B-1_TIM B-2_time B-Personnel_End_Position amod 13
 Congressman ace B-1_Job_Title B-2_ O compound 13
 Tom ace I-1_PER I-2_Individual O compound 13
 Andrews ace I-1_PER I-2_Individual O nmod:with 2
@@ -89,7 +89,7 @@ Without ace I-1_ORG I-2_Non_Governmental O case 16
 War ace I-1_ORG I-2_Non_Governmental O compound 16
 , ace O O O punct 14
 and ace O O O cc 14
-former ace B-1_TIM B-2_time B-Personnel_End-Position amod 14
+former ace B-1_TIM B-2_time B-Personnel_End_Position amod 14
 Congressman ace B-1_Job_Title B-2_ O compound 14
 Bob ace I-1_PER I-2_Individual O compound 14
 Dornan ace I-1_PER I-2_Individual O dep 16
@@ -178,7 +178,7 @@ Iraq ace I-1_ORG I-2_Government O acl:relcl 25
 arms ace I-1_ORG I-2_Government O case 35
 program ace I-1_ORG I-2_Government O det 35
 who ace B-1_PER B-2_Individual O nmod:for 32
-defected ace I-1_PER I-2_Individual B-Personnel_End-Position punct 8
+defected ace I-1_PER I-2_Individual B-Personnel_End_Position punct 8
 for ace I-1_PER I-2_Individual O O O
 a ace B-1_TIM B-2_time O O O
 time ace I-1_TIM I-2_time O O O
@@ -1919,7 +1919,7 @@ rid ace O O O xcomp 17
 of ace O O O case 21
 the ace B-1_WEA B-2_Underspecified O det 21
 weapons ace I-1_WEA I-2_Underspecified O nmod:of 18
-captured ace I-1_WEA I-2_Underspecified B-Transaction_Transfer-Ownership acl 21
+captured ace I-1_WEA I-2_Underspecified B-Transaction_Transfer_Ownership acl 21
 from ace I-1_WEA I-2_Underspecified O case 25
 the ace I-1_WEA I-2_Underspecified O det 25
 enemy ace I-1_WEA I-2_Underspecified O nmod:from 22
@@ -3950,7 +3950,7 @@ there ace O O O expl 15
 's ace O O O ccomp 12
 an ace B-1_PER B-2_Individual O det 20
 American ace I-1_PER I-2_Individual O amod 20
-retired ace I-1_PER I-2_Individual B-Personnel_End-Position amod 20
+retired ace I-1_PER I-2_Individual B-Personnel_End_Position amod 20
 general ace B-1_Job_Title B-2_ O amod 20
 waiting ace O O O nsubj 15
 in ace O O O case 22
@@ -3999,7 +3999,7 @@ process ace O O O dobj 6
 Jay ace B-1_PER B-2_Individual O compound 1
 Garner ace I-1_PER I-2_Individual O nsubj 6
 the ace B-1_PER B-2_Individual O det 4
-retired ace I-1_PER I-2_Individual B-Personnel_End-Position amod 4
+retired ace I-1_PER I-2_Individual B-Personnel_End_Position amod 4
 general ace B-1_Job_Title B-2_ O dep 1
 will ace O O O aux 6
 go ace O O B-Movement_Transport ROOT -1
@@ -4732,7 +4732,7 @@ Angeles ace I-1_GPE I-2_Population_Center O nmod:in 9
 Immediately ace O O O advmod 3
 after ace O O O mark 3
 she ace B-1_PER B-2_Individual O nsubj 3
-took ace O O B-Personnel_Start-Position advcl:after 7
+took ace O O B-Personnel_Start_Position advcl:after 7
 office ace O O O dobj 3
 , ace O O O punct 7
 she ace B-1_PER B-2_Individual O nsubj 7
@@ -4795,7 +4795,7 @@ New ace B-1_GPE B-2_Population_Center O compound 17
 Windsor ace I-1_GPE I-2_Population_Center O nmod:in 10
 and ace O O O cc 10
 immediately ace O O O advmod 20
-fired ace O O B-Personnel_End-Position conj:and 10
+fired ace O O B-Personnel_End_Position conj:and 10
 17 ace B-1_PER B-2_Group O nummod 23
 staff ace B-1_PER B-2_Group O compound 23
 members ace I-1_PER I-2_Group O dobj 20
@@ -4803,7 +4803,7 @@ members ace I-1_PER I-2_Group O dobj 20
 
 John ace B-1_PER B-2_Individual O compound 1
 McCrary ace I-1_PER I-2_Individual O nsubj 2
-resigned ace O O B-Personnel_End-Position ROOT -1
+resigned ace O O B-Personnel_End_Position ROOT -1
 from ace O O O case 5
 the ace B-1_PER B-2_Group O det 5
 board ace I-1_PER I-2_Group O nmod:from 2
@@ -4826,7 +4826,7 @@ the ace B-1_PER B-2_Group O det 13
 17 ace I-1_PER I-2_Group O nummod 13
 people ace I-1_PER I-2_Group O compound 13
 Beatriz ace B-1_PER B-2_Individual O nsubj 17
-fired ace I-1_PER I-2_Group B-Personnel_End-Position acl 13
+fired ace I-1_PER I-2_Group B-Personnel_End_Position acl 13
 were ace O O O cop 17
 the ace B-1_PER B-2_Group O det 17
 people ace I-1_PER I-2_Group O ccomp 8
@@ -4857,7 +4857,7 @@ weeks ace I-1_TIM I-2_time O nmod:tmod 1
 before ace O O O mark 7
 the ace B-1_ORG B-2_Sports O det 6
 USCF ace I-1_ORG I-2_Sports O nsubj 7
-paid ace O O B-Transaction_Transfer-Money advcl:before 1
+paid ace O O B-Transaction_Transfer_Money advcl:before 1
 the ace O O O det 10
 guaranteed ace O O O amod 10
 prizes ace O O O dobj 7
@@ -5030,13 +5030,13 @@ the ace B-1_PER B-2_Group O det 7
 players ace I-1_PER I-2_Group O nsubj 8
 expect ace O O O ROOT -1
 to ace O O O mark 10
-receive ace O O B-Transaction_Transfer-Money ccomp 8
+receive ace O O B-Transaction_Transfer_Money ccomp 8
 their ace B-1_PER B-2_Group O nmod:poss 12
 prizes ace O O O dobj 10
 , ace O O O punct 10
 and ace O O O cc 10
 to ace O O O mark 16
-receive ace O O B-Transaction_Transfer-Money conj:and 10
+receive ace O O B-Transaction_Transfer_Money conj:and 10
 them ace O O O dobj 16
 immediately ace O O O advmod 16
 . ace O O O punct 8
@@ -5060,7 +5060,7 @@ the ace B-1_PER B-2_Individual O det 16
 accountant ace I-1_PER I-2_Individual O nsubjpass 19
 was ace O O O auxpass 19
 immediately ace O O O advmod 19
-fired ace O O B-Personnel_End-Position ROOT -1
+fired ace O O B-Personnel_End_Position ROOT -1
 . ace O O O punct 19
 
 Had ace O O O aux 13
@@ -5085,7 +5085,7 @@ have ace O O O aux 20
 been ace O O O cop 20
 necessary ace O O O ROOT -1
 to ace O O O mark 22
-fire ace O O B-Personnel_End-Position xcomp 20
+fire ace O O B-Personnel_End_Position xcomp 20
 those ace B-1_PER B-2_Group O det 25
 17 ace I-1_PER I-2_Group O nummod 25
 people ace I-1_PER I-2_Group O dobj 22
@@ -5104,7 +5104,7 @@ a ace O O O det 9
 good ace O O O amod 9
 thing ace O O O ROOT -1
 to ace O O O mark 11
-fire ace O O B-Personnel_End-Position acl:to 9
+fire ace O O B-Personnel_End_Position acl:to 9
 them ace B-1_PER B-2_Group O dobj 11
 , ace O O O punct 9
 but ace O O O cc 9
@@ -5117,7 +5117,7 @@ a ace O O O det 22
 good ace O O O amod 22
 idea ace O O O conj:but 9
 to ace O O O mark 24
-fire ace O O B-Personnel_End-Position acl:to 22
+fire ace O O B-Personnel_End_Position acl:to 22
 them ace B-1_PER B-2_Group O dobj 24
 all ace I-1_PER I-2_Group O advmod 24
 abruptly ace O O O advmod 24
@@ -5164,7 +5164,7 @@ meeting ace O O O nsubj 11
 was ace O O O cop 11
 over ace O O O advcl:after 4
 before ace O O O mark 13
-resigning ace O O B-Personnel_End-Position advcl:before 11
+resigning ace O O B-Personnel_End_Position advcl:before 11
 . ace O O O punct 2
 
 Right ace O O O advmod 3
@@ -5400,7 +5400,7 @@ than ace O O O mark 17
 it ace B-1_FAC B-2_Building_Grounds O nsubjpass 17
 was ace O O O auxpass 17
 eventually ace O O O advmod 17
-sold ace O O B-Transaction_Transfer-Ownership ccomp 12
+sold ace O O B-Transaction_Transfer_Ownership ccomp 12
 for ace O O O nmod 17
 and ace O O O cc 10
 a ace O O O det 21
@@ -5415,7 +5415,7 @@ Crossville ace B-1_GPE B-2_Population_Center O nmod:in 26
 . ace O O O punct 2
 
 Staff ace B-1_PER B-2_Group O compound 1
-reductions ace O O B-Personnel_End-Position nsubj 6
+reductions ace O O B-Personnel_End_Position nsubj 6
 were ace O O O cop 6
 clearly ace O O O advmod 6
 in ace O O O case 6
@@ -5445,7 +5445,7 @@ To ace O O O mark 1
 make ace O O O csubj 10
 the ace O O O det 4
 staff ace B-1_PER B-2_Group O compound 4
-cuts ace O O B-Personnel_End-Position dobj 1
+cuts ace O O B-Personnel_End_Position dobj 1
 without ace O O O case 8
 the ace O O O det 8
 system ace O O O compound 8
@@ -5461,7 +5461,7 @@ McCrary ace B-1_PER B-2_Individual O nmod:poss 20
 & ace O O O cc 16
 Camaratta ace B-1_PER B-2_Individual O nmod:poss 20
 's ace O O O case 16
-departures ace O O B-Personnel_End-Position nmod:for 14
+departures ace O O B-Personnel_End_Position nmod:for 14
 . ace O O O punct 10
 
 When ace O O O advmod 2
@@ -5524,8 +5524,8 @@ coincidence ace O O O ROOT -1
 that ace O O O mark 7
 the ace B-1_PER B-2_Group O det 6
 employees ace I-1_PER I-2_Group O nsubj 7
-let ace I-1_PER I-2_Group B-Personnel_End-Position ccomp 3
-go ace I-1_PER I-2_Group I-Personnel_End-Position xcomp 7
+let ace I-1_PER I-2_Group B-Personnel_End_Position ccomp 3
+go ace I-1_PER I-2_Group I-Personnel_End_Position xcomp 7
 included ace O O O ccomp 8
 substantially ace O O O advmod 12
 all ace B-1_PER B-2_Group O det:predet 12
@@ -5631,7 +5631,7 @@ the ace O O O det 28
 time ace O O O compound 28
 someone ace B-1_PER B-2_Individual O nmod:between 24
 could ace O O O aux 30
-leave ace O O B-Personnel_End-Position conj:and 3
+leave ace O O B-Personnel_End_Position conj:and 3
 the ace B-1_PER B-2_Group O det 32
 EB ace I-1_PER I-2_Group O dobj 30
 and ace O O O cc 3
@@ -5640,7 +5640,7 @@ time ace O O O compound 36
 someone ace B-1_PER B-2_Individual O nsubjpass 39
 could ace O O O aux 39
 be ace O O O auxpass 39
-hired ace O O B-Personnel_Start-Position conj:and 3
+hired ace O O B-Personnel_Start_Position conj:and 3
 by ace O O O case 42
 the ace B-1_ORG B-2_Sports O det 42
 USCF ace I-1_ORG I-2_Sports O nmod:agent 39
@@ -5689,7 +5689,7 @@ board ace I-1_PER I-2_Group O dep 20
 arrange ace O O O ccomp 2
 to ace O O O mark 23
 be ace O O O auxpass 23
-given ace O O B-Transaction_Transfer-Money xcomp 20
+given ace O O B-Transaction_Transfer_Money xcomp 20
 money ace O O O dobj 23
 by ace O O O case 27
 the ace B-1_ORG B-2_Sports O det 27
@@ -5711,7 +5711,7 @@ member ace I-1_PER I-2_Individual O nsubjpass 15
 can ace O O O aux 15
 not ace O O O neg 15
 be ace O O O auxpass 15
-given ace O O B-Transaction_Transfer-Money ccomp 6
+given ace O O B-Transaction_Transfer_Money ccomp 6
 money ace O O O xcomp 15
 by ace O O O case 19
 the ace B-1_ORG B-2_Sports O det 19
@@ -5745,10 +5745,10 @@ active ace I-1_PER I-2_Individual O amod 21
 board ace I-1_PER I-2_Individual O compound 21
 member ace I-1_PER I-2_Individual O nmod:for 16
 to ace O O O mark 24
-be ace O O B-Transaction_Transfer-Money cop 24
+be ace O O B-Transaction_Transfer_Money cop 24
 money ace O O O xcomp 14
 after ace O O O mark 26
-leaving ace O O B-Personnel_End-Position advcl:after 24
+leaving ace O O B-Personnel_End_Position advcl:after 24
 the ace B-1_PER B-2_Group O det 28
 board ace I-1_PER I-2_Group O dobj 26
 . ace O O O punct 1
@@ -5773,12 +5773,12 @@ EB ace I-1_PER I-2_Individual O compound 17
 member ace I-1_PER I-2_Individual O nsubjpass 20
 would ace O O O aux 20
 be ace O O O auxpass 20
-given ace O O B-Transaction_Transfer-Money ccomp 10
+given ace O O B-Transaction_Transfer_Money ccomp 10
 $ ace B-1_Numeric B-2_Money O dep 22
 10,000 ace O O O dobj 20
 upon ace O O O case 25
 the ace O O O det 25
-expiration ace O O B-Personnel_End-Position nmod:upon 20
+expiration ace O O B-Personnel_End_Position nmod:upon 20
 of ace O O O case 28
 his ace B-1_PER B-2_Individual O amod 28
 / ace O O O nmod:of 25
@@ -5809,7 +5809,7 @@ can ace O O O aux 5
 not ace O O O neg 5
 vote ace O O O advcl:if 15
 to ace O O O mark 7
-give ace O O B-Transaction_Transfer-Money xcomp 5
+give ace O O B-Transaction_Transfer_Money xcomp 5
 themselves ace B-1_PER B-2_Group O iobj 7
 present ace B-1_TIM B-2_time O amod 10
 money ace O O O dobj 7
@@ -5819,7 +5819,7 @@ can ace O O O aux 15
 not ace O O O neg 15
 vote ace O O O ROOT -1
 to ace O O O mark 17
-give ace O O B-Transaction_Transfer-Money xcomp 15
+give ace O O B-Transaction_Transfer_Money xcomp 15
 themselves ace B-1_PER B-2_Group O iobj 17
 future ace B-1_TIM B-2_time O amod 20
 money ace O O O dobj 17
@@ -5883,7 +5883,7 @@ the ace B-1_ORG B-2_Sports O det 18
 USCF ace I-1_ORG I-2_Sports O nmod:of 15
 , ace O O O punct 13
 not ace O O O neg 21
-feathering ace O O B-Transaction_Transfer-Money parataxis 13
+feathering ace O O B-Transaction_Transfer_Money parataxis 13
 his ace B-1_PER B-2_Individual O amod 23
 / ace O O O dobj 21
 her ace B-1_PER B-2_Individual O punct 10
@@ -5904,7 +5904,7 @@ board ace I-1_PER I-2_Individual O compound 3
 member ace I-1_PER I-2_Individual O nsubj 4
 makes ace O O O advcl:if 12
 such ace O O O amod 6
-arrangements ace O O B-Transaction_Transfer-Money dobj 4
+arrangements ace O O B-Transaction_Transfer_Money dobj 4
 , ace O O O punct 12
 it ace O O O nsubj 12
 is ace O O O cop 12
@@ -6015,7 +6015,7 @@ possible ace O O O ROOT -1
 that ace O O O mark 9
 someone ace B-1_PER B-2_Individual O nsubj 9
 could ace O O O aux 9
-leave ace O O B-Personnel_End-Position ccomp 5
+leave ace O O B-Personnel_End_Position ccomp 5
 the ace B-1_PER B-2_Group O det 11
 board ace I-1_PER I-2_Group O dobj 9
 -without- ace O O O punct 9
@@ -6023,7 +6023,7 @@ ever ace O O O nmod 9
 having ace O O O punct 9
 discussed ace O O O advmod 17
 being ace O O O aux 17
-compensated ace O O B-Transaction_Transfer-Money parataxis 9
+compensated ace O O B-Transaction_Transfer_Money parataxis 9
 by ace O O O auxpass 19
 the ace B-1_PER B-2_Group O xcomp 17
 board ace I-1_PER I-2_Group O case 22
@@ -6043,7 +6043,7 @@ for ace O O O aux 39
 good ace O O O punct 39
 reason ace O O O case 37
 , ace O O O amod 37
-hire ace O O B-Personnel_Start-Position nmod:for 39
+hire ace O O B-Personnel_Start_Position nmod:for 39
 that ace B-1_PER B-2_Individual O punct 39
 person ace I-1_PER I-2_Individual O conj:and 9
 . ace O O O det 41
@@ -6109,7 +6109,7 @@ as ace O O O case 27
 the ace B-1_ORG B-2_Sports O det 22
 USCF ace I-1_ORG I-2_Sports O nmod:poss 27
 's ace I-1_PER I-2_Individual O case 22
-new ace B-1_TIM B-2_time B-Personnel_Start-Position amod 27
+new ace B-1_TIM B-2_time B-Personnel_Start_Position amod 27
 " ace I-1_PER I-2_Individual O punct 27
 move ace B-1_Job_Title B-2_ O compound 27
 coordinator ace I-1_Job_Title I-2_ O nsubj 32
@@ -6178,7 +6178,7 @@ Marinello ace B-1_PER B-2_Individual O nmod:poss 17
 's ace O O O case 15
 absence ace O O O nmod:in 12
 and ace O O O cc 12
-drafted ace O O B-Personnel_Start-Position conj:and 12
+drafted ace O O B-Personnel_Start_Position conj:and 12
 her ace B-1_PER B-2_Individual O dobj 19
 , ace O O O punct 5
 but ace O O O cc 1
@@ -6205,8 +6205,8 @@ are ace O O O cop 43
 true ace O O O advcl:if 51
 and ace O O O cc 43
 she ace B-1_PER B-2_Individual O nsubj 46
-steps ace O O B-Personnel_End-Position advcl:if 51
-down ace O O I-Personnel_End-Position advmod 46
+steps ace O O B-Personnel_End_Position advcl:if 51
+down ace O O I-Personnel_End_Position advmod 46
 , ace O O O punct 51
 it ace O O O nsubj 51
 will ace O O O aux 51
@@ -6251,7 +6251,7 @@ board ace I-1_PER I-2_Group O dep 13
 has ace O O O aux 13
 arranged ace O O O ccomp 3
 to ace O O O mark 15
-get ace O O B-Transaction_Transfer-Money xcomp 13
+get ace O O B-Transaction_Transfer_Money xcomp 13
 future ace B-1_TIM B-2_time O amod 17
 money ace O O O dobj 15
 from ace O O O case 20
@@ -6413,7 +6413,7 @@ the ace B-1_PER B-2_Individual O det 4
 Interim ace I-1_PER I-2_Individual O compound 4
 ED ace I-1_PER I-2_Individual O nsubj:xsubj 6
 to ace O O O mark 6
-designate ace O O B-Personnel_Start-Position xcomp 1
+designate ace O O B-Personnel_Start_Position xcomp 1
 someone ace B-1_PER B-2_Individual O dobj 6
 from ace I-1_PER I-2_Individual O case 12
 the ace B-1_PER B-2_Group O det 12
@@ -6432,7 +6432,7 @@ the ace B-1_PER B-2_Individual O det 4
 Interim ace I-1_PER I-2_Individual O compound 4
 ED ace I-1_PER I-2_Individual O nsubj:xsubj 6
 to ace O O O mark 6
-hire ace O O B-Personnel_Start-Position xcomp 1
+hire ace O O B-Personnel_Start_Position xcomp 1
 some ace B-1_PER B-2_Individual O det 9
 other ace I-1_PER I-2_Individual O amod 9
 consultant ace I-1_PER I-2_Individual O dobj 6
@@ -6773,7 +6773,7 @@ cause ace O O O parataxis 18
 people ace B-1_PER B-2_Group O nsubj:xsubj 95
 not ace O O O neg 95
 to ace O O O mark 95
-loan ace O O B-Transaction_Transfer-Money xcomp 91
+loan ace O O B-Transaction_Transfer_Money xcomp 91
 us ace B-1_ORG B-2_Sports O dep 97
 money ace O O O dobj 95
 , ace O O O punct 97
@@ -6904,12 +6904,12 @@ true ace O O O xcomp 34
 , ace O O O punct 34
 and ace O O O cc 34
 Marinello ace B-1_PER B-2_Individual O nsubjpass 44
-resigns ace O O B-Personnel_End-Position advcl:if 54
+resigns ace O O B-Personnel_End_Position advcl:if 54
 as ace O O O case 41
 President ace B-1_Job_Title B-2_ O nmod:as 39
 and ace O O O cc 39
 is ace O O O auxpass 44
-hired ace O O B-Personnel_Start-Position conj:and 39
+hired ace O O B-Personnel_Start_Position conj:and 39
 as ace O O O case 47
 move ace B-1_Job_Title B-2_ O compound 47
 coordinator ace I-1_Job_Title I-2_ O nmod:as 44
@@ -6934,7 +6934,7 @@ his ace B-1_PER B-2_Individual O nmod:poss 67
 current ace B-1_TIM B-2_time O amod 67
 complaint ace O O B-Justice_Sue dobj 64
 ) ace O O O punct 64
-charging ace O O B-Justice_Charge-Indict xcomp 6
+charging ace O O B-Justice_Charge_Indict xcomp 6
 the ace B-1_PER B-2_Group O det 73
 USCF ace I-1_PER I-2_Group O compound 73
 EB ace I-1_PER I-2_Group O compound 73
@@ -6974,7 +6974,7 @@ might ace O O O acl:relcl 101
 be ace O O O case 108
 used ace O O O amod 108
 to ace O O O nmod:to 105
-paid ace O O B-Transaction_Transfer-Money auxpass 110
+paid ace O O B-Transaction_Transfer_Money auxpass 110
 Marinello ace B-1_PER B-2_Individual O ccomp 90
 be ace O O O punct 90
 frozen ace O O O O O
@@ -7156,7 +7156,7 @@ the ace O O O det 4
 recommended ace O O O amod 4
 policy ace O O O nsubj 0
 on ace O O O mark 6
-compensating ace O O B-Transaction_Transfer-Money acl:on 4
+compensating ace O O B-Transaction_Transfer_Money acl:on 4
 board ace B-1_PER B-2_Group O compound 8
 members ace I-1_PER I-2_Group O dobj 6
 for ace O O O case 11
@@ -7185,7 +7185,7 @@ own ace B-1_PER B-2_Group O amod 32
 time ace O O O nmod:on 28
 , ace O O O punct 25
 without ace O O O case 35
-pay ace O O B-Transaction_Transfer-Money nmod:without 25
+pay ace O O B-Transaction_Transfer_Money nmod:without 25
 . ace O O O punct 0
 
 We ace B-1_PER B-2_Group O nsubj:xsubj 5
@@ -7237,7 +7237,7 @@ it ace O O O nsubj:xsubj 24
 is ace O O O cop 22
 illegal ace O O O conj:and 10
 to ace O O O mark 24
-compensate ace O O B-Transaction_Transfer-Money xcomp 22
+compensate ace O O B-Transaction_Transfer_Money xcomp 22
 board ace B-1_PER B-2_Group O compound 26
 members ace I-1_PER I-2_Group O dobj 24
 for ace O O O case 29
@@ -7265,7 +7265,7 @@ reasonable ace O O O ROOT -1
 however ace O O O advmod 2
 , ace O O O punct 2
 to ace O O O mark 7
-reimburse ace O O B-Transaction_Transfer-Money xcomp 2
+reimburse ace O O B-Transaction_Transfer_Money xcomp 2
 board ace B-1_PER B-2_Group O compound 9
 members ace I-1_PER I-2_Group O dobj 7
 for ace O O O case 14
@@ -7292,10 +7292,10 @@ make ace O O O advcl:if 1
 a ace O O O det 7
 case ace O O O dobj 5
 for ace O O O mark 9
-paying ace O O B-Transaction_Transfer-Money advcl:for 5
+paying ace O O B-Transaction_Transfer_Money advcl:for 5
 someone ace B-1_PER B-2_Individual O dobj 9
 to ace O O O mark 12
-replace ace O O B-Personnel_End-Position advcl:to 9
+replace ace O O B-Personnel_End_Position advcl:to 9
 the ace B-1_PER B-2_Individual O det 15
 board ace I-1_PER I-2_Individual O compound 15
 member ace I-1_PER I-2_Individual O dobj 12
@@ -7323,7 +7323,7 @@ to ace O O O mark 13
 be ace O O O cop 13
 similar ace O O O xcomp 8
 to ace O O O mark 15
-reimbursing ace O O B-Transaction_Transfer-Money advcl:to 13
+reimbursing ace O O B-Transaction_Transfer_Money advcl:to 13
 a ace B-1_PER B-2_Individual O det 18
 board ace I-1_PER I-2_Individual O compound 18
 member ace I-1_PER I-2_Individual O dobj 15
@@ -7441,7 +7441,7 @@ incorporation ace O O O nmod:of 8
 indicate ace O O O ROOT -1
 that ace O O O mark 17
 NO ace O O O compound 14
-compensation ace O O B-Transaction_Transfer-Money nsubjpass 17
+compensation ace O O B-Transaction_Transfer_Money nsubjpass 17
 may ace O O O aux 17
 be ace O O O auxpass 17
 paid ace O O O ccomp 11
@@ -7487,7 +7487,7 @@ does ace O O O aux 7
 not ace O O O neg 7
 explicitly ace O O O advmod 7
 prohibit ace O O O ROOT -1
-compensation ace O O B-Transaction_Transfer-Money dobj 7
+compensation ace O O B-Transaction_Transfer_Money dobj 7
 to ace O O O case 10
 directors ace B-1_PER B-2_Group O nmod:to 7
 . ace O O O punct 7
@@ -7657,7 +7657,7 @@ practice ace O O O nsubj 14
 in ace O O O case 12
 Canada ace B-1_GPE B-2_Nation O nmod:in 8
 to ace O O O mark 14
-pay ace O O B-Transaction_Transfer-Money conj:and 3
+pay ace O O B-Transaction_Transfer_Money conj:and 3
 an ace O O O det 16
 honorarium ace O O O dobj 14
 or ace O O O cc 16
@@ -7673,7 +7673,7 @@ active ace I-1_PER I-2_Group O acl:relcl 22
 
 Many ace B-1_PER B-2_Group O nsubj 1
 do ace O O O ROOT -1
-this ace O O B-Transaction_Transfer-Money dobj 1
+this ace O O B-Transaction_Transfer_Money dobj 1
 , ace O O O punct 2
 as ace O O O mark 6
 they ace B-1_PER B-2_Group O nsubj 6
@@ -7701,7 +7701,7 @@ the ace B-1_PER B-2_Group O det 7
 recipients ace I-1_PER I-2_Group O dobj 5
 , ace O O O punct 11
 the ace O O O det 10
-payment ace O O B-Transaction_Transfer-Money nsubj 11
+payment ace O O B-Transaction_Transfer_Money nsubj 11
 is ace O O O ccomp 2
 but ace O O O cc 11
 a ace O O O det 14
@@ -8087,7 +8087,7 @@ is ace O O O punct 1
 done ace O O O cc 1
 , ace O O O nsubj 23
 and ace O O O cop 23
-it ace O O B-Transaction_Transfer-Money advmod 23
+it ace O O B-Transaction_Transfer_Money advmod 23
 is ace O O O nsubj 3
 very ace O O O punct 1
 legal ace O O O O O
@@ -8106,7 +8106,7 @@ unions ace I-1_ORG I-2_Non_Governmental O nmod:of 4
 , ace O O O punct 13
 they ace B-1_ORG B-2_Non_Governmental O nsubj 13
 all ace I-1_ORG I-2_Non_Governmental O advmod 13
-pay ace O O B-Transaction_Transfer-Money ROOT -1
+pay ace O O B-Transaction_Transfer_Money ROOT -1
 their ace B-1_PER B-2_Group O nmod:poss 17
 elected ace I-1_PER I-2_Group B-Personnel_Elect amod 17
 board ace B-1_PER B-2_Group O compound 17
@@ -8278,7 +8278,7 @@ assassination ace O O B-Life_Die dep 10
 of ace O O O case 24
 Lebanon ace B-1_PER B-2_Individual O nmod:poss 24
 's ace I-1_PER I-2_Individual O case 20
-former ace B-1_TIM B-2_time B-Personnel_End-Position amod 24
+former ace B-1_TIM B-2_time B-Personnel_End_Position amod 24
 prime ace B-1_Job_Title B-2_ O amod 24
 minister ace I-1_Job_Title I-2_ O nmod:of 18
 in ace O O O case 26
@@ -8329,8 +8329,8 @@ would ace O O O aux 39
 prevent ace O O O acl:relcl 35
 it ace B-1_ORG B-2_Non_Governmental O dobj 39
 from ace O O O mark 42
-raising ace O O B-Transaction_Transfer-Money advcl:from 39
-money ace O O I-Transaction_Transfer-Money dobj 42
+raising ace O O B-Transaction_Transfer_Money advcl:from 39
+money ace O O I-Transaction_Transfer_Money dobj 42
 in ace O O O case 45
 Europe ace B-1_GPE B-2_Continent O nmod:in 43
 through ace O O O case 48
@@ -9840,8 +9840,8 @@ reporter ace I-1_PER I-2_Individual O nsubj 10
 with ace I-1_PER I-2_Individual O case 8
 NBC ace B-1_ORG B-2_Media O nmod:with 6
 was ace O O O aux 10
-taking ace O O B-Transaction_Transfer-Money ccomp 1
-money ace O O I-Transaction_Transfer-Money dobj 10
+taking ace O O B-Transaction_Transfer_Money ccomp 1
+money ace O O I-Transaction_Transfer_Money dobj 10
 to ace O O O mark 13
 fund ace O O O advcl:to 10
 a ace O O O det 15
@@ -9896,7 +9896,7 @@ has ace O O O aux 7
 been ace O O O cop 7
 on ace O O O case 7
 the ace O O O det 7
-payroll ace O O B-Transaction_Transfer-Money ROOT -1
+payroll ace O O B-Transaction_Transfer_Money ROOT -1
 of ace O O O case 11
 the ace B-1_PER B-2_Group O det 11
 U.N. ace I-1_PER I-2_Group O compound 11
@@ -9936,7 +9936,7 @@ reads ace O O O det 30
 like ace O O O nsubj 31
 the ace B-1_ORG B-2_Non_Governmental O advcl:like 27
 U.N. ace I-1_ORG I-2_Non_Governmental O case 33
-paid ace O O B-Transaction_Transfer-Money nmod:for 31
+paid ace O O B-Transaction_Transfer_Money nmod:for 31
 for ace O O O punct 13
 it ace O O O O O
 . ace O O O O O
@@ -9948,7 +9948,7 @@ pro ace I-1_PER I-2_Group O compound 4
 - ace I-1_PER I-2_Group O nsubj 5
 U.N. ace B-1_ORG B-2_Non_Governmental O ROOT -1
 lobby ace O O O case 7
-paid ace O O B-Transaction_Transfer-Money nmod:for 5
+paid ace O O B-Transaction_Transfer_Money nmod:for 5
 for ace O O O punct 5
 it ace O O O O O
 . ace O O O O O
@@ -9982,7 +9982,7 @@ for ace O O O case 29
 their ace B-1_ORG B-2_Non_Governmental O nmod:poss 29
 generous ace O O O amod 29
 financial ace O O O amod 29
-support ace O O B-Transaction_Transfer-Money nmod:for 19
+support ace O O B-Transaction_Transfer_Money nmod:for 19
 " ace O O O punct 29
 of ace O O O case 34
 her ace B-1_PER B-2_Individual O nmod:poss 34
@@ -10001,7 +10001,7 @@ Fund ace I-1_ORG I-2_Non_Governmental O dep 2
 for ace O O O mark 9
 helping ace O O O acl:for 6
 to ace O O O mark 11
-fund ace O O B-Transaction_Transfer-Money xcomp 9
+fund ace O O B-Transaction_Transfer_Money xcomp 9
 the ace O O O det 13
 project ace O O O dobj 11
 . ace O O O punct 0
@@ -10166,7 +10166,7 @@ Public ace I-1_ORG I-2_Media O compound 15
 Radio ace I-1_ORG I-2_Media O nmod:for 11
 ) ace O O O punct 8
 take ace O O O acl:relcl 4
-money ace O O B-Transaction_Transfer-Money dobj 17
+money ace O O B-Transaction_Transfer_Money dobj 17
 from ace O O O case 22
 the ace B-1_PER B-2_Group O det 22
 U.N. ace I-1_PER I-2_Group O compound 22
@@ -10390,7 +10390,7 @@ Rwanda ace I-1_PER I-2_Group O nmod:in 28
 , ace O O O punct 15
 sent ace O O O acl:before 12
 a ace O O O det 34
-fax ace O O B-Contact_Phone-Write dobj 32
+fax ace O O B-Contact_Phone_Write dobj 32
 to ace O O O case 39
 Kofi ace B-1_ORG B-2_Non_Governmental O compound 37
 Annan ace I-1_ORG I-2_Non_Governmental O nmod:poss 39
@@ -10484,7 +10484,7 @@ now ace B-1_TIM B-2_time O amod 15
 infamous ace O O O compound 15
 " ace O O O nmod:in 8
 genocide ace O O O punct 15
-fax ace O O B-Contact_Phone-Write case 20
+fax ace O O B-Contact_Phone_Write case 20
 " ace O O O nmod:poss 20
 from ace O O O case 18
 Annan ace B-1_ORG B-2_Non_Governmental O nmod:from 15
@@ -10827,7 +10827,7 @@ Christmas ace B-1_TIM B-2_time O nmod:after 4
 I ace B-1_PER B-2_Individual O nsubj 4
 got ace O O O ROOT -1
 a ace O O O det 6
-call ace O O B-Contact_Phone-Write dobj 4
+call ace O O B-Contact_Phone_Write dobj 4
 from ace O O O case 9
 the ace B-1_PER B-2_Individual O det 9
 wife ace I-1_PER I-2_Individual O nmod:from 4
@@ -10865,7 +10865,7 @@ works ace I-1_ORG I-2_Commercial O advcl 2
 . ace O O O punct 2
 
 I ace B-1_PER B-2_Individual O nsubj 1
-started ace O O B-Personnel_Start-Position ROOT -1
+started ace O O B-Personnel_Start_Position ROOT -1
 here ace B-1_ORG B-2_Commercial O advmod 1
 4 ace B-1_TIM B-2_time O nummod 4
 weeks ace I-1_TIM I-2_time O nmod:npmod 5
@@ -11222,7 +11222,7 @@ My ace B-1_PER B-2_Individual O nmod:poss 1
 plan ace O O O nsubj:xsubj 12
 is ace O O O ROOT -1
 to ace O O O mark 4
-pay ace O O B-Transaction_Transfer-Ownership xcomp 2
+pay ace O O B-Transaction_Transfer_Ownership xcomp 2
 off ace O O O compound:prt 4
 my ace B-1_PER B-2_Individual O nmod:poss 7
 car ace I-1_VEH I-2_Land O dobj 4
@@ -11877,7 +11877,7 @@ passengers ace B-1_PER B-2_Group O nmod:in 18
 despite ace O O O mark 1
 operating ace O O O advcl:despite 7
 under ace O O O case 4
-bankruptcy ace O O B-Business_Declare-Bankruptcy compound 4
+bankruptcy ace O O B-Business_Declare_Bankruptcy compound 4
 laws ace O O O nmod:under 1
 , ace O O O punct 7
 united ace B-1_ORG B-2_Commercial O nsubj 7
@@ -12122,7 +12122,7 @@ jackson ace B-1_ORG B-2_Entertainment O compound 14
 five ace I-1_ORG I-2_Entertainment O nummod 14
 merchandise ace O O O conj:and 10
 without ace O O O mark 16
-giving ace O O B-Transaction_Transfer-Money advcl:without 8
+giving ace O O B-Transaction_Transfer_Money advcl:without 8
 him ace B-1_PER B-2_Individual O dep 21
 " ace O O O punct 21
 a ace B-1_Numeric B-2_Money O det 21
@@ -13113,7 +13113,7 @@ billion ace O O O nummod 1
 last ace B-1_TIM B-2_time O amod 1
 night ace I-1_TIM I-2_time O nmod:tmod 9
 , ace O O O punct 9
-former ace B-1_TIM B-2_time B-Personnel_End-Position amod 6
+former ace B-1_TIM B-2_time B-Personnel_End_Position amod 6
 general ace B-1_ORG B-2_Commercial O amod 6
 electric ace I-1_ORG I-2_Commercial O amod 6
 ceo ace B-1_Job_Title B-2_ O nsubj:xsubj 11
@@ -13361,8 +13361,8 @@ you ace B-1_PER B-2_Indeterminate O nsubj 71
 see ace O O O parataxis 11
 the ace B-1_ORG B-2_Commercial O det 73
 companies ace I-1_ORG I-2_Commercial O nsubj 78
-going ace O O B-Business_End-Org acl 73
-down ace O O I-Business_End-Org compound:prt 74
+going ace O O B-Business_End_Org acl 73
+down ace O O I-Business_End_Org compound:prt 74
 the ace O O O det 77
 zblubs ace O O O dobj 74
 thank ace O O O ccomp 71
@@ -13553,7 +13553,7 @@ one ace I-1_PER I-2_Individual O nsubjpass 5
 has ace O O O aux 5
 ever ace O O O advmod 5
 been ace O O O auxpass 5
-arrested ace O O B-Justice_Arrest-Jail ROOT -1
+arrested ace O O B-Justice_Arrest_Jail ROOT -1
 in ace O O O case 7
 connection ace O O O nmod:in 5
 with ace O O O case 10
@@ -13899,7 +13899,7 @@ still ace O O O advmod 13
 not ace O O O neg 8
 one ace O O O nummod 8
 single ace O O O amod 8
-arrest ace O O B-Justice_Arrest-Jail nsubj 17
+arrest ace O O B-Justice_Arrest_Jail nsubj 17
 for ace O O O case 11
 those ace B-1_Crime B-2_ O det 11
 attacks ace I-1_Crime I-2_ B-Conflict_Attack nmod:for 8
@@ -14052,7 +14052,7 @@ from ace O O O case 7
 mexico ace B-1_GPE B-2_Nation O nmod:from 1
 following ace O O O case 10
 his ace B-1_PER B-2_Individual O nmod:poss 10
-capture ace O O B-Justice_Arrest-Jail nmod:following 7
+capture ace O O B-Justice_Arrest_Jail nmod:following 7
 tuesday ace B-1_TIM B-2_time O nmod:tmod 10
 by ace O O O case 15
 american ace B-1_GPE B-2_Nation O compound 15
@@ -14065,7 +14065,7 @@ skipped ace O O O ROOT -1
 bail ace O O O dobj 1
 during ace O O O case 5
 his ace B-1_PER B-2_Individual O nmod:poss 5
-trial ace O O B-Justice_Trial-Hearing nmod:during 1
+trial ace O O B-Justice_Trial_Hearing nmod:during 1
 in ace O O O case 7
 january ace B-1_TIM B-2_time O nmod:in 5
 for ace O O O mark 9
@@ -14774,7 +14774,7 @@ his ace B-1_PER B-2_Group O advcl 2
 family ace I-1_PER I-2_Group O cc 11
 lived ace O O O conj:and 11
 and ace O O O nmod:poss 16
-arrested ace O O B-Justice_Arrest-Jail case 14
+arrested ace O O B-Justice_Arrest_Jail case 14
 Qawasmi ace B-1_PER B-2_Individual O dobj 13
 's ace I-1_PER I-2_Individual O cc 16
 brother ace I-1_PER I-2_Individual O conj:and 16
@@ -14928,7 +14928,7 @@ after ace I-1_TIM I-2_time O case 19
 the ace B-1_PER B-2_Individual O det 19
 hawkish ace I-1_PER I-2_Individual O amod 19
 Sharon ace I-1_PER I-2_Individual O nmod:after 13
-appointed ace O O B-Personnel_Start-Position acl 19
+appointed ace O O B-Personnel_Start_Position acl 19
 the ace B-1_ORG B-2_Government O det 24
 most ace I-1_ORG I-2_Government O advmod 24
 right ace I-1_ORG I-2_Government O amod 24
@@ -15440,7 +15440,7 @@ Christie ace B-1_ORG B-2_Commercial O conj:and 10
 have ace O O O aux 17
 agreed ace O O O ccomp 32
 to ace O O O mark 19
-pay ace O O B-Transaction_Transfer-Money xcomp 17
+pay ace O O B-Transaction_Transfer_Money xcomp 17
 40 ace B-1_Numeric B-2_Money O compound 21
 million ace I-1_Numeric I-2_Money O nummod 22
 dollars ace I-1_Numeric I-2_Money O dobj 19
@@ -15459,7 +15459,7 @@ said ace O O O O O
 . ace O O O O O
 
 The ace O O O det 1
-payment ace O O B-Transaction_Transfer-Money nsubj 10
+payment ace O O B-Transaction_Transfer_Money nsubj 10
 , ace O O O punct 1
 if ace O O O mark 4
 approved ace O O O dep 1
@@ -15510,7 +15510,7 @@ Christie ace B-1_ORG B-2_Commercial O conj:and 9
 's ace O O O case 12
 will ace O O O aux 16
 each ace B-1_ORG B-2_Commercial O dep 16
-pay ace O O B-Transaction_Transfer-Money ccomp 22
+pay ace O O B-Transaction_Transfer_Money ccomp 22
 20 ace B-1_Numeric B-2_Money O compound 18
 million ace I-1_Numeric I-2_Money O nummod 19
 dollars ace I-1_Numeric I-2_Money O dobj 16
@@ -15605,7 +15605,7 @@ US ace B-1_GPE B-2_Nation O amod 4
 based ace O O O auxpass 6
 auctions ace O O O ROOT -1
 were ace O O O case 9
-settled ace O O B-Transaction_Transfer-Money det 9
+settled ace O O B-Transaction_Transfer_Money det 9
 in ace O O O nmod:in 6
 an ace O O O acl 9
 agreement ace O O O case 12
@@ -15681,7 +15681,7 @@ which ace O O O conj:and 7
 prosecutors ace B-1_PER B-2_Group O iobj 25
 said ace O O O case 29
 had ace O O O det 29
-cost ace O O B-Transaction_Transfer-Money nmod:of 26
+cost ace O O B-Transaction_Transfer_Money nmod:of 26
 clients ace B-1_PER B-2_Group O compound 31
 of ace I-1_PER I-2_Group O dobj 25
 both ace I-1_PER I-2_Group O dep 31
@@ -15695,7 +15695,7 @@ Christie ace B-1_ORG B-2_Commercial O nsubjpass 4
 's ace O O O case 0
 was ace O O O auxpass 4
 not ace O O O neg 4
-prosecuted ace O O B-Justice_Charge-Indict ROOT -1
+prosecuted ace O O B-Justice_Charge_Indict ROOT -1
 in ace O O O case 8
 the ace B-1_GPE B-2_Nation O det 8
 United ace I-1_GPE I-2_Nation O compound 8
@@ -15750,7 +15750,7 @@ the ace O O O det 8
 20-million ace B-1_Numeric B-2_Money O amod 8
 - ace O O O dobj 5
 dollar ace O O O case 12
-settlement ace O O B-Transaction_Transfer-Money det 12
+settlement ace O O B-Transaction_Transfer_Money det 12
 as ace O O O amod 12
 a ace O O O nmod:as 5
 special ace O O O case 14
@@ -15765,7 +15765,7 @@ be ace O O O auxpass 3
 funded ace O O O ROOT -1
 in ace O O O case 6
 two ace O O O nummod 6
-payments ace O O B-Transaction_Transfer-Money nmod:in 3
+payments ace O O B-Transaction_Transfer_Money nmod:in 3
 of ace O O O case 10
 10 ace B-1_Numeric B-2_Money O compound 9
 million ace I-1_Numeric I-2_Money O nummod 10
@@ -16749,7 +16749,7 @@ Barry ace I-1_PER I-2_Individual O compound 3
 Diller ace I-1_PER I-2_Individual O nsubj 6
 on ace O O O case 5
 Wednesday ace B-1_TIM B-2_time O nmod:on 3
-quit ace O O B-Personnel_End-Position ROOT -1
+quit ace O O B-Personnel_End_Position ROOT -1
 as ace O O O case 8
 chief ace B-1_Job_Title B-2_ O nmod:as 6
 of ace I-1_PER I-2_Individual O case 12
@@ -16780,8 +16780,8 @@ statement ace O O O nmod:in 26
 Diller ace B-1_PER B-2_Individual O nsubj 26
 -- ace I-1_PER I-2_Individual O punct 7
 who ace B-1_PER B-2_Individual O nsubj 7
-took ace I-1_PER I-2_Individual B-Personnel_Start-Position dep 4
-on ace I-1_PER I-2_Individual I-Personnel_Start-Position compound:prt 7
+took ace I-1_PER I-2_Individual B-Personnel_Start_Position dep 4
+on ace I-1_PER I-2_Individual I-Personnel_Start_Position compound:prt 7
 the ace B-1_Job_Title B-2_ O det 13
 " ace I-1_Job_Title I-2_ O punct 13
 provisional ace I-1_Job_Title I-2_ O amod 13
@@ -16870,7 +16870,7 @@ the ace O O O det 5
 11-billion ace B-1_Numeric B-2_Money O amod 5
 - ace O O O nmod:of 1
 dollar ace O O O case 10
-sale ace O O B-Transaction_Transfer-Ownership compound 8
+sale ace O O B-Transaction_Transfer_Ownership compound 8
 of ace O O O nmod:poss 10
 USA ace B-1_ORG B-2_Entertainment O case 8
 Interactive ace I-1_ORG I-2_Entertainment O nmod:of 5
@@ -16962,7 +16962,7 @@ Jean ace I-1_PER I-2_Individual O compound 12
 Rene ace O O O aux 14
 Fourtou ace O O O ccomp 7
 will ace O O O dep 17
-replace ace O O B-Personnel_Start-Position amod 17
+replace ace O O B-Personnel_Start_Position amod 17
 Diller ace B-1_PER B-2_Individual O dobj 14
 as ace O O O cc 17
 chairman ace B-1_Job_Title B-2_ O amod 20
@@ -16999,7 +16999,7 @@ that ace O O O mark 25
 he ace B-1_PER B-2_Individual O nsubj 25
 was ace O O O aux 25
 " ace O O O punct 25
-ending ace O O B-Personnel_End-Position ccomp 20
+ending ace O O B-Personnel_End_Position ccomp 20
 his ace B-1_PER B-2_Individual O nmod:poss 28
 temporary ace O O O amod 28
 assignment ace O O O dobj 25
@@ -17044,7 +17044,7 @@ of ace O O O case 30
 debt ace O O O det 30
 since ace O O O nmod:since 27
 the ace O O O case 35
-removal ace O O B-Personnel_End-Position amod 35
+removal ace O O B-Personnel_End_Position amod 35
 of ace O O O compound 35
 expansionist ace B-1_PER B-2_Individual O compound 35
 boss ace I-1_PER I-2_Individual O nmod:of 30
@@ -17144,7 +17144,7 @@ weighing ace O O O ccomp 3
 a ace O O O det 11
 spinoff ace O O O dobj 9
 or ace O O O cc 11
-sale ace O O B-Transaction_Transfer-Ownership conj:or 11
+sale ace O O B-Transaction_Transfer_Ownership conj:or 11
 of ace O O O case 23
 its ace B-1_ORG B-2_Entertainment O nmod:poss 23
 US ace I-1_ORG I-2_Entertainment O compound 23
@@ -19469,7 +19469,7 @@ had ace O O O conj:and 14
 no ace O O O neg 25
 plans ace O O O dobj 23
 to ace O O O mark 27
-leave ace O O B-Personnel_End-Position ccomp 23
+leave ace O O B-Personnel_End_Position ccomp 23
 . ace O O O punct 11
 
 " ace O O O punct 20
