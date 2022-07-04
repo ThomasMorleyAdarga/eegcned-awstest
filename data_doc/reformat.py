@@ -81,6 +81,8 @@ def main(input, output):
                             entity_type = ((entity_type + '_') if char == '-' else (entity_type + str(char)))
                         if sub == True:
                             entity_sub_type = ((entity_sub_type + '_') if char == '-' else (entity_sub_type + str(char)))
+                            if entity_sub_type.startswith("time"):
+                                entity_sub_type = "Time"
 
                 for i, B_I_O in enumerate(entity['text'].split()):
                     if i == 0:
