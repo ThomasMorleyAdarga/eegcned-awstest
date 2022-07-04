@@ -52,6 +52,12 @@ def main(input, output):
                     syntactic_label_data.append(int(syntactic_label.split("/")[3][4:]))
 
 
+                #contingenecy for unrecognised 'nmod:in' dependency
+                if len(syntactic_label_data[0].split(':')) > 1:
+                    if syntactic_label_data[0].split(':')[1].startswith('in'):
+                        syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
+
+
                 if syntactic_label_data[1] < len(entire_block):
                     entire_block[syntactic_label_data[1]][5] = str(syntactic_label_data[0])
                     entire_block[syntactic_label_data[1]][6] = str(syntactic_label_data[2])
