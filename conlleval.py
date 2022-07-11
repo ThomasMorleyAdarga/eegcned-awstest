@@ -304,4 +304,4 @@ def main(argv):
 if __name__ == '__main__':
     a = return_report("result/ner_predict.utf8")
     for i in a:
-        #print (i)
+        print (i)

@@ -72,12 +72,32 @@ def main(input, output):
                             'nmod:among':109, "nmod:'s":110, 'advcl:on':111, 'nmod:without':112, 'advcl:of':113, 'nmod:into':114, 'nmod:such_as':115,
                             'nmod:except':116, 'nmod:but':117, 'nmod:far_from':118, 'nmod:that':119, 'nmod:near':120, 'nmod:out':121, 'advcl:whether':122,
                             'advcl:with':123, 'nmod:down':124, 'advcl:so_that':125, 'advcl:that':126, 'acl:as':127, 'nmod:including':128, 'nmod:before':129,
-                            'nmod:beyond':130, 'conj:in':131, 'nmod:up':132}
+                            'nmod:beyond':130, 'conj:in':131, 'nmod:up':132, 'nmod:atop':133, 'advcl:once':134, 'nmod:beginning':135, 'advcl:after':136, 'nmod:past':137, 'advcl:such':138, 'nmod:vs.':139, 'advcl:behind':140, 'nmod:inside_of':141,
+                            'nmod:given':142, 'acl:based_on':143, 'nmod:plus':144, 'nmod:onto':145, 'nmod:\'':146, 'acl:before':147, 'conj:just':148, 'advcl:till':149,
+                            'advcl:whilst':150, 'nmod:in_front_of':151, 'advcl:below':152, 'nmod:oconer':153, 'nmod:away_from':154, 'nmod:pending':155, 'acl:compared_to':156,
+                            'acl:until':157, 'advcl:f.':158, 'conj:+':159, 'advcl:among':160, 'advcl:through':161, 'acl:including':162, 'nmod:together_with':163, 'acl:because':164,
+                            'conj:plus':165, 'nmod:versus':166, 'acl:next_to':167, 'nmod:contrary_to':168, 'advcl:close_to':169, 'advcl:around':170, 'conj:andor':171, 'conj:as':172,
+                            'nmod:above':173, 'nmod:while':174, 'acl:between':175, 'nmod:involving':176, 'nmod:towards':177, 'acl:instead_of':178, 'advcl:over':179, 'nmod:regarding':180,
+                            'nmod:despite':181, 'nmod:next_to':182, 'nmod:as_for':183, 'nmod:besides':184, 'advcl:toward':185, 'acl:about':186, 'nmod:concerning':187, 'advcl:instead_of':188,
+                            'advcl:not':189, 'conj:x':190, 'conj:v.':191, 'nmod:compared_with':192, 'nmod:both':193, 'conj:even':194, 'nmod:alongside':195, 'nmod:beside':196,
+                            'nmod:along':197, 'advcl:though':198, 'nmod:across_from':199, 'nmod:aboard':200, 'nmod:on_behalf_of':201, 'nmod:upon':202, 'nmod:worth':203, 'advcl:either':204,
+                            'nmod:with_regard_to':205, 'advcl:inside':206, 'acl:besides':207, 'nmod:throughout':208, 'nmod:as_of':209, 'conj:vs':210, 'nmod:amongst':211,
+                            'nmod:considering':212, 'nmod:next':213, 'acl:at':214, 'conj:only':215, 'acl:from':216, 'nmod:regardless_of':217, 'nmod:and':218, 'nmod:excluding':219,
+                            'advcl:compared_to':220, 'acl:over':221, 'advcl:_':222, 'acl:after':223, 'nmod:_':224, 'advcl:as_if':225, 'conj:so':226, 'advcl:ago':227, 'advcl:depending':228,
+                            'nmod:inside':229, 'nmod:underneath':230, 'nmod:via':231, 'nmod:other':232, 'advcl:although':233, 'nmod:off':234, 'nmod:since':235, 'advcl:abc':236, 'nmod:beneath':237,
+                            'advcl:rather_than':238, 'nmod:outside':239, 'nmod:either':240, 'nmod:close_to':241, 'nmod:in_spite_of':242, 'advcl:along':243, 'acl:against':244, 'nmod:along_with':245,
+                            'advcl:under':246, 'nmod:once':247, 'nmod:per':248, 'nmod:on_top_of':249, 'nmod:amid':250, 'acl:without':251, 'advcl:in_case':252, 'acl:that':253, 'nmod:as_to':254, 'advcl:including':255,
+                            'nmod:till':256, 'acl:as_to':257, 'advcl:\'s':258, 'nmod:apart_from':259, 'advcl:near':260, 'nmod:whether':261, 'conj:not':262, 'nmod:following':263, 'acl:except':264,
+                            'nmod:based_on':265, 'nmod:in_addition_to':266, 'acl:since':267, 'advcl:ta':268, 'acl:like':269, 'nmod:de':270, 'nmod:outside_of':271, 'advcl:based_on':272, 'advcl:a.':273,
+                            'nmod:or':274, 'conj:negcc':275, 'nmod:due_to':276, 'advcl:except':277, 'nmod:unlike':278, 'nmod:if':279, 'acl:with':280, 'nmod:below':281, 'advcl:within':282, 'advcl:outside':283, 'advcl:despite':284,
+                            'conj:nor':285, 'nmod:thru':286, 'acl:by':287, 'advcl:out_of':288, 'advcl:out':289, 'nmod:in_case_of':290, 'advcl:during':291, 'advcl:from':292, 'advcl:between':293, 'conj:versus':294}
 
 
 
                 if syntactic_label_data[0] not in dep_dict:
                     stringset.add(syntactic_label_data[0])
+
+                """
 
 
                 #contingenecies for unrecognised dependencies
@@ -268,6 +288,14 @@ def main(input, output):
 
 
 
+                    elif syntactic_label_data[0].split(':')[1].startswith("amid") and syntactic_label_data[0].split(':')[0].startswith('advcl'):
+                        syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
+                    elif syntactic_label_data[0].split(':')[1].startswith("making") and syntactic_label_data[0].split(':')[0].startswith('nmod'):
+                        syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
+                    elif syntactic_label_data[0].split(':')[1].startswith("close_by") and syntactic_label_data[0].split(':')[0].startswith('nmod'):
+                        syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
+
+
 
 
 
@@ -393,6 +421,8 @@ def main(input, output):
                     elif syntactic_label_data[0].split(':')[1].startswith("outside") and syntactic_label_data[0].split(':')[0].startswith('advcl'):
                         syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
                     elif syntactic_label_data[0].split(':')[1].startswith("as_if") and syntactic_label_data[0].split(':')[0].startswith('advcl'):
+                        syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
+                    elif syntactic_label_data[0].split(':')[1].startswith("against") and syntactic_label_data[0].split(':')[0].startswith('advcl'):
                         syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
                     elif syntactic_label_data[0].split(':')[1].startswith("versus") and syntactic_label_data[0].split(':')[0].startswith('nmod'):
                         syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
@@ -597,7 +627,7 @@ def main(input, output):
                     elif syntactic_label_data[0].split(':')[1].startswith("unlike") and syntactic_label_data[0].split(':')[0].startswith('nmod'):
                         syntactic_label_data[0] = syntactic_label_data[0].split(':')[0]
 
-
+                
 
 
 
@@ -615,7 +645,7 @@ def main(input, output):
 
                 if syntactic_label_data[0].startswith('ref'):
                     syntactic_label_data[0] = 'nmod'
-
+            """
 
 
                 if syntactic_label_data[1] < len(entire_block):
@@ -653,23 +683,21 @@ def main(input, output):
                         entire_block[wordIndex + i][3] = "I-2_" + entity_sub_type
 
 
-                #Add event type for all words
+            #Add event type for all words
 
-                for event in sample['golden-event-mentions']:
-                    wordIndex = event['trigger']['start']
+            for event in sample['golden-event-mentions']:
 
-                    if entire_block[wordIndex][2] == 'O' and entire_block[wordIndex] == '0':
+                wordIndex = event['trigger']['start']
+                event_type = ''
 
-                        event_type = ''
+                for i, char in enumerate(event['event_type']):
+                    event_type = ((event_type + "_") if char == ':' or char == '-' else (event_type + str(char)))
 
-                        for i, char in enumerate(event['event_type']):
-                            event_type = ((event_type + "_") if char == ':' or char == '-' else (event_type + str(char)))
-
-                        for i, B_I_O in enumerate(event['trigger']['text'].split()):
-                            if i == 0:
-                                entire_block[wordIndex][4] = "B-" + event_type
-                            else:
-                                entire_block[wordIndex + i][4] = "I-" + event_type
+                for i, B_I_O in enumerate(event['trigger']['text'].split()):
+                    if i == 0:
+                        entire_block[wordIndex][4] = "B-" + event_type
+                    else:
+                        entire_block[wordIndex + i][4] = "I-" + event_type
 
 
             #write data to output file
@@ -692,9 +720,14 @@ def main(input, output):
 
     f.close()
     g.close()
+    val = 133
+    theNewLabels = ""
     for i in stringset:
-        print(f"elif syntactic_label_data[0].split(':')[1].startswith(\"{i.split(':')[1]}\") and syntactic_label_data[0].split(':')[0].startswith('{i.split(':')[0]}'):")
-        print("\tsyntactic_label_data[0] = syntactic_label_data[0].split(':')[0]")
+        theNewLabels += ", '" + str(i) + "':" + str(val)
+        val += 1
+    print(theNewLabels)
+        #print(f"elif syntactic_label_data[0].split(':')[1].startswith(\"{i.split(':')[1]}\") and syntactic_label_data[0].split(':')[0].startswith('{i.split(':')[0]}'):")
+        #print("\tsyntactic_label_data[0] = syntactic_label_data[0].split(':')[0]")
 
 
 
@@ -705,7 +738,6 @@ def main(input, output):
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(description='egnn for ed')
 
     parser.add_argument('inp', default="", type=str)

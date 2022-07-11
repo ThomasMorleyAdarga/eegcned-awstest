@@ -53,9 +53,12 @@ def main():
     test_manager = BatchManager(test_data, 100, args.num_steps)
 
     if args.cuda >= 0:
+        '''
         torch.cuda.manual_seed(args.seed)
         torch.cuda.manual_seed_all(args.seed)
         device = torch.device(args.cuda)
+        '''
+        device = torch.device('cpu')
     else:
         device = torch.device('cpu')
     print("device: ", device)
@@ -157,6 +160,7 @@ def dev_epoch(epoch, model, dev_manager, id_to_tag, device):
     for batch in dev_manager.iter_batch():
 
         strs, lens, chars, segs, subtypes, tags, adj, dep = batch
+        #print(tags)
         chars = torch.LongTensor(chars).to(device)
         _lens = torch.LongTensor(lens).to(device)
         subtypes = torch.LongTensor(subtypes).to(device)
@@ -172,14 +176,18 @@ def dev_epoch(epoch, model, dev_manager, id_to_tag, device):
             length = lens[index]
             score = logits[index][:length]  # [seq, dim]
             probs = F.softmax(score, dim=-1)  # [seq, dim]
+            #print("probs: ", probs)
             path = torch.argmax(probs, dim=-1)  # [seq]
             batch_paths.append(path)
 
         for i in range(len(strs)):
             result = []
             string = strs[i][:lens[i]]
+            #print("from main: ", tags[i][:lens[i]])
             gold = iobes_iob([id_to_tag[int(x)] for x in tags[i][:lens[i]]])
+            #print("Gold: ", gold)
             pred = iobes_iob([id_to_tag[int(x)] for x in batch_paths[i][:lens[i]]])
+            #print("Pred: ", pred)
             for char, gold, pred in zip(string, gold, pred):
                 result.append(" ".join([char, gold, pred]))
             all_results.append(result)

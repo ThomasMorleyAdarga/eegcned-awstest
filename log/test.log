@@ -142,3 +142,2791 @@ Args:
 2022-06-27 15:38:01,735 - statisticNew - INFO - seed: 1023
 2022-06-27 15:38:01,735 - statisticNew - INFO - 
 
+2022-07-07 10:14:16,220 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:14:16,222 - statisticNew - INFO - train: True
+2022-07-07 10:14:16,222 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:14:16,223 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:14:16,223 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:14:16,223 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:14:16,223 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:14:16,223 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:14:16,223 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:14:16,223 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:14:16,223 - statisticNew - INFO - epoch: 100
+2022-07-07 10:14:16,223 - statisticNew - INFO - cuda: 0
+2022-07-07 10:14:16,223 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:14:16,223 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:14:16,223 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:14:16,224 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:14:16,224 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:14:16,224 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:14:16,224 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:14:16,224 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:14:16,224 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:14:16,234 - statisticNew - INFO - pooling: avg
+2022-07-07 10:14:16,234 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:14:16,234 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:14:16,234 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:14:16,234 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:14:16,234 - statisticNew - INFO - result_path: result
+2022-07-07 10:14:16,234 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:14:16,235 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:14:16,235 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:14:16,235 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:14:16,235 - statisticNew - INFO - log_name: test
+2022-07-07 10:14:16,235 - statisticNew - INFO - seed: 1023
+2022-07-07 10:14:16,235 - statisticNew - INFO - 
+
+2022-07-07 10:17:04,287 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:17:04,288 - statisticNew - INFO - train: True
+2022-07-07 10:17:04,288 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:17:04,288 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:17:04,288 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:17:04,288 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:17:04,288 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:17:04,288 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:17:04,288 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:17:04,288 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:17:04,288 - statisticNew - INFO - epoch: 100
+2022-07-07 10:17:04,288 - statisticNew - INFO - cuda: 0
+2022-07-07 10:17:04,288 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:17:04,288 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:17:04,288 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:17:04,289 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:17:04,289 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:17:04,289 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:17:04,289 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:17:04,289 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:17:04,289 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:17:04,300 - statisticNew - INFO - pooling: avg
+2022-07-07 10:17:04,300 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:17:04,300 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:17:04,300 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:17:04,301 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:17:04,301 - statisticNew - INFO - result_path: result
+2022-07-07 10:17:04,301 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:17:04,301 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:17:04,301 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:17:04,301 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:17:04,301 - statisticNew - INFO - log_name: test
+2022-07-07 10:17:04,301 - statisticNew - INFO - seed: 1023
+2022-07-07 10:17:04,301 - statisticNew - INFO - 
+
+2022-07-07 10:17:37,227 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:17:37,228 - statisticNew - INFO - train: True
+2022-07-07 10:17:37,228 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:17:37,228 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:17:37,228 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:17:37,228 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:17:37,228 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:17:37,228 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:17:37,228 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:17:37,228 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:17:37,228 - statisticNew - INFO - epoch: 100
+2022-07-07 10:17:37,228 - statisticNew - INFO - cuda: 0
+2022-07-07 10:17:37,228 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:17:37,228 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:17:37,228 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:17:37,229 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:17:37,229 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:17:37,229 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:17:37,229 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:17:37,229 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:17:37,229 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:17:37,239 - statisticNew - INFO - pooling: avg
+2022-07-07 10:17:37,239 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:17:37,239 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:17:37,240 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:17:37,240 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:17:37,240 - statisticNew - INFO - result_path: result
+2022-07-07 10:17:37,240 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:17:37,240 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:17:37,240 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:17:37,240 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:17:37,240 - statisticNew - INFO - log_name: test
+2022-07-07 10:17:37,240 - statisticNew - INFO - seed: 1023
+2022-07-07 10:17:37,240 - statisticNew - INFO - 
+
+2022-07-07 10:20:12,515 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:20:12,515 - statisticNew - INFO - train: True
+2022-07-07 10:20:12,515 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:20:12,516 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:20:12,516 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:20:12,516 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:20:12,516 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:20:12,516 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:20:12,516 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:20:12,516 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:20:12,516 - statisticNew - INFO - epoch: 100
+2022-07-07 10:20:12,516 - statisticNew - INFO - cuda: 0
+2022-07-07 10:20:12,516 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:20:12,516 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:20:12,516 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:20:12,516 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:20:12,516 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:20:12,517 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:20:12,517 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:20:12,517 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:20:12,517 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:20:12,527 - statisticNew - INFO - pooling: avg
+2022-07-07 10:20:12,527 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:20:12,527 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:20:12,527 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:20:12,527 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:20:12,527 - statisticNew - INFO - result_path: result
+2022-07-07 10:20:12,527 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:20:12,527 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:20:12,527 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:20:12,527 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:20:12,528 - statisticNew - INFO - log_name: test
+2022-07-07 10:20:12,528 - statisticNew - INFO - seed: 1023
+2022-07-07 10:20:12,528 - statisticNew - INFO - 
+
+2022-07-07 10:20:17,290 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 10:20:17,290 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 10:24:34,414 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:24:34,414 - statisticNew - INFO - train: True
+2022-07-07 10:24:34,414 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:24:34,414 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:24:34,414 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:24:34,414 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:24:34,415 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:24:34,415 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:24:34,415 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:24:34,415 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:24:34,415 - statisticNew - INFO - epoch: 100
+2022-07-07 10:24:34,415 - statisticNew - INFO - cuda: 0
+2022-07-07 10:24:34,415 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:24:34,415 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:24:34,415 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:24:34,415 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:24:34,415 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:24:34,415 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:24:34,415 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:24:34,415 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:24:34,416 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:24:34,425 - statisticNew - INFO - pooling: avg
+2022-07-07 10:24:34,426 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:24:34,426 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:24:34,426 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:24:34,426 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:24:34,426 - statisticNew - INFO - result_path: result
+2022-07-07 10:24:34,426 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:24:34,426 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:24:34,426 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:24:34,426 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:24:34,426 - statisticNew - INFO - log_name: test
+2022-07-07 10:24:34,426 - statisticNew - INFO - seed: 1023
+2022-07-07 10:24:34,426 - statisticNew - INFO - 
+
+2022-07-07 10:24:39,100 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 10:24:39,100 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 10:31:11,099 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:31:11,099 - statisticNew - INFO - train: True
+2022-07-07 10:31:11,099 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:31:11,099 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:31:11,099 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:31:11,100 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:31:11,100 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:31:11,100 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:31:11,100 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:31:11,100 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:31:11,100 - statisticNew - INFO - epoch: 100
+2022-07-07 10:31:11,100 - statisticNew - INFO - cuda: 0
+2022-07-07 10:31:11,100 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:31:11,100 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:31:11,100 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:31:11,100 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:31:11,100 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:31:11,100 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:31:11,100 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:31:11,100 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:31:11,101 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:31:11,111 - statisticNew - INFO - pooling: avg
+2022-07-07 10:31:11,111 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:31:11,111 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:31:11,111 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:31:11,111 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:31:11,111 - statisticNew - INFO - result_path: result
+2022-07-07 10:31:11,111 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:31:11,111 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:31:11,111 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:31:11,111 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:31:11,111 - statisticNew - INFO - log_name: test
+2022-07-07 10:31:11,111 - statisticNew - INFO - seed: 1023
+2022-07-07 10:31:11,111 - statisticNew - INFO - 
+
+2022-07-07 10:31:15,813 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 10:31:15,814 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 10:32:28,742 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 10:39:58,197 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:39:58,197 - statisticNew - INFO - train: True
+2022-07-07 10:39:58,197 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:39:58,198 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:39:58,198 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:39:58,198 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:39:58,198 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:39:58,198 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:39:58,198 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:39:58,198 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:39:58,198 - statisticNew - INFO - epoch: 100
+2022-07-07 10:39:58,198 - statisticNew - INFO - cuda: 0
+2022-07-07 10:39:58,198 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:39:58,198 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:39:58,198 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:39:58,198 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:39:58,198 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:39:58,198 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:39:58,198 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:39:58,198 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:39:58,198 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:39:58,198 - statisticNew - INFO - pooling: avg
+2022-07-07 10:39:58,206 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:39:58,206 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:39:58,207 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:39:58,207 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:39:58,207 - statisticNew - INFO - result_path: result
+2022-07-07 10:39:58,207 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:39:58,207 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:39:58,207 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:39:58,207 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:39:58,207 - statisticNew - INFO - log_name: test
+2022-07-07 10:39:58,207 - statisticNew - INFO - seed: 1023
+2022-07-07 10:39:58,207 - statisticNew - INFO - 
+
+2022-07-07 10:40:02,753 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 10:40:02,753 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 10:41:15,003 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 10:41:18,477 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:41:18,479 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 10:41:18,479 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 10:41:18,479 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 10:41:18,479 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 10:42:27,674 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 10:42:31,079 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:42:31,081 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 10:42:31,081 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 10:42:31,081 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 10:42:31,081 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 10:47:47,436 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:47:47,436 - statisticNew - INFO - train: True
+2022-07-07 10:47:47,436 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:47:47,436 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:47:47,436 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:47:47,436 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:47:47,436 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:47:47,436 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:47:47,436 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:47:47,436 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:47:47,436 - statisticNew - INFO - epoch: 100
+2022-07-07 10:47:47,436 - statisticNew - INFO - cuda: 0
+2022-07-07 10:47:47,437 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:47:47,437 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:47:47,437 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:47:47,437 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:47:47,437 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:47:47,437 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:47:47,437 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:47:47,437 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:47:47,437 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:47:47,445 - statisticNew - INFO - pooling: avg
+2022-07-07 10:47:47,445 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:47:47,445 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:47:47,445 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:47:47,445 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:47:47,446 - statisticNew - INFO - result_path: result
+2022-07-07 10:47:47,446 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:47:47,446 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:47:47,446 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:47:47,446 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:47:47,446 - statisticNew - INFO - log_name: test
+2022-07-07 10:47:47,446 - statisticNew - INFO - seed: 1023
+2022-07-07 10:47:47,446 - statisticNew - INFO - 
+
+2022-07-07 10:47:52,025 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 10:47:52,025 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 10:48:59,080 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 10:49:04,564 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:49:04,565 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 10:49:04,566 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 10:49:04,566 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 10:49:04,566 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 10:50:18,036 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 10:50:23,149 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:50:23,151 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 10:50:23,151 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 10:50:23,151 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 10:50:23,151 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 10:53:05,140 - statisticNew - INFO - 
+Args: 
+2022-07-07 10:53:05,140 - statisticNew - INFO - train: True
+2022-07-07 10:53:05,140 - statisticNew - INFO - tag_schema: iob
+2022-07-07 10:53:05,141 - statisticNew - INFO - batch_size: 30
+2022-07-07 10:53:05,141 - statisticNew - INFO - lr: 0.1
+2022-07-07 10:53:05,141 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 10:53:05,141 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 10:53:05,141 - statisticNew - INFO - label_weights: 5
+2022-07-07 10:53:05,141 - statisticNew - INFO - optimizer: SGD
+2022-07-07 10:53:05,141 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 10:53:05,141 - statisticNew - INFO - epoch: 100
+2022-07-07 10:53:05,141 - statisticNew - INFO - cuda: 0
+2022-07-07 10:53:05,141 - statisticNew - INFO - num_steps: 50
+2022-07-07 10:53:05,141 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 10:53:05,141 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 10:53:05,141 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 10:53:05,141 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 10:53:05,141 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 10:53:05,141 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 10:53:05,141 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 10:53:05,141 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 10:53:05,141 - statisticNew - INFO - pooling: avg
+2022-07-07 10:53:05,149 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 10:53:05,149 - statisticNew - INFO - num_layers: 2
+2022-07-07 10:53:05,150 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 10:53:05,150 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 10:53:05,150 - statisticNew - INFO - result_path: result
+2022-07-07 10:53:05,150 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 10:53:05,150 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 10:53:05,150 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 10:53:05,150 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 10:53:05,150 - statisticNew - INFO - log_name: test
+2022-07-07 10:53:05,150 - statisticNew - INFO - seed: 1023
+2022-07-07 10:53:05,150 - statisticNew - INFO - 
+
+2022-07-07 10:53:09,749 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 10:53:09,749 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 10:54:20,614 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 10:54:25,847 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:54:25,848 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 10:54:25,849 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 10:54:25,849 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 10:54:25,849 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 10:55:37,226 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 10:55:42,336 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:55:42,337 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 10:55:42,338 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 10:55:42,338 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 10:55:42,338 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 10:56:53,680 - statisticNew - INFO - epoch 3, loss : 0.00016486471505020286
+2022-07-07 10:56:59,838 - statisticNew - INFO - epoch: 3, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:56:59,840 - statisticNew - INFO - epoch 3, f1 : 0.0
+2022-07-07 10:56:59,840 - statisticNew - INFO - epoch 3, MAX_F1: 0
+
+2022-07-07 10:56:59,840 - statisticNew - INFO - Epoch: 4 / 100 ：
+2022-07-07 10:56:59,841 - statisticNew - INFO - epoch 4, lr: 0.1 
+2022-07-07 10:58:11,294 - statisticNew - INFO - epoch 4, loss : 0.00010495928017404063
+2022-07-07 10:58:16,476 - statisticNew - INFO - epoch: 4, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:58:16,477 - statisticNew - INFO - epoch 4, f1 : 0.0
+2022-07-07 10:58:16,477 - statisticNew - INFO - epoch 4, MAX_F1: 0
+
+2022-07-07 10:58:16,477 - statisticNew - INFO - Epoch: 5 / 100 ：
+2022-07-07 10:58:16,478 - statisticNew - INFO - epoch 5, lr: 0.1 
+2022-07-07 10:59:24,568 - statisticNew - INFO - epoch 5, loss : 8.430003139936645e-05
+2022-07-07 10:59:29,375 - statisticNew - INFO - epoch: 5, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 10:59:29,377 - statisticNew - INFO - epoch 5, f1 : 0.0
+2022-07-07 10:59:29,377 - statisticNew - INFO - epoch 5, MAX_F1: 0
+
+2022-07-07 10:59:29,377 - statisticNew - INFO - Epoch: 6 / 100 ：
+2022-07-07 10:59:29,377 - statisticNew - INFO - epoch 6, lr: 0.1 
+2022-07-07 11:00:36,187 - statisticNew - INFO - epoch 6, loss : 6.51509688333786e-05
+2022-07-07 11:00:41,055 - statisticNew - INFO - epoch: 6, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:00:41,056 - statisticNew - INFO - epoch 6, f1 : 0.0
+2022-07-07 11:00:41,056 - statisticNew - INFO - epoch 6, MAX_F1: 0
+
+2022-07-07 11:00:41,056 - statisticNew - INFO - Epoch: 7 / 100 ：
+2022-07-07 11:00:41,056 - statisticNew - INFO - epoch 7, lr: 0.1 
+2022-07-07 11:03:32,485 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:03:32,486 - statisticNew - INFO - train: True
+2022-07-07 11:03:32,486 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:03:32,486 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:03:32,486 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:03:32,486 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:03:32,486 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:03:32,486 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:03:32,486 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:03:32,486 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:03:32,486 - statisticNew - INFO - epoch: 100
+2022-07-07 11:03:32,486 - statisticNew - INFO - cuda: 0
+2022-07-07 11:03:32,486 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:03:32,486 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:03:32,487 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:03:32,487 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:03:32,487 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:03:32,487 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:03:32,487 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:03:32,487 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:03:32,487 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:03:32,495 - statisticNew - INFO - pooling: avg
+2022-07-07 11:03:32,495 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:03:32,495 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:03:32,495 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:03:32,496 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:03:32,496 - statisticNew - INFO - result_path: result
+2022-07-07 11:03:32,496 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:03:32,496 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:03:32,496 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:03:32,496 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:03:32,496 - statisticNew - INFO - log_name: test
+2022-07-07 11:03:32,496 - statisticNew - INFO - seed: 1023
+2022-07-07 11:03:32,496 - statisticNew - INFO - 
+
+2022-07-07 11:03:37,166 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:03:37,166 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:04:49,386 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:04:54,444 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:04:54,446 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:04:54,446 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:04:54,446 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:04:54,446 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:06:18,235 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:06:18,235 - statisticNew - INFO - train: True
+2022-07-07 11:06:18,235 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:06:18,235 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:06:18,235 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:06:18,235 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:06:18,235 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:06:18,236 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:06:18,236 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:06:18,236 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:06:18,236 - statisticNew - INFO - epoch: 100
+2022-07-07 11:06:18,236 - statisticNew - INFO - cuda: 0
+2022-07-07 11:06:18,236 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:06:18,236 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:06:18,236 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:06:18,236 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:06:18,236 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:06:18,236 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:06:18,236 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:06:18,236 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:06:18,236 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:06:18,244 - statisticNew - INFO - pooling: avg
+2022-07-07 11:06:18,244 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:06:18,244 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:06:18,244 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:06:18,244 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:06:18,244 - statisticNew - INFO - result_path: result
+2022-07-07 11:06:18,244 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:06:18,244 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:06:18,244 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:06:18,244 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:06:18,244 - statisticNew - INFO - log_name: test
+2022-07-07 11:06:18,245 - statisticNew - INFO - seed: 1023
+2022-07-07 11:06:18,245 - statisticNew - INFO - 
+
+2022-07-07 11:06:22,773 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:06:22,773 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:07:35,248 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:07:38,613 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:07:38,615 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:07:38,615 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:07:38,615 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:07:38,615 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:08:49,302 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 11:08:52,692 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:08:52,694 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 11:08:52,694 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 11:08:52,694 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 11:08:52,694 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 11:15:10,687 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:15:10,688 - statisticNew - INFO - train: True
+2022-07-07 11:15:10,688 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:15:10,688 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:15:10,688 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:15:10,688 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:15:10,688 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:15:10,688 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:15:10,688 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:15:10,688 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:15:10,688 - statisticNew - INFO - epoch: 100
+2022-07-07 11:15:10,688 - statisticNew - INFO - cuda: 0
+2022-07-07 11:15:10,688 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:15:10,688 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:15:10,689 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:15:10,689 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:15:10,689 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:15:10,689 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:15:10,689 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:15:10,689 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:15:10,689 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:15:10,696 - statisticNew - INFO - pooling: avg
+2022-07-07 11:15:10,696 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:15:10,696 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:15:10,696 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:15:10,696 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:15:10,696 - statisticNew - INFO - result_path: result
+2022-07-07 11:15:10,697 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:15:10,697 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:15:10,697 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:15:10,697 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:15:10,697 - statisticNew - INFO - log_name: test
+2022-07-07 11:15:10,697 - statisticNew - INFO - seed: 1023
+2022-07-07 11:15:10,697 - statisticNew - INFO - 
+
+2022-07-07 11:15:15,154 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:15:15,154 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:16:27,929 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:16:31,457 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:16:31,459 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:16:31,460 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:16:31,460 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:16:31,460 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:18:24,654 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:18:24,654 - statisticNew - INFO - train: True
+2022-07-07 11:18:24,654 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:18:24,654 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:18:24,654 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:18:24,654 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:18:24,654 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:18:24,655 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:18:24,655 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:18:24,655 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:18:24,655 - statisticNew - INFO - epoch: 100
+2022-07-07 11:18:24,655 - statisticNew - INFO - cuda: 0
+2022-07-07 11:18:24,655 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:18:24,655 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:18:24,655 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:18:24,655 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:18:24,655 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:18:24,655 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:18:24,655 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:18:24,655 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:18:24,655 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:18:24,665 - statisticNew - INFO - pooling: avg
+2022-07-07 11:18:24,665 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:18:24,666 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:18:24,666 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:18:24,666 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:18:24,666 - statisticNew - INFO - result_path: result
+2022-07-07 11:18:24,666 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:18:24,666 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:18:24,666 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:18:24,666 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:18:24,666 - statisticNew - INFO - log_name: test
+2022-07-07 11:18:24,666 - statisticNew - INFO - seed: 1023
+2022-07-07 11:18:24,666 - statisticNew - INFO - 
+
+2022-07-07 11:18:29,512 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:18:29,512 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:19:40,635 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:19:44,046 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:19:44,048 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:19:44,048 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:19:44,048 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:19:44,048 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:20:52,081 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 11:20:55,501 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:20:55,502 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 11:20:55,502 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 11:20:55,502 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 11:20:55,503 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 11:22:04,954 - statisticNew - INFO - epoch 3, loss : 0.00016486471505020286
+2022-07-07 11:22:08,443 - statisticNew - INFO - epoch: 3, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:22:08,445 - statisticNew - INFO - epoch 3, f1 : 0.0
+2022-07-07 11:22:08,445 - statisticNew - INFO - epoch 3, MAX_F1: 0
+
+2022-07-07 11:22:08,445 - statisticNew - INFO - Epoch: 4 / 100 ：
+2022-07-07 11:22:08,445 - statisticNew - INFO - epoch 4, lr: 0.1 
+2022-07-07 11:24:32,944 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:24:32,944 - statisticNew - INFO - train: True
+2022-07-07 11:24:32,944 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:24:32,944 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:24:32,945 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:24:32,945 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:24:32,945 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:24:32,945 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:24:32,945 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:24:32,945 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:24:32,945 - statisticNew - INFO - epoch: 100
+2022-07-07 11:24:32,945 - statisticNew - INFO - cuda: 0
+2022-07-07 11:24:32,945 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:24:32,945 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:24:32,945 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:24:32,945 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:24:32,945 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:24:32,945 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:24:32,946 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:24:32,946 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:24:32,946 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:24:32,956 - statisticNew - INFO - pooling: avg
+2022-07-07 11:24:32,956 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:24:32,956 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:24:32,956 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:24:32,956 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:24:32,957 - statisticNew - INFO - result_path: result
+2022-07-07 11:24:32,957 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:24:32,957 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:24:32,957 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:24:32,957 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:24:32,957 - statisticNew - INFO - log_name: test
+2022-07-07 11:24:32,957 - statisticNew - INFO - seed: 1023
+2022-07-07 11:24:32,957 - statisticNew - INFO - 
+
+2022-07-07 11:24:38,333 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:24:38,333 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:33:45,245 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:33:45,245 - statisticNew - INFO - train: True
+2022-07-07 11:33:45,245 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:33:45,245 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:33:45,246 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:33:45,246 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:33:45,246 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:33:45,246 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:33:45,246 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:33:45,246 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:33:45,246 - statisticNew - INFO - epoch: 100
+2022-07-07 11:33:45,246 - statisticNew - INFO - cuda: 0
+2022-07-07 11:33:45,246 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:33:45,246 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:33:45,246 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:33:45,246 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:33:45,246 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:33:45,246 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:33:45,247 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:33:45,247 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:33:45,247 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:33:45,255 - statisticNew - INFO - pooling: avg
+2022-07-07 11:33:45,255 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:33:45,255 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:33:45,255 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:33:45,255 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:33:45,255 - statisticNew - INFO - result_path: result
+2022-07-07 11:33:45,256 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:33:45,256 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:33:45,256 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:33:45,256 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:33:45,256 - statisticNew - INFO - log_name: test
+2022-07-07 11:33:45,256 - statisticNew - INFO - seed: 1023
+2022-07-07 11:33:45,256 - statisticNew - INFO - 
+
+2022-07-07 11:33:57,881 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:33:57,881 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:34:30,130 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:34:30,130 - statisticNew - INFO - train: True
+2022-07-07 11:34:30,130 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:34:30,130 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:34:30,130 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:34:30,130 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:34:30,131 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:34:30,131 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:34:30,131 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:34:30,131 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:34:30,131 - statisticNew - INFO - epoch: 100
+2022-07-07 11:34:30,131 - statisticNew - INFO - cuda: 0
+2022-07-07 11:34:30,131 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:34:30,131 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:34:30,131 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:34:30,131 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:34:30,131 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:34:30,131 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:34:30,131 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:34:30,131 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:34:30,131 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:34:30,139 - statisticNew - INFO - pooling: avg
+2022-07-07 11:34:30,139 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:34:30,140 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:34:30,140 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:34:30,140 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:34:30,140 - statisticNew - INFO - result_path: result
+2022-07-07 11:34:30,140 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:34:30,140 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:34:30,140 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:34:30,140 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:34:30,140 - statisticNew - INFO - log_name: test
+2022-07-07 11:34:30,140 - statisticNew - INFO - seed: 1023
+2022-07-07 11:34:30,140 - statisticNew - INFO - 
+
+2022-07-07 11:34:41,987 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:34:41,987 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:35:59,603 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:36:03,739 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:36:03,746 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:36:03,746 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:36:03,746 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:36:03,746 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:37:20,836 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 11:37:24,184 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:37:24,185 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 11:37:24,186 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 11:37:24,186 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 11:37:24,186 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 11:41:36,966 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:41:36,966 - statisticNew - INFO - train: True
+2022-07-07 11:41:36,967 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:41:36,967 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:41:36,967 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:41:36,967 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:41:36,967 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:41:36,967 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:41:36,967 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:41:36,967 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:41:36,967 - statisticNew - INFO - epoch: 100
+2022-07-07 11:41:36,967 - statisticNew - INFO - cuda: 0
+2022-07-07 11:41:36,967 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:41:36,967 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:41:36,967 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:41:36,967 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:41:36,967 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:41:36,967 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:41:36,967 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:41:36,967 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:41:36,967 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:41:36,967 - statisticNew - INFO - pooling: avg
+2022-07-07 11:41:36,975 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:41:36,976 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:41:36,976 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:41:36,976 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:41:36,976 - statisticNew - INFO - result_path: result
+2022-07-07 11:41:36,976 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:41:36,976 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:41:36,976 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:41:36,976 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:41:36,976 - statisticNew - INFO - log_name: test
+2022-07-07 11:41:36,976 - statisticNew - INFO - seed: 1023
+2022-07-07 11:41:36,976 - statisticNew - INFO - 
+
+2022-07-07 11:41:45,077 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:41:45,078 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:43:03,801 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:43:07,723 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:43:07,724 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:43:07,724 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:43:07,724 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:43:07,724 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:44:26,096 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 11:44:30,117 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:44:30,119 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 11:44:30,119 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 11:44:30,119 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 11:44:30,119 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 11:45:43,360 - statisticNew - INFO - epoch 3, loss : 0.00016486471505020286
+2022-07-07 11:45:46,766 - statisticNew - INFO - epoch: 3, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:45:46,767 - statisticNew - INFO - epoch 3, f1 : 0.0
+2022-07-07 11:45:46,768 - statisticNew - INFO - epoch 3, MAX_F1: 0
+
+2022-07-07 11:45:46,768 - statisticNew - INFO - Epoch: 4 / 100 ：
+2022-07-07 11:45:46,768 - statisticNew - INFO - epoch 4, lr: 0.1 
+2022-07-07 11:46:51,363 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:46:51,363 - statisticNew - INFO - train: True
+2022-07-07 11:46:51,363 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:46:51,363 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:46:51,364 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:46:51,364 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:46:51,364 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:46:51,364 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:46:51,364 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:46:51,364 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:46:51,364 - statisticNew - INFO - epoch: 100
+2022-07-07 11:46:51,364 - statisticNew - INFO - cuda: 0
+2022-07-07 11:46:51,364 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:46:51,364 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:46:51,364 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:46:51,364 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:46:51,364 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:46:51,364 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:46:51,364 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:46:51,364 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:46:51,364 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:46:51,364 - statisticNew - INFO - pooling: avg
+2022-07-07 11:46:51,372 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:46:51,372 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:46:51,372 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:46:51,373 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:46:51,373 - statisticNew - INFO - result_path: result
+2022-07-07 11:46:51,373 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:46:51,373 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:46:51,373 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:46:51,373 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:46:51,373 - statisticNew - INFO - log_name: test
+2022-07-07 11:46:51,373 - statisticNew - INFO - seed: 1023
+2022-07-07 11:46:51,373 - statisticNew - INFO - 
+
+2022-07-07 11:50:21,312 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:50:21,312 - statisticNew - INFO - train: True
+2022-07-07 11:50:21,312 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:50:21,312 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:50:21,313 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:50:21,313 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:50:21,313 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:50:21,313 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:50:21,313 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:50:21,313 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:50:21,313 - statisticNew - INFO - epoch: 100
+2022-07-07 11:50:21,313 - statisticNew - INFO - cuda: 0
+2022-07-07 11:50:21,313 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:50:21,313 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:50:21,313 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:50:21,314 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:50:21,314 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:50:21,314 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:50:21,314 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:50:21,314 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:50:21,314 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:50:21,324 - statisticNew - INFO - pooling: avg
+2022-07-07 11:50:21,324 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:50:21,324 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:50:21,324 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:50:21,324 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:50:21,324 - statisticNew - INFO - result_path: result
+2022-07-07 11:50:21,324 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:50:21,324 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:50:21,324 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:50:21,324 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:50:21,324 - statisticNew - INFO - log_name: test
+2022-07-07 11:50:21,324 - statisticNew - INFO - seed: 1023
+2022-07-07 11:50:21,324 - statisticNew - INFO - 
+
+2022-07-07 11:50:25,806 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:50:25,807 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:51:37,791 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 11:51:41,157 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 11:51:41,159 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 11:51:41,159 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 11:51:41,159 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 11:51:41,159 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 11:52:29,862 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:52:29,863 - statisticNew - INFO - train: True
+2022-07-07 11:52:29,863 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:52:29,863 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:52:29,863 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:52:29,863 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:52:29,863 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:52:29,863 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:52:29,863 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:52:29,863 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:52:29,863 - statisticNew - INFO - epoch: 100
+2022-07-07 11:52:29,863 - statisticNew - INFO - cuda: 0
+2022-07-07 11:52:29,863 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:52:29,863 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:52:29,863 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:52:29,863 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:52:29,863 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:52:29,863 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:52:29,863 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:52:29,863 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:52:29,864 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:52:29,869 - statisticNew - INFO - pooling: avg
+2022-07-07 11:52:29,869 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:52:29,869 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:52:29,869 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:52:29,869 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:52:29,870 - statisticNew - INFO - result_path: result
+2022-07-07 11:52:29,870 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:52:29,870 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:52:29,870 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:52:29,870 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:52:29,870 - statisticNew - INFO - log_name: test
+2022-07-07 11:52:29,870 - statisticNew - INFO - seed: 1023
+2022-07-07 11:52:29,870 - statisticNew - INFO - 
+
+2022-07-07 11:52:34,322 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:52:34,322 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 11:54:33,751 - statisticNew - INFO - 
+Args: 
+2022-07-07 11:54:33,751 - statisticNew - INFO - train: True
+2022-07-07 11:54:33,751 - statisticNew - INFO - tag_schema: iob
+2022-07-07 11:54:33,751 - statisticNew - INFO - batch_size: 30
+2022-07-07 11:54:33,752 - statisticNew - INFO - lr: 0.1
+2022-07-07 11:54:33,752 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 11:54:33,752 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 11:54:33,752 - statisticNew - INFO - label_weights: 5
+2022-07-07 11:54:33,752 - statisticNew - INFO - optimizer: SGD
+2022-07-07 11:54:33,752 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 11:54:33,752 - statisticNew - INFO - epoch: 100
+2022-07-07 11:54:33,752 - statisticNew - INFO - cuda: 0
+2022-07-07 11:54:33,752 - statisticNew - INFO - num_steps: 50
+2022-07-07 11:54:33,752 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 11:54:33,752 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 11:54:33,752 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 11:54:33,752 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 11:54:33,752 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 11:54:33,753 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 11:54:33,753 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 11:54:33,753 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 11:54:33,765 - statisticNew - INFO - pooling: avg
+2022-07-07 11:54:33,766 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 11:54:33,766 - statisticNew - INFO - num_layers: 2
+2022-07-07 11:54:33,766 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 11:54:33,766 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 11:54:33,766 - statisticNew - INFO - result_path: result
+2022-07-07 11:54:33,766 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 11:54:33,766 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 11:54:33,766 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 11:54:33,766 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 11:54:33,766 - statisticNew - INFO - log_name: test
+2022-07-07 11:54:33,766 - statisticNew - INFO - seed: 1023
+2022-07-07 11:54:33,766 - statisticNew - INFO - 
+
+2022-07-07 11:54:38,631 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 11:54:38,631 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:01:29,340 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:01:29,341 - statisticNew - INFO - train: True
+2022-07-07 16:01:29,341 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:01:29,341 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:01:29,341 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:01:29,341 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:01:29,341 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:01:29,341 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:01:29,341 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:01:29,341 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:01:29,341 - statisticNew - INFO - epoch: 100
+2022-07-07 16:01:29,341 - statisticNew - INFO - cuda: 0
+2022-07-07 16:01:29,341 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:01:29,341 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:01:29,342 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:01:29,342 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:01:29,342 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:01:29,342 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:01:29,342 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:01:29,342 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:01:29,342 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:01:29,350 - statisticNew - INFO - pooling: avg
+2022-07-07 16:01:29,350 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:01:29,350 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:01:29,351 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:01:29,351 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:01:29,351 - statisticNew - INFO - result_path: result
+2022-07-07 16:01:29,351 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:01:29,351 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:01:29,351 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:01:29,351 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:01:29,351 - statisticNew - INFO - log_name: test
+2022-07-07 16:01:29,351 - statisticNew - INFO - seed: 1023
+2022-07-07 16:01:29,351 - statisticNew - INFO - 
+
+2022-07-07 16:01:35,043 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:01:35,044 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:02:06,251 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:02:06,251 - statisticNew - INFO - train: True
+2022-07-07 16:02:06,251 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:02:06,251 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:02:06,251 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:02:06,251 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:02:06,251 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:02:06,252 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:02:06,252 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:02:06,252 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:02:06,252 - statisticNew - INFO - epoch: 100
+2022-07-07 16:02:06,252 - statisticNew - INFO - cuda: 0
+2022-07-07 16:02:06,252 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:02:06,252 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:02:06,252 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:02:06,252 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:02:06,252 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:02:06,252 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:02:06,252 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:02:06,252 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:02:06,252 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:02:06,261 - statisticNew - INFO - pooling: avg
+2022-07-07 16:02:06,261 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:02:06,261 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:02:06,261 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:02:06,261 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:02:06,261 - statisticNew - INFO - result_path: result
+2022-07-07 16:02:06,261 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:02:06,261 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:02:06,261 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:02:06,261 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:02:06,262 - statisticNew - INFO - log_name: test
+2022-07-07 16:02:06,262 - statisticNew - INFO - seed: 1023
+2022-07-07 16:02:06,262 - statisticNew - INFO - 
+
+2022-07-07 16:02:10,773 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:02:10,773 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:05:44,438 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:05:44,438 - statisticNew - INFO - train: True
+2022-07-07 16:05:44,438 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:05:44,438 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:05:44,438 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:05:44,439 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:05:44,439 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:05:44,439 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:05:44,439 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:05:44,439 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:05:44,439 - statisticNew - INFO - epoch: 100
+2022-07-07 16:05:44,439 - statisticNew - INFO - cuda: 0
+2022-07-07 16:05:44,439 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:05:44,439 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:05:44,439 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:05:44,439 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:05:44,439 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:05:44,439 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:05:44,439 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:05:44,439 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:05:44,439 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:05:44,447 - statisticNew - INFO - pooling: avg
+2022-07-07 16:05:44,447 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:05:44,447 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:05:44,447 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:05:44,447 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:05:44,447 - statisticNew - INFO - result_path: result
+2022-07-07 16:05:44,447 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:05:44,448 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:05:44,448 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:05:44,448 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:05:44,448 - statisticNew - INFO - log_name: test
+2022-07-07 16:05:44,448 - statisticNew - INFO - seed: 1023
+2022-07-07 16:05:44,448 - statisticNew - INFO - 
+
+2022-07-07 16:05:49,312 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:05:49,313 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:07:24,490 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:07:24,491 - statisticNew - INFO - train: True
+2022-07-07 16:07:24,491 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:07:24,491 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:07:24,491 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:07:24,491 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:07:24,491 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:07:24,491 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:07:24,491 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:07:24,491 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:07:24,491 - statisticNew - INFO - epoch: 100
+2022-07-07 16:07:24,491 - statisticNew - INFO - cuda: 0
+2022-07-07 16:07:24,491 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:07:24,492 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:07:24,492 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:07:24,492 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:07:24,492 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:07:24,492 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:07:24,492 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:07:24,492 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:07:24,492 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:07:24,499 - statisticNew - INFO - pooling: avg
+2022-07-07 16:07:24,499 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:07:24,499 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:07:24,499 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:07:24,499 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:07:24,499 - statisticNew - INFO - result_path: result
+2022-07-07 16:07:24,500 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:07:24,500 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:07:24,500 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:07:24,500 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:07:24,500 - statisticNew - INFO - log_name: test
+2022-07-07 16:07:24,500 - statisticNew - INFO - seed: 1023
+2022-07-07 16:07:24,500 - statisticNew - INFO - 
+
+2022-07-07 16:07:29,538 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:07:29,538 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:07:48,707 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:07:48,707 - statisticNew - INFO - train: True
+2022-07-07 16:07:48,707 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:07:48,707 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:07:48,707 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:07:48,707 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:07:48,707 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:07:48,707 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:07:48,707 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:07:48,707 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:07:48,707 - statisticNew - INFO - epoch: 100
+2022-07-07 16:07:48,707 - statisticNew - INFO - cuda: 0
+2022-07-07 16:07:48,708 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:07:48,708 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:07:48,708 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:07:48,708 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:07:48,708 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:07:48,708 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:07:48,708 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:07:48,708 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:07:48,708 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:07:48,715 - statisticNew - INFO - pooling: avg
+2022-07-07 16:07:48,715 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:07:48,716 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:07:48,716 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:07:48,716 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:07:48,716 - statisticNew - INFO - result_path: result
+2022-07-07 16:07:48,716 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:07:48,716 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:07:48,716 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:07:48,716 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:07:48,716 - statisticNew - INFO - log_name: test
+2022-07-07 16:07:48,716 - statisticNew - INFO - seed: 1023
+2022-07-07 16:07:48,717 - statisticNew - INFO - 
+
+2022-07-07 16:07:53,452 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:07:53,452 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:08:38,516 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:08:38,516 - statisticNew - INFO - train: True
+2022-07-07 16:08:38,516 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:08:38,516 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:08:38,517 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:08:38,517 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:08:38,517 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:08:38,517 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:08:38,517 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:08:38,517 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:08:38,517 - statisticNew - INFO - epoch: 100
+2022-07-07 16:08:38,517 - statisticNew - INFO - cuda: 0
+2022-07-07 16:08:38,517 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:08:38,517 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:08:38,517 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:08:38,517 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:08:38,517 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:08:38,517 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:08:38,517 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:08:38,517 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:08:38,518 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:08:38,528 - statisticNew - INFO - pooling: avg
+2022-07-07 16:08:38,528 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:08:38,528 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:08:38,528 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:08:38,528 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:08:38,528 - statisticNew - INFO - result_path: result
+2022-07-07 16:08:38,528 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:08:38,528 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:08:38,528 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:08:38,528 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:08:38,528 - statisticNew - INFO - log_name: test
+2022-07-07 16:08:38,528 - statisticNew - INFO - seed: 1023
+2022-07-07 16:08:38,528 - statisticNew - INFO - 
+
+2022-07-07 16:08:43,046 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:08:43,046 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:09:56,317 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 16:09:59,958 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 16:09:59,966 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 16:09:59,966 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 16:09:59,966 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 16:09:59,966 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 16:11:08,005 - statisticNew - INFO - epoch 2, loss : 0.00028058241644945693
+2022-07-07 16:11:11,831 - statisticNew - INFO - epoch: 2, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 16:11:11,838 - statisticNew - INFO - epoch 2, f1 : 0.0
+2022-07-07 16:11:11,838 - statisticNew - INFO - epoch 2, MAX_F1: 0
+
+2022-07-07 16:11:11,838 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 16:11:11,838 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 16:12:22,213 - statisticNew - INFO - epoch 3, loss : 0.00016486471505020286
+2022-07-07 16:12:25,444 - statisticNew - INFO - epoch: 3, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 16:12:25,445 - statisticNew - INFO - epoch 3, f1 : 0.0
+2022-07-07 16:12:25,445 - statisticNew - INFO - epoch 3, MAX_F1: 0
+
+2022-07-07 16:12:25,445 - statisticNew - INFO - Epoch: 4 / 100 ：
+2022-07-07 16:12:25,445 - statisticNew - INFO - epoch 4, lr: 0.1 
+2022-07-07 16:13:33,718 - statisticNew - INFO - epoch 4, loss : 0.00010495928017404063
+2022-07-07 16:13:36,938 - statisticNew - INFO - epoch: 4, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 16:13:36,939 - statisticNew - INFO - epoch 4, f1 : 0.0
+2022-07-07 16:13:36,939 - statisticNew - INFO - epoch 4, MAX_F1: 0
+
+2022-07-07 16:13:36,940 - statisticNew - INFO - Epoch: 5 / 100 ：
+2022-07-07 16:13:36,940 - statisticNew - INFO - epoch 5, lr: 0.1 
+2022-07-07 16:14:46,208 - statisticNew - INFO - epoch 5, loss : 8.430003139936645e-05
+2022-07-07 16:14:49,435 - statisticNew - INFO - epoch: 5, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 16:14:49,437 - statisticNew - INFO - epoch 5, f1 : 0.0
+2022-07-07 16:14:49,437 - statisticNew - INFO - epoch 5, MAX_F1: 0
+
+2022-07-07 16:14:49,437 - statisticNew - INFO - Epoch: 6 / 100 ：
+2022-07-07 16:14:49,437 - statisticNew - INFO - epoch 6, lr: 0.1 
+2022-07-07 16:27:46,629 - statisticNew - INFO - 
+Args: 
+2022-07-07 16:27:46,629 - statisticNew - INFO - train: True
+2022-07-07 16:27:46,629 - statisticNew - INFO - tag_schema: iob
+2022-07-07 16:27:46,629 - statisticNew - INFO - batch_size: 30
+2022-07-07 16:27:46,630 - statisticNew - INFO - lr: 0.1
+2022-07-07 16:27:46,630 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 16:27:46,630 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 16:27:46,630 - statisticNew - INFO - label_weights: 5
+2022-07-07 16:27:46,630 - statisticNew - INFO - optimizer: SGD
+2022-07-07 16:27:46,630 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 16:27:46,630 - statisticNew - INFO - epoch: 100
+2022-07-07 16:27:46,630 - statisticNew - INFO - cuda: 0
+2022-07-07 16:27:46,630 - statisticNew - INFO - num_steps: 50
+2022-07-07 16:27:46,630 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 16:27:46,630 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 16:27:46,630 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 16:27:46,630 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 16:27:46,630 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 16:27:46,630 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 16:27:46,630 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 16:27:46,630 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 16:27:46,639 - statisticNew - INFO - pooling: avg
+2022-07-07 16:27:46,639 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 16:27:46,639 - statisticNew - INFO - num_layers: 2
+2022-07-07 16:27:46,639 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 16:27:46,639 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 16:27:46,639 - statisticNew - INFO - result_path: result
+2022-07-07 16:27:46,639 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 16:27:46,639 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 16:27:46,640 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 16:27:46,640 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 16:27:46,640 - statisticNew - INFO - log_name: test
+2022-07-07 16:27:46,640 - statisticNew - INFO - seed: 1023
+2022-07-07 16:27:46,640 - statisticNew - INFO - 
+
+2022-07-07 16:27:50,911 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 16:27:50,912 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 16:29:04,169 - statisticNew - INFO - epoch 1, loss : 0.06263183382684341
+2022-07-07 16:29:07,794 - statisticNew - INFO - epoch: 1, info: accuracy: 100.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+2022-07-07 16:29:07,801 - statisticNew - INFO - epoch 1, f1 : 0.0
+2022-07-07 16:29:07,802 - statisticNew - INFO - epoch 1, MAX_F1: 0
+
+2022-07-07 16:29:07,802 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 16:29:07,802 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 17:22:03,041 - statisticNew - INFO - 
+Args: 
+2022-07-07 17:22:03,041 - statisticNew - INFO - train: True
+2022-07-07 17:22:03,041 - statisticNew - INFO - tag_schema: iob
+2022-07-07 17:22:03,041 - statisticNew - INFO - batch_size: 30
+2022-07-07 17:22:03,041 - statisticNew - INFO - lr: 0.1
+2022-07-07 17:22:03,041 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-07 17:22:03,041 - statisticNew - INFO - lr_min: 1e-05
+2022-07-07 17:22:03,041 - statisticNew - INFO - label_weights: 5
+2022-07-07 17:22:03,041 - statisticNew - INFO - optimizer: SGD
+2022-07-07 17:22:03,041 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-07 17:22:03,041 - statisticNew - INFO - epoch: 100
+2022-07-07 17:22:03,041 - statisticNew - INFO - cuda: 0
+2022-07-07 17:22:03,042 - statisticNew - INFO - num_steps: 50
+2022-07-07 17:22:03,042 - statisticNew - INFO - word_embed_dim: 100
+2022-07-07 17:22:03,042 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-07 17:22:03,042 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-07 17:22:03,042 - statisticNew - INFO - position_embed_dim: 0
+2022-07-07 17:22:03,042 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-07 17:22:03,042 - statisticNew - INFO - rnn_hidden: 100
+2022-07-07 17:22:03,042 - statisticNew - INFO - rnn_layers: 1
+2022-07-07 17:22:03,042 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-07 17:22:03,050 - statisticNew - INFO - pooling: avg
+2022-07-07 17:22:03,050 - statisticNew - INFO - gcn_dim: 150
+2022-07-07 17:22:03,050 - statisticNew - INFO - num_layers: 2
+2022-07-07 17:22:03,051 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-07 17:22:03,051 - statisticNew - INFO - map_file: maps.pkl
+2022-07-07 17:22:03,051 - statisticNew - INFO - result_path: result
+2022-07-07 17:22:03,051 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-07 17:22:03,051 - statisticNew - INFO - train_file: data_doc/train
+2022-07-07 17:22:03,051 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-07 17:22:03,051 - statisticNew - INFO - test_file: data_doc/test
+2022-07-07 17:22:03,051 - statisticNew - INFO - log_name: test
+2022-07-07 17:22:03,051 - statisticNew - INFO - seed: 1023
+2022-07-07 17:22:03,051 - statisticNew - INFO - 
+
+2022-07-07 17:22:07,455 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-07 17:22:07,456 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-07 17:23:24,748 - statisticNew - INFO - epoch 1, loss : 0.43517292396461854
+2022-07-07 17:23:30,364 - statisticNew - INFO - epoch: 1, info: accuracy:  97.59%; precision:  42.16%; recall:  23.54%; FB1:  30.21
+2022-07-07 17:23:30,367 - statisticNew - INFO - epoch 1, f1 : 30.21
+2022-07-07 17:23:30,389 - statisticNew - INFO - epoch 1, MAX_F1: 30.21
+
+2022-07-07 17:23:30,389 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-07 17:23:30,389 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-07 17:24:57,238 - statisticNew - INFO - epoch 2, loss : 0.28960050155175326
+2022-07-07 17:25:00,570 - statisticNew - INFO - epoch: 2, info: accuracy:  97.80%; precision:  54.37%; recall:  36.25%; FB1:  43.50
+2022-07-07 17:25:00,572 - statisticNew - INFO - epoch 2, f1 : 43.5
+2022-07-07 17:25:00,589 - statisticNew - INFO - epoch 2, MAX_F1: 43.5
+
+2022-07-07 17:25:00,589 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-07 17:25:00,589 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-07 17:26:10,640 - statisticNew - INFO - epoch 3, loss : 0.2563108617574414
+2022-07-07 17:26:13,943 - statisticNew - INFO - epoch: 3, info: accuracy:  97.84%; precision:  55.25%; recall:  41.67%; FB1:  47.51
+2022-07-07 17:26:13,945 - statisticNew - INFO - epoch 3, f1 : 47.51
+2022-07-07 17:26:13,964 - statisticNew - INFO - epoch 3, MAX_F1: 47.51
+
+2022-07-07 17:26:13,964 - statisticNew - INFO - Epoch: 4 / 100 ：
+2022-07-07 17:26:13,964 - statisticNew - INFO - epoch 4, lr: 0.1 
+2022-07-07 17:29:24,316 - statisticNew - INFO - epoch 4, loss : 0.23133946662247348
+2022-07-07 17:29:27,823 - statisticNew - INFO - epoch: 4, info: accuracy:  97.75%; precision:  52.47%; recall:  46.46%; FB1:  49.28
+2022-07-07 17:29:27,830 - statisticNew - INFO - epoch 4, f1 : 49.28
+2022-07-07 17:29:27,843 - statisticNew - INFO - epoch 4, MAX_F1: 49.28
+
+2022-07-07 17:29:27,844 - statisticNew - INFO - Epoch: 5 / 100 ：
+2022-07-07 17:29:27,844 - statisticNew - INFO - epoch 5, lr: 0.1 
+2022-07-07 17:30:37,922 - statisticNew - INFO - epoch 5, loss : 0.20721292459357604
+2022-07-07 17:30:41,180 - statisticNew - INFO - epoch: 5, info: accuracy:  97.86%; precision:  54.84%; recall:  49.58%; FB1:  52.08
+2022-07-07 17:30:41,182 - statisticNew - INFO - epoch 5, f1 : 52.08
+2022-07-07 17:30:41,199 - statisticNew - INFO - epoch 5, MAX_F1: 52.08
+
+2022-07-07 17:30:41,199 - statisticNew - INFO - Epoch: 6 / 100 ：
+2022-07-07 17:30:41,199 - statisticNew - INFO - epoch 6, lr: 0.1 
+2022-07-07 17:31:50,657 - statisticNew - INFO - epoch 6, loss : 0.18722746098144968
+2022-07-07 17:31:53,925 - statisticNew - INFO - epoch: 6, info: accuracy:  97.97%; precision:  58.12%; recall:  52.92%; FB1:  55.40
+2022-07-07 17:31:53,932 - statisticNew - INFO - epoch 6, f1 : 55.4
+2022-07-07 17:31:53,943 - statisticNew - INFO - epoch 6, MAX_F1: 55.4
+
+2022-07-07 17:31:53,943 - statisticNew - INFO - Epoch: 7 / 100 ：
+2022-07-07 17:31:53,944 - statisticNew - INFO - epoch 7, lr: 0.1 
+2022-07-07 17:35:07,684 - statisticNew - INFO - epoch 7, loss : 0.17268715790130248
+2022-07-07 17:35:10,957 - statisticNew - INFO - epoch: 7, info: accuracy:  97.99%; precision:  58.66%; recall:  58.54%; FB1:  58.60
+2022-07-07 17:35:10,958 - statisticNew - INFO - epoch 7, f1 : 58.6
+2022-07-07 17:35:10,975 - statisticNew - INFO - epoch 7, MAX_F1: 58.6
+
+2022-07-07 17:35:10,975 - statisticNew - INFO - Epoch: 8 / 100 ：
+2022-07-07 17:35:10,975 - statisticNew - INFO - epoch 8, lr: 0.1 
+2022-07-07 17:36:20,265 - statisticNew - INFO - epoch 8, loss : 0.1597776855431438
+2022-07-07 17:36:23,497 - statisticNew - INFO - epoch: 8, info: accuracy:  97.99%; precision:  59.17%; recall:  59.17%; FB1:  59.17
+2022-07-07 17:36:23,499 - statisticNew - INFO - epoch 8, f1 : 59.17
+2022-07-07 17:36:23,517 - statisticNew - INFO - epoch 8, MAX_F1: 59.17
+
+2022-07-07 17:36:23,517 - statisticNew - INFO - Epoch: 9 / 100 ：
+2022-07-07 17:36:23,517 - statisticNew - INFO - epoch 9, lr: 0.1 
+2022-07-07 17:43:15,546 - statisticNew - INFO - epoch 9, loss : 0.148937429033922
+2022-07-07 17:43:19,567 - statisticNew - INFO - epoch: 9, info: accuracy:  98.07%; precision:  61.43%; recall:  62.71%; FB1:  62.06
+2022-07-07 17:43:19,569 - statisticNew - INFO - epoch 9, f1 : 62.06
+2022-07-07 17:43:19,583 - statisticNew - INFO - epoch 9, MAX_F1: 62.06
+
+2022-07-07 17:43:19,583 - statisticNew - INFO - Epoch: 10 / 100 ：
+2022-07-07 17:43:19,583 - statisticNew - INFO - epoch 10, lr: 0.1 
+2022-07-07 17:44:41,159 - statisticNew - INFO - epoch 10, loss : 0.14178299022897337
+2022-07-07 17:44:44,477 - statisticNew - INFO - epoch: 10, info: accuracy:  97.97%; precision:  58.29%; recall:  63.75%; FB1:  60.90
+2022-07-07 17:44:44,484 - statisticNew - INFO - epoch 10, f1 : 60.9
+2022-07-07 17:44:44,484 - statisticNew - INFO - epoch 10, MAX_F1: 62.06
+
+2022-07-07 17:44:44,484 - statisticNew - INFO - Epoch: 11 / 100 ：
+2022-07-07 17:44:44,485 - statisticNew - INFO - epoch 11, lr: 0.1 
+2022-07-07 17:45:54,285 - statisticNew - INFO - epoch 11, loss : 0.1328065303994162
+2022-07-07 17:45:57,587 - statisticNew - INFO - epoch: 11, info: accuracy:  97.90%; precision:  57.27%; recall:  65.62%; FB1:  61.17
+2022-07-07 17:45:57,588 - statisticNew - INFO - epoch 11, f1 : 61.17
+2022-07-07 17:45:57,588 - statisticNew - INFO - epoch 11, MAX_F1: 62.06
+
+2022-07-07 17:45:57,588 - statisticNew - INFO - Epoch: 12 / 100 ：
+2022-07-07 17:45:57,589 - statisticNew - INFO - epoch 12, lr: 0.1 
+2022-07-07 17:47:55,760 - statisticNew - INFO - epoch 12, loss : 0.12636692577743858
+2022-07-07 17:47:59,194 - statisticNew - INFO - epoch: 12, info: accuracy:  98.20%; precision:  66.15%; recall:  62.71%; FB1:  64.39
+2022-07-07 17:47:59,201 - statisticNew - INFO - epoch 12, f1 : 64.39
+2022-07-07 17:47:59,214 - statisticNew - INFO - epoch 12, MAX_F1: 64.39
+
+2022-07-07 17:47:59,214 - statisticNew - INFO - Epoch: 13 / 100 ：
+2022-07-07 17:47:59,215 - statisticNew - INFO - epoch 13, lr: 0.1 
+2022-07-07 17:49:10,211 - statisticNew - INFO - epoch 13, loss : 0.12194108854796376
+2022-07-07 17:49:13,508 - statisticNew - INFO - epoch: 13, info: accuracy:  98.02%; precision:  60.12%; recall:  64.38%; FB1:  62.17
+2022-07-07 17:49:13,510 - statisticNew - INFO - epoch 13, f1 : 62.17
+2022-07-07 17:49:13,510 - statisticNew - INFO - epoch 13, MAX_F1: 64.39
+
+2022-07-07 17:49:13,510 - statisticNew - INFO - Epoch: 14 / 100 ：
+2022-07-07 17:49:13,510 - statisticNew - INFO - epoch 14, lr: 0.1 
+2022-07-07 17:50:23,140 - statisticNew - INFO - epoch 14, loss : 0.1153587187747061
+2022-07-07 17:50:26,469 - statisticNew - INFO - epoch: 14, info: accuracy:  98.17%; precision:  64.26%; recall:  64.79%; FB1:  64.52
+2022-07-07 17:50:26,470 - statisticNew - INFO - epoch 14, f1 : 64.52
+2022-07-07 17:50:26,488 - statisticNew - INFO - epoch 14, MAX_F1: 64.52
+
+2022-07-07 17:50:26,488 - statisticNew - INFO - Epoch: 15 / 100 ：
+2022-07-07 17:50:26,488 - statisticNew - INFO - epoch 15, lr: 0.1 
+2022-07-07 17:59:49,595 - statisticNew - INFO - epoch 15, loss : 0.11260220102974242
+2022-07-07 17:59:52,919 - statisticNew - INFO - epoch: 15, info: accuracy:  98.21%; precision:  64.57%; recall:  66.46%; FB1:  65.50
+2022-07-07 17:59:52,926 - statisticNew - INFO - epoch 15, f1 : 65.5
+2022-07-07 17:59:52,938 - statisticNew - INFO - epoch 15, MAX_F1: 65.5
+
+2022-07-07 17:59:52,938 - statisticNew - INFO - Epoch: 16 / 100 ：
+2022-07-07 17:59:52,938 - statisticNew - INFO - epoch 16, lr: 0.1 
+2022-07-07 18:01:02,452 - statisticNew - INFO - epoch 16, loss : 0.10868384182173549
+2022-07-07 18:01:05,753 - statisticNew - INFO - epoch: 16, info: accuracy:  98.15%; precision:  63.90%; recall:  64.17%; FB1:  64.03
+2022-07-07 18:01:05,755 - statisticNew - INFO - epoch 16, f1 : 64.03
+2022-07-07 18:01:05,755 - statisticNew - INFO - epoch 16, MAX_F1: 65.5
+
+2022-07-07 18:01:05,755 - statisticNew - INFO - Epoch: 17 / 100 ：
+2022-07-07 18:01:05,755 - statisticNew - INFO - epoch 17, lr: 0.1 
+2022-07-07 18:02:14,815 - statisticNew - INFO - epoch 17, loss : 0.10530224430787904
+2022-07-07 18:02:18,071 - statisticNew - INFO - epoch: 17, info: accuracy:  98.20%; precision:  64.69%; recall:  66.04%; FB1:  65.36
+2022-07-07 18:02:18,073 - statisticNew - INFO - epoch 17, f1 : 65.36
+2022-07-07 18:02:18,073 - statisticNew - INFO - epoch 17, MAX_F1: 65.5
+
+2022-07-07 18:02:18,073 - statisticNew - INFO - Epoch: 18 / 100 ：
+2022-07-07 18:02:18,073 - statisticNew - INFO - epoch 18, lr: 0.1 
+2022-07-07 18:13:42,364 - statisticNew - INFO - epoch 18, loss : 0.1029398962718689
+2022-07-07 18:13:45,638 - statisticNew - INFO - epoch: 18, info: accuracy:  98.10%; precision:  61.88%; recall:  67.29%; FB1:  64.47
+2022-07-07 18:13:45,640 - statisticNew - INFO - epoch 18, f1 : 64.47
+2022-07-07 18:13:45,640 - statisticNew - INFO - epoch 18, MAX_F1: 65.5
+
+2022-07-07 18:13:45,640 - statisticNew - INFO - Epoch: 19 / 100 ：
+2022-07-07 18:13:45,640 - statisticNew - INFO - epoch 19, lr: 0.1 
+2022-07-07 18:14:54,628 - statisticNew - INFO - epoch 19, loss : 0.10061356302563093
+2022-07-07 18:14:57,921 - statisticNew - INFO - epoch: 19, info: accuracy:  98.08%; precision:  61.88%; recall:  64.58%; FB1:  63.20
+2022-07-07 18:14:57,923 - statisticNew - INFO - epoch 19, f1 : 63.2
+2022-07-07 18:14:57,923 - statisticNew - INFO - epoch 19, MAX_F1: 65.5
+
+2022-07-07 18:14:57,923 - statisticNew - INFO - Epoch: 20 / 100 ：
+2022-07-07 18:14:57,923 - statisticNew - INFO - epoch 20, lr: 0.1 
+2022-07-07 18:23:38,704 - statisticNew - INFO - epoch 20, loss : 0.0962276814172242
+2022-07-07 18:23:42,119 - statisticNew - INFO - epoch: 20, info: accuracy:  98.09%; precision:  62.16%; recall:  66.04%; FB1:  64.04
+2022-07-07 18:23:42,126 - statisticNew - INFO - epoch 20, f1 : 64.04
+2022-07-07 18:23:42,126 - statisticNew - INFO - epoch 20, MAX_F1: 65.5
+
+2022-07-07 18:23:42,127 - statisticNew - INFO - Epoch: 21 / 100 ：
+2022-07-07 18:23:42,127 - statisticNew - INFO - epoch 21, lr: 0.1 
+2022-07-07 18:24:50,489 - statisticNew - INFO - epoch 21, loss : 0.09363486392120778
+2022-07-07 18:24:53,774 - statisticNew - INFO - epoch: 21, info: accuracy:  97.81%; precision:  56.16%; recall:  66.46%; FB1:  60.88
+2022-07-07 18:24:53,776 - statisticNew - INFO - epoch 21, f1 : 60.88
+2022-07-07 18:24:53,776 - statisticNew - INFO - epoch 21, MAX_F1: 65.5
+
+2022-07-07 18:24:53,776 - statisticNew - INFO - Epoch: 22 / 100 ：
+2022-07-07 18:24:53,776 - statisticNew - INFO - epoch 22, lr: 0.1 
+2022-07-07 18:25:59,018 - statisticNew - INFO - epoch 22, loss : 0.09314016077463025
+2022-07-07 18:26:02,333 - statisticNew - INFO - epoch: 22, info: accuracy:  98.05%; precision:  60.89%; recall:  65.83%; FB1:  63.26
+2022-07-07 18:26:02,335 - statisticNew - INFO - epoch 22, f1 : 63.26
+2022-07-07 18:26:02,335 - statisticNew - INFO - epoch 22, MAX_F1: 65.5
+
+2022-07-07 18:26:02,335 - statisticNew - INFO - Epoch: 23 / 100 ：
+2022-07-07 18:26:02,335 - statisticNew - INFO - epoch 23, lr: 0.1 
+2022-07-07 18:28:39,235 - statisticNew - INFO - epoch 23, loss : 0.08905879708041665
+2022-07-07 18:28:42,204 - statisticNew - INFO - epoch: 23, info: accuracy:  98.32%; precision:  69.53%; recall:  64.17%; FB1:  66.74
+2022-07-07 18:28:42,206 - statisticNew - INFO - epoch 23, f1 : 66.74
+2022-07-07 18:28:42,223 - statisticNew - INFO - epoch 23, MAX_F1: 66.74
+
+2022-07-07 18:28:42,223 - statisticNew - INFO - Epoch: 24 / 100 ：
+2022-07-07 18:28:42,223 - statisticNew - INFO - epoch 24, lr: 0.1 
+2022-07-07 18:29:48,472 - statisticNew - INFO - epoch 24, loss : 0.08751357793947262
+2022-07-07 18:29:51,786 - statisticNew - INFO - epoch: 24, info: accuracy:  98.25%; precision:  66.32%; recall:  66.04%; FB1:  66.18
+2022-07-07 18:29:51,787 - statisticNew - INFO - epoch 24, f1 : 66.18
+2022-07-07 18:29:51,787 - statisticNew - INFO - epoch 24, MAX_F1: 66.74
+
+2022-07-07 18:29:51,787 - statisticNew - INFO - Epoch: 25 / 100 ：
+2022-07-07 18:29:51,788 - statisticNew - INFO - epoch 25, lr: 0.1 
+2022-07-07 18:34:15,802 - statisticNew - INFO - epoch 25, loss : 0.08727993482658661
+2022-07-07 18:34:19,210 - statisticNew - INFO - epoch: 25, info: accuracy:  98.11%; precision:  62.87%; recall:  65.62%; FB1:  64.22
+2022-07-07 18:34:19,212 - statisticNew - INFO - epoch 25, f1 : 64.22
+2022-07-07 18:34:19,212 - statisticNew - INFO - epoch 25, MAX_F1: 66.74
+
+2022-07-07 18:34:19,212 - statisticNew - INFO - Epoch: 26 / 100 ：
+2022-07-07 18:34:19,212 - statisticNew - INFO - epoch 26, lr: 0.1 
+2022-07-07 18:35:28,726 - statisticNew - INFO - epoch 26, loss : 0.08449298085731036
+2022-07-07 18:35:32,038 - statisticNew - INFO - epoch: 26, info: accuracy:  98.09%; precision:  62.38%; recall:  65.62%; FB1:  63.96
+2022-07-07 18:35:32,040 - statisticNew - INFO - epoch 26, f1 : 63.96
+2022-07-07 18:35:32,040 - statisticNew - INFO - epoch 26, MAX_F1: 66.74
+
+2022-07-07 18:35:32,040 - statisticNew - INFO - Epoch: 27 / 100 ：
+2022-07-07 18:35:32,040 - statisticNew - INFO - epoch 27, lr: 0.1 
+2022-07-07 18:36:42,226 - statisticNew - INFO - epoch 27, loss : 0.08189092791648729
+2022-07-07 18:36:45,509 - statisticNew - INFO - epoch: 27, info: accuracy:  98.16%; precision:  64.54%; recall:  65.21%; FB1:  64.87
+2022-07-07 18:36:45,510 - statisticNew - INFO - epoch 27, f1 : 64.87
+2022-07-07 18:36:45,511 - statisticNew - INFO - epoch 27, MAX_F1: 66.74
+
+2022-07-07 18:36:45,511 - statisticNew - INFO - Epoch: 28 / 100 ：
+2022-07-07 18:36:45,511 - statisticNew - INFO - epoch 28, lr: 0.1 
+2022-07-07 18:53:55,544 - statisticNew - INFO - epoch 28, loss : 0.08079882307712863
+2022-07-07 18:53:58,520 - statisticNew - INFO - epoch: 28, info: accuracy:  98.08%; precision:  62.23%; recall:  66.25%; FB1:  64.18
+2022-07-07 18:53:58,522 - statisticNew - INFO - epoch 28, f1 : 64.18
+2022-07-07 18:53:58,522 - statisticNew - INFO - epoch 28, MAX_F1: 66.74
+
+2022-07-07 18:53:58,522 - statisticNew - INFO - Epoch: 29 / 100 ：
+2022-07-07 18:53:58,522 - statisticNew - INFO - epoch 29, lr: 0.1 
+2022-07-07 18:55:04,565 - statisticNew - INFO - epoch 29, loss : 0.07837004894884744
+2022-07-07 18:55:07,874 - statisticNew - INFO - epoch: 29, info: accuracy:  98.23%; precision:  66.11%; recall:  65.42%; FB1:  65.76
+2022-07-07 18:55:07,876 - statisticNew - INFO - epoch 29, f1 : 65.76
+2022-07-07 18:55:07,876 - statisticNew - INFO - epoch 29, MAX_F1: 66.74
+
+2022-07-07 18:55:07,876 - statisticNew - INFO - Epoch: 30 / 100 ：
+2022-07-07 18:55:07,876 - statisticNew - INFO - epoch 30, lr: 0.1 
+2022-07-07 18:56:17,430 - statisticNew - INFO - epoch 30, loss : 0.07676520097515131
+2022-07-07 18:56:21,054 - statisticNew - INFO - epoch: 30, info: accuracy:  98.00%; precision:  60.07%; recall:  68.33%; FB1:  63.94
+2022-07-07 18:56:21,056 - statisticNew - INFO - epoch 30, f1 : 63.94
+2022-07-07 18:56:21,056 - statisticNew - INFO - epoch 30, MAX_F1: 66.74
+
+2022-07-07 18:56:21,056 - statisticNew - INFO - Epoch: 31 / 100 ：
+2022-07-07 18:56:21,056 - statisticNew - INFO - epoch 31, lr: 0.1 
+2022-07-07 19:10:33,160 - statisticNew - INFO - epoch 31, loss : 0.07475528614780798
+2022-07-07 19:10:36,442 - statisticNew - INFO - epoch: 31, info: accuracy:  98.17%; precision:  64.00%; recall:  66.67%; FB1:  65.31
+2022-07-07 19:10:36,443 - statisticNew - INFO - epoch 31, f1 : 65.31
+2022-07-07 19:10:36,443 - statisticNew - INFO - epoch 31, MAX_F1: 66.74
+
+2022-07-07 19:10:36,443 - statisticNew - INFO - Epoch: 32 / 100 ：
+2022-07-07 19:10:36,443 - statisticNew - INFO - epoch 32, lr: 0.1 
+2022-07-07 19:11:37,362 - statisticNew - INFO - epoch 32, loss : 0.07427526499422238
+2022-07-07 19:11:40,416 - statisticNew - INFO - epoch: 32, info: accuracy:  98.20%; precision:  66.67%; recall:  64.17%; FB1:  65.39
+2022-07-07 19:11:40,417 - statisticNew - INFO - epoch 32, f1 : 65.39
+2022-07-07 19:11:40,417 - statisticNew - INFO - epoch 32, MAX_F1: 66.74
+
+2022-07-07 19:11:40,418 - statisticNew - INFO - Epoch: 33 / 100 ：
+2022-07-07 19:11:40,418 - statisticNew - INFO - epoch 33, lr: 0.1 
+2022-07-07 19:25:41,198 - statisticNew - INFO - epoch 33, loss : 0.07286888602742626
+2022-07-07 19:25:45,095 - statisticNew - INFO - epoch: 33, info: accuracy:  98.06%; precision:  60.81%; recall:  68.54%; FB1:  64.45
+2022-07-07 19:25:45,097 - statisticNew - INFO - epoch 33, f1 : 64.45
+2022-07-07 19:25:45,097 - statisticNew - INFO - epoch 33, MAX_F1: 66.74
+
+2022-07-07 19:25:45,097 - statisticNew - INFO - Epoch: 34 / 100 ：
+2022-07-07 19:25:45,097 - statisticNew - INFO - epoch 34, lr: 0.1 
+2022-07-07 19:26:56,956 - statisticNew - INFO - epoch 34, loss : 0.07276873252854911
+2022-07-07 19:27:00,277 - statisticNew - INFO - epoch: 34, info: accuracy:  98.13%; precision:  63.33%; recall:  67.29%; FB1:  65.25
+2022-07-07 19:27:00,278 - statisticNew - INFO - epoch 34, f1 : 65.25
+2022-07-07 19:27:00,278 - statisticNew - INFO - epoch 34, MAX_F1: 66.74
+
+2022-07-07 19:27:00,278 - statisticNew - INFO - Epoch: 35 / 100 ：
+2022-07-07 19:27:00,279 - statisticNew - INFO - epoch 35, lr: 0.1 
+2022-07-07 19:28:09,589 - statisticNew - INFO - epoch 35, loss : 0.0699496667568822
+2022-07-07 19:28:12,900 - statisticNew - INFO - epoch: 35, info: accuracy:  98.15%; precision:  63.82%; recall:  65.42%; FB1:  64.61
+2022-07-07 19:28:12,901 - statisticNew - INFO - epoch 35, f1 : 64.61
+2022-07-07 19:28:12,901 - statisticNew - INFO - epoch 35, MAX_F1: 66.74
+
+2022-07-07 19:28:12,902 - statisticNew - INFO - Epoch: 36 / 100 ：
+2022-07-07 19:28:12,902 - statisticNew - INFO - epoch 36, lr: 0.1 
+2022-07-07 19:31:58,902 - statisticNew - INFO - epoch 36, loss : 0.06905619314286761
+2022-07-07 19:32:02,194 - statisticNew - INFO - epoch: 36, info: accuracy:  98.13%; precision:  62.60%; recall:  67.29%; FB1:  64.86
+2022-07-07 19:32:02,195 - statisticNew - INFO - epoch 36, f1 : 64.86
+2022-07-07 19:32:02,195 - statisticNew - INFO - epoch 36, MAX_F1: 66.74
+
+2022-07-07 19:32:02,196 - statisticNew - INFO - Epoch: 37 / 100 ：
+2022-07-07 19:32:02,196 - statisticNew - INFO - epoch 37, lr: 0.1 
+2022-07-07 19:33:11,613 - statisticNew - INFO - epoch 37, loss : 0.0683860361140377
+2022-07-07 19:33:14,924 - statisticNew - INFO - epoch: 37, info: accuracy:  98.18%; precision:  65.89%; recall:  65.21%; FB1:  65.55
+2022-07-07 19:33:14,925 - statisticNew - INFO - epoch 37, f1 : 65.55
+2022-07-07 19:33:14,926 - statisticNew - INFO - epoch 37, MAX_F1: 66.74
+
+2022-07-07 19:33:14,926 - statisticNew - INFO - Epoch: 38 / 100 ：
+2022-07-07 19:33:14,926 - statisticNew - INFO - epoch 38, lr: 0.1 
+2022-07-07 19:34:24,608 - statisticNew - INFO - epoch 38, loss : 0.06655740561872998
+2022-07-07 19:34:27,719 - statisticNew - INFO - epoch: 38, info: accuracy:  98.14%; precision:  64.17%; recall:  66.04%; FB1:  65.09
+2022-07-07 19:34:27,720 - statisticNew - INFO - epoch 38, f1 : 65.09
+2022-07-07 19:34:27,721 - statisticNew - INFO - epoch 38, MAX_F1: 66.74
+
+2022-07-07 19:34:27,721 - statisticNew - INFO - Epoch: 39 / 100 ：
+2022-07-07 19:34:27,721 - statisticNew - INFO - epoch 39, lr: 0.1 
+2022-07-07 20:16:41,026 - statisticNew - INFO - epoch 39, loss : 0.06418779706314383
+2022-07-07 20:16:44,083 - statisticNew - INFO - epoch: 39, info: accuracy:  98.03%; precision:  60.76%; recall:  66.46%; FB1:  63.48
+2022-07-07 20:16:44,085 - statisticNew - INFO - epoch 39, f1 : 63.48
+2022-07-07 20:16:44,085 - statisticNew - INFO - epoch 39, MAX_F1: 66.74
+
+2022-07-07 20:16:44,085 - statisticNew - INFO - Epoch: 40 / 100 ：
+2022-07-07 20:16:44,085 - statisticNew - INFO - epoch 40, lr: 0.1 
+2022-07-07 20:17:53,445 - statisticNew - INFO - epoch 40, loss : 0.06539000197745751
+2022-07-07 20:17:56,858 - statisticNew - INFO - epoch: 40, info: accuracy:  98.14%; precision:  64.04%; recall:  66.04%; FB1:  65.03
+2022-07-07 20:17:56,860 - statisticNew - INFO - epoch 40, f1 : 65.03
+2022-07-07 20:17:56,860 - statisticNew - INFO - epoch 40, MAX_F1: 66.74
+
+2022-07-07 20:17:56,860 - statisticNew - INFO - Epoch: 41 / 100 ：
+2022-07-07 20:17:56,860 - statisticNew - INFO - epoch 41, lr: 0.1 
+2022-07-07 20:19:06,765 - statisticNew - INFO - epoch 41, loss : 0.06483767802788168
+2022-07-07 20:19:10,143 - statisticNew - INFO - epoch: 41, info: accuracy:  98.08%; precision:  62.10%; recall:  67.92%; FB1:  64.88
+2022-07-07 20:19:10,145 - statisticNew - INFO - epoch 41, f1 : 64.88
+2022-07-07 20:19:10,145 - statisticNew - INFO - epoch 41, MAX_F1: 66.74
+
+2022-07-07 20:19:10,145 - statisticNew - INFO - Epoch: 42 / 100 ：
+2022-07-07 20:19:10,145 - statisticNew - INFO - epoch 42, lr: 0.1 
+2022-07-07 20:20:19,779 - statisticNew - INFO - epoch 42, loss : 0.06166209441041532
+2022-07-07 20:20:23,167 - statisticNew - INFO - epoch: 42, info: accuracy:  98.12%; precision:  62.82%; recall:  65.83%; FB1:  64.29
+2022-07-07 20:20:23,168 - statisticNew - INFO - epoch 42, f1 : 64.29
+2022-07-07 20:20:23,168 - statisticNew - INFO - epoch 42, MAX_F1: 66.74
+
+2022-07-07 20:20:23,169 - statisticNew - INFO - Epoch: 43 / 100 ：
+2022-07-07 20:20:23,169 - statisticNew - INFO - epoch 43, lr: 0.1 
+2022-07-07 20:21:34,044 - statisticNew - INFO - epoch 43, loss : 0.060546127155527756
+2022-07-07 20:21:37,572 - statisticNew - INFO - epoch: 43, info: accuracy:  98.15%; precision:  63.73%; recall:  66.25%; FB1:  64.96
+2022-07-07 20:21:37,574 - statisticNew - INFO - epoch 43, f1 : 64.96
+2022-07-07 20:21:37,574 - statisticNew - INFO - epoch 43, MAX_F1: 66.74
+
+2022-07-07 20:21:37,574 - statisticNew - INFO - Epoch: 44 / 100 ：
+2022-07-07 20:21:37,574 - statisticNew - INFO - epoch 44, lr: 0.1 
+2022-07-07 20:22:46,452 - statisticNew - INFO - epoch 44, loss : 0.06021319276569926
+2022-07-07 20:22:49,837 - statisticNew - INFO - epoch: 44, info: accuracy:  98.14%; precision:  64.38%; recall:  64.38%; FB1:  64.38
+2022-07-07 20:22:49,838 - statisticNew - INFO - epoch 44, f1 : 64.38
+2022-07-07 20:22:49,838 - statisticNew - INFO - epoch 44, MAX_F1: 66.74
+
+2022-07-07 20:22:49,838 - statisticNew - INFO - Epoch: 45 / 100 ：
+2022-07-07 20:22:49,839 - statisticNew - INFO - epoch 45, lr: 0.1 
+2022-07-07 20:23:58,761 - statisticNew - INFO - epoch 45, loss : 0.05875359678248881
+2022-07-07 20:24:02,160 - statisticNew - INFO - epoch: 45, info: accuracy:  98.15%; precision:  64.21%; recall:  65.42%; FB1:  64.81
+2022-07-07 20:24:02,162 - statisticNew - INFO - epoch 45, f1 : 64.81
+2022-07-07 20:24:02,162 - statisticNew - INFO - epoch 45, MAX_F1: 66.74
+
+2022-07-07 20:24:02,162 - statisticNew - INFO - Epoch: 46 / 100 ：
+2022-07-07 20:24:02,162 - statisticNew - INFO - epoch 46, lr: 0.1 
+2022-07-07 20:25:08,678 - statisticNew - INFO - epoch 46, loss : 0.0562285792006865
+2022-07-07 20:25:12,102 - statisticNew - INFO - epoch: 46, info: accuracy:  98.06%; precision:  61.57%; recall:  67.08%; FB1:  64.21
+2022-07-07 20:25:12,109 - statisticNew - INFO - epoch 46, f1 : 64.21
+2022-07-07 20:25:12,109 - statisticNew - INFO - epoch 46, MAX_F1: 66.74
+
+2022-07-07 20:25:12,109 - statisticNew - INFO - Epoch: 47 / 100 ：
+2022-07-07 20:25:12,109 - statisticNew - INFO - epoch 47, lr: 0.1 
+2022-07-07 20:26:19,850 - statisticNew - INFO - epoch 47, loss : 0.05573516205553928
+2022-07-07 20:26:23,265 - statisticNew - INFO - epoch: 47, info: accuracy:  98.04%; precision:  61.60%; recall:  65.83%; FB1:  63.65
+2022-07-07 20:26:23,266 - statisticNew - INFO - epoch 47, f1 : 63.65
+2022-07-07 20:26:23,266 - statisticNew - INFO - epoch 47, MAX_F1: 66.74
+
+2022-07-07 20:26:23,266 - statisticNew - INFO - Epoch: 48 / 100 ：
+2022-07-07 20:26:23,267 - statisticNew - INFO - epoch 48, lr: 0.1 
+2022-07-07 22:24:17,057 - statisticNew - INFO - epoch 48, loss : 0.05385265569044929
+2022-07-07 22:24:22,816 - statisticNew - INFO - epoch: 48, info: accuracy:  98.04%; precision:  62.03%; recall:  65.00%; FB1:  63.48
+2022-07-07 22:24:22,821 - statisticNew - INFO - epoch 48, f1 : 63.48
+2022-07-07 22:24:22,821 - statisticNew - INFO - epoch 48, MAX_F1: 66.74
+
+2022-07-07 22:24:22,821 - statisticNew - INFO - Epoch: 49 / 100 ：
+2022-07-07 22:24:22,822 - statisticNew - INFO - epoch 49, lr: 0.1 
+2022-07-08 00:26:47,363 - statisticNew - INFO - epoch 49, loss : 0.05511483258593241
+2022-07-08 00:26:54,728 - statisticNew - INFO - epoch: 49, info: accuracy:  98.07%; precision:  62.50%; recall:  65.62%; FB1:  64.02
+2022-07-08 00:26:54,731 - statisticNew - INFO - epoch 49, f1 : 64.02
+2022-07-08 00:26:54,732 - statisticNew - INFO - epoch 49, MAX_F1: 66.74
+
+2022-07-08 00:26:54,732 - statisticNew - INFO - Epoch: 50 / 100 ：
+2022-07-08 00:26:54,732 - statisticNew - INFO - epoch 50, lr: 0.1 
+2022-07-08 00:29:15,628 - statisticNew - INFO - epoch 50, loss : 0.05306449749007186
+2022-07-08 00:29:22,197 - statisticNew - INFO - epoch: 50, info: accuracy:  98.12%; precision:  63.44%; recall:  66.88%; FB1:  65.11
+2022-07-08 00:29:22,206 - statisticNew - INFO - epoch 50, f1 : 65.11
+2022-07-08 00:29:22,206 - statisticNew - INFO - epoch 50, MAX_F1: 66.74
+
+2022-07-08 00:29:22,206 - statisticNew - INFO - Epoch: 51 / 100 ：
+2022-07-08 00:29:22,207 - statisticNew - INFO - epoch 51, lr: 0.1 
+2022-07-08 00:31:24,287 - statisticNew - INFO - epoch 51, loss : 0.05129244741111254
+2022-07-08 00:31:30,700 - statisticNew - INFO - epoch: 51, info: accuracy:  97.96%; precision:  60.23%; recall:  66.88%; FB1:  63.38
+2022-07-08 00:31:30,703 - statisticNew - INFO - epoch 51, f1 : 63.38
+2022-07-08 00:31:30,703 - statisticNew - INFO - epoch 51, MAX_F1: 66.74
+
+2022-07-08 00:31:30,703 - statisticNew - INFO - Epoch: 52 / 100 ：
+2022-07-08 00:31:30,703 - statisticNew - INFO - epoch 52, lr: 0.1 
+2022-07-08 00:33:31,216 - statisticNew - INFO - epoch 52, loss : 0.05242155159063612
+2022-07-08 00:33:38,136 - statisticNew - INFO - epoch: 52, info: accuracy:  98.12%; precision:  64.02%; recall:  63.75%; FB1:  63.88
+2022-07-08 00:33:38,139 - statisticNew - INFO - epoch 52, f1 : 63.88
+2022-07-08 00:33:38,139 - statisticNew - INFO - epoch 52, MAX_F1: 66.74
+
+2022-07-08 00:33:38,139 - statisticNew - INFO - Epoch: 53 / 100 ：
+2022-07-08 00:33:38,139 - statisticNew - INFO - epoch 53, lr: 0.1 
+2022-07-08 00:35:40,764 - statisticNew - INFO - epoch 53, loss : 0.05064685072363028
+2022-07-08 00:35:47,524 - statisticNew - INFO - epoch: 53, info: accuracy:  98.08%; precision:  62.40%; recall:  63.96%; FB1:  63.17
+2022-07-08 00:35:47,533 - statisticNew - INFO - epoch 53, f1 : 63.17
+2022-07-08 00:35:47,533 - statisticNew - INFO - epoch 53, MAX_F1: 66.74
+
+2022-07-08 00:35:47,533 - statisticNew - INFO - Epoch: 54 / 100 ：
+2022-07-08 00:35:47,534 - statisticNew - INFO - epoch 54, lr: 0.1 
+2022-07-08 00:37:49,214 - statisticNew - INFO - epoch 54, loss : 0.04984270741367601
+2022-07-08 00:37:55,940 - statisticNew - INFO - epoch: 54, info: accuracy:  98.02%; precision:  60.94%; recall:  67.29%; FB1:  63.96
+2022-07-08 00:37:55,943 - statisticNew - INFO - epoch 54, f1 : 63.96
+2022-07-08 00:37:55,943 - statisticNew - INFO - epoch 54, MAX_F1: 66.74
+
+2022-07-08 00:37:55,944 - statisticNew - INFO - Epoch: 55 / 100 ：
+2022-07-08 00:37:55,944 - statisticNew - INFO - epoch 55, lr: 0.1 
+2022-07-08 00:39:57,703 - statisticNew - INFO - epoch 55, loss : 0.04741526204613342
+2022-07-08 00:40:04,422 - statisticNew - INFO - epoch: 55, info: accuracy:  98.13%; precision:  63.89%; recall:  65.62%; FB1:  64.75
+2022-07-08 00:40:04,431 - statisticNew - INFO - epoch 55, f1 : 64.75
+2022-07-08 00:40:04,431 - statisticNew - INFO - epoch 55, MAX_F1: 66.74
+
+2022-07-08 00:40:04,432 - statisticNew - INFO - Epoch: 56 / 100 ：
+2022-07-08 00:40:04,432 - statisticNew - INFO - epoch 56, lr: 0.1 
+2022-07-08 01:23:23,100 - statisticNew - INFO - epoch 56, loss : 0.047802067410913515
+2022-07-08 01:23:26,506 - statisticNew - INFO - epoch: 56, info: accuracy:  98.14%; precision:  63.80%; recall:  65.00%; FB1:  64.40
+2022-07-08 01:23:26,510 - statisticNew - INFO - epoch 56, f1 : 64.4
+2022-07-08 01:23:26,510 - statisticNew - INFO - epoch 56, MAX_F1: 66.74
+
+2022-07-08 01:23:26,510 - statisticNew - INFO - Epoch: 57 / 100 ：
+2022-07-08 01:23:26,511 - statisticNew - INFO - epoch 57, lr: 0.1 
+2022-07-08 01:24:36,650 - statisticNew - INFO - epoch 57, loss : 0.04651648940238103
+2022-07-08 01:24:40,040 - statisticNew - INFO - epoch: 57, info: accuracy:  98.12%; precision:  63.15%; recall:  66.04%; FB1:  64.56
+2022-07-08 01:24:40,042 - statisticNew - INFO - epoch 57, f1 : 64.56
+2022-07-08 01:24:40,042 - statisticNew - INFO - epoch 57, MAX_F1: 66.74
+
+2022-07-08 01:24:40,042 - statisticNew - INFO - Epoch: 58 / 100 ：
+2022-07-08 01:24:40,042 - statisticNew - INFO - epoch 58, lr: 0.1 
+2022-07-08 01:25:47,731 - statisticNew - INFO - epoch 58, loss : 0.045650106018806466
+2022-07-08 01:25:50,816 - statisticNew - INFO - epoch: 58, info: accuracy:  98.13%; precision:  63.86%; recall:  64.79%; FB1:  64.32
+2022-07-08 01:25:50,823 - statisticNew - INFO - epoch 58, f1 : 64.32
+2022-07-08 01:25:50,823 - statisticNew - INFO - epoch 58, MAX_F1: 66.74
+
+2022-07-08 01:25:50,823 - statisticNew - INFO - Epoch: 59 / 100 ：
+2022-07-08 01:25:50,824 - statisticNew - INFO - epoch 59, lr: 0.1 
+2022-07-08 01:27:00,753 - statisticNew - INFO - epoch 59, loss : 0.04538430414072177
+2022-07-08 01:27:04,127 - statisticNew - INFO - epoch: 59, info: accuracy:  98.02%; precision:  61.41%; recall:  67.29%; FB1:  64.21
+2022-07-08 01:27:04,135 - statisticNew - INFO - epoch 59, f1 : 64.21
+2022-07-08 01:27:04,135 - statisticNew - INFO - epoch 59, MAX_F1: 66.74
+
+2022-07-08 01:27:04,135 - statisticNew - INFO - Epoch: 60 / 100 ：
+2022-07-08 01:27:04,135 - statisticNew - INFO - epoch 60, lr: 0.1 
+2022-07-08 01:28:14,573 - statisticNew - INFO - epoch 60, loss : 0.04551602134748591
+2022-07-08 01:28:18,029 - statisticNew - INFO - epoch: 60, info: accuracy:  98.14%; precision:  63.95%; recall:  65.42%; FB1:  64.68
+2022-07-08 01:28:18,036 - statisticNew - INFO - epoch 60, f1 : 64.68
+2022-07-08 01:28:18,037 - statisticNew - INFO - epoch 60, MAX_F1: 66.74
+
+2022-07-08 01:28:18,037 - statisticNew - INFO - Epoch: 61 / 100 ：
+2022-07-08 01:28:18,037 - statisticNew - INFO - epoch 61, lr: 0.1 
+2022-07-08 01:29:26,397 - statisticNew - INFO - epoch 61, loss : 0.044181775403821066
+2022-07-08 01:29:29,794 - statisticNew - INFO - epoch: 61, info: accuracy:  98.04%; precision:  61.45%; recall:  67.08%; FB1:  64.14
+2022-07-08 01:29:29,795 - statisticNew - INFO - epoch 61, f1 : 64.14
+2022-07-08 01:29:29,795 - statisticNew - INFO - epoch 61, MAX_F1: 66.74
+
+2022-07-08 01:29:29,795 - statisticNew - INFO - Epoch: 62 / 100 ：
+2022-07-08 01:29:29,796 - statisticNew - INFO - epoch 62, lr: 0.1 
+2022-07-08 01:30:40,177 - statisticNew - INFO - epoch 62, loss : 0.04372494191713904
+2022-07-08 01:30:43,589 - statisticNew - INFO - epoch: 62, info: accuracy:  98.15%; precision:  64.44%; recall:  64.17%; FB1:  64.30
+2022-07-08 01:30:43,596 - statisticNew - INFO - epoch 62, f1 : 64.3
+2022-07-08 01:30:43,597 - statisticNew - INFO - epoch 62, MAX_F1: 66.74
+
+2022-07-08 01:30:43,597 - statisticNew - INFO - Epoch: 63 / 100 ：
+2022-07-08 01:30:43,597 - statisticNew - INFO - epoch 63, lr: 0.1 
+2022-07-08 01:31:52,698 - statisticNew - INFO - epoch 63, loss : 0.04211654588397493
+2022-07-08 01:31:55,769 - statisticNew - INFO - epoch: 63, info: accuracy:  98.09%; precision:  62.33%; recall:  65.83%; FB1:  64.03
+2022-07-08 01:31:55,771 - statisticNew - INFO - epoch 63, f1 : 64.03
+2022-07-08 01:31:55,771 - statisticNew - INFO - epoch 63, MAX_F1: 66.74
+
+2022-07-08 01:31:55,771 - statisticNew - INFO - Epoch: 64 / 100 ：
+2022-07-08 01:31:55,771 - statisticNew - INFO - epoch 64, lr: 0.1 
+2022-07-08 01:33:01,925 - statisticNew - INFO - epoch 64, loss : 0.04178153285294856
+2022-07-08 01:33:05,296 - statisticNew - INFO - epoch: 64, info: accuracy:  98.08%; precision:  63.34%; recall:  64.79%; FB1:  64.06
+2022-07-08 01:33:05,298 - statisticNew - INFO - epoch 64, f1 : 64.06
+2022-07-08 01:33:05,298 - statisticNew - INFO - epoch 64, MAX_F1: 66.74
+
+2022-07-08 01:33:05,298 - statisticNew - INFO - Epoch: 65 / 100 ：
+2022-07-08 01:33:05,298 - statisticNew - INFO - epoch 65, lr: 0.1 
+2022-07-08 02:15:02,721 - statisticNew - INFO - epoch 65, loss : 0.04182371415384298
+2022-07-08 02:15:06,096 - statisticNew - INFO - epoch: 65, info: accuracy:  98.14%; precision:  64.14%; recall:  65.21%; FB1:  64.67
+2022-07-08 02:15:06,098 - statisticNew - INFO - epoch 65, f1 : 64.67
+2022-07-08 02:15:06,098 - statisticNew - INFO - epoch 65, MAX_F1: 66.74
+
+2022-07-08 02:15:06,098 - statisticNew - INFO - Epoch: 66 / 100 ：
+2022-07-08 02:15:06,098 - statisticNew - INFO - epoch 66, lr: 0.1 
+2022-07-08 02:16:15,936 - statisticNew - INFO - epoch 66, loss : 0.04047602292158931
+2022-07-08 02:16:19,312 - statisticNew - INFO - epoch: 66, info: accuracy:  98.20%; precision:  66.59%; recall:  63.96%; FB1:  65.25
+2022-07-08 02:16:19,314 - statisticNew - INFO - epoch 66, f1 : 65.25
+2022-07-08 02:16:19,314 - statisticNew - INFO - epoch 66, MAX_F1: 66.74
+
+2022-07-08 02:16:19,314 - statisticNew - INFO - Epoch: 67 / 100 ：
+2022-07-08 02:16:19,314 - statisticNew - INFO - epoch 67, lr: 0.1 
+2022-07-08 02:17:29,108 - statisticNew - INFO - epoch 67, loss : 0.040616162520274626
+2022-07-08 02:17:32,514 - statisticNew - INFO - epoch: 67, info: accuracy:  98.25%; precision:  67.41%; recall:  63.33%; FB1:  65.31
+2022-07-08 02:17:32,516 - statisticNew - INFO - epoch 67, f1 : 65.31
+2022-07-08 02:17:32,516 - statisticNew - INFO - epoch 67, MAX_F1: 66.74
+
+2022-07-08 02:17:32,516 - statisticNew - INFO - Epoch: 68 / 100 ：
+2022-07-08 02:17:32,516 - statisticNew - INFO - epoch 68, lr: 0.1 
+2022-07-08 02:18:42,456 - statisticNew - INFO - epoch 68, loss : 0.0390842516759595
+2022-07-08 02:18:45,853 - statisticNew - INFO - epoch: 68, info: accuracy:  98.17%; precision:  65.65%; recall:  62.92%; FB1:  64.26
+2022-07-08 02:18:45,854 - statisticNew - INFO - epoch 68, f1 : 64.26
+2022-07-08 02:18:45,854 - statisticNew - INFO - epoch 68, MAX_F1: 66.74
+
+2022-07-08 02:18:45,854 - statisticNew - INFO - Epoch: 69 / 100 ：
+2022-07-08 02:18:45,854 - statisticNew - INFO - epoch 69, lr: 0.1 
+2022-07-08 02:19:56,142 - statisticNew - INFO - epoch 69, loss : 0.03859805988235101
+2022-07-08 02:19:59,586 - statisticNew - INFO - epoch: 69, info: accuracy:  98.22%; precision:  66.96%; recall:  62.92%; FB1:  64.88
+2022-07-08 02:19:59,589 - statisticNew - INFO - epoch 69, f1 : 64.88
+2022-07-08 02:19:59,589 - statisticNew - INFO - epoch 69, MAX_F1: 66.74
+
+2022-07-08 02:19:59,589 - statisticNew - INFO - Epoch: 70 / 100 ：
+2022-07-08 02:19:59,590 - statisticNew - INFO - epoch 70, lr: 0.1 
+2022-07-08 02:21:11,978 - statisticNew - INFO - epoch 70, loss : 0.036972734722164675
+2022-07-08 02:21:15,378 - statisticNew - INFO - epoch: 70, info: accuracy:  98.14%; precision:  64.81%; recall:  62.92%; FB1:  63.85
+2022-07-08 02:21:15,385 - statisticNew - INFO - epoch 70, f1 : 63.85
+2022-07-08 02:21:15,385 - statisticNew - INFO - epoch 70, MAX_F1: 66.74
+
+2022-07-08 02:21:15,385 - statisticNew - INFO - Epoch: 71 / 100 ：
+2022-07-08 02:21:15,385 - statisticNew - INFO - epoch 71, lr: 0.1 
+2022-07-08 02:22:24,225 - statisticNew - INFO - epoch 71, loss : 0.038192076072318615
+2022-07-08 02:22:27,643 - statisticNew - INFO - epoch: 71, info: accuracy:  98.08%; precision:  62.90%; recall:  65.00%; FB1:  63.93
+2022-07-08 02:22:27,650 - statisticNew - INFO - epoch 71, f1 : 63.93
+2022-07-08 02:22:27,650 - statisticNew - INFO - epoch 71, MAX_F1: 66.74
+
+2022-07-08 02:22:27,650 - statisticNew - INFO - Epoch: 72 / 100 ：
+2022-07-08 02:22:27,650 - statisticNew - INFO - epoch 72, lr: 0.1 
+2022-07-08 02:23:36,435 - statisticNew - INFO - epoch 72, loss : 0.0362794180047219
+2022-07-08 02:23:39,820 - statisticNew - INFO - epoch: 72, info: accuracy:  98.04%; precision:  61.58%; recall:  64.79%; FB1:  63.15
+2022-07-08 02:23:39,827 - statisticNew - INFO - epoch 72, f1 : 63.15
+2022-07-08 02:23:39,827 - statisticNew - INFO - epoch 72, MAX_F1: 66.74
+
+2022-07-08 02:23:39,827 - statisticNew - INFO - Epoch: 73 / 100 ：
+2022-07-08 02:23:39,827 - statisticNew - INFO - epoch 73, lr: 0.1 
+2022-07-08 02:24:48,385 - statisticNew - INFO - epoch 73, loss : 0.036665850956788926
+2022-07-08 02:24:51,747 - statisticNew - INFO - epoch: 73, info: accuracy:  98.18%; precision:  66.97%; recall:  60.83%; FB1:  63.76
+2022-07-08 02:24:51,749 - statisticNew - INFO - epoch 73, f1 : 63.76
+2022-07-08 02:24:51,749 - statisticNew - INFO - epoch 73, MAX_F1: 66.74
+
+2022-07-08 02:24:51,749 - statisticNew - INFO - Epoch: 74 / 100 ：
+2022-07-08 02:24:51,749 - statisticNew - INFO - epoch 74, lr: 0.1 
+2022-07-08 03:13:42,740 - statisticNew - INFO - epoch 74, loss : 0.03405761597862346
+2022-07-08 03:13:49,432 - statisticNew - INFO - epoch: 74, info: accuracy:  98.08%; precision:  63.32%; recall:  64.38%; FB1:  63.84
+2022-07-08 03:13:49,435 - statisticNew - INFO - epoch 74, f1 : 63.84
+2022-07-08 03:13:49,435 - statisticNew - INFO - epoch 74, MAX_F1: 66.74
+
+2022-07-08 03:13:49,435 - statisticNew - INFO - Epoch: 75 / 100 ：
+2022-07-08 03:13:49,435 - statisticNew - INFO - epoch 75, lr: 0.1 
+2022-07-08 05:53:30,215 - statisticNew - INFO - epoch 75, loss : 0.0338832357548583
+2022-07-08 05:53:33,514 - statisticNew - INFO - epoch: 75, info: accuracy:  98.17%; precision:  64.50%; recall:  63.96%; FB1:  64.23
+2022-07-08 05:53:33,515 - statisticNew - INFO - epoch 75, f1 : 64.23
+2022-07-08 05:53:33,515 - statisticNew - INFO - epoch 75, MAX_F1: 66.74
+
+2022-07-08 05:53:33,515 - statisticNew - INFO - Epoch: 76 / 100 ：
+2022-07-08 05:53:33,515 - statisticNew - INFO - epoch 76, lr: 0.1 
+2022-07-08 09:31:18,184 - statisticNew - INFO - epoch 76, loss : 0.03390555062588989
+2022-07-08 09:31:21,669 - statisticNew - INFO - epoch: 76, info: accuracy:  98.12%; precision:  63.96%; recall:  63.96%; FB1:  63.96
+2022-07-08 09:31:21,670 - statisticNew - INFO - epoch 76, f1 : 63.96
+2022-07-08 09:31:21,670 - statisticNew - INFO - epoch 76, MAX_F1: 66.74
+
+2022-07-08 09:31:21,670 - statisticNew - INFO - Epoch: 77 / 100 ：
+2022-07-08 09:31:21,670 - statisticNew - INFO - epoch 77, lr: 0.1 
+2022-07-08 09:33:28,798 - statisticNew - INFO - epoch 77, loss : 0.0344712314521526
+2022-07-08 09:33:35,349 - statisticNew - INFO - epoch: 77, info: accuracy:  98.15%; precision:  66.00%; recall:  61.88%; FB1:  63.87
+2022-07-08 09:33:35,351 - statisticNew - INFO - epoch 77, f1 : 63.87
+2022-07-08 09:33:35,351 - statisticNew - INFO - epoch 77, MAX_F1: 66.74
+
+2022-07-08 09:33:35,352 - statisticNew - INFO - Epoch: 78 / 100 ：
+2022-07-08 09:33:35,352 - statisticNew - INFO - epoch 78, lr: 0.1 
+2022-07-08 09:35:38,429 - statisticNew - INFO - epoch 78, loss : 0.0336247465959419
+2022-07-08 09:35:44,646 - statisticNew - INFO - epoch: 78, info: accuracy:  98.03%; precision:  62.07%; recall:  63.75%; FB1:  62.90
+2022-07-08 09:35:44,649 - statisticNew - INFO - epoch 78, f1 : 62.9
+2022-07-08 09:35:44,649 - statisticNew - INFO - epoch 78, MAX_F1: 66.74
+
+2022-07-08 09:35:44,649 - statisticNew - INFO - Epoch: 79 / 100 ：
+2022-07-08 09:35:44,650 - statisticNew - INFO - epoch 79, lr: 0.1 
+2022-07-08 09:37:46,895 - statisticNew - INFO - epoch 79, loss : 0.03348070280847158
+2022-07-08 09:37:53,512 - statisticNew - INFO - epoch: 79, info: accuracy:  98.06%; precision:  62.42%; recall:  64.38%; FB1:  63.38
+2022-07-08 09:37:53,515 - statisticNew - INFO - epoch 79, f1 : 63.38
+2022-07-08 09:37:53,515 - statisticNew - INFO - epoch 79, MAX_F1: 66.74
+
+2022-07-08 09:37:53,515 - statisticNew - INFO - Epoch: 80 / 100 ：
+2022-07-08 09:37:53,515 - statisticNew - INFO - epoch 80, lr: 0.1 
+2022-07-08 09:39:56,243 - statisticNew - INFO - epoch 80, loss : 0.032947284649051334
+2022-07-08 09:40:02,874 - statisticNew - INFO - epoch: 80, info: accuracy:  98.21%; precision:  67.11%; recall:  62.92%; FB1:  64.95
+2022-07-08 09:40:02,877 - statisticNew - INFO - epoch 80, f1 : 64.95
+2022-07-08 09:40:02,877 - statisticNew - INFO - epoch 80, MAX_F1: 66.74
+
+2022-07-08 09:40:02,877 - statisticNew - INFO - Epoch: 81 / 100 ：
+2022-07-08 09:40:02,877 - statisticNew - INFO - epoch 81, lr: 0.1 
+2022-07-08 09:42:06,423 - statisticNew - INFO - epoch 81, loss : 0.03198862435398928
+2022-07-08 09:42:13,079 - statisticNew - INFO - epoch: 81, info: accuracy:  98.08%; precision:  62.70%; recall:  65.83%; FB1:  64.23
+2022-07-08 09:42:13,082 - statisticNew - INFO - epoch 81, f1 : 64.23
+2022-07-08 09:42:13,082 - statisticNew - INFO - epoch 81, MAX_F1: 66.74
+
+2022-07-08 09:42:13,082 - statisticNew - INFO - Epoch: 82 / 100 ：
+2022-07-08 09:42:13,082 - statisticNew - INFO - epoch 82, lr: 0.1 
+2022-07-08 09:44:17,693 - statisticNew - INFO - epoch 82, loss : 0.031414993331461076
+2022-07-08 09:44:24,397 - statisticNew - INFO - epoch: 82, info: accuracy:  98.04%; precision:  61.27%; recall:  66.25%; FB1:  63.66
+2022-07-08 09:44:24,400 - statisticNew - INFO - epoch 82, f1 : 63.66
+2022-07-08 09:44:24,400 - statisticNew - INFO - epoch 82, MAX_F1: 66.74
+
+2022-07-08 09:44:24,400 - statisticNew - INFO - Epoch: 83 / 100 ：
+2022-07-08 09:44:24,400 - statisticNew - INFO - epoch 83, lr: 0.1 
+2022-07-08 09:46:34,585 - statisticNew - INFO - epoch 83, loss : 0.02992223816985618
+2022-07-08 09:46:41,273 - statisticNew - INFO - epoch: 83, info: accuracy:  98.18%; precision:  66.59%; recall:  61.88%; FB1:  64.15
+2022-07-08 09:46:41,276 - statisticNew - INFO - epoch 83, f1 : 64.15
+2022-07-08 09:46:41,276 - statisticNew - INFO - epoch 83, MAX_F1: 66.74
+
+2022-07-08 09:46:41,276 - statisticNew - INFO - Epoch: 84 / 100 ：
+2022-07-08 09:46:41,277 - statisticNew - INFO - epoch 84, lr: 0.1 
+2022-07-08 11:03:03,493 - statisticNew - INFO - epoch 84, loss : 0.03108296487819399
+2022-07-08 11:03:06,885 - statisticNew - INFO - epoch: 84, info: accuracy:  98.12%; precision:  64.50%; recall:  62.08%; FB1:  63.27
+2022-07-08 11:03:06,887 - statisticNew - INFO - epoch 84, f1 : 63.27
+2022-07-08 11:03:06,887 - statisticNew - INFO - epoch 84, MAX_F1: 66.74
+
+2022-07-08 11:03:06,887 - statisticNew - INFO - Epoch: 85 / 100 ：
+2022-07-08 11:03:06,887 - statisticNew - INFO - epoch 85, lr: 0.1 
+2022-07-08 11:04:16,371 - statisticNew - INFO - epoch 85, loss : 0.030476900073410584
+2022-07-08 11:04:19,837 - statisticNew - INFO - epoch: 85, info: accuracy:  98.15%; precision:  66.06%; recall:  60.42%; FB1:  63.11
+2022-07-08 11:04:19,839 - statisticNew - INFO - epoch 85, f1 : 63.11
+2022-07-08 11:04:19,839 - statisticNew - INFO - epoch 85, MAX_F1: 66.74
+
+2022-07-08 11:04:19,839 - statisticNew - INFO - Epoch: 86 / 100 ：
+2022-07-08 11:04:19,839 - statisticNew - INFO - epoch 86, lr: 0.1 
+2022-07-08 11:05:29,754 - statisticNew - INFO - epoch 86, loss : 0.028779411835871366
+2022-07-08 11:05:33,165 - statisticNew - INFO - epoch: 86, info: accuracy:  98.16%; precision:  66.14%; recall:  61.04%; FB1:  63.49
+2022-07-08 11:05:33,167 - statisticNew - INFO - epoch 86, f1 : 63.49
+2022-07-08 11:05:33,167 - statisticNew - INFO - epoch 86, MAX_F1: 66.74
+
+2022-07-08 11:05:33,167 - statisticNew - INFO - Epoch: 87 / 100 ：
+2022-07-08 11:05:33,167 - statisticNew - INFO - epoch 87, lr: 0.1 
+2022-07-08 11:06:42,804 - statisticNew - INFO - epoch 87, loss : 0.02852466955692489
+2022-07-08 11:06:46,161 - statisticNew - INFO - epoch: 87, info: accuracy:  98.20%; precision:  65.88%; recall:  63.96%; FB1:  64.90
+2022-07-08 11:06:46,163 - statisticNew - INFO - epoch 87, f1 : 64.9
+2022-07-08 11:06:46,163 - statisticNew - INFO - epoch 87, MAX_F1: 66.74
+
+2022-07-08 11:06:46,163 - statisticNew - INFO - Epoch: 88 / 100 ：
+2022-07-08 11:06:46,163 - statisticNew - INFO - epoch 88, lr: 0.1 
+2022-07-08 11:07:58,153 - statisticNew - INFO - epoch 88, loss : 0.027832111419884394
+2022-07-08 11:08:01,586 - statisticNew - INFO - epoch: 88, info: accuracy:  98.14%; precision:  65.37%; recall:  62.92%; FB1:  64.12
+2022-07-08 11:08:01,588 - statisticNew - INFO - epoch 88, f1 : 64.12
+2022-07-08 11:08:01,588 - statisticNew - INFO - epoch 88, MAX_F1: 66.74
+
+2022-07-08 11:08:01,588 - statisticNew - INFO - Epoch: 89 / 100 ：
+2022-07-08 11:08:01,589 - statisticNew - INFO - epoch 89, lr: 0.1 
+2022-07-08 11:09:11,749 - statisticNew - INFO - epoch 89, loss : 0.02729883843667739
+2022-07-08 11:09:15,163 - statisticNew - INFO - epoch: 89, info: accuracy:  98.22%; precision:  66.39%; recall:  65.83%; FB1:  66.11
+2022-07-08 11:09:15,165 - statisticNew - INFO - epoch 89, f1 : 66.11
+2022-07-08 11:09:15,165 - statisticNew - INFO - epoch 89, MAX_F1: 66.74
+
+2022-07-08 11:09:15,165 - statisticNew - INFO - Epoch: 90 / 100 ：
+2022-07-08 11:09:15,165 - statisticNew - INFO - epoch 90, lr: 0.1 
+2022-07-08 11:10:25,207 - statisticNew - INFO - epoch 90, loss : 0.027261062817121557
+2022-07-08 11:10:28,633 - statisticNew - INFO - epoch: 90, info: accuracy:  98.23%; precision:  68.49%; recall:  62.50%; FB1:  65.36
+2022-07-08 11:10:28,634 - statisticNew - INFO - epoch 90, f1 : 65.36
+2022-07-08 11:10:28,634 - statisticNew - INFO - epoch 90, MAX_F1: 66.74
+
+2022-07-08 11:10:28,634 - statisticNew - INFO - Epoch: 91 / 100 ：
+2022-07-08 11:10:28,634 - statisticNew - INFO - epoch 91, lr: 0.1 
+2022-07-08 11:11:39,170 - statisticNew - INFO - epoch 91, loss : 0.02759675308478942
+2022-07-08 11:11:42,821 - statisticNew - INFO - epoch: 91, info: accuracy:  98.20%; precision:  67.87%; recall:  58.96%; FB1:  63.10
+2022-07-08 11:11:42,823 - statisticNew - INFO - epoch 91, f1 : 63.1
+2022-07-08 11:11:42,823 - statisticNew - INFO - epoch 91, MAX_F1: 66.74
+
+2022-07-08 11:11:42,823 - statisticNew - INFO - Epoch: 92 / 100 ：
+2022-07-08 11:11:42,823 - statisticNew - INFO - epoch 92, lr: 0.1 
+2022-07-08 11:12:51,809 - statisticNew - INFO - epoch 92, loss : 0.02606592982707425
+2022-07-08 11:12:55,161 - statisticNew - INFO - epoch: 92, info: accuracy:  98.19%; precision:  66.67%; recall:  61.67%; FB1:  64.07
+2022-07-08 11:12:55,163 - statisticNew - INFO - epoch 92, f1 : 64.07
+2022-07-08 11:12:55,163 - statisticNew - INFO - epoch 92, MAX_F1: 66.74
+
+2022-07-08 11:12:55,163 - statisticNew - INFO - Epoch: 93 / 100 ：
+2022-07-08 11:12:55,163 - statisticNew - INFO - epoch 93, lr: 0.1 
+2022-07-08 11:14:01,630 - statisticNew - INFO - epoch 93, loss : 0.02592112136575961
+2022-07-08 11:14:04,688 - statisticNew - INFO - epoch: 93, info: accuracy:  98.18%; precision:  66.15%; recall:  62.71%; FB1:  64.39
+2022-07-08 11:14:04,689 - statisticNew - INFO - epoch 93, f1 : 64.39
+2022-07-08 11:14:04,689 - statisticNew - INFO - epoch 93, MAX_F1: 66.74
+
+2022-07-08 11:14:04,689 - statisticNew - INFO - Epoch: 94 / 100 ：
+2022-07-08 11:14:04,689 - statisticNew - INFO - epoch 94, lr: 0.1 
+2022-07-08 11:15:06,115 - statisticNew - INFO - epoch 94, loss : 0.026397976510228502
+2022-07-08 11:15:09,510 - statisticNew - INFO - epoch: 94, info: accuracy:  98.09%; precision:  63.82%; recall:  60.62%; FB1:  62.18
+2022-07-08 11:15:09,512 - statisticNew - INFO - epoch 94, f1 : 62.18
+2022-07-08 11:15:09,512 - statisticNew - INFO - epoch 94, MAX_F1: 66.74
+
+2022-07-08 11:15:09,512 - statisticNew - INFO - Epoch: 95 / 100 ：
+2022-07-08 11:15:09,512 - statisticNew - INFO - epoch 95, lr: 0.1 
+2022-07-08 11:16:15,892 - statisticNew - INFO - epoch 95, loss : 0.024822412499120004
+2022-07-08 11:16:19,241 - statisticNew - INFO - epoch: 95, info: accuracy:  98.20%; precision:  67.89%; recall:  61.67%; FB1:  64.63
+2022-07-08 11:16:19,243 - statisticNew - INFO - epoch 95, f1 : 64.63
+2022-07-08 11:16:19,243 - statisticNew - INFO - epoch 95, MAX_F1: 66.74
+
+2022-07-08 11:16:19,243 - statisticNew - INFO - Epoch: 96 / 100 ：
+2022-07-08 11:16:19,243 - statisticNew - INFO - epoch 96, lr: 0.1 
+2022-07-08 11:18:35,115 - statisticNew - INFO - epoch 96, loss : 0.02622483804718068
+2022-07-08 11:18:38,575 - statisticNew - INFO - epoch: 96, info: accuracy:  98.16%; precision:  65.86%; recall:  62.71%; FB1:  64.25
+2022-07-08 11:18:38,576 - statisticNew - INFO - epoch 96, f1 : 64.25
+2022-07-08 11:18:38,576 - statisticNew - INFO - epoch 96, MAX_F1: 66.74
+
+2022-07-08 11:18:38,576 - statisticNew - INFO - Epoch: 97 / 100 ：
+2022-07-08 11:18:38,577 - statisticNew - INFO - epoch 97, lr: 0.1 
+2022-07-08 11:20:03,943 - statisticNew - INFO - epoch 97, loss : 0.02603238873432161
+2022-07-08 11:20:07,410 - statisticNew - INFO - epoch: 97, info: accuracy:  98.18%; precision:  67.93%; recall:  59.58%; FB1:  63.49
+2022-07-08 11:20:07,412 - statisticNew - INFO - epoch 97, f1 : 63.49
+2022-07-08 11:20:07,412 - statisticNew - INFO - epoch 97, MAX_F1: 66.74
+
+2022-07-08 11:20:07,412 - statisticNew - INFO - Epoch: 98 / 100 ：
+2022-07-08 11:20:07,413 - statisticNew - INFO - epoch 98, lr: 0.1 
+2022-07-08 11:21:17,608 - statisticNew - INFO - epoch 98, loss : 0.024139861520662935
+2022-07-08 11:21:21,007 - statisticNew - INFO - epoch: 98, info: accuracy:  98.18%; precision:  66.38%; recall:  63.75%; FB1:  65.04
+2022-07-08 11:21:21,009 - statisticNew - INFO - epoch 98, f1 : 65.04
+2022-07-08 11:21:21,009 - statisticNew - INFO - epoch 98, MAX_F1: 66.74
+
+2022-07-08 11:21:21,009 - statisticNew - INFO - Epoch: 99 / 100 ：
+2022-07-08 11:21:21,009 - statisticNew - INFO - epoch 99, lr: 0.1 
+2022-07-08 11:22:29,838 - statisticNew - INFO - epoch 99, loss : 0.022606821867920852
+2022-07-08 11:22:32,915 - statisticNew - INFO - epoch: 99, info: accuracy:  98.10%; precision:  64.81%; recall:  62.92%; FB1:  63.85
+2022-07-08 11:22:32,917 - statisticNew - INFO - epoch 99, f1 : 63.85
+2022-07-08 11:22:32,917 - statisticNew - INFO - epoch 99, MAX_F1: 66.74
+
+2022-07-08 11:22:32,917 - statisticNew - INFO - Epoch: 100 / 100 ：
+2022-07-08 11:22:32,917 - statisticNew - INFO - epoch 100, lr: 0.1 
+2022-07-08 11:23:35,691 - statisticNew - INFO - epoch 100, loss : 0.024527127657812398
+2022-07-08 11:23:39,097 - statisticNew - INFO - epoch: 100, info: accuracy:  98.14%; precision:  65.20%; recall:  64.79%; FB1:  64.99
+2022-07-08 11:23:39,104 - statisticNew - INFO - epoch 100, f1 : 64.99
+2022-07-08 11:23:39,104 - statisticNew - INFO - epoch 100, MAX_F1: 66.74
+
+2022-07-08 11:23:44,119 - statisticNew - INFO - 
+ resinfo accuracy:  98.71%; precision:  70.02%; recall:  70.85%; FB1:  70.44  F1: 70.44 
+2022-07-11 11:14:22,543 - statisticNew - INFO - 
+Args: 
+2022-07-11 11:14:22,543 - statisticNew - INFO - train: True
+2022-07-11 11:14:22,543 - statisticNew - INFO - tag_schema: iob
+2022-07-11 11:14:22,544 - statisticNew - INFO - batch_size: 30
+2022-07-11 11:14:22,544 - statisticNew - INFO - lr: 0.1
+2022-07-11 11:14:22,544 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-11 11:14:22,544 - statisticNew - INFO - lr_min: 1e-05
+2022-07-11 11:14:22,544 - statisticNew - INFO - label_weights: 5
+2022-07-11 11:14:22,544 - statisticNew - INFO - optimizer: SGD
+2022-07-11 11:14:22,544 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-11 11:14:22,544 - statisticNew - INFO - epoch: 100
+2022-07-11 11:14:22,544 - statisticNew - INFO - cuda: 0
+2022-07-11 11:14:22,544 - statisticNew - INFO - num_steps: 50
+2022-07-11 11:14:22,544 - statisticNew - INFO - word_embed_dim: 100
+2022-07-11 11:14:22,544 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-11 11:14:22,544 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-11 11:14:22,544 - statisticNew - INFO - position_embed_dim: 0
+2022-07-11 11:14:22,544 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-11 11:14:22,544 - statisticNew - INFO - rnn_hidden: 100
+2022-07-11 11:14:22,545 - statisticNew - INFO - rnn_layers: 1
+2022-07-11 11:14:22,545 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-11 11:14:22,555 - statisticNew - INFO - pooling: avg
+2022-07-11 11:14:22,555 - statisticNew - INFO - gcn_dim: 150
+2022-07-11 11:14:22,555 - statisticNew - INFO - num_layers: 2
+2022-07-11 11:14:22,555 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-11 11:14:22,555 - statisticNew - INFO - map_file: maps.pkl
+2022-07-11 11:14:22,555 - statisticNew - INFO - result_path: result
+2022-07-11 11:14:22,555 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-11 11:14:22,555 - statisticNew - INFO - train_file: data_doc/train
+2022-07-11 11:14:22,555 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-11 11:14:22,555 - statisticNew - INFO - test_file: data_doc/test
+2022-07-11 11:14:22,555 - statisticNew - INFO - log_name: test
+2022-07-11 11:14:22,556 - statisticNew - INFO - seed: 1023
+2022-07-11 11:14:22,556 - statisticNew - INFO - 
+
+2022-07-11 11:14:26,974 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-11 11:14:26,974 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-11 11:15:05,672 - statisticNew - INFO - 
+Args: 
+2022-07-11 11:15:05,672 - statisticNew - INFO - train: True
+2022-07-11 11:15:05,672 - statisticNew - INFO - tag_schema: iob
+2022-07-11 11:15:05,672 - statisticNew - INFO - batch_size: 30
+2022-07-11 11:15:05,673 - statisticNew - INFO - lr: 0.1
+2022-07-11 11:15:05,673 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-11 11:15:05,673 - statisticNew - INFO - lr_min: 1e-05
+2022-07-11 11:15:05,673 - statisticNew - INFO - label_weights: 5
+2022-07-11 11:15:05,673 - statisticNew - INFO - optimizer: SGD
+2022-07-11 11:15:05,673 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-11 11:15:05,673 - statisticNew - INFO - epoch: 100
+2022-07-11 11:15:05,673 - statisticNew - INFO - cuda: 0
+2022-07-11 11:15:05,673 - statisticNew - INFO - num_steps: 50
+2022-07-11 11:15:05,673 - statisticNew - INFO - word_embed_dim: 100
+2022-07-11 11:15:05,673 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-11 11:15:05,673 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-11 11:15:05,673 - statisticNew - INFO - position_embed_dim: 0
+2022-07-11 11:15:05,673 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-11 11:15:05,673 - statisticNew - INFO - rnn_hidden: 100
+2022-07-11 11:15:05,674 - statisticNew - INFO - rnn_layers: 1
+2022-07-11 11:15:05,674 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-11 11:15:05,680 - statisticNew - INFO - pooling: avg
+2022-07-11 11:15:05,680 - statisticNew - INFO - gcn_dim: 150
+2022-07-11 11:15:05,681 - statisticNew - INFO - num_layers: 2
+2022-07-11 11:15:05,681 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-11 11:15:05,681 - statisticNew - INFO - map_file: maps.pkl
+2022-07-11 11:15:05,681 - statisticNew - INFO - result_path: result
+2022-07-11 11:15:05,681 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-11 11:15:05,681 - statisticNew - INFO - train_file: data_doc/train
+2022-07-11 11:15:05,681 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-11 11:15:05,681 - statisticNew - INFO - test_file: data_doc/test
+2022-07-11 11:15:05,681 - statisticNew - INFO - log_name: test
+2022-07-11 11:15:05,681 - statisticNew - INFO - seed: 1023
+2022-07-11 11:15:05,681 - statisticNew - INFO - 
+
+2022-07-11 11:15:10,279 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-11 11:15:10,279 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-11 11:22:09,852 - statisticNew - INFO - 
+Args: 
+2022-07-11 11:22:09,852 - statisticNew - INFO - train: True
+2022-07-11 11:22:09,852 - statisticNew - INFO - tag_schema: iob
+2022-07-11 11:22:09,852 - statisticNew - INFO - batch_size: 30
+2022-07-11 11:22:09,852 - statisticNew - INFO - lr: 0.1
+2022-07-11 11:22:09,852 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-11 11:22:09,852 - statisticNew - INFO - lr_min: 1e-05
+2022-07-11 11:22:09,852 - statisticNew - INFO - label_weights: 5
+2022-07-11 11:22:09,852 - statisticNew - INFO - optimizer: SGD
+2022-07-11 11:22:09,852 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-11 11:22:09,852 - statisticNew - INFO - epoch: 100
+2022-07-11 11:22:09,853 - statisticNew - INFO - cuda: 0
+2022-07-11 11:22:09,853 - statisticNew - INFO - num_steps: 50
+2022-07-11 11:22:09,853 - statisticNew - INFO - word_embed_dim: 100
+2022-07-11 11:22:09,853 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-11 11:22:09,853 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-11 11:22:09,853 - statisticNew - INFO - position_embed_dim: 0
+2022-07-11 11:22:09,853 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-11 11:22:09,853 - statisticNew - INFO - rnn_hidden: 100
+2022-07-11 11:22:09,853 - statisticNew - INFO - rnn_layers: 1
+2022-07-11 11:22:09,853 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-11 11:22:09,860 - statisticNew - INFO - pooling: avg
+2022-07-11 11:22:09,860 - statisticNew - INFO - gcn_dim: 150
+2022-07-11 11:22:09,860 - statisticNew - INFO - num_layers: 2
+2022-07-11 11:22:09,860 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-11 11:22:09,861 - statisticNew - INFO - map_file: maps.pkl
+2022-07-11 11:22:09,861 - statisticNew - INFO - result_path: result
+2022-07-11 11:22:09,861 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-11 11:22:09,861 - statisticNew - INFO - train_file: data_doc/train
+2022-07-11 11:22:09,861 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-11 11:22:09,861 - statisticNew - INFO - test_file: data_doc/test
+2022-07-11 11:22:09,861 - statisticNew - INFO - log_name: test
+2022-07-11 11:22:09,861 - statisticNew - INFO - seed: 1023
+2022-07-11 11:22:09,861 - statisticNew - INFO - 
+
+2022-07-11 11:22:14,474 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-11 11:22:14,474 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-11 11:23:24,574 - statisticNew - INFO - epoch 1, loss : 0.43453275844976136
+2022-07-11 11:23:27,823 - statisticNew - INFO - epoch: 1, info: accuracy:  97.62%; precision:  42.81%; recall:  26.67%; FB1:  32.86
+2022-07-11 11:23:27,830 - statisticNew - INFO - epoch 1, f1 : 32.86
+2022-07-11 11:23:27,891 - statisticNew - INFO - epoch 1, MAX_F1: 32.86
+
+2022-07-11 11:23:27,891 - statisticNew - INFO - Epoch: 2 / 100 ：
+2022-07-11 11:23:27,891 - statisticNew - INFO - epoch 2, lr: 0.1 
+2022-07-11 11:24:39,632 - statisticNew - INFO - epoch 2, loss : 0.28661339488889576
+2022-07-11 11:24:45,327 - statisticNew - INFO - epoch: 2, info: accuracy:  97.82%; precision:  54.11%; recall:  35.62%; FB1:  42.96
+2022-07-11 11:24:45,329 - statisticNew - INFO - epoch 2, f1 : 42.96
+2022-07-11 11:24:45,345 - statisticNew - INFO - epoch 2, MAX_F1: 42.96
+
+2022-07-11 11:24:45,345 - statisticNew - INFO - Epoch: 3 / 100 ：
+2022-07-11 11:24:45,345 - statisticNew - INFO - epoch 3, lr: 0.1 
+2022-07-11 11:25:55,763 - statisticNew - INFO - epoch 3, loss : 0.25587463894076895
+2022-07-11 11:25:59,705 - statisticNew - INFO - epoch: 3, info: accuracy:  97.86%; precision:  56.13%; recall:  41.04%; FB1:  47.41
+2022-07-11 11:25:59,707 - statisticNew - INFO - epoch 3, f1 : 47.41
+2022-07-11 11:25:59,724 - statisticNew - INFO - epoch 3, MAX_F1: 47.41
+
+2022-07-11 11:25:59,724 - statisticNew - INFO - Epoch: 4 / 100 ：
+2022-07-11 11:25:59,724 - statisticNew - INFO - epoch 4, lr: 0.1 
+2022-07-11 11:27:10,779 - statisticNew - INFO - epoch 4, loss : 0.2285385979465619
+2022-07-11 11:27:14,005 - statisticNew - INFO - epoch: 4, info: accuracy:  97.81%; precision:  53.23%; recall:  48.12%; FB1:  50.55
+2022-07-11 11:27:14,007 - statisticNew - INFO - epoch 4, f1 : 50.55
+2022-07-11 11:27:14,022 - statisticNew - INFO - epoch 4, MAX_F1: 50.55
+
+2022-07-11 11:27:14,023 - statisticNew - INFO - Epoch: 5 / 100 ：
+2022-07-11 11:27:14,023 - statisticNew - INFO - epoch 5, lr: 0.1 
+2022-07-11 11:28:21,394 - statisticNew - INFO - epoch 5, loss : 0.20473043650649403
+2022-07-11 11:28:24,763 - statisticNew - INFO - epoch: 5, info: accuracy:  97.96%; precision:  56.71%; recall:  50.21%; FB1:  53.26
+2022-07-11 11:28:24,765 - statisticNew - INFO - epoch 5, f1 : 53.26
+2022-07-11 11:28:24,776 - statisticNew - INFO - epoch 5, MAX_F1: 53.26
+
+2022-07-11 11:28:24,777 - statisticNew - INFO - Epoch: 6 / 100 ：
+2022-07-11 11:28:24,777 - statisticNew - INFO - epoch 6, lr: 0.1 
+2022-07-11 11:29:38,562 - statisticNew - INFO - epoch 6, loss : 0.1865235908959759
+2022-07-11 11:29:42,282 - statisticNew - INFO - epoch: 6, info: accuracy:  98.06%; precision:  59.95%; recall:  54.58%; FB1:  57.14
+2022-07-11 11:29:42,284 - statisticNew - INFO - epoch 6, f1 : 57.14
+2022-07-11 11:29:42,302 - statisticNew - INFO - epoch 6, MAX_F1: 57.14
+
+2022-07-11 11:29:42,302 - statisticNew - INFO - Epoch: 7 / 100 ：
+2022-07-11 11:29:42,302 - statisticNew - INFO - epoch 7, lr: 0.1 
+2022-07-11 11:30:53,615 - statisticNew - INFO - epoch 7, loss : 0.17247734218520486
+2022-07-11 11:30:57,016 - statisticNew - INFO - epoch: 7, info: accuracy:  97.95%; precision:  57.54%; recall:  56.46%; FB1:  56.99
+2022-07-11 11:30:57,017 - statisticNew - INFO - epoch 7, f1 : 56.99
+2022-07-11 11:30:57,017 - statisticNew - INFO - epoch 7, MAX_F1: 57.14
+
+2022-07-11 11:30:57,017 - statisticNew - INFO - Epoch: 8 / 100 ：
+2022-07-11 11:30:57,017 - statisticNew - INFO - epoch 8, lr: 0.1 
+2022-07-11 11:32:04,990 - statisticNew - INFO - epoch 8, loss : 0.1603233917305166
+2022-07-11 11:32:08,200 - statisticNew - INFO - epoch: 8, info: accuracy:  97.97%; precision:  59.18%; recall:  59.79%; FB1:  59.48
+2022-07-11 11:32:08,202 - statisticNew - INFO - epoch 8, f1 : 59.48
+2022-07-11 11:32:08,217 - statisticNew - INFO - epoch 8, MAX_F1: 59.48
+
+2022-07-11 11:32:08,218 - statisticNew - INFO - Epoch: 9 / 100 ：
+2022-07-11 11:32:08,218 - statisticNew - INFO - epoch 9, lr: 0.1 
+2022-07-11 11:33:13,806 - statisticNew - INFO - epoch 9, loss : 0.14924465232837786
+2022-07-11 11:33:17,071 - statisticNew - INFO - epoch: 9, info: accuracy:  98.13%; precision:  62.94%; recall:  63.33%; FB1:  63.14
+2022-07-11 11:33:17,072 - statisticNew - INFO - epoch 9, f1 : 63.14
+2022-07-11 11:33:17,088 - statisticNew - INFO - epoch 9, MAX_F1: 63.14
+
+2022-07-11 11:33:17,088 - statisticNew - INFO - Epoch: 10 / 100 ：
+2022-07-11 11:33:17,088 - statisticNew - INFO - epoch 10, lr: 0.1 
+2022-07-11 11:34:23,326 - statisticNew - INFO - epoch 10, loss : 0.14216515762073412
+2022-07-11 11:34:26,800 - statisticNew - INFO - epoch: 10, info: accuracy:  98.01%; precision:  59.92%; recall:  64.79%; FB1:  62.26
+2022-07-11 11:34:26,801 - statisticNew - INFO - epoch 10, f1 : 62.26
+2022-07-11 11:34:26,801 - statisticNew - INFO - epoch 10, MAX_F1: 63.14
+
+2022-07-11 11:34:26,802 - statisticNew - INFO - Epoch: 11 / 100 ：
+2022-07-11 11:34:26,802 - statisticNew - INFO - epoch 11, lr: 0.1 
+2022-07-11 11:35:33,861 - statisticNew - INFO - epoch 11, loss : 0.13498705732436433
+2022-07-11 11:35:37,133 - statisticNew - INFO - epoch: 11, info: accuracy:  97.75%; precision:  54.16%; recall:  66.46%; FB1:  59.68
+2022-07-11 11:35:37,135 - statisticNew - INFO - epoch 11, f1 : 59.68
+2022-07-11 11:35:37,135 - statisticNew - INFO - epoch 11, MAX_F1: 63.14
+
+2022-07-11 11:35:37,135 - statisticNew - INFO - Epoch: 12 / 100 ：
+2022-07-11 11:35:37,135 - statisticNew - INFO - epoch 12, lr: 0.1 
+2022-07-11 11:36:43,707 - statisticNew - INFO - epoch 12, loss : 0.12625573417770994
+2022-07-11 11:36:46,939 - statisticNew - INFO - epoch: 12, info: accuracy:  98.24%; precision:  67.26%; recall:  62.92%; FB1:  65.02
+2022-07-11 11:36:46,941 - statisticNew - INFO - epoch 12, f1 : 65.02
+2022-07-11 11:36:46,953 - statisticNew - INFO - epoch 12, MAX_F1: 65.02
+
+2022-07-11 11:36:46,953 - statisticNew - INFO - Epoch: 13 / 100 ：
+2022-07-11 11:36:46,953 - statisticNew - INFO - epoch 13, lr: 0.1 
+2022-07-11 11:37:54,723 - statisticNew - INFO - epoch 13, loss : 0.12082331030446675
+2022-07-11 11:37:57,954 - statisticNew - INFO - epoch: 13, info: accuracy:  98.13%; precision:  62.75%; recall:  65.62%; FB1:  64.15
+2022-07-11 11:37:57,955 - statisticNew - INFO - epoch 13, f1 : 64.15
+2022-07-11 11:37:57,955 - statisticNew - INFO - epoch 13, MAX_F1: 65.02
+
+2022-07-11 11:37:57,956 - statisticNew - INFO - Epoch: 14 / 100 ：
+2022-07-11 11:37:57,956 - statisticNew - INFO - epoch 14, lr: 0.1 
+2022-07-11 11:39:04,519 - statisticNew - INFO - epoch 14, loss : 0.11650572175635172
+2022-07-11 11:39:07,781 - statisticNew - INFO - epoch: 14, info: accuracy:  98.21%; precision:  64.75%; recall:  65.83%; FB1:  65.29
+2022-07-11 11:39:07,783 - statisticNew - INFO - epoch 14, f1 : 65.29
+2022-07-11 11:39:07,800 - statisticNew - INFO - epoch 14, MAX_F1: 65.29
+
+2022-07-11 11:39:07,800 - statisticNew - INFO - Epoch: 15 / 100 ：
+2022-07-11 11:39:07,801 - statisticNew - INFO - epoch 15, lr: 0.1 
+2022-07-11 11:40:15,421 - statisticNew - INFO - epoch 15, loss : 0.1137954280238691
+2022-07-11 11:40:18,654 - statisticNew - INFO - epoch: 15, info: accuracy:  98.19%; precision:  64.42%; recall:  65.62%; FB1:  65.02
+2022-07-11 11:40:18,656 - statisticNew - INFO - epoch 15, f1 : 65.02
+2022-07-11 11:40:18,656 - statisticNew - INFO - epoch 15, MAX_F1: 65.29
+
+2022-07-11 11:40:18,656 - statisticNew - INFO - Epoch: 16 / 100 ：
+2022-07-11 11:40:18,656 - statisticNew - INFO - epoch 16, lr: 0.1 
+2022-07-11 11:41:27,793 - statisticNew - INFO - epoch 16, loss : 0.11027260375436201
+2022-07-11 11:41:31,016 - statisticNew - INFO - epoch: 16, info: accuracy:  98.10%; precision:  62.01%; recall:  65.62%; FB1:  63.77
+2022-07-11 11:41:31,018 - statisticNew - INFO - epoch 16, f1 : 63.77
+2022-07-11 11:41:31,018 - statisticNew - INFO - epoch 16, MAX_F1: 65.29
+
+2022-07-11 11:41:31,018 - statisticNew - INFO - Epoch: 17 / 100 ：
+2022-07-11 11:41:31,018 - statisticNew - INFO - epoch 17, lr: 0.1 
+2022-07-11 11:42:39,821 - statisticNew - INFO - epoch 17, loss : 0.10699951360170344
+2022-07-11 11:42:43,028 - statisticNew - INFO - epoch: 17, info: accuracy:  98.22%; precision:  64.97%; recall:  66.46%; FB1:  65.71
+2022-07-11 11:42:43,029 - statisticNew - INFO - epoch 17, f1 : 65.71
+2022-07-11 11:42:43,047 - statisticNew - INFO - epoch 17, MAX_F1: 65.71
+
+2022-07-11 11:42:43,047 - statisticNew - INFO - Epoch: 18 / 100 ：
+2022-07-11 11:42:43,047 - statisticNew - INFO - epoch 18, lr: 0.1 
+2022-07-11 11:43:56,668 - statisticNew - INFO - epoch 18, loss : 0.10304744317854332
+2022-07-11 11:44:00,256 - statisticNew - INFO - epoch: 18, info: accuracy:  98.10%; precision:  61.90%; recall:  66.67%; FB1:  64.19
+2022-07-11 11:44:00,263 - statisticNew - INFO - epoch 18, f1 : 64.19
+2022-07-11 11:44:00,263 - statisticNew - INFO - epoch 18, MAX_F1: 65.71
+
+2022-07-11 11:44:00,263 - statisticNew - INFO - Epoch: 19 / 100 ：
+2022-07-11 11:44:00,263 - statisticNew - INFO - epoch 19, lr: 0.1 
+2022-07-11 11:45:05,983 - statisticNew - INFO - epoch 19, loss : 0.1002129365618574
+2022-07-11 11:45:09,189 - statisticNew - INFO - epoch: 19, info: accuracy:  98.05%; precision:  60.95%; recall:  66.67%; FB1:  63.68
+2022-07-11 11:45:09,190 - statisticNew - INFO - epoch 19, f1 : 63.68
+2022-07-11 11:45:09,190 - statisticNew - INFO - epoch 19, MAX_F1: 65.71
+
+2022-07-11 11:45:09,190 - statisticNew - INFO - Epoch: 20 / 100 ：
+2022-07-11 11:45:09,191 - statisticNew - INFO - epoch 20, lr: 0.1 
+2022-07-11 11:46:18,663 - statisticNew - INFO - epoch 20, loss : 0.09711589586671912
+2022-07-11 11:46:21,873 - statisticNew - INFO - epoch: 20, info: accuracy:  98.15%; precision:  62.93%; recall:  67.92%; FB1:  65.33
+2022-07-11 11:46:21,875 - statisticNew - INFO - epoch 20, f1 : 65.33
+2022-07-11 11:46:21,875 - statisticNew - INFO - epoch 20, MAX_F1: 65.71
+
+2022-07-11 11:46:21,875 - statisticNew - INFO - Epoch: 21 / 100 ：
+2022-07-11 11:46:21,875 - statisticNew - INFO - epoch 21, lr: 0.1 
+2022-07-11 11:47:29,948 - statisticNew - INFO - epoch 21, loss : 0.09543084286355139
+2022-07-11 11:47:33,173 - statisticNew - INFO - epoch: 21, info: accuracy:  98.01%; precision:  59.85%; recall:  68.33%; FB1:  63.81
+2022-07-11 11:47:33,174 - statisticNew - INFO - epoch 21, f1 : 63.81
+2022-07-11 11:47:33,174 - statisticNew - INFO - epoch 21, MAX_F1: 65.71
+
+2022-07-11 11:47:33,174 - statisticNew - INFO - Epoch: 22 / 100 ：
+2022-07-11 11:47:33,175 - statisticNew - INFO - epoch 22, lr: 0.1 
+2022-07-11 11:48:42,988 - statisticNew - INFO - epoch 22, loss : 0.0932641760703664
+2022-07-11 11:48:46,443 - statisticNew - INFO - epoch: 22, info: accuracy:  97.99%; precision:  59.43%; recall:  68.96%; FB1:  63.84
+2022-07-11 11:48:46,444 - statisticNew - INFO - epoch 22, f1 : 63.84
+2022-07-11 11:48:46,445 - statisticNew - INFO - epoch 22, MAX_F1: 65.71
+
+2022-07-11 11:48:46,445 - statisticNew - INFO - Epoch: 23 / 100 ：
+2022-07-11 11:48:46,445 - statisticNew - INFO - epoch 23, lr: 0.1 
+2022-07-11 11:49:56,147 - statisticNew - INFO - epoch 23, loss : 0.09094513542361507
+2022-07-11 11:49:59,666 - statisticNew - INFO - epoch: 23, info: accuracy:  98.17%; precision:  65.03%; recall:  63.54%; FB1:  64.28
+2022-07-11 11:49:59,667 - statisticNew - INFO - epoch 23, f1 : 64.28
+2022-07-11 11:49:59,667 - statisticNew - INFO - epoch 23, MAX_F1: 65.71
+
+2022-07-11 11:49:59,667 - statisticNew - INFO - Epoch: 24 / 100 ：
+2022-07-11 11:49:59,667 - statisticNew - INFO - epoch 24, lr: 0.1 
+2022-07-11 11:51:08,037 - statisticNew - INFO - epoch 24, loss : 0.08977346392647988
+2022-07-11 11:51:11,255 - statisticNew - INFO - epoch: 24, info: accuracy:  98.23%; precision:  65.45%; recall:  67.50%; FB1:  66.46
+2022-07-11 11:51:11,257 - statisticNew - INFO - epoch 24, f1 : 66.46
+2022-07-11 11:51:11,272 - statisticNew - INFO - epoch 24, MAX_F1: 66.46
+
+2022-07-11 11:51:11,272 - statisticNew - INFO - Epoch: 25 / 100 ：
+2022-07-11 11:51:11,272 - statisticNew - INFO - epoch 25, lr: 0.1 
+2022-07-11 11:52:19,618 - statisticNew - INFO - epoch 25, loss : 0.08679144168493357
+2022-07-11 11:52:23,060 - statisticNew - INFO - epoch: 25, info: accuracy:  98.07%; precision:  61.69%; recall:  67.08%; FB1:  64.27
+2022-07-11 11:52:23,062 - statisticNew - INFO - epoch 25, f1 : 64.27
+2022-07-11 11:52:23,062 - statisticNew - INFO - epoch 25, MAX_F1: 66.46
+
+2022-07-11 11:52:23,062 - statisticNew - INFO - Epoch: 26 / 100 ：
+2022-07-11 11:52:23,062 - statisticNew - INFO - epoch 26, lr: 0.1 
+2022-07-11 11:53:29,074 - statisticNew - INFO - epoch 26, loss : 0.08492014771926534
+2022-07-11 11:53:32,299 - statisticNew - INFO - epoch: 26, info: accuracy:  98.08%; precision:  62.52%; recall:  66.04%; FB1:  64.24
+2022-07-11 11:53:32,301 - statisticNew - INFO - epoch 26, f1 : 64.24
+2022-07-11 11:53:32,301 - statisticNew - INFO - epoch 26, MAX_F1: 66.46
+
+2022-07-11 11:53:32,301 - statisticNew - INFO - Epoch: 27 / 100 ：
+2022-07-11 11:53:32,301 - statisticNew - INFO - epoch 27, lr: 0.1 
+2022-07-11 11:54:40,398 - statisticNew - INFO - epoch 27, loss : 0.08364886021384503
+2022-07-11 11:54:43,603 - statisticNew - INFO - epoch: 27, info: accuracy:  98.15%; precision:  63.80%; recall:  67.92%; FB1:  65.79
+2022-07-11 11:54:43,604 - statisticNew - INFO - epoch 27, f1 : 65.79
+2022-07-11 11:54:43,604 - statisticNew - INFO - epoch 27, MAX_F1: 66.46
+
+2022-07-11 11:54:43,604 - statisticNew - INFO - Epoch: 28 / 100 ：
+2022-07-11 11:54:43,604 - statisticNew - INFO - epoch 28, lr: 0.1 
+2022-07-11 11:55:50,646 - statisticNew - INFO - epoch 28, loss : 0.0824573846609052
+2022-07-11 11:55:53,927 - statisticNew - INFO - epoch: 28, info: accuracy:  98.12%; precision:  62.77%; recall:  67.08%; FB1:  64.85
+2022-07-11 11:55:53,929 - statisticNew - INFO - epoch 28, f1 : 64.85
+2022-07-11 11:55:53,929 - statisticNew - INFO - epoch 28, MAX_F1: 66.46
+
+2022-07-11 11:55:53,929 - statisticNew - INFO - Epoch: 29 / 100 ：
+2022-07-11 11:55:53,929 - statisticNew - INFO - epoch 29, lr: 0.1 
+2022-07-11 11:57:02,879 - statisticNew - INFO - epoch 29, loss : 0.07965349422822418
+2022-07-11 11:57:06,139 - statisticNew - INFO - epoch: 29, info: accuracy:  98.13%; precision:  63.64%; recall:  65.62%; FB1:  64.62
+2022-07-11 11:57:06,141 - statisticNew - INFO - epoch 29, f1 : 64.62
+2022-07-11 11:57:06,141 - statisticNew - INFO - epoch 29, MAX_F1: 66.46
+
+2022-07-11 11:57:06,141 - statisticNew - INFO - Epoch: 30 / 100 ：
+2022-07-11 11:57:06,141 - statisticNew - INFO - epoch 30, lr: 0.1 
+2022-07-11 11:58:15,811 - statisticNew - INFO - epoch 30, loss : 0.0782655329492393
+2022-07-11 11:58:19,198 - statisticNew - INFO - epoch: 30, info: accuracy:  97.99%; precision:  59.64%; recall:  68.96%; FB1:  63.96
+2022-07-11 11:58:19,199 - statisticNew - INFO - epoch 30, f1 : 63.96
+2022-07-11 11:58:19,199 - statisticNew - INFO - epoch 30, MAX_F1: 66.46
+
+2022-07-11 11:58:19,200 - statisticNew - INFO - Epoch: 31 / 100 ：
+2022-07-11 11:58:19,200 - statisticNew - INFO - epoch 31, lr: 0.1 
+2022-07-11 11:59:25,059 - statisticNew - INFO - epoch 31, loss : 0.07690602059554388
+2022-07-11 11:59:28,276 - statisticNew - INFO - epoch: 31, info: accuracy:  98.02%; precision:  60.93%; recall:  68.54%; FB1:  64.51
+2022-07-11 11:59:28,277 - statisticNew - INFO - epoch 31, f1 : 64.51
+2022-07-11 11:59:28,277 - statisticNew - INFO - epoch 31, MAX_F1: 66.46
+
+2022-07-11 11:59:28,277 - statisticNew - INFO - Epoch: 32 / 100 ：
+2022-07-11 11:59:28,277 - statisticNew - INFO - epoch 32, lr: 0.1 
+2022-07-11 12:00:33,777 - statisticNew - INFO - epoch 32, loss : 0.07627112716520479
+2022-07-11 12:00:36,986 - statisticNew - INFO - epoch: 32, info: accuracy:  98.11%; precision:  63.86%; recall:  64.79%; FB1:  64.32
+2022-07-11 12:00:36,987 - statisticNew - INFO - epoch 32, f1 : 64.32
+2022-07-11 12:00:36,987 - statisticNew - INFO - epoch 32, MAX_F1: 66.46
+
+2022-07-11 12:00:36,988 - statisticNew - INFO - Epoch: 33 / 100 ：
+2022-07-11 12:00:36,988 - statisticNew - INFO - epoch 33, lr: 0.1 
+2022-07-11 12:01:43,806 - statisticNew - INFO - epoch 33, loss : 0.07482154293297989
+2022-07-11 12:01:47,273 - statisticNew - INFO - epoch: 33, info: accuracy:  97.94%; precision:  58.83%; recall:  69.38%; FB1:  63.67
+2022-07-11 12:01:47,274 - statisticNew - INFO - epoch 33, f1 : 63.67
+2022-07-11 12:01:47,274 - statisticNew - INFO - epoch 33, MAX_F1: 66.46
+
+2022-07-11 12:01:47,274 - statisticNew - INFO - Epoch: 34 / 100 ：
+2022-07-11 12:01:47,274 - statisticNew - INFO - epoch 34, lr: 0.1 
+2022-07-11 12:02:57,474 - statisticNew - INFO - epoch 34, loss : 0.07252492880081846
+2022-07-11 12:03:00,900 - statisticNew - INFO - epoch: 34, info: accuracy:  98.07%; precision:  61.50%; recall:  68.54%; FB1:  64.83
+2022-07-11 12:03:00,901 - statisticNew - INFO - epoch 34, f1 : 64.83
+2022-07-11 12:03:00,902 - statisticNew - INFO - epoch 34, MAX_F1: 66.46
+
+2022-07-11 12:03:00,902 - statisticNew - INFO - Epoch: 35 / 100 ：
+2022-07-11 12:03:00,902 - statisticNew - INFO - epoch 35, lr: 0.1 
+2022-07-11 12:04:04,676 - statisticNew - INFO - epoch 35, loss : 0.0707271023375943
+2022-07-11 12:04:07,665 - statisticNew - INFO - epoch: 35, info: accuracy:  98.17%; precision:  64.62%; recall:  65.83%; FB1:  65.22
+2022-07-11 12:04:07,667 - statisticNew - INFO - epoch 35, f1 : 65.22
+2022-07-11 12:04:07,667 - statisticNew - INFO - epoch 35, MAX_F1: 66.46
+
+2022-07-11 12:04:07,667 - statisticNew - INFO - Epoch: 36 / 100 ：
+2022-07-11 12:04:07,667 - statisticNew - INFO - epoch 36, lr: 0.1 
+2022-07-11 12:05:14,454 - statisticNew - INFO - epoch 36, loss : 0.06916691491059207
+2022-07-11 12:05:18,151 - statisticNew - INFO - epoch: 36, info: accuracy:  98.08%; precision:  61.96%; recall:  65.83%; FB1:  63.84
+2022-07-11 12:05:18,153 - statisticNew - INFO - epoch 36, f1 : 63.84
+2022-07-11 12:05:18,153 - statisticNew - INFO - epoch 36, MAX_F1: 66.46
+
+2022-07-11 12:05:18,153 - statisticNew - INFO - Epoch: 37 / 100 ：
+2022-07-11 12:05:18,153 - statisticNew - INFO - epoch 37, lr: 0.1 
+2022-07-11 12:06:27,284 - statisticNew - INFO - epoch 37, loss : 0.06842508319971355
+2022-07-11 12:06:30,500 - statisticNew - INFO - epoch: 37, info: accuracy:  98.12%; precision:  63.88%; recall:  63.75%; FB1:  63.82
+2022-07-11 12:06:30,502 - statisticNew - INFO - epoch 37, f1 : 63.82
+2022-07-11 12:06:30,502 - statisticNew - INFO - epoch 37, MAX_F1: 66.46
+
+2022-07-11 12:06:30,502 - statisticNew - INFO - Epoch: 38 / 100 ：
+2022-07-11 12:06:30,502 - statisticNew - INFO - epoch 38, lr: 0.1 
+2022-07-11 12:07:35,245 - statisticNew - INFO - epoch 38, loss : 0.06627775154824939
+2022-07-11 12:07:38,462 - statisticNew - INFO - epoch: 38, info: accuracy:  98.08%; precision:  62.08%; recall:  65.83%; FB1:  63.90
+2022-07-11 12:07:38,464 - statisticNew - INFO - epoch 38, f1 : 63.9
+2022-07-11 12:07:38,464 - statisticNew - INFO - epoch 38, MAX_F1: 66.46
+
+2022-07-11 12:07:38,464 - statisticNew - INFO - Epoch: 39 / 100 ：
+2022-07-11 12:07:38,464 - statisticNew - INFO - epoch 39, lr: 0.1 
+2022-07-11 12:08:43,236 - statisticNew - INFO - epoch 39, loss : 0.06445749824221243
+2022-07-11 12:08:46,475 - statisticNew - INFO - epoch: 39, info: accuracy:  97.89%; precision:  58.42%; recall:  67.92%; FB1:  62.81
+2022-07-11 12:08:46,477 - statisticNew - INFO - epoch 39, f1 : 62.81
+2022-07-11 12:08:46,477 - statisticNew - INFO - epoch 39, MAX_F1: 66.46
+
+2022-07-11 12:08:46,477 - statisticNew - INFO - Epoch: 40 / 100 ：
+2022-07-11 12:08:46,477 - statisticNew - INFO - epoch 40, lr: 0.1 
+2022-07-11 12:09:51,735 - statisticNew - INFO - epoch 40, loss : 0.06455534681836543
+2022-07-11 12:09:55,034 - statisticNew - INFO - epoch: 40, info: accuracy:  98.03%; precision:  61.40%; recall:  65.62%; FB1:  63.44
+2022-07-11 12:09:55,035 - statisticNew - INFO - epoch 40, f1 : 63.44
+2022-07-11 12:09:55,035 - statisticNew - INFO - epoch 40, MAX_F1: 66.46
+
+2022-07-11 12:09:55,035 - statisticNew - INFO - Epoch: 41 / 100 ：
+2022-07-11 12:09:55,035 - statisticNew - INFO - epoch 41, lr: 0.1 
+2022-07-11 12:11:01,125 - statisticNew - INFO - epoch 41, loss : 0.06368287692306895
+2022-07-11 12:11:04,673 - statisticNew - INFO - epoch: 41, info: accuracy:  98.08%; precision:  62.24%; recall:  67.29%; FB1:  64.66
+2022-07-11 12:11:04,680 - statisticNew - INFO - epoch 41, f1 : 64.66
+2022-07-11 12:11:04,680 - statisticNew - INFO - epoch 41, MAX_F1: 66.46
+
+2022-07-11 12:11:04,680 - statisticNew - INFO - Epoch: 42 / 100 ：
+2022-07-11 12:11:04,680 - statisticNew - INFO - epoch 42, lr: 0.1 
+2022-07-11 12:12:16,103 - statisticNew - INFO - epoch 42, loss : 0.06369989589708132
+2022-07-11 12:12:19,792 - statisticNew - INFO - epoch: 42, info: accuracy:  98.18%; precision:  64.57%; recall:  66.46%; FB1:  65.50
+2022-07-11 12:12:19,799 - statisticNew - INFO - epoch 42, f1 : 65.5
+2022-07-11 12:12:19,799 - statisticNew - INFO - epoch 42, MAX_F1: 66.46
+
+2022-07-11 12:12:19,799 - statisticNew - INFO - Epoch: 43 / 100 ：
+2022-07-11 12:12:19,799 - statisticNew - INFO - epoch 43, lr: 0.1 
+2022-07-11 12:13:30,242 - statisticNew - INFO - epoch 43, loss : 0.06202691755731617
+2022-07-11 12:13:33,434 - statisticNew - INFO - epoch: 43, info: accuracy:  98.13%; precision:  63.62%; recall:  65.21%; FB1:  64.40
+2022-07-11 12:13:33,436 - statisticNew - INFO - epoch 43, f1 : 64.4
+2022-07-11 12:13:33,436 - statisticNew - INFO - epoch 43, MAX_F1: 66.46
+
+2022-07-11 12:13:33,436 - statisticNew - INFO - Epoch: 44 / 100 ：
+2022-07-11 12:13:33,436 - statisticNew - INFO - epoch 44, lr: 0.1 
+2022-07-11 12:14:43,562 - statisticNew - INFO - epoch 44, loss : 0.05962800682873442
+2022-07-11 12:14:46,835 - statisticNew - INFO - epoch: 44, info: accuracy:  98.11%; precision:  63.17%; recall:  66.46%; FB1:  64.77
+2022-07-11 12:14:46,837 - statisticNew - INFO - epoch 44, f1 : 64.77
+2022-07-11 12:14:46,838 - statisticNew - INFO - epoch 44, MAX_F1: 66.46
+
+2022-07-11 12:14:46,838 - statisticNew - INFO - Epoch: 45 / 100 ：
+2022-07-11 12:14:46,838 - statisticNew - INFO - epoch 45, lr: 0.1 
+2022-07-11 12:16:00,311 - statisticNew - INFO - epoch 45, loss : 0.05823455460383515
+2022-07-11 12:16:03,648 - statisticNew - INFO - epoch: 45, info: accuracy:  98.06%; precision:  61.90%; recall:  66.67%; FB1:  64.19
+2022-07-11 12:16:03,649 - statisticNew - INFO - epoch 45, f1 : 64.19
+2022-07-11 12:16:03,650 - statisticNew - INFO - epoch 45, MAX_F1: 66.46
+
+2022-07-11 12:16:03,650 - statisticNew - INFO - Epoch: 46 / 100 ：
+2022-07-11 12:16:03,650 - statisticNew - INFO - epoch 46, lr: 0.1 
+2022-07-11 12:17:11,230 - statisticNew - INFO - epoch 46, loss : 0.057434635715397246
+2022-07-11 12:17:14,503 - statisticNew - INFO - epoch: 46, info: accuracy:  98.02%; precision:  61.05%; recall:  67.92%; FB1:  64.30
+2022-07-11 12:17:14,504 - statisticNew - INFO - epoch 46, f1 : 64.3
+2022-07-11 12:17:14,504 - statisticNew - INFO - epoch 46, MAX_F1: 66.46
+
+2022-07-11 12:17:14,504 - statisticNew - INFO - Epoch: 47 / 100 ：
+2022-07-11 12:17:14,505 - statisticNew - INFO - epoch 47, lr: 0.1 
+2022-07-11 12:18:22,455 - statisticNew - INFO - epoch 47, loss : 0.057201952875447805
+2022-07-11 12:18:25,963 - statisticNew - INFO - epoch: 47, info: accuracy:  97.97%; precision:  59.96%; recall:  67.08%; FB1:  63.32
+2022-07-11 12:18:25,965 - statisticNew - INFO - epoch 47, f1 : 63.32
+2022-07-11 12:18:25,965 - statisticNew - INFO - epoch 47, MAX_F1: 66.46
+
+2022-07-11 12:18:25,965 - statisticNew - INFO - Epoch: 48 / 100 ：
+2022-07-11 12:18:25,965 - statisticNew - INFO - epoch 48, lr: 0.1 
+2022-07-11 12:19:31,597 - statisticNew - INFO - epoch 48, loss : 0.05582704433777662
+2022-07-11 12:19:34,855 - statisticNew - INFO - epoch: 48, info: accuracy:  98.07%; precision:  61.98%; recall:  67.92%; FB1:  64.81
+2022-07-11 12:19:34,856 - statisticNew - INFO - epoch 48, f1 : 64.81
+2022-07-11 12:19:34,856 - statisticNew - INFO - epoch 48, MAX_F1: 66.46
+
+2022-07-11 12:19:34,857 - statisticNew - INFO - Epoch: 49 / 100 ：
+2022-07-11 12:19:34,857 - statisticNew - INFO - epoch 49, lr: 0.1 
+2022-07-11 12:20:40,630 - statisticNew - INFO - epoch 49, loss : 0.05556844310053471
+2022-07-11 12:20:43,875 - statisticNew - INFO - epoch: 49, info: accuracy:  98.02%; precision:  61.20%; recall:  66.04%; FB1:  63.53
+2022-07-11 12:20:43,876 - statisticNew - INFO - epoch 49, f1 : 63.53
+2022-07-11 12:20:43,876 - statisticNew - INFO - epoch 49, MAX_F1: 66.46
+
+2022-07-11 12:20:43,876 - statisticNew - INFO - Epoch: 50 / 100 ：
+2022-07-11 12:20:43,876 - statisticNew - INFO - epoch 50, lr: 0.1 
+2022-07-11 12:21:49,924 - statisticNew - INFO - epoch 50, loss : 0.05314858892378576
+2022-07-11 12:21:53,171 - statisticNew - INFO - epoch: 50, info: accuracy:  98.15%; precision:  63.91%; recall:  66.04%; FB1:  64.96
+2022-07-11 12:21:53,173 - statisticNew - INFO - epoch 50, f1 : 64.96
+2022-07-11 12:21:53,173 - statisticNew - INFO - epoch 50, MAX_F1: 66.46
+
+2022-07-11 12:21:53,173 - statisticNew - INFO - Epoch: 51 / 100 ：
+2022-07-11 12:21:53,173 - statisticNew - INFO - epoch 51, lr: 0.1 
+2022-07-11 12:23:00,682 - statisticNew - INFO - epoch 51, loss : 0.05244229445914563
+2022-07-11 12:23:03,973 - statisticNew - INFO - epoch: 51, info: accuracy:  97.97%; precision:  60.11%; recall:  68.12%; FB1:  63.87
+2022-07-11 12:23:03,974 - statisticNew - INFO - epoch 51, f1 : 63.87
+2022-07-11 12:23:03,975 - statisticNew - INFO - epoch 51, MAX_F1: 66.46
+
+2022-07-11 12:23:03,975 - statisticNew - INFO - Epoch: 52 / 100 ：
+2022-07-11 12:23:03,975 - statisticNew - INFO - epoch 52, lr: 0.1 
+2022-07-11 12:24:13,148 - statisticNew - INFO - epoch 52, loss : 0.05196852441429072
+2022-07-11 12:24:16,480 - statisticNew - INFO - epoch: 52, info: accuracy:  98.06%; precision:  62.53%; recall:  65.00%; FB1:  63.74
+2022-07-11 12:24:16,481 - statisticNew - INFO - epoch 52, f1 : 63.74
+2022-07-11 12:24:16,481 - statisticNew - INFO - epoch 52, MAX_F1: 66.46
+
+2022-07-11 12:24:16,481 - statisticNew - INFO - Epoch: 53 / 100 ：
+2022-07-11 12:24:16,481 - statisticNew - INFO - epoch 53, lr: 0.1 
+2022-07-11 12:25:25,730 - statisticNew - INFO - epoch 53, loss : 0.05082544760369122
+2022-07-11 12:25:29,035 - statisticNew - INFO - epoch: 53, info: accuracy:  97.99%; precision:  60.94%; recall:  65.00%; FB1:  62.90
+2022-07-11 12:25:29,036 - statisticNew - INFO - epoch 53, f1 : 62.9
+2022-07-11 12:25:29,037 - statisticNew - INFO - epoch 53, MAX_F1: 66.46
+
+2022-07-11 12:25:29,037 - statisticNew - INFO - Epoch: 54 / 100 ：
+2022-07-11 12:25:29,037 - statisticNew - INFO - epoch 54, lr: 0.1 
+2022-07-11 12:26:37,969 - statisticNew - INFO - epoch 54, loss : 0.05046479990838556
+2022-07-11 12:26:41,243 - statisticNew - INFO - epoch: 54, info: accuracy:  97.98%; precision:  60.26%; recall:  68.54%; FB1:  64.13
+2022-07-11 12:26:41,245 - statisticNew - INFO - epoch 54, f1 : 64.13
+2022-07-11 12:26:41,245 - statisticNew - INFO - epoch 54, MAX_F1: 66.46
+
+2022-07-11 12:26:41,245 - statisticNew - INFO - Epoch: 55 / 100 ：
+2022-07-11 12:26:41,245 - statisticNew - INFO - epoch 55, lr: 0.1 
+2022-07-11 12:27:49,300 - statisticNew - INFO - epoch 55, loss : 0.04825560330822181
+2022-07-11 12:27:52,314 - statisticNew - INFO - epoch: 55, info: accuracy:  98.07%; precision:  62.96%; recall:  64.79%; FB1:  63.86
+2022-07-11 12:27:52,315 - statisticNew - INFO - epoch 55, f1 : 63.86
+2022-07-11 12:27:52,315 - statisticNew - INFO - epoch 55, MAX_F1: 66.46
+
+2022-07-11 12:27:52,315 - statisticNew - INFO - Epoch: 56 / 100 ：
+2022-07-11 12:27:52,315 - statisticNew - INFO - epoch 56, lr: 0.1 
+2022-07-11 12:28:55,748 - statisticNew - INFO - epoch 56, loss : 0.0482132660623027
+2022-07-11 12:28:58,736 - statisticNew - INFO - epoch: 56, info: accuracy:  98.17%; precision:  64.71%; recall:  64.17%; FB1:  64.44
+2022-07-11 12:28:58,737 - statisticNew - INFO - epoch 56, f1 : 64.44
+2022-07-11 12:28:58,738 - statisticNew - INFO - epoch 56, MAX_F1: 66.46
+
+2022-07-11 12:28:58,738 - statisticNew - INFO - Epoch: 57 / 100 ：
+2022-07-11 12:28:58,738 - statisticNew - INFO - epoch 57, lr: 0.1 
+2022-07-11 12:30:04,256 - statisticNew - INFO - epoch 57, loss : 0.048157664692701045
+2022-07-11 12:30:08,118 - statisticNew - INFO - epoch: 57, info: accuracy:  98.08%; precision:  62.98%; recall:  65.21%; FB1:  64.07
+2022-07-11 12:30:08,119 - statisticNew - INFO - epoch 57, f1 : 64.07
+2022-07-11 12:30:08,120 - statisticNew - INFO - epoch 57, MAX_F1: 66.46
+
+2022-07-11 12:30:08,120 - statisticNew - INFO - Epoch: 58 / 100 ：
+2022-07-11 12:30:08,120 - statisticNew - INFO - epoch 58, lr: 0.1 
+2022-07-11 12:31:17,917 - statisticNew - INFO - epoch 58, loss : 0.04597024079266374
+2022-07-11 12:31:21,593 - statisticNew - INFO - epoch: 58, info: accuracy:  98.08%; precision:  63.26%; recall:  63.12%; FB1:  63.19
+2022-07-11 12:31:21,595 - statisticNew - INFO - epoch 58, f1 : 63.19
+2022-07-11 12:31:21,595 - statisticNew - INFO - epoch 58, MAX_F1: 66.46
+
+2022-07-11 12:31:21,595 - statisticNew - INFO - Epoch: 59 / 100 ：
+2022-07-11 12:31:21,595 - statisticNew - INFO - epoch 59, lr: 0.1 
+2022-07-11 12:32:33,041 - statisticNew - INFO - epoch 59, loss : 0.04715653141378688
+2022-07-11 12:32:36,386 - statisticNew - INFO - epoch: 59, info: accuracy:  98.01%; precision:  61.24%; recall:  68.12%; FB1:  64.50
+2022-07-11 12:32:36,389 - statisticNew - INFO - epoch 59, f1 : 64.5
+2022-07-11 12:32:36,389 - statisticNew - INFO - epoch 59, MAX_F1: 66.46
+
+2022-07-11 12:32:36,389 - statisticNew - INFO - Epoch: 60 / 100 ：
+2022-07-11 12:32:36,390 - statisticNew - INFO - epoch 60, lr: 0.1 
+2022-07-11 12:33:44,349 - statisticNew - INFO - epoch 60, loss : 0.04551424216023125
+2022-07-11 12:33:47,714 - statisticNew - INFO - epoch: 60, info: accuracy:  98.13%; precision:  64.08%; recall:  65.42%; FB1:  64.74
+2022-07-11 12:33:47,715 - statisticNew - INFO - epoch 60, f1 : 64.74
+2022-07-11 12:33:47,715 - statisticNew - INFO - epoch 60, MAX_F1: 66.46
+
+2022-07-11 12:33:47,715 - statisticNew - INFO - Epoch: 61 / 100 ：
+2022-07-11 12:33:47,715 - statisticNew - INFO - epoch 61, lr: 0.1 
+2022-07-11 12:34:55,294 - statisticNew - INFO - epoch 61, loss : 0.04527277293897278
+2022-07-11 12:34:58,506 - statisticNew - INFO - epoch: 61, info: accuracy:  97.97%; precision:  59.67%; recall:  66.88%; FB1:  63.06
+2022-07-11 12:34:58,507 - statisticNew - INFO - epoch 61, f1 : 63.06
+2022-07-11 12:34:58,507 - statisticNew - INFO - epoch 61, MAX_F1: 66.46
+
+2022-07-11 12:34:58,507 - statisticNew - INFO - Epoch: 62 / 100 ：
+2022-07-11 12:34:58,508 - statisticNew - INFO - epoch 62, lr: 0.1 
+2022-07-11 12:36:05,592 - statisticNew - INFO - epoch 62, loss : 0.04337715020693122
+2022-07-11 12:36:08,906 - statisticNew - INFO - epoch: 62, info: accuracy:  98.01%; precision:  61.78%; recall:  65.00%; FB1:  63.35
+2022-07-11 12:36:08,913 - statisticNew - INFO - epoch 62, f1 : 63.35
+2022-07-11 12:36:08,913 - statisticNew - INFO - epoch 62, MAX_F1: 66.46
+
+2022-07-11 12:36:08,913 - statisticNew - INFO - Epoch: 63 / 100 ：
+2022-07-11 12:36:08,913 - statisticNew - INFO - epoch 63, lr: 0.1 
+2022-07-11 12:37:15,197 - statisticNew - INFO - epoch 63, loss : 0.04435167235129673
+2022-07-11 12:37:18,407 - statisticNew - INFO - epoch: 63, info: accuracy:  98.19%; precision:  65.35%; recall:  65.62%; FB1:  65.49
+2022-07-11 12:37:18,409 - statisticNew - INFO - epoch 63, f1 : 65.49
+2022-07-11 12:37:18,409 - statisticNew - INFO - epoch 63, MAX_F1: 66.46
+
+2022-07-11 12:37:18,409 - statisticNew - INFO - Epoch: 64 / 100 ：
+2022-07-11 12:37:18,409 - statisticNew - INFO - epoch 64, lr: 0.1 
+2022-07-11 12:38:24,086 - statisticNew - INFO - epoch 64, loss : 0.04227084967015526
+2022-07-11 12:38:27,329 - statisticNew - INFO - epoch: 64, info: accuracy:  97.96%; precision:  60.50%; recall:  65.42%; FB1:  62.86
+2022-07-11 12:38:27,331 - statisticNew - INFO - epoch 64, f1 : 62.86
+2022-07-11 12:38:27,331 - statisticNew - INFO - epoch 64, MAX_F1: 66.46
+
+2022-07-11 12:38:27,331 - statisticNew - INFO - Epoch: 65 / 100 ：
+2022-07-11 12:38:27,331 - statisticNew - INFO - epoch 65, lr: 0.1 
+2022-07-11 12:39:33,165 - statisticNew - INFO - epoch 65, loss : 0.04163371009291814
+2022-07-11 12:39:36,360 - statisticNew - INFO - epoch: 65, info: accuracy:  98.04%; precision:  61.60%; recall:  65.83%; FB1:  63.65
+2022-07-11 12:39:36,361 - statisticNew - INFO - epoch 65, f1 : 63.65
+2022-07-11 12:39:36,362 - statisticNew - INFO - epoch 65, MAX_F1: 66.46
+
+2022-07-11 12:39:36,362 - statisticNew - INFO - Epoch: 66 / 100 ：
+2022-07-11 12:39:36,362 - statisticNew - INFO - epoch 66, lr: 0.1 
+2022-07-11 12:40:41,760 - statisticNew - INFO - epoch 66, loss : 0.03981028097727952
+2022-07-11 12:40:45,075 - statisticNew - INFO - epoch: 66, info: accuracy:  98.14%; precision:  63.45%; recall:  65.83%; FB1:  64.62
+2022-07-11 12:40:45,076 - statisticNew - INFO - epoch 66, f1 : 64.62
+2022-07-11 12:40:45,076 - statisticNew - INFO - epoch 66, MAX_F1: 66.46
+
+2022-07-11 12:40:45,076 - statisticNew - INFO - Epoch: 67 / 100 ：
+2022-07-11 12:40:45,076 - statisticNew - INFO - epoch 67, lr: 0.1 
+2022-07-11 12:41:54,049 - statisticNew - INFO - epoch 67, loss : 0.039424951152724125
+2022-07-11 12:41:57,331 - statisticNew - INFO - epoch: 67, info: accuracy:  98.23%; precision:  67.26%; recall:  62.50%; FB1:  64.79
+2022-07-11 12:41:57,333 - statisticNew - INFO - epoch 67, f1 : 64.79
+2022-07-11 12:41:57,333 - statisticNew - INFO - epoch 67, MAX_F1: 66.46
+
+2022-07-11 12:41:57,333 - statisticNew - INFO - Epoch: 68 / 100 ：
+2022-07-11 12:41:57,333 - statisticNew - INFO - epoch 68, lr: 0.1 
+2022-07-11 12:43:06,537 - statisticNew - INFO - epoch 68, loss : 0.0386638942332418
+2022-07-11 12:43:09,994 - statisticNew - INFO - epoch: 68, info: accuracy:  98.13%; precision:  64.00%; recall:  63.33%; FB1:  63.66
+2022-07-11 12:43:09,995 - statisticNew - INFO - epoch 68, f1 : 63.66
+2022-07-11 12:43:09,995 - statisticNew - INFO - epoch 68, MAX_F1: 66.46
+
+2022-07-11 12:43:09,995 - statisticNew - INFO - Epoch: 69 / 100 ：
+2022-07-11 12:43:09,995 - statisticNew - INFO - epoch 69, lr: 0.1 
+2022-07-11 12:44:23,157 - statisticNew - INFO - epoch 69, loss : 0.038762966316360475
+2022-07-11 12:44:26,669 - statisticNew - INFO - epoch: 69, info: accuracy:  98.15%; precision:  64.23%; recall:  65.83%; FB1:  65.02
+2022-07-11 12:44:26,671 - statisticNew - INFO - epoch 69, f1 : 65.02
+2022-07-11 12:44:26,671 - statisticNew - INFO - epoch 69, MAX_F1: 66.46
+
+2022-07-11 12:44:26,671 - statisticNew - INFO - Epoch: 70 / 100 ：
+2022-07-11 12:44:26,671 - statisticNew - INFO - epoch 70, lr: 0.1 
+2022-07-11 12:45:35,738 - statisticNew - INFO - epoch 70, loss : 0.037482813561009874
+2022-07-11 12:45:39,036 - statisticNew - INFO - epoch: 70, info: accuracy:  98.07%; precision:  62.93%; recall:  64.38%; FB1:  63.65
+2022-07-11 12:45:39,037 - statisticNew - INFO - epoch 70, f1 : 63.65
+2022-07-11 12:45:39,038 - statisticNew - INFO - epoch 70, MAX_F1: 66.46
+
+2022-07-11 12:45:39,038 - statisticNew - INFO - Epoch: 71 / 100 ：
+2022-07-11 12:45:39,038 - statisticNew - INFO - epoch 71, lr: 0.1 
+2022-07-11 12:46:48,097 - statisticNew - INFO - epoch 71, loss : 0.03781167588012217
+2022-07-11 12:46:51,384 - statisticNew - INFO - epoch: 71, info: accuracy:  98.02%; precision:  61.13%; recall:  67.50%; FB1:  64.16
+2022-07-11 12:46:51,386 - statisticNew - INFO - epoch 71, f1 : 64.16
+2022-07-11 12:46:51,386 - statisticNew - INFO - epoch 71, MAX_F1: 66.46
+
+2022-07-11 12:46:51,386 - statisticNew - INFO - Epoch: 72 / 100 ：
+2022-07-11 12:46:51,386 - statisticNew - INFO - epoch 72, lr: 0.1 
+2022-07-11 12:48:02,152 - statisticNew - INFO - epoch 72, loss : 0.03756886704167368
+2022-07-11 12:48:05,463 - statisticNew - INFO - epoch: 72, info: accuracy:  98.04%; precision:  61.64%; recall:  65.62%; FB1:  63.57
+2022-07-11 12:48:05,465 - statisticNew - INFO - epoch 72, f1 : 63.57
+2022-07-11 12:48:05,465 - statisticNew - INFO - epoch 72, MAX_F1: 66.46
+
+2022-07-11 12:48:05,465 - statisticNew - INFO - Epoch: 73 / 100 ：
+2022-07-11 12:48:05,465 - statisticNew - INFO - epoch 73, lr: 0.1 
+2022-07-11 12:49:14,337 - statisticNew - INFO - epoch 73, loss : 0.0365186514773127
+2022-07-11 12:49:17,658 - statisticNew - INFO - epoch: 73, info: accuracy:  98.14%; precision:  65.16%; recall:  63.12%; FB1:  64.13
+2022-07-11 12:49:17,659 - statisticNew - INFO - epoch 73, f1 : 64.13
+2022-07-11 12:49:17,659 - statisticNew - INFO - epoch 73, MAX_F1: 66.46
+
+2022-07-11 12:49:17,660 - statisticNew - INFO - Epoch: 74 / 100 ：
+2022-07-11 12:49:17,660 - statisticNew - INFO - epoch 74, lr: 0.1 
+2022-07-11 12:50:26,436 - statisticNew - INFO - epoch 74, loss : 0.03671575454861934
+2022-07-11 12:50:29,727 - statisticNew - INFO - epoch: 74, info: accuracy:  97.95%; precision:  60.11%; recall:  66.25%; FB1:  63.03
+2022-07-11 12:50:29,729 - statisticNew - INFO - epoch 74, f1 : 63.03
+2022-07-11 12:50:29,729 - statisticNew - INFO - epoch 74, MAX_F1: 66.46
+
+2022-07-11 12:50:29,729 - statisticNew - INFO - Epoch: 75 / 100 ：
+2022-07-11 12:50:29,729 - statisticNew - INFO - epoch 75, lr: 0.1 
+2022-07-11 12:51:35,576 - statisticNew - INFO - epoch 75, loss : 0.0344725414055837
+2022-07-11 12:51:38,861 - statisticNew - INFO - epoch: 75, info: accuracy:  98.06%; precision:  61.49%; recall:  66.88%; FB1:  64.07
+2022-07-11 12:51:38,863 - statisticNew - INFO - epoch 75, f1 : 64.07
+2022-07-11 12:51:38,863 - statisticNew - INFO - epoch 75, MAX_F1: 66.46
+
+2022-07-11 12:51:38,863 - statisticNew - INFO - Epoch: 76 / 100 ：
+2022-07-11 12:51:38,863 - statisticNew - INFO - epoch 76, lr: 0.1 
+2022-07-11 12:52:48,719 - statisticNew - INFO - epoch 76, loss : 0.0342002389606645
+2022-07-11 12:52:52,364 - statisticNew - INFO - epoch: 76, info: accuracy:  98.08%; precision:  62.75%; recall:  64.58%; FB1:  63.66
+2022-07-11 12:52:52,366 - statisticNew - INFO - epoch 76, f1 : 63.66
+2022-07-11 12:52:52,366 - statisticNew - INFO - epoch 76, MAX_F1: 66.46
+
+2022-07-11 12:52:52,366 - statisticNew - INFO - Epoch: 77 / 100 ：
+2022-07-11 12:52:52,366 - statisticNew - INFO - epoch 77, lr: 0.1 
+2022-07-11 12:54:02,564 - statisticNew - INFO - epoch 77, loss : 0.034947186169471026
+2022-07-11 12:54:05,865 - statisticNew - INFO - epoch: 77, info: accuracy:  98.18%; precision:  65.64%; recall:  62.08%; FB1:  63.81
+2022-07-11 12:54:05,866 - statisticNew - INFO - epoch 77, f1 : 63.81
+2022-07-11 12:54:05,866 - statisticNew - INFO - epoch 77, MAX_F1: 66.46
+
+2022-07-11 12:54:05,866 - statisticNew - INFO - Epoch: 78 / 100 ：
+2022-07-11 12:54:05,866 - statisticNew - INFO - epoch 78, lr: 0.1 
+2022-07-11 12:55:13,981 - statisticNew - INFO - epoch 78, loss : 0.03412796388868425
+2022-07-11 12:55:17,268 - statisticNew - INFO - epoch: 78, info: accuracy:  98.07%; precision:  63.27%; recall:  64.58%; FB1:  63.92
+2022-07-11 12:55:17,270 - statisticNew - INFO - epoch 78, f1 : 63.92
+2022-07-11 12:55:17,270 - statisticNew - INFO - epoch 78, MAX_F1: 66.46
+
+2022-07-11 12:55:17,270 - statisticNew - INFO - Epoch: 79 / 100 ：
+2022-07-11 12:55:17,270 - statisticNew - INFO - epoch 79, lr: 0.1 
+2022-07-11 12:56:24,909 - statisticNew - INFO - epoch 79, loss : 0.034868031548894965
+2022-07-11 12:56:28,195 - statisticNew - INFO - epoch: 79, info: accuracy:  98.12%; precision:  64.00%; recall:  63.33%; FB1:  63.66
+2022-07-11 12:56:28,196 - statisticNew - INFO - epoch 79, f1 : 63.66
+2022-07-11 12:56:28,196 - statisticNew - INFO - epoch 79, MAX_F1: 66.46
+
+2022-07-11 12:56:28,196 - statisticNew - INFO - Epoch: 80 / 100 ：
+2022-07-11 12:56:28,197 - statisticNew - INFO - epoch 80, lr: 0.1 
+2022-07-11 12:57:36,066 - statisticNew - INFO - epoch 80, loss : 0.03317798790380671
+2022-07-11 12:57:39,378 - statisticNew - INFO - epoch: 80, info: accuracy:  98.07%; precision:  62.21%; recall:  66.88%; FB1:  64.46
+2022-07-11 12:57:39,380 - statisticNew - INFO - epoch 80, f1 : 64.46
+2022-07-11 12:57:39,380 - statisticNew - INFO - epoch 80, MAX_F1: 66.46
+
+2022-07-11 12:57:39,381 - statisticNew - INFO - Epoch: 81 / 100 ：
+2022-07-11 12:57:39,381 - statisticNew - INFO - epoch 81, lr: 0.1 
+2022-07-11 12:58:48,523 - statisticNew - INFO - epoch 81, loss : 0.0334788855312996
+2022-07-11 12:58:51,793 - statisticNew - INFO - epoch: 81, info: accuracy:  98.10%; precision:  63.62%; recall:  63.75%; FB1:  63.68
+2022-07-11 12:58:51,795 - statisticNew - INFO - epoch 81, f1 : 63.68
+2022-07-11 12:58:51,795 - statisticNew - INFO - epoch 81, MAX_F1: 66.46
+
+2022-07-11 12:58:51,795 - statisticNew - INFO - Epoch: 82 / 100 ：
+2022-07-11 12:58:51,795 - statisticNew - INFO - epoch 82, lr: 0.1 
+2022-07-11 12:59:57,187 - statisticNew - INFO - epoch 82, loss : 0.03158611645371523
+2022-07-11 13:00:00,623 - statisticNew - INFO - epoch: 82, info: accuracy:  97.83%; precision:  57.74%; recall:  66.04%; FB1:  61.61
+2022-07-11 13:00:00,625 - statisticNew - INFO - epoch 82, f1 : 61.61
+2022-07-11 13:00:00,625 - statisticNew - INFO - epoch 82, MAX_F1: 66.46
+
+2022-07-11 13:00:00,625 - statisticNew - INFO - Epoch: 83 / 100 ：
+2022-07-11 13:00:00,625 - statisticNew - INFO - epoch 83, lr: 0.1 
+2022-07-11 13:01:02,546 - statisticNew - INFO - epoch 83, loss : 0.03214838769901533
+2022-07-11 13:01:05,822 - statisticNew - INFO - epoch: 83, info: accuracy:  98.06%; precision:  62.35%; recall:  64.17%; FB1:  63.24
+2022-07-11 13:01:05,823 - statisticNew - INFO - epoch 83, f1 : 63.24
+2022-07-11 13:01:05,823 - statisticNew - INFO - epoch 83, MAX_F1: 66.46
+
+2022-07-11 13:01:05,823 - statisticNew - INFO - Epoch: 84 / 100 ：
+2022-07-11 13:01:05,823 - statisticNew - INFO - epoch 84, lr: 0.1 
+2022-07-11 13:02:11,370 - statisticNew - INFO - epoch 84, loss : 0.03050898298184029
+2022-07-11 13:02:14,628 - statisticNew - INFO - epoch: 84, info: accuracy:  98.18%; precision:  65.95%; recall:  63.75%; FB1:  64.83
+2022-07-11 13:02:14,629 - statisticNew - INFO - epoch 84, f1 : 64.83
+2022-07-11 13:02:14,629 - statisticNew - INFO - epoch 84, MAX_F1: 66.46
+
+2022-07-11 13:02:14,629 - statisticNew - INFO - Epoch: 85 / 100 ：
+2022-07-11 13:02:14,629 - statisticNew - INFO - epoch 85, lr: 0.1 
+2022-07-11 13:03:19,091 - statisticNew - INFO - epoch 85, loss : 0.030634693737873916
+2022-07-11 13:03:22,359 - statisticNew - INFO - epoch: 85, info: accuracy:  98.09%; precision:  63.47%; recall:  64.79%; FB1:  64.12
+2022-07-11 13:03:22,360 - statisticNew - INFO - epoch 85, f1 : 64.12
+2022-07-11 13:03:22,360 - statisticNew - INFO - epoch 85, MAX_F1: 66.46
+
+2022-07-11 13:03:22,360 - statisticNew - INFO - Epoch: 86 / 100 ：
+2022-07-11 13:03:22,361 - statisticNew - INFO - epoch 86, lr: 0.1 
+2022-07-11 13:13:25,694 - statisticNew - INFO - epoch 86, loss : 0.03042313711118304
+2022-07-11 13:13:28,932 - statisticNew - INFO - epoch: 86, info: accuracy:  98.12%; precision:  65.21%; recall:  62.08%; FB1:  63.61
+2022-07-11 13:13:28,933 - statisticNew - INFO - epoch 86, f1 : 63.61
+2022-07-11 13:13:28,933 - statisticNew - INFO - epoch 86, MAX_F1: 66.46
+
+2022-07-11 13:13:28,933 - statisticNew - INFO - Epoch: 87 / 100 ：
+2022-07-11 13:13:28,934 - statisticNew - INFO - epoch 87, lr: 0.1 
+2022-07-11 13:14:36,938 - statisticNew - INFO - epoch 87, loss : 0.0300569983322618
+2022-07-11 13:14:40,140 - statisticNew - INFO - epoch: 87, info: accuracy:  98.06%; precision:  62.45%; recall:  64.79%; FB1:  63.60
+2022-07-11 13:14:40,142 - statisticNew - INFO - epoch 87, f1 : 63.6
+2022-07-11 13:14:40,142 - statisticNew - INFO - epoch 87, MAX_F1: 66.46
+
+2022-07-11 13:14:40,142 - statisticNew - INFO - Epoch: 88 / 100 ：
+2022-07-11 13:14:40,142 - statisticNew - INFO - epoch 88, lr: 0.1 
+2022-07-11 13:22:35,673 - statisticNew - INFO - epoch 88, loss : 0.027642913432949338
+2022-07-11 13:22:38,949 - statisticNew - INFO - epoch: 88, info: accuracy:  98.13%; precision:  63.92%; recall:  64.58%; FB1:  64.25
+2022-07-11 13:22:38,950 - statisticNew - INFO - epoch 88, f1 : 64.25
+2022-07-11 13:22:38,950 - statisticNew - INFO - epoch 88, MAX_F1: 66.46
+
+2022-07-11 13:22:38,950 - statisticNew - INFO - Epoch: 89 / 100 ：
+2022-07-11 13:22:38,950 - statisticNew - INFO - epoch 89, lr: 0.1 
+2022-07-11 13:23:47,591 - statisticNew - INFO - epoch 89, loss : 0.028917339044275146
+2022-07-11 13:23:50,799 - statisticNew - INFO - epoch: 89, info: accuracy:  98.13%; precision:  65.37%; recall:  62.92%; FB1:  64.12
+2022-07-11 13:23:50,801 - statisticNew - INFO - epoch 89, f1 : 64.12
+2022-07-11 13:23:50,801 - statisticNew - INFO - epoch 89, MAX_F1: 66.46
+
+2022-07-11 13:23:50,801 - statisticNew - INFO - Epoch: 90 / 100 ：
+2022-07-11 13:23:50,801 - statisticNew - INFO - epoch 90, lr: 0.1 
+2022-07-11 13:24:57,787 - statisticNew - INFO - epoch 90, loss : 0.028831206396396605
+2022-07-11 13:25:01,020 - statisticNew - INFO - epoch: 90, info: accuracy:  98.12%; precision:  64.27%; recall:  63.33%; FB1:  63.80
+2022-07-11 13:25:01,022 - statisticNew - INFO - epoch 90, f1 : 63.8
+2022-07-11 13:25:01,022 - statisticNew - INFO - epoch 90, MAX_F1: 66.46
+
+2022-07-11 13:25:01,022 - statisticNew - INFO - Epoch: 91 / 100 ：
+2022-07-11 13:25:01,022 - statisticNew - INFO - epoch 91, lr: 0.1 
+2022-07-11 13:26:09,755 - statisticNew - INFO - epoch 91, loss : 0.02740025210403404
+2022-07-11 13:26:12,993 - statisticNew - INFO - epoch: 91, info: accuracy:  98.08%; precision:  62.83%; recall:  63.75%; FB1:  63.29
+2022-07-11 13:26:12,995 - statisticNew - INFO - epoch 91, f1 : 63.29
+2022-07-11 13:26:12,995 - statisticNew - INFO - epoch 91, MAX_F1: 66.46
+
+2022-07-11 13:26:12,995 - statisticNew - INFO - Epoch: 92 / 100 ：
+2022-07-11 13:26:12,995 - statisticNew - INFO - epoch 92, lr: 0.1 
+2022-07-11 13:32:28,632 - statisticNew - INFO - 
+Args: 
+2022-07-11 13:32:28,633 - statisticNew - INFO - train: True
+2022-07-11 13:32:28,633 - statisticNew - INFO - tag_schema: iob
+2022-07-11 13:32:28,633 - statisticNew - INFO - batch_size: 30
+2022-07-11 13:32:28,633 - statisticNew - INFO - lr: 0.1
+2022-07-11 13:32:28,633 - statisticNew - INFO - lr_sharp_decay: 0
+2022-07-11 13:32:28,633 - statisticNew - INFO - lr_min: 1e-05
+2022-07-11 13:32:28,633 - statisticNew - INFO - label_weights: 5
+2022-07-11 13:32:28,633 - statisticNew - INFO - optimizer: SGD
+2022-07-11 13:32:28,633 - statisticNew - INFO - weight_decay: 1e-05
+2022-07-11 13:32:28,633 - statisticNew - INFO - epoch: 100
+2022-07-11 13:32:28,633 - statisticNew - INFO - cuda: 0
+2022-07-11 13:32:28,633 - statisticNew - INFO - num_steps: 50
+2022-07-11 13:32:28,633 - statisticNew - INFO - word_embed_dim: 100
+2022-07-11 13:32:28,633 - statisticNew - INFO - bio_embed_dim: 25
+2022-07-11 13:32:28,633 - statisticNew - INFO - pos_embed_dim: 0
+2022-07-11 13:32:28,633 - statisticNew - INFO - position_embed_dim: 0
+2022-07-11 13:32:28,633 - statisticNew - INFO - dep_embed_dim: 50
+2022-07-11 13:32:28,633 - statisticNew - INFO - rnn_hidden: 100
+2022-07-11 13:32:28,633 - statisticNew - INFO - rnn_layers: 1
+2022-07-11 13:32:28,633 - statisticNew - INFO - rnn_dropout: 0.6
+2022-07-11 13:32:28,641 - statisticNew - INFO - pooling: avg
+2022-07-11 13:32:28,641 - statisticNew - INFO - gcn_dim: 150
+2022-07-11 13:32:28,642 - statisticNew - INFO - num_layers: 2
+2022-07-11 13:32:28,642 - statisticNew - INFO - gcn_dropout: 0.6
+2022-07-11 13:32:28,642 - statisticNew - INFO - map_file: maps.pkl
+2022-07-11 13:32:28,642 - statisticNew - INFO - result_path: result
+2022-07-11 13:32:28,642 - statisticNew - INFO - emb_file: 100.utf8
+2022-07-11 13:32:28,642 - statisticNew - INFO - train_file: data_doc/train
+2022-07-11 13:32:28,642 - statisticNew - INFO - dev_file: data_doc/dev
+2022-07-11 13:32:28,642 - statisticNew - INFO - test_file: data_doc/test
+2022-07-11 13:32:28,642 - statisticNew - INFO - log_name: test
+2022-07-11 13:32:28,642 - statisticNew - INFO - seed: 1023
+2022-07-11 13:32:28,643 - statisticNew - INFO - 
+
+2022-07-11 13:32:33,048 - statisticNew - INFO - Epoch: 1 / 100 ：
+2022-07-11 13:32:33,048 - statisticNew - INFO - epoch 1, lr: 0.1 
+2022-07-11 13:33:45,240 - statisticNew - INFO - epoch 1, loss : 0.4412785111285292
