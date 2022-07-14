@@ -30,6 +30,7 @@ dep_dict = {'O': 0, 'punct': 1, 'iobj': 2, 'parataxis': 3, 'auxpass': 4, 'aux': 
             }
 '''
 
+
 dep_dict = {'O': 0, 'punct': 1, 'iobj': 2, 'parataxis': 3, 'auxpass': 4, 'aux': 5, 'conj': 6,
             'advcl': 7, 'acl:relcl': 8, 'nsubjpass': 9, 'csubj': 10, 'compound': 11, 'compound:prt': 12,
             'mwe': 13, 'cop': 14, 'neg': 15, 'nmod:poss': 16, 'appos': 17, 'cc:preconj': 18, 'nmod': 19,
@@ -100,9 +101,13 @@ dep_dict = {'O': 0, 'punct': 1, 'iobj': 2, 'parataxis': 3, 'auxpass': 4, 'aux': 
             'advcl:despite': 284,
             'conj:nor': 285, 'nmod:thru': 286, 'acl:by': 287, 'advcl:out_of': 288, 'advcl:out': 289,
             'nmod:in_case_of': 290, 'advcl:during': 291, 'advcl:from': 292, 'advcl:between': 293,
-            'conj:versus': 294, 'nmod:close_by':295, 'nmod:making':296, 'advcl:amid':297, 'advcl:athen':298, 'advcl:as_of':299, 'advcl:against':300}
+            'conj:versus': 294}
+
+
 
 class EDModel(nn.Module):
+
+    print(len(dep_dict))
 
     def __init__(self, args, id_to_tag, device, pre_word_embed):
         super(EDModel, self).__init__()

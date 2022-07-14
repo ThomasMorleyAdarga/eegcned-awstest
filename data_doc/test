@@ -6179,7 +6179,7 @@ a ace O O O det 29
 meager ace O O O amod 29
 turnout ace O O O nmod:to 25
 amid ace O O O mark 31
-growing ace O O O advcl:amid 25
+growing ace O O O advcl 25
 public ace O O O amod 33
 disillusionment ace O O O dobj 31
 with ace O O O case 36
@@ -11340,7 +11340,7 @@ PM ace O O O appos 2
 , ace O O O punct 2
 president ace O O O appos 2
 making ace O O O case 7
-country ace O O O nmod:making 5
+country ace O O O nmod 5
 " ace O O O punct 7
 dry ace O O O amod 13
 , ace O O O punct 13
@@ -12870,7 +12870,7 @@ the ace B-1_FAC B-2_Path O case 26
 section ace I-1_FAC I-2_Path O mwe 22
 of ace I-1_FAC I-2_Path O compound 26
 the ace I-1_FAC I-2_Path O compound 26
-highway ace I-1_FAC I-2_Path O nmod:close_by 21
+highway ace I-1_FAC I-2_Path O nmod 21
 passing ace I-1_FAC I-2_Path O punct 26
 close ace I-1_FAC I-2_Path O advmod 29
 by ace I-1_FAC I-2_Path O advmod 26

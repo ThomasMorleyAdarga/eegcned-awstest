@@ -2326,10 +2326,10 @@ much ace O O O advmod 0
 As ace O O O case 3
 of ace O O O mwe 0
 an ace B-1_TIM B-2_Time O det 3
-hour ace I-1_TIM I-2_Time O advcl:as_of 9
+hour ace I-1_TIM I-2_Time O advcl 9
 or ace I-1_TIM I-2_Time O cc 3
 so ace I-1_TIM I-2_Time O advmod 6
-ago ace I-1_TIM I-2_Time O advcl:as_of 9
+ago ace I-1_TIM I-2_Time O advcl 9
 , ace O O O punct 9
 we ace B-1_ORG B-2_Media O nsubj 9
 got ace O O O ROOT -1
@@ -13967,7 +13967,7 @@ the ace B-1_PER B-2_Individual O det 22
 guy ace I-1_PER I-2_Individual O ccomp 18
 athen ace O O O mark 25
 we ace B-1_PER B-2_Group O nsubj 25
-have ace O O O advcl:athen 22
+have ace O O O advcl 22
 denial ace O O O dobj 25
 and ace O O O cc 2
 then ace O O O advmod 30
@@ -17826,7 +17826,7 @@ chilling ace O O O amod 27
 warning ace O O O dobj 24
 against ace O O O mark 30
 those ace B-1_GPE B-2_Nation O nsubj 30
-taking ace I-1_GPE I-2_Nation O advcl:against 24
+taking ace I-1_GPE I-2_Nation O advcl 24
 part ace I-1_GPE I-2_Nation O dobj 30
 in ace I-1_GPE I-2_Nation O case 34
 the ace I-1_GPE I-2_Nation O det 34

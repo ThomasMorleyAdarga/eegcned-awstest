@@ -150,7 +150,7 @@ def train(id_to_char, id_to_tag, train_manager, dev_manager, device):
             MAX_F1 = f1
             torch.save(dev_model.state_dict(), "./models/{}.pkl".format(args.log_name))
         log_handler.info("epoch {}, MAX_F1: {}\n".format(epoch + 1, MAX_F1))
-        print()
+
 
 
 def dev_epoch(epoch, model, dev_manager, id_to_tag, device):
